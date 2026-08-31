@@ -1,0 +1,16 @@
+pkgname=scaracle-release
+pkgver=1.0
+pkgrel=1
+pkgdesc="File identitas dan rilis resmi Linux Scaracle x86_64"
+arch=('any')
+license=('GPL')
+conflict=('filesystem')
+provides=('os-release')
+source=("os-release" "pacman.conf")
+sha256sums=('SKIP' 'SKIP')
+
+package() {
+    install -Dm644 "$srcdir/os-release" "$pkgdir/etc/os-release"
+    install -Dm644 "$srcdir/os-release" "$pkgdir/usr/lib/os-release"
+    install -Dm644 "$srcdir/pacman.conf" "$pkgdir/etc/pacman.conf"
+}
