@@ -17,6 +17,15 @@
       "sha256": "...",
       "size": 1024,
       "depends": ["scara-lib"]
+    },
+    "scara-utils": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Perkakas utilitas sistem Scara OS",
+      "file": "scara-utils-1.0.0-x86_64.scc",
+      "sha256": "e515d99d8ed4b7b6bcf688f2644c13884bd23ce5a1b6ffd06e0422d4b6146ea3",
+      "size": 223,
+      "depends": ["scara-lib"]
     }
   }
 }
