@@ -74,6 +74,15 @@
       "size": 1985037,
       "depends": null
     },
+    "nano": {
+      "version": "8.1",
+      "arch": "x86_64",
+      "description": "Text editor nano sederhana (statically linked)",
+      "file": "nano-8.1-x86_64.scc",
+      "sha256": "a0abe3962f31dc2751a4d4eae1a4562922a854d33fbf3d6b5bc441aa144698f6",
+      "size": 865568,
+      "depends": null
+    },
     "scara-lib": {
       "version": "1.0.0",
       "arch": "x86_64",
