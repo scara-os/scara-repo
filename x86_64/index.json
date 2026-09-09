@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "hello-scara": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Program hello world standar untuk Scara OS",
+      "file": "hello-scara-1.0.0-x86_64.scc",
+      "sha256": "" 
+    }
+  }
+}
