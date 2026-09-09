@@ -4,7 +4,7 @@
       "version": "1.0.0",
       "arch": "x86_64",
       "description": "Pustaka dasar Scara OS",
-      "file": "hello-scara-1.0.0.tar.gz",
+      "file": "hello-scara-1.0.0-x86_64.scc",
       "sha256": "...",
       "size": 2048,
       "depends": []
@@ -13,11 +13,10 @@
       "version": "1.0.0",
       "arch": "x86_64",
       "description": "Aplikasi contoh Scara OS",
-      "file": "hello-scara-1.0.0.tar.gz",
+      "file": "hello-scara-1.0.0-x86_64.scc",
       "sha256": "...",
       "size": 1024,
       "depends": ["scara-lib"]
     }
   }
 }
-
