@@ -71,6 +71,15 @@
       "sha256": "ec334cca5ccc8949add837cab41d7deabb6a05e7e5bbe86903acee370a603a28",
       "size": 551300,
       "depends": ["scara-lib"]
+    },
+    "scara-utils": {
+      "version": "1.1.0",
+      "arch": "x86_64",
+      "description": "Perkakas utilitas sistem Scara OS (Support Go scc -R & System Upgrade)",
+      "file": "scara-utils-1.1.0-x86_64.scc",
+      "sha256": "da1eebafd51880bc7ae6c3fae33dee87a94cd1cc35333960984dd95c8980045e",
+      "size": 5882490,
+      "depends": ["scara-lib"]
     }
   }
 }
