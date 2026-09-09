@@ -47,6 +47,17 @@
         "scara-lib"
       ]
     },
+    "curl": {
+      "version": "8.5.0",
+      "arch": "x86_64",
+      "description": "Perkakas CLI untuk transfer data via URL (HTTP/HTTPS)",
+      "file": "curl-8.5.0-x86_64.scc",
+      "sha256": "becb06d1d81acd5359f411f2f7b24037262c2e6df9cb344a5a9ea42050e4a4d1",
+      "size": 6284125,
+      "depends": [
+        "scara-lib"
+      ]
+    },
     "scara-release": {
       "version": "1.0.0",
       "arch": "x86_64",
