@@ -52,8 +52,8 @@
       "arch": "x86_64",
       "description": "Perkakas CLI untuk transfer data via URL (HTTP/HTTPS)",
       "file": "curl-8.5.0-x86_64.scc",
-      "sha256": "becb06d1d81acd5359f411f2f7b24037262c2e6df9cb344a5a9ea42050e4a4d1",
-      "size": 6284125,
+      "sha256": "56f51301eca9d2392694d59b62b2a35a0f867f93d8bc4469e6178b22c7e3c6f7",
+      "size": 6284131,
       "depends": [
         "scara-lib"
       ]
