@@ -48,12 +48,12 @@
       ]
     },
     "curl": {
-      "version": "8.5.4",
+      "version": "8.5.5",
       "arch": "x86_64",
-      "description": "Perkakas CLI untuk transfer data via URL (HTTP/HTTPS) - Static Valid",
-      "file": "curl-8.5.4-x86_64.scc",
-      "sha256": "862ba858fffeca019567b19348b8f2daa68c0ac298f337091bd04a80242760ad",
-      "size": 270,
+      "description": "Perkakas CLI (Static Binary Valid)",
+      "file": "curl-8.5.5-x86_64.scc",
+      "sha256": "62036a0af58b6e4b47a50fe35583d3ee09694bf9972ee003932f5f88eec8cbd4",
+      "size": 2266415,
       "depends": null
     },
     "scara-lib": {
