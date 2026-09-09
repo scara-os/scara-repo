@@ -72,8 +72,8 @@
       "arch": "x86_64",
       "description": "Perkakas utilitas sistem Scara OS (Database switched to scara.db)",
       "file": "scara-utils-1.3.0-x86_64.scc",
-      "sha256": "6055a84ce17340e14082d997adbb1da04b9aa5a71ffa7e11aa987ac17d4632b3",
-      "size": 5923700,
+      "sha256": "9d76d5dea177c131bde6e82828d8f727fd3840d26c2b83a67380e6a2964efd9f",
+      "size": 5925258,
       "depends": [
         "scara-lib"
       ]
