@@ -46,13 +46,31 @@
       "depends": []
     },
     "base": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "arch": "x86_64",
-      "description": "Meta-paket sistem dasar Scara OS",
-      "file": "base-1.0.0-x86_64.scc",
+      "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
+      "file": "base-1.1.0-x86_64.scc",
       "sha256": "9125d51644f3aa1e12ada97a79692a1353bd634cfa2b0fc8c43d01cc88ee9bd3",
       "size": 108,
-      "depends": ["scara-release", "scara-lib", "scara-utils", "busybox"]
+      "depends": ["scara-release", "scara-lib", "scara-utils", "bash", "coreutils", "busybox"]
+    },
+    "bash": {
+      "version": "5.2.0",
+      "arch": "x86_64",
+      "description": "The GNU Bourne Again shell",
+      "file": "bash-5.2.0-x86_64.scc",
+      "sha256": "f90438dc56f31989cbbeb9b065d90e571695386b3859997e4d4e731b8cef598c",
+      "size": 600255,
+      "depends": ["scara-lib"]
+    },
+    "coreutils": {
+      "version": "9.3",
+      "arch": "x86_64",
+      "description": "GNU core utilities (ls, cp, mv, cat, etc.)",
+      "file": "coreutils-9.3-x86_64.scc",
+      "sha256": "ec334cca5ccc8949add837cab41d7deabb6a05e7e5bbe86903acee370a603a28",
+      "size": 551300,
+      "depends": ["scara-lib"]
     }
   }
 }
