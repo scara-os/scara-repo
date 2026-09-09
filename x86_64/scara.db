@@ -58,6 +58,17 @@
         "scara-lib"
       ]
     },
+    "scara-lib": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Core Shared Libraries for Scara OS",
+      "file": "scara-lib-1.0.0-x86_64.scc",
+      "sha256": "040e82c7c65cdd8dc0024e64b027f68757022ec4b871864967963da00ac3ec8c",
+      "size": 262,
+      "depends": [
+        "()"
+      ]
+    },
     "scara-release": {
       "version": "1.0.0",
       "arch": "x86_64",
