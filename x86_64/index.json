@@ -73,12 +73,12 @@
             "depends": ["scara-lib"]
         },
         "scara-utils": {
-            "version": "1.1.0",
+            "version": "1.2.0",
             "arch": "x86_64",
-            "description": "Perkakas utilitas sistem Scara OS (Go scc multi-target support)",
-            "file": "scara-utils-1.1.0-x86_64.scc",
-            "sha256": "b5791486071483d36c38b11c7ab6b069b1e264a6874eecd28f727ec5855458bd",
-            "size": 2871942,
+            "description": "Perkakas utilitas sistem Scara OS (SHA256 Checksum Verification)",
+            "file": "scara-utils-1.2.0-x86_64.scc",
+            "sha256": "d47a253f8947b36cc7ac00482da3a9fd72880cb858426c415417c2e33f4de616",
+            "size": 2872054,
             "depends": ["scara-lib"]
         }
     }
