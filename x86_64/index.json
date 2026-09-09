@@ -26,6 +26,15 @@
       "sha256": "e515d99d8ed4b7b6bcf688f2644c13884bd23ce5a1b6ffd06e0422d4b6146ea3",
       "size": 223,
       "depends": ["scara-lib"]
+    },
+    "scara-release": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Berkas identitas rilis resmi Scara OS",
+      "file": "scara-release-1.0.0-x86_64.scc",
+      "sha256": "65cc29caec38c52ebc67b8d2da4fe692f1122f76b7f143b8241959099a9d8abf",
+      "size": 299,
+      "depends": []
     }
   }
 }
