@@ -56,6 +56,24 @@
       "size": 2266415,
       "depends": null
     },
+    "linux": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Linux Kernel image untuk Scara OS",
+      "file": "linux-1.0.0-x86_64.scc",
+      "sha256": "1d4ae3808efb43a664d8b5696cf135bf06712b0b1a9039de54aa249b764681ed",
+      "size": 25678620,
+      "depends": null
+    },
+    "linux-headers": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Header files dan skrip untuk pengembangan Kernel Linux",
+      "file": "linux-headers-1.0.0-x86_64.scc",
+      "sha256": "32f686f6892bbc458f69274ee6dff0e31de081c2c4b9578b87b8a99819cbcd9b",
+      "size": 1985037,
+      "depends": null
+    },
     "scara-lib": {
       "version": "1.0.0",
       "arch": "x86_64",
