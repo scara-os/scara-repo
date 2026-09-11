@@ -117,8 +117,8 @@
       "arch": "x86_64",
       "description": "Sudo (superuser do) utility untuk eskalasi hak akses di Scara OS",
       "file": "sudo-1.9.15p5-x86_64.scc",
-      "sha256": "c198dc05f4fc799e38b78d5d277ec710107b2b695f5a60046d4ceb4c9117adef",
-      "size": 4836984,
+      "sha256": "bc130366d86d2905623814e450899fd667526a809e5e862040ace18278d21c75",
+      "size": 4828372,
       "depends": null
     }
   }
