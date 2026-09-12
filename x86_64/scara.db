@@ -27,6 +27,15 @@
         "scara-lib"
       ]
     },
+    "binutils": {
+      "version": "2.42",
+      "arch": "x86_64",
+      "description": "GNU Binary Utilities (as, ld, objdump, dll) untuk Scara OS",
+      "file": "binutils-2.42-x86_64.scc",
+      "sha256": "34e642ce6433dcb7688a3d10525aed184f20c400e9deeebed463c8fa4566cef1",
+      "size": 22841581,
+      "depends": null
+    },
     "busybox": {
       "version": "1.36.1",
       "arch": "x86_64",
