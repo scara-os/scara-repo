@@ -61,10 +61,9 @@
       "arch": "x86_64",
       "description": "Alat informasi sistem yang cepat, dikustomisasi secara native untuk Scara OS",
       "file": "fastfetch-2.34.0-x86_64.scc",
-      "sha256": "492017364817aefd3a219e84c9757fdf5865ea6a4ccda07f4a4518e9144d0dee",
-      "size": 4273977,
+      "sha256": "1f51fefa5ab291e6ef575e2ef1330e266dc448166c432ce56480336c918a2c15",
+      "size": 4273978,
       "depends": [
-        "glibc",
         "bash"
       ]
     },
