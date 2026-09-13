@@ -103,6 +103,15 @@
       "size": 865568,
       "depends": null
     },
+    "readline": {
+      "version": "8.2",
+      "arch": "x86_64",
+      "description": "GNU Readline library untuk fitur line-editing dan command history",
+      "file": "readline-8.2-x86_64.scc",
+      "sha256": "5ca2578fe0c19bcf54824c774aa02baea8f165fcfdab29700cbd15f94fd4e293",
+      "size": 709563,
+      "depends": null
+    },
     "scara-lib": {
       "version": "1.0.0",
       "arch": "x86_64",
