@@ -21,10 +21,11 @@
       "arch": "x86_64",
       "description": "The GNU Bourne Again shell",
       "file": "bash-5.2.0-x86_64.scc",
-      "sha256": "b17e49dd2c2e77cb53ec317748317f394d5aec8e494cdd023ba90e39e88cab97",
-      "size": 599792,
+      "sha256": "866d06cbcfb5c80a97d96c76052c98a25b1491a580e572b2e0faa2c01e27f238",
+      "size": 599804,
       "depends": [
-        "scara-lib"
+        "scara-lib",
+        "readline"
       ]
     },
     "binutils": {
