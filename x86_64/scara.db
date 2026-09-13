@@ -140,6 +140,15 @@
       "sha256": "875532fe264773394053fe68fd2415340e28c7ce70324b5d2ab1763ac1d0f67c",
       "size": 4828332,
       "depends": null
+    },
+    "util-linux": {
+      "version": "2.39.3",
+      "arch": "x86_64",
+      "description": "Beragam utilitas sistem dasar Linux (fdisk, lsblk, mount, blkid, dll)",
+      "file": "util-linux-2.39.3-x86_64.scc",
+      "sha256": "5d9ffe3f0031f88a875d4d7656bf698cedb570c02bd3551ea557dea3cad55842",
+      "size": 15601399,
+      "depends": null
     }
   }
 }
