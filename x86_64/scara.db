@@ -66,6 +66,54 @@
       "size": 2266415,
       "depends": null
     },
+    "dhcpcd": {
+      "version": "10.0.6",
+      "arch": "x86_64",
+      "description": "DHCP Client daemon untuk pengaturan IP otomatis pada jaringan",
+      "file": "dhcpcd-10.0.6-x86_64.scc",
+      "sha256": "36b206260b4375202258459deaa810a1e85ca844544abadc3e7b45d3cdce3119",
+      "size": 240631,
+      "depends": null
+    },
+    "dosfstools": {
+      "version": "4.2",
+      "arch": "x86_64",
+      "description": "Utilitas untuk membuat dan mengecek filesystem MS-DOS FAT (FAT16/FAT32)",
+      "file": "dosfstools-4.2-x86_64.scc",
+      "sha256": "faf9abd473d35643bdf4c6d4a1708894f4bd5ea4e3f871555b531911072bfb01",
+      "size": 337176,
+      "depends": null
+    },
+    "e2fsprogs": {
+      "version": "1.47.0",
+      "arch": "x86_64",
+      "description": "Utilitas manajemen dan pembuat filesystem ext2/ext3/ext4",
+      "file": "e2fsprogs-1.47.0-x86_64.scc",
+      "sha256": "216742b5175a81f3be27818b14b0b63f825bae3fbbce6aed7fc71f55aa44eb06",
+      "size": 2395200,
+      "depends": null
+    },
+    "efibootmgr": {
+      "version": "18",
+      "arch": "x86_64",
+      "description": "Utilitas untuk mengelola dan memanipulasi EFI Boot Manager",
+      "file": "efibootmgr-18-x86_64.scc",
+      "sha256": "db884def32da81e5c6723fcf731035339a2f3498bacb0549d51c610182e5d7eb",
+      "size": 33701,
+      "depends": [
+        "efivar",
+        "popt"
+      ]
+    },
+    "efivar": {
+      "version": "39",
+      "arch": "x86_64",
+      "description": "Tools dan library untuk memanipulasi variabel UEFI",
+      "file": "efivar-39-x86_64.scc",
+      "sha256": "4ea5de2b610328aa14a01490f4177a596931073266c0b34b9d9af78604b7863f",
+      "size": 198693,
+      "depends": null
+    },
     "fastfetch": {
       "version": "2.34.0",
       "arch": "x86_64",
@@ -77,22 +125,202 @@
         "bash"
       ]
     },
-    "linux": {
-      "version": "1.0.0",
+    "grub": {
+      "version": "2.12",
       "arch": "x86_64",
-      "description": "Linux Kernel image untuk Scara OS",
-      "file": "linux-1.0.0-x86_64.scc",
-      "sha256": "1d4ae3808efb43a664d8b5696cf135bf06712b0b1a9039de54aa249b764681ed",
-      "size": 25678620,
+      "description": "GNU GRand Unified Bootloader (Target UEFI x86_64)",
+      "file": "grub-2.12-x86_64.scc",
+      "sha256": "dfe0597748c03ef2c556f64ff501912f88d0c428e0015786fab294a6ad0dcefe",
+      "size": 15054075,
+      "depends": null
+    },
+    "iproute2": {
+      "version": "6.5.0",
+      "arch": "x86_64",
+      "description": "Utilitas utama untuk manajemen TCP/IP dan antarmuka jaringan (menyediakan perintah ip)",
+      "file": "iproute2-6.5.0-x86_64.scc",
+      "sha256": "a51cad84bc35d6b49090bcde1ad5686b7ed73032e18fcd73a2fbf770ec5400ad",
+      "size": 1728073,
+      "depends": null
+    },
+    "linux": {
+      "version": "7.2.0",
+      "arch": "x86_64",
+      "description": "Kernel Linux 7.2.0 dan modul inti untuk Scara OS",
+      "file": "linux-7.2.0-x86_64.scc",
+      "sha256": "b51dbd445c09adaa464ecd6d388700ea4ef8ffc45bc8da7ad734d032cc4eebcd",
+      "size": 52209336,
+      "depends": [
+        "linux-headers"
+      ]
+    },
+    "linux-firmware": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Meta-paket firmware desktop x86_64 lengkap untuk Scara OS",
+      "file": "linux-firmware-20240909-x86_64.scc",
+      "sha256": "d3ad8bcbc0071f1e0d63df2de0173aa639f55fae865bad82e0b1bef5411f25ec",
+      "size": 366,
+      "depends": [
+        "linux-firmware-amd-ucode",
+        "linux-firmware-intel-ucode",
+        "linux-firmware-amd-gpu",
+        "linux-firmware-intel-gpu",
+        "linux-firmware-nvidia-gsp",
+        "linux-firmware-nvidia-other",
+        "linux-firmware-net-intel-wifi-modern",
+        "linux-firmware-net-intel-wifi-legacy",
+        "linux-firmware-net-intel-bt",
+        "linux-firmware-net-realtek",
+        "linux-firmware-net-broadcom",
+        "linux-firmware-net-atheros",
+        "linux-firmware-net-mediatek",
+        "linux-firmware-audio-intel",
+        "linux-firmware-misc-desktop"
+      ]
+    },
+    "linux-firmware-amd-gpu": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware GPU AMD/Radeon untuk Scara OS",
+      "file": "linux-firmware-amd-gpu-20240909-x86_64.scc",
+      "sha256": "2d5454f522026c0efe11a9447fe71341574bd82747addeb4fc95818860923f82",
+      "size": 44735985,
+      "depends": null
+    },
+    "linux-firmware-amd-ucode": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Microcode CPU AMD untuk Scara OS",
+      "file": "linux-firmware-amd-ucode-20240909-x86_64.scc",
+      "sha256": "b4ebbe175c08ff1156b063b0a6b9c498f2706b365fd8b9a4c0f00cd054ddcc24",
+      "size": 250854,
+      "depends": null
+    },
+    "linux-firmware-audio-intel": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Audio Sound Open Firmware (SOF/AVS) Intel",
+      "file": "linux-firmware-audio-intel-20240909-x86_64.scc",
+      "sha256": "901d62d489149495110506371afdc54f3e902ec3da6456351f14ff8ea03dd80d",
+      "size": 3918966,
+      "depends": null
+    },
+    "linux-firmware-intel-gpu": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware GPU Intel (i915/Xe/GuC/HuC) untuk Scara OS",
+      "file": "linux-firmware-intel-gpu-20240909-x86_64.scc",
+      "sha256": "6839df6b2adbc352adc1e5d0096cc78c480272eb134b40f7ec48cafdd4219d8e",
+      "size": 11517312,
+      "depends": null
+    },
+    "linux-firmware-intel-ucode": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Microcode CPU Intel untuk Scara OS",
+      "file": "linux-firmware-intel-ucode-20240909-x86_64.scc",
+      "sha256": "8030da88af0d849162c5e5491d8602b1aee7a417c2a805d398c05f5fcfe7668b",
+      "size": 327,
+      "depends": null
+    },
+    "linux-firmware-misc-desktop": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Periferal Desktop PC Tambahan",
+      "file": "linux-firmware-misc-desktop-20240909-x86_64.scc",
+      "sha256": "4e22c1d735fb1baa8ff1aa17ea7ebfca05068bdc4838543272f4b6402f332668",
+      "size": 88091870,
+      "depends": null
+    },
+    "linux-firmware-net-atheros": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Wi-Fi Qualcomm Atheros (ath6k-ath12k)",
+      "file": "linux-firmware-net-atheros-20240909-x86_64.scc",
+      "sha256": "ac3bcc216155df662cec42412528ea97c6ad4b27aa2938cad0417c218e838911",
+      "size": 52807493,
+      "depends": null
+    },
+    "linux-firmware-net-broadcom": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Wi-Fi \u0026 Bluetooth Broadcom/Cypress",
+      "file": "linux-firmware-net-broadcom-20240909-x86_64.scc",
+      "sha256": "cc6f36f615e313deb75f4a64c5e4cce57c1306b40c5c7cec47e5bd20475fde95",
+      "size": 7740181,
+      "depends": null
+    },
+    "linux-firmware-net-intel-bt": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Bluetooth Intel (ibt)",
+      "file": "linux-firmware-net-intel-bt-20240909-x86_64.scc",
+      "sha256": "5af415162297bdb6309648fe128009fd2dd168921f60e473c22514d5f3528d84",
+      "size": 19969886,
+      "depends": null
+    },
+    "linux-firmware-net-intel-wifi-legacy": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Wi-Fi Intel Legacy (Wi-Fi 5 / Wireless-AC/N)",
+      "file": "linux-firmware-net-intel-wifi-legacy-20240909-x86_64.scc",
+      "sha256": "400088b62e4b928e4645804ab4651352d276a26a1cf63cd2ca1094b0c4800643",
+      "size": 15084639,
+      "depends": null
+    },
+    "linux-firmware-net-intel-wifi-modern": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Wi-Fi Intel Modern (Wi-Fi 6/6E/7 / AX Series)",
+      "file": "linux-firmware-net-intel-wifi-modern-20240909-x86_64.scc",
+      "sha256": "4a0addbd9787804bab92712ac9f9e84809bd1977eb717d26314b2ab5a54cca8e",
+      "size": 99846072,
+      "depends": null
+    },
+    "linux-firmware-net-mediatek": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Wi-Fi \u0026 Bluetooth Mediatek",
+      "file": "linux-firmware-net-mediatek-20240909-x86_64.scc",
+      "sha256": "b650eaba1be90952736ac1d12bd8c2f085cc7fcdeff4cdcf48ce7158ab91f30b",
+      "size": 40330816,
+      "depends": null
+    },
+    "linux-firmware-net-realtek": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware Wi-Fi, Ethernet \u0026 Bluetooth Realtek",
+      "file": "linux-firmware-net-realtek-20240909-x86_64.scc",
+      "sha256": "105b39b634221ea0f0a6264e24fccfb9da6b91c985e8d145c517db25c3601d0e",
+      "size": 18366136,
+      "depends": null
+    },
+    "linux-firmware-nvidia-gsp": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware GPU Nvidia Modern GSP (Turing/Ampere/Ada)",
+      "file": "linux-firmware-nvidia-gsp-20240909-x86_64.scc",
+      "sha256": "acb197d67eddd9dfb4c489b8707e3d3f99c029e4984eaedd8696f95f52f9384b",
+      "size": 30478377,
+      "depends": null
+    },
+    "linux-firmware-nvidia-other": {
+      "version": "20240909",
+      "arch": "x86_64",
+      "description": "Firmware GPU Nvidia Legacy \u0026 Microcode Display",
+      "file": "linux-firmware-nvidia-other-20240909-x86_64.scc",
+      "sha256": "ecd4367a67f16f5818b8f9d1cca4374a3357848c885b9abce1f6fb362c579684",
+      "size": 1751837,
       "depends": null
     },
     "linux-headers": {
-      "version": "1.0.0",
+      "version": "7.2.0",
       "arch": "x86_64",
-      "description": "Header files dan skrip untuk pengembangan Kernel Linux",
-      "file": "linux-headers-1.0.0-x86_64.scc",
-      "sha256": "32f686f6892bbc458f69274ee6dff0e31de081c2c4b9578b87b8a99819cbcd9b",
-      "size": 1985037,
+      "description": "File header kernel Linux 7.2.0 untuk Scara OS",
+      "file": "linux-headers-7.2.0-x86_64.scc",
+      "sha256": "13e21432fefc23bd620e878405c1518214452c7cf44fb2500b75037d8e065530",
+      "size": 1985046,
       "depends": null
     },
     "nano": {
@@ -102,6 +330,15 @@
       "file": "nano-8.1-x86_64.scc",
       "sha256": "a0abe3962f31dc2751a4d4eae1a4562922a854d33fbf3d6b5bc441aa144698f6",
       "size": 865568,
+      "depends": null
+    },
+    "popt": {
+      "version": "1.19",
+      "arch": "x86_64",
+      "description": "Pustaka parsing parameter command-line C",
+      "file": "popt-1.19-x86_64.scc",
+      "sha256": "7025327e31e22915f5721133aabf3cebb86fe0ddb4ab78f518caaa458926e54e",
+      "size": 128439,
       "depends": null
     },
     "readline": {
