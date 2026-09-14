@@ -21,8 +21,8 @@
       "arch": "x86_64",
       "description": "The GNU Bourne Again shell",
       "file": "bash-5.2.0-x86_64.scc",
-      "sha256": "866d06cbcfb5c80a97d96c76052c98a25b1491a580e572b2e0faa2c01e27f238",
-      "size": 599804,
+      "sha256": "a083a28917c00182035c71c4b5c0417f98600528c16fcb31085adc1bcb38e0d7",
+      "size": 3040447,
       "depends": [
         "scara-lib",
         "readline"
@@ -148,8 +148,8 @@
       "arch": "x86_64",
       "description": "Kernel Linux 7.2.0 dan modul inti untuk Scara OS",
       "file": "linux-7.2.0-x86_64.scc",
-      "sha256": "b51dbd445c09adaa464ecd6d388700ea4ef8ffc45bc8da7ad734d032cc4eebcd",
-      "size": 52209336,
+      "sha256": "de866e1556a14a63b2daf0d56bba1243327e665648db8a4c3982598a762ca200",
+      "size": 52208893,
       "depends": [
         "linux-headers"
       ]
@@ -319,8 +319,8 @@
       "arch": "x86_64",
       "description": "File header kernel Linux 7.2.0 untuk Scara OS",
       "file": "linux-headers-7.2.0-x86_64.scc",
-      "sha256": "13e21432fefc23bd620e878405c1518214452c7cf44fb2500b75037d8e065530",
-      "size": 1985046,
+      "sha256": "868410e609904083cb1599210e8de066555e7a95fa85b9ae80fecac63ff84492",
+      "size": 1984973,
       "depends": null
     },
     "nano": {
@@ -331,6 +331,17 @@
       "sha256": "a0abe3962f31dc2751a4d4eae1a4562922a854d33fbf3d6b5bc441aa144698f6",
       "size": 865568,
       "depends": null
+    },
+    "ncurses": {
+      "version": "6.5",
+      "arch": "x86_64",
+      "description": "System V-style terminal handling library",
+      "file": "ncurses-6.5-x86_64.scc",
+      "sha256": "8b3bec1afb91b5aef0d5014bba1ce634ca5cfbf5bb80eb8715d0c6abdaa561ec",
+      "size": 4824981,
+      "depends": [
+        "scara-lib"
+      ]
     },
     "popt": {
       "version": "1.19",
@@ -346,8 +357,8 @@
       "arch": "x86_64",
       "description": "GNU Readline library untuk fitur line-editing dan command history",
       "file": "readline-8.2-x86_64.scc",
-      "sha256": "5ca2578fe0c19bcf54824c774aa02baea8f165fcfdab29700cbd15f94fd4e293",
-      "size": 709563,
+      "sha256": "6d1ec4a4ecd017d8080a1ccc563da5bbd6f9afb0ff07bc166d9606bbd8bd1c5b",
+      "size": 375886,
       "depends": null
     },
     "scara-lib": {
