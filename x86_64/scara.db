@@ -390,6 +390,17 @@
         "scara-lib"
       ]
     },
+    "shadow": {
+      "version": "4.14.0",
+      "arch": "x86_64",
+      "description": "Utilitas manajemen user dan grup (useradd, passwd, dll)",
+      "file": "shadow-4.14.0-x86_64.scc",
+      "sha256": "0ebd871d51f83c311dd734e8d60f2546104d4c9cfdf357f0fc8a642de40f3548",
+      "size": 4628909,
+      "depends": [
+        "scara-lib"
+      ]
+    },
     "sudo": {
       "version": "1.9.15p5",
       "arch": "x86_64",
