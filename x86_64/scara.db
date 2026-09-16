@@ -148,7 +148,7 @@
       "arch": "x86_64",
       "description": "Kernel Linux 7.2.0 dan modul inti untuk Scara OS",
       "file": "linux-7.2.0-x86_64.scc",
-      "sha256": "de866e1556a14a63b2daf0d56bba1243327e665648db8a4c3982598a762ca200",
+      "sha256": "190fa9f5c97f30ed18a3d37f89096f1ccae8a751074251871b25517bdc349a9b",
       "size": 52208893,
       "depends": [
         "linux-headers"
@@ -319,8 +319,8 @@
       "arch": "x86_64",
       "description": "File header kernel Linux 7.2.0 untuk Scara OS",
       "file": "linux-headers-7.2.0-x86_64.scc",
-      "sha256": "868410e609904083cb1599210e8de066555e7a95fa85b9ae80fecac63ff84492",
-      "size": 1984973,
+      "sha256": "86c55c10388a97fb9b3da828dbe6b8b61b20b3d6369a9e16c574f9cd6cb0a167",
+      "size": 1985416,
       "depends": null
     },
     "nano": {
