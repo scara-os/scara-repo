@@ -475,8 +475,8 @@
       "arch": "x86_64",
       "description": "Pustaka dan perkakas kompresi Fast Lossless (zstd)",
       "file": "zstd-1.5.5-x86_64.scc",
-      "sha256": "5b424734c4bdc310e68e0e495165b4ce92b3ae31351631ab28ed9ae0714050d8",
-      "size": 1584685,
+      "sha256": "dfd00c4a3e11a35f7b6f4785c73cef1b8091ed99656b1334e92ab01fe10d906f",
+      "size": 3165977,
       "depends": [
         "zlib",
         "xz"
