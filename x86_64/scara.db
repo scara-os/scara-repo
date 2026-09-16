@@ -46,6 +46,24 @@
       "size": 1310372,
       "depends": null
     },
+    "calamares": {
+      "version": "3.3.0",
+      "arch": "x86_64",
+      "description": "Sistem installer grafis (GUI) universal berbasis Qt6 untuk Scara OS",
+      "file": "calamares-3.3.0-x86_64.scc",
+      "sha256": "7b80059d864e534c8b4d1586de95be3d31ba47a565019211bef69033ec14541d",
+      "size": 6180681,
+      "depends": [
+        "qt6-base",
+        "qt6-svg",
+        "qt6-declarative",
+        "polkit-qt6",
+        "kpmcore",
+        "yaml-cpp",
+        "python",
+        "parted"
+      ]
+    },
     "coreutils": {
       "version": "9.3",
       "arch": "x86_64",
