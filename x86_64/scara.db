@@ -356,6 +356,15 @@
       "size": 313996,
       "depends": null
     },
+    "lz4": {
+      "version": "1.9.4",
+      "arch": "x86_64",
+      "description": "Extremely Fast Compression algorithm library",
+      "file": "lz4-1.9.4-x86_64.scc",
+      "sha256": "de2a3c72b7d690adcda0892d8a8c2e68556de796bacaf51c1bdb69b9247d4582",
+      "size": 425430,
+      "depends": null
+    },
     "nano": {
       "version": "8.1",
       "arch": "x86_64",
