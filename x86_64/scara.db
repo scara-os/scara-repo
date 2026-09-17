@@ -454,6 +454,43 @@
         "sqlite"
       ]
     },
+    "qt6-base": {
+      "version": "6.6.1",
+      "arch": "x86_64",
+      "description": "Qt6 Core, GUI, Widgets, dan Network Framework untuk Scara OS",
+      "file": "qt6-base-6.6.1-x86_64.scc",
+      "sha256": "6f2a90a543052498c2adb95c6fc55d278b58e847c710ea8b84d889b4d23a02c6",
+      "size": 23900945,
+      "depends": [
+        "zlib",
+        "xz",
+        "zstd",
+        "glib2",
+        "fontconfig",
+        "freetype2",
+        "harfbuzz",
+        "double-conversion",
+        "libpng",
+        "libjpeg-turbo",
+        "xcb-util-wm",
+        "xcb-util-image",
+        "xcb-util-keysyms",
+        "xcb-util-renderutil",
+        "mesa",
+        "openssl"
+      ]
+    },
+    "qt6-svg": {
+      "version": "6.6.1",
+      "arch": "x86_64",
+      "description": "Modul rendering SVG untuk Qt6 Framework",
+      "file": "qt6-svg-6.6.1-x86_64.scc",
+      "sha256": "7f400bd7f6ce0feeb1274b5a74bcc30b279a990c6a2dc317f67824ea07eadd14",
+      "size": 267330,
+      "depends": [
+        "qt6-base"
+      ]
+    },
     "readline": {
       "version": "8.2",
       "arch": "x86_64",
