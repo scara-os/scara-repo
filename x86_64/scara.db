@@ -526,6 +526,18 @@
         "qt6-base"
       ]
     },
+    "qt6-tools": {
+      "version": "6.6.1",
+      "arch": "x86_64",
+      "description": "Modul Qt6 Tools (Linguist, Designer, dll) untuk Scara OS",
+      "file": "qt6-tools-6.6.1-x86_64.scc",
+      "sha256": "d471cc07501a2e64d27a893260aacac359957a1888c4a02f2fc80e1d64df98a6",
+      "size": 274,
+      "depends": [
+        "qt6-base",
+        "qt6-declarative"
+      ]
+    },
     "readline": {
       "version": "8.2",
       "arch": "x86_64",
