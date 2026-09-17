@@ -430,6 +430,17 @@
         "util-linux"
       ]
     },
+    "polkit-qt6": {
+      "version": "0.200.0",
+      "arch": "x86_64",
+      "description": "Polkit Qt6 bindings untuk Scara OS",
+      "file": "polkit-qt6-0.200.0-x86_64.scc",
+      "sha256": "da61dafc442aedf7224cdb5062ff0863cd7023f336ee5bcf6c2f62b8ea0ee021",
+      "size": 121130,
+      "depends": [
+        "qt6-base"
+      ]
+    },
     "popt": {
       "version": "1.19",
       "arch": "x86_64",
@@ -478,6 +489,30 @@
         "xcb-util-renderutil",
         "mesa",
         "openssl"
+      ]
+    },
+    "qt6-declarative": {
+      "version": "6.6.1",
+      "arch": "x86_64",
+      "description": "Modul Qt6 Declarative (QML dan Qt Quick) untuk Scara OS",
+      "file": "qt6-declarative-6.6.1-x86_64.scc",
+      "sha256": "b4283f4eda5f1d25da3fa2d3d4a435aa32d7fec6431242923374567f67ce659b",
+      "size": 22269545,
+      "depends": [
+        "qt6-base",
+        "qt6-svg",
+        "qt6-shadertools"
+      ]
+    },
+    "qt6-shadertools": {
+      "version": "6.6.1",
+      "arch": "x86_64",
+      "description": "Modul Qt6 Shader Tools (menyediakan qsb dan API kompilasi shader) untuk Scara OS",
+      "file": "qt6-shadertools-6.6.1-x86_64.scc",
+      "sha256": "625d6fd80975f918e10529c83ebeaf29b46ff6ea2b502b71b54a6f0ea03ca149",
+      "size": 2275797,
+      "depends": [
+        "qt6-base"
       ]
     },
     "qt6-svg": {
