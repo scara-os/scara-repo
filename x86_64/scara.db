@@ -185,6 +185,22 @@
         "zstd"
       ]
     },
+    "kpmcore": {
+      "version": "24.02.0",
+      "arch": "x86_64",
+      "description": "Pustaka manajemen partisipasi dan sistem berkas KDE (diperlukan Calamares)",
+      "file": "kpmcore-24.02.0-x86_64.scc",
+      "sha256": "21a84c224ae0e49e16b423a99478354769f9505cf85cb06fb243f8511f5e0695",
+      "size": 1448682,
+      "depends": [
+        "qt6-base",
+        "parted",
+        "util-linux",
+        "e2fsprogs",
+        "dosfstools",
+        "lvm2"
+      ]
+    },
     "linux": {
       "version": "7.2.0",
       "arch": "x86_64",
@@ -403,6 +419,17 @@
         "scara-lib"
       ]
     },
+    "parted": {
+      "version": "3.6",
+      "arch": "x86_64",
+      "description": "Perkakas manipulasi tabel partisi disk (GNU Parted)",
+      "file": "parted-3.6-x86_64.scc",
+      "sha256": "2c90807e7acf0537c49d960fed9a4fba1694ecd38be594d2be0a44525dda77e2",
+      "size": 978799,
+      "depends": [
+        "util-linux"
+      ]
+    },
     "popt": {
       "version": "1.19",
       "arch": "x86_64",
@@ -411,6 +438,21 @@
       "sha256": "7025327e31e22915f5721133aabf3cebb86fe0ddb4ab78f518caaa458926e54e",
       "size": 128439,
       "depends": null
+    },
+    "python": {
+      "version": "3.11.8",
+      "arch": "x86_64",
+      "description": "Bahasa pemrograman Python 3 untuk modul backend Calamares",
+      "file": "python-3.11.8-x86_64.scc",
+      "sha256": "1ca00d4bdca030935bf8b2cdf14ff3dc39ba26aaf1c5ceba52a5c0018e103ebc",
+      "size": 92281822,
+      "depends": [
+        "scara-lib",
+        "readline",
+        "zlib",
+        "openssl",
+        "sqlite"
+      ]
     },
     "readline": {
       "version": "8.2",
@@ -487,6 +529,17 @@
       "sha256": "5db1d700daa2106b5783d5d3bf7d706cb33cf175c92a388d0ad06b869601aae7",
       "size": 1191609,
       "depends": null
+    },
+    "yaml-cpp": {
+      "version": "0.8.0",
+      "arch": "x86_64",
+      "description": "Pustaka parser YAML C++ untuk Calamares",
+      "file": "yaml-cpp-0.8.0-x86_64.scc",
+      "sha256": "e92bb36b83d8b099ad837c91b76d8ceaaaa2c243fff8738340decadca178af76",
+      "size": 348552,
+      "depends": [
+        "scara-lib"
+      ]
     },
     "zlib": {
       "version": "1.3.1",
