@@ -46,22 +46,19 @@
       "size": 1310372,
       "depends": null
     },
-    "calamares": {
-      "version": "3.3.0",
+    "calamares-installer": {
+      "version": "3.4.2",
       "arch": "x86_64",
-      "description": "Sistem installer grafis (GUI) universal berbasis Qt6 untuk Scara OS",
-      "file": "calamares-3.3.0-x86_64.scc",
-      "sha256": "7b80059d864e534c8b4d1586de95be3d31ba47a565019211bef69033ec14541d",
-      "size": 6180681,
+      "description": "Installer Calamares beserta dependensinya - Repackage dari biner",
+      "file": "calamares-installer-3.4.2-x86_64.scc",
+      "sha256": "f85c3262215df534d8563a604e7a8608b1c25578b33f2e704b19f8c3df7de7db",
+      "size": 10591053,
       "depends": [
-        "qt6-base",
-        "qt6-svg",
-        "qt6-declarative",
-        "polkit-qt6",
-        "kpmcore",
-        "yaml-cpp",
-        "python",
-        "parted"
+        "(\"qt6-base\"",
+        "\"qt6-svg\"",
+        "\"qt6-declarative\"",
+        "\"polkit-qt6\"",
+        "\"yaml-cpp\")"
       ]
     },
     "coreutils": {
@@ -236,8 +233,8 @@
       "arch": "x86_64",
       "description": "Pustaka manajemen partisipasi dan sistem berkas KDE (diperlukan Calamares)",
       "file": "kpmcore-24.02.0-x86_64.scc",
-      "sha256": "21a84c224ae0e49e16b423a99478354769f9505cf85cb06fb243f8511f5e0695",
-      "size": 1448682,
+      "sha256": "7b9e47cac2442ab0d6e82ab5858f0ae81cfdd038946ab275d84aeca7f29330b0",
+      "size": 1277301,
       "depends": [
         "qt6-base",
         "parted",
@@ -505,12 +502,14 @@
     "polkit-qt6": {
       "version": "0.200.0",
       "arch": "x86_64",
-      "description": "Polkit Qt6 bindings untuk Scara OS",
+      "description": "Pustaka antarmuka Qt 6 untuk sistem otentikasi Polkit",
       "file": "polkit-qt6-0.200.0-x86_64.scc",
-      "sha256": "da61dafc442aedf7224cdb5062ff0863cd7023f336ee5bcf6c2f62b8ea0ee021",
-      "size": 121130,
+      "sha256": "70c740e8ea33e39c1037eb0a2aa9eb9f5bea1e647be52bb3b12b0b8e792fc5e2",
+      "size": 120894,
       "depends": [
-        "qt6-base"
+        "(\"qt6-base\"",
+        "\"polkit\"",
+        "\"glib2\")"
       ]
     },
     "popt": {
@@ -538,76 +537,57 @@
       ]
     },
     "qt6-base": {
-      "version": "6.6.1",
+      "version": "6.7.2",
       "arch": "x86_64",
-      "description": "Qt6 Core, GUI, Widgets, dan Network Framework untuk Scara OS",
-      "file": "qt6-base-6.6.1-x86_64.scc",
-      "sha256": "6f2a90a543052498c2adb95c6fc55d278b58e847c710ea8b84d889b4d23a02c6",
-      "size": 23900945,
+      "description": "Komponen dasar pustaka C++ Qt 6 (Core, GUI, Widgets, Network)",
+      "file": "qt6-base-6.7.2-x86_64.scc",
+      "sha256": "a636227cc5c5e826d41984841a9a7d4f5b39da92d193f2ba2eef9a10b81fa752",
+      "size": 24380494,
       "depends": [
-        "zlib",
-        "xz",
-        "zstd",
-        "glib2",
-        "fontconfig",
-        "freetype2",
-        "harfbuzz",
-        "double-conversion",
-        "libpng",
-        "libjpeg-turbo",
-        "xcb-util-wm",
-        "xcb-util-image",
-        "xcb-util-keysyms",
-        "xcb-util-renderutil",
-        "mesa",
-        "openssl"
+        "(\"glibc\"",
+        "\"gcc-libs\"",
+        "\"zlib\"",
+        "\"glib2\"",
+        "\"icu\"",
+        "\"zstd\"",
+        "\"libjpeg-turbo\"",
+        "\"libpng\"",
+        "\"freetype2\"",
+        "\"harfbuzz\")"
       ]
     },
     "qt6-declarative": {
-      "version": "6.6.1",
+      "version": "6.11.2",
       "arch": "x86_64",
-      "description": "Modul Qt6 Declarative (QML dan Qt Quick) untuk Scara OS",
-      "file": "qt6-declarative-6.6.1-x86_64.scc",
-      "sha256": "b4283f4eda5f1d25da3fa2d3d4a435aa32d7fec6431242923374567f67ce659b",
-      "size": 22269545,
+      "description": "Modul Qt 6 untuk bahasa QML dan mesin JavaScript (Qt Quick)",
+      "file": "qt6-declarative-6.11.2-x86_64.scc",
+      "sha256": "2ddc9696e90d4e6897f960751c5b09b3b562afea95ee4b494d89b1cf7da67554",
+      "size": 37789778,
       "depends": [
-        "qt6-base",
-        "qt6-svg",
-        "qt6-shadertools"
-      ]
-    },
-    "qt6-shadertools": {
-      "version": "6.6.1",
-      "arch": "x86_64",
-      "description": "Modul Qt6 Shader Tools (menyediakan qsb dan API kompilasi shader) untuk Scara OS",
-      "file": "qt6-shadertools-6.6.1-x86_64.scc",
-      "sha256": "625d6fd80975f918e10529c83ebeaf29b46ff6ea2b502b71b54a6f0ea03ca149",
-      "size": 2275797,
-      "depends": [
-        "qt6-base"
+        "(\"qt6-base\")"
       ]
     },
     "qt6-svg": {
-      "version": "6.6.1",
+      "version": "6.11.2",
       "arch": "x86_64",
-      "description": "Modul rendering SVG untuk Qt6 Framework",
-      "file": "qt6-svg-6.6.1-x86_64.scc",
-      "sha256": "7f400bd7f6ce0feeb1274b5a74bcc30b279a990c6a2dc317f67824ea07eadd14",
-      "size": 267330,
+      "description": "Modul Qt 6 untuk menampilkan dan memproses konten file SVG",
+      "file": "qt6-svg-6.11.2-x86_64.scc",
+      "sha256": "bd4fdd04608cc33a30e3f327a1d6ce94ad689be293d8e27f9451c00129e9cd42",
+      "size": 430700,
       "depends": [
-        "qt6-base"
+        "(\"qt6-base\")"
       ]
     },
     "qt6-tools": {
-      "version": "6.6.1",
+      "version": "6.11.2",
       "arch": "x86_64",
-      "description": "Modul Qt6 Tools (Linguist, Designer, dll) untuk Scara OS",
-      "file": "qt6-tools-6.6.1-x86_64.scc",
-      "sha256": "acb00962966be4b32c93aa51a48d9a436467cf2c48e0ac1aa863fbeb26f27fe4",
-      "size": 8753354,
+      "description": "Perkakas pengembangan dan pembantu Qt 6 (lrelease, designer, qdbus)",
+      "file": "qt6-tools-6.11.2-x86_64.scc",
+      "sha256": "bb1b1a44328659c9a7ba957ed67ef863e02e21e0661659fddc121bb2de5d1a95",
+      "size": 11044301,
       "depends": [
-        "qt6-base",
-        "qt6-declarative"
+        "(\"qt6-base\"",
+        "\"qt6-declarative\")"
       ]
     },
     "readline": {
@@ -689,12 +669,12 @@
     "yaml-cpp": {
       "version": "0.8.0",
       "arch": "x86_64",
-      "description": "Pustaka parser YAML C++ untuk Calamares",
+      "description": "Pustaka parser dan pemroses YAML dalam C++",
       "file": "yaml-cpp-0.8.0-x86_64.scc",
-      "sha256": "e92bb36b83d8b099ad837c91b76d8ceaaaa2c243fff8738340decadca178af76",
-      "size": 348552,
+      "sha256": "1a104d3d09fe9680b08ea3eb59f160f336f83067c86194c42ae2e9e084bc29e4",
+      "size": 266612,
       "depends": [
-        "scara-lib"
+        "(\"gcc-libs\")"
       ]
     },
     "zlib": {
