@@ -143,6 +143,17 @@
       "size": 198693,
       "depends": null
     },
+    "extra-cmake-modules": {
+      "version": "6.3.0",
+      "arch": "x86_64",
+      "description": "Extra CMake Modules (ECM) untuk ekosistem KDE Frameworks 6",
+      "file": "extra-cmake-modules-6.3.0-x86_64.scc",
+      "sha256": "d70e9cac456914e8ffb71989b12c3c3dc87dadb5d60e66b7aa22dd274affb86e",
+      "size": 185725,
+      "depends": [
+        "cmake"
+      ]
+    },
     "fastfetch": {
       "version": "2.34.0",
       "arch": "x86_64",
@@ -172,6 +183,41 @@
       "size": 1728073,
       "depends": null
     },
+    "kconfig": {
+      "version": "6.3.0",
+      "arch": "x86_64",
+      "description": "Sistem manajemen konfigurasi dan penyimpanan pengaturan untuk KF6",
+      "file": "kconfig-6.3.0-x86_64.scc",
+      "sha256": "42b8e8b520a0eb0c89c1b34f40d477be435af1da624716cc72e0e66da4ee83bb",
+      "size": 744645,
+      "depends": [
+        "qt6-base",
+        "kcoreaddons"
+      ]
+    },
+    "kcoreaddons": {
+      "version": "6.3.0",
+      "arch": "x86_64",
+      "description": "Addon non-GUI untuk kelas-kelas inti Qt6 dari KDE Frameworks 6",
+      "file": "kcoreaddons-6.3.0-x86_64.scc",
+      "sha256": "8d7115e46f835a2e1a0394edf7a0645ad950b46f30e47fca4a81151d45a9524f",
+      "size": 731173,
+      "depends": [
+        "qt6-base"
+      ]
+    },
+    "ki18n": {
+      "version": "6.3.0",
+      "arch": "x86_64",
+      "description": "Modul internasionalisasi (i18n) dan penerjemahan teks untuk KF6",
+      "file": "ki18n-6.3.0-x86_64.scc",
+      "sha256": "e47b31a299e2d1d56948b271b2ac1cc24c991e6efa2809666e42dc4d14e03284",
+      "size": 4135110,
+      "depends": [
+        "qt6-base",
+        "kcoreaddons"
+      ]
+    },
     "kmod": {
       "version": "31",
       "arch": "x86_64",
@@ -199,6 +245,32 @@
         "e2fsprogs",
         "dosfstools",
         "lvm2"
+      ]
+    },
+    "kservice": {
+      "version": "6.3.0",
+      "arch": "x86_64",
+      "description": "Manajemen plugin, layanan, dan tipe file desktop untuk KF6",
+      "file": "kservice-6.3.0-x86_64.scc",
+      "sha256": "420832f670f05b49814defb98c1a6ce14546511976e43921fd1a66ef20022c58",
+      "size": 335985,
+      "depends": [
+        "qt6-base",
+        "kcoreaddons",
+        "kconfig",
+        "ki18n"
+      ]
+    },
+    "kwidgetsaddons": {
+      "version": "6.3.0",
+      "arch": "x86_64",
+      "description": "Kumpulan widget GUI tambahan berbasis Qt6 Widgets untuk KF6",
+      "file": "kwidgetsaddons-6.3.0-x86_64.scc",
+      "sha256": "a805d2026cf8f19def0c3d45c1ba9dd93ae34593d8924162f2ce42148a261225",
+      "size": 2513195,
+      "depends": [
+        "qt6-base",
+        "kcoreaddons"
       ]
     },
     "linux": {
