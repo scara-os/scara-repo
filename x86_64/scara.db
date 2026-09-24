@@ -198,6 +198,15 @@
       "size": 239,
       "depends": null
     },
+    "glibc": {
+      "version": "2.43",
+      "arch": "x86_64",
+      "description": "GNU C Library 2.43 untuk Scara OS",
+      "file": "glibc-2.43-x86_64.scc",
+      "sha256": "48d89796d70f08b9e86c776186b4df07c53a2b8f75cf95e4ada6dccf31289375",
+      "size": 14011890,
+      "depends": null
+    },
     "gnome-session": {
       "version": "50.1-1",
       "arch": "x86_64",
