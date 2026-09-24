@@ -61,6 +61,15 @@
         "\"yaml-cpp\")"
       ]
     },
+    "colord": {
+      "version": "1.4.8-1",
+      "arch": "x86_64",
+      "description": "Komponen biner colord untuk Scara OS",
+      "file": "colord-1.4.8-1-x86_64.scc",
+      "sha256": "8b7f36164f43b461427556e37dd21b7ad00258be2ddab2981f901804af35d659",
+      "size": 2268222,
+      "depends": null
+    },
     "coreutils": {
       "version": "9.3",
       "arch": "x86_64",
@@ -162,6 +171,60 @@
         "bash"
       ]
     },
+    "gdm": {
+      "version": "50.3-1",
+      "arch": "x86_64",
+      "description": "Komponen biner gdm untuk Scara OS",
+      "file": "gdm-50.3-1-x86_64.scc",
+      "sha256": "b0e8f79fcededb50d1a14e800579c323392ed267108b5385124dc7532ffbf3f8",
+      "size": 1393491,
+      "depends": null
+    },
+    "geoclue": {
+      "version": "2.8.2-1",
+      "arch": "x86_64",
+      "description": "Komponen biner geoclue untuk Scara OS",
+      "file": "geoclue-2.8.2-1-x86_64.scc",
+      "sha256": "6ed8e87ebfd300967510f7b62ec0de0b11c8618aede7b8f89f3a70fdff1a7c52",
+      "size": 313574,
+      "depends": null
+    },
+    "gjs": {
+      "version": "1.88.1-1",
+      "arch": "x86_64",
+      "description": "Komponen biner gjs untuk Scara OS",
+      "file": "gjs-1.88.1-1-x86_64.scc",
+      "sha256": "e3efe9913df3f05fa8aba4ea977be050b30ce9252eea7e1dc83955469d5d5b20",
+      "size": 239,
+      "depends": null
+    },
+    "gnome-session": {
+      "version": "50.1-1",
+      "arch": "x86_64",
+      "description": "Komponen biner gnome-session untuk Scara OS",
+      "file": "gnome-session-50.1-1-x86_64.scc",
+      "sha256": "5315680f27e38593344bc9fb4105f7ec85048131a56530737fd2bcc0868b05d2",
+      "size": 384320,
+      "depends": null
+    },
+    "gnome-settings-daemon": {
+      "version": "50.1-1",
+      "arch": "x86_64",
+      "description": "Komponen biner gnome-settings-daemon untuk Scara OS",
+      "file": "gnome-settings-daemon-50.1-1-x86_64.scc",
+      "sha256": "a8f3692fd2e3b0077cbb5a31138e8693956b85c34e46524939f1f3ffc9d01622",
+      "size": 1807672,
+      "depends": null
+    },
+    "gnome-shell": {
+      "version": "50.5-1",
+      "arch": "x86_64",
+      "description": "Komponen biner gnome-shell untuk Scara OS",
+      "file": "gnome-shell-50.5-1-x86_64.scc",
+      "sha256": "0630c87b266cc385d95498247663e88480c5d48e2031fe1236591f6a5f5ac0a0",
+      "size": 243,
+      "depends": null
+    },
     "grub": {
       "version": "2.12",
       "arch": "x86_64",
@@ -171,6 +234,33 @@
       "size": 15054075,
       "depends": null
     },
+    "gtk4": {
+      "version": "4.22.5-1",
+      "arch": "x86_64",
+      "description": "Komponen biner gtk4 untuk Scara OS",
+      "file": "gtk4-4.22.5-1-x86_64.scc",
+      "sha256": "9206d91c4db2b57e269ffa037e790fa250e84b505e0eaed9dece1a363e85febe",
+      "size": 239,
+      "depends": null
+    },
+    "ibus": {
+      "version": "1.5.34-1",
+      "arch": "x86_64",
+      "description": "Komponen biner ibus untuk Scara OS",
+      "file": "ibus-1.5.34-1-x86_64.scc",
+      "sha256": "0c592525f81b3a970a8caa5efe8048cf3a0dcce3f1f0850b3a073273c2a98f8e",
+      "size": 20193836,
+      "depends": null
+    },
+    "iio-sensor-proxy": {
+      "version": "3.9-1",
+      "arch": "x86_64",
+      "description": "Komponen biner iio-sensor-proxy untuk Scara OS",
+      "file": "iio-sensor-proxy-3.9-1-x86_64.scc",
+      "sha256": "37ed6916a67c7379bd899c37dd4d64c21c87ea40d3df612c0535da009281b222",
+      "size": 42595,
+      "depends": null
+    },
     "iproute2": {
       "version": "6.5.0",
       "arch": "x86_64",
@@ -178,6 +268,15 @@
       "file": "iproute2-6.5.0-x86_64.scc",
       "sha256": "a51cad84bc35d6b49090bcde1ad5686b7ed73032e18fcd73a2fbf770ec5400ad",
       "size": 1728073,
+      "depends": null
+    },
+    "js140": {
+      "version": "140.16.0-1",
+      "arch": "x86_64",
+      "description": "Komponen biner js140 untuk Scara OS",
+      "file": "js140-140.16.0-1-x86_64.scc",
+      "sha256": "f54e46852a457ffee7c914ac46f2ecdd8f387332bcf18f0e6b609ad74198cfae",
+      "size": 31080405,
       "depends": null
     },
     "kconfig": {
@@ -269,6 +368,78 @@
         "qt6-base",
         "kcoreaddons"
       ]
+    },
+    "libgdm": {
+      "version": "50.3-1",
+      "arch": "x86_64",
+      "description": "Komponen biner libgdm untuk Scara OS",
+      "file": "libgdm-50.3-1-x86_64.scc",
+      "sha256": "a57a5f61dcce316128f7e2c7d5b7eeb2e776a3375a67cbf8da69837de44bb587",
+      "size": 111979,
+      "depends": null
+    },
+    "libgusb": {
+      "version": "0.4.9-2",
+      "arch": "x86_64",
+      "description": "Komponen biner libgusb untuk Scara OS",
+      "file": "libgusb-0.4.9-2-x86_64.scc",
+      "sha256": "06fb9149d192747bbeae635b67c8103822cb8d46dfd80d8279326aa1d12c2c4b",
+      "size": 78675,
+      "depends": null
+    },
+    "libibus": {
+      "version": "1.5.34-1",
+      "arch": "x86_64",
+      "description": "Komponen biner libibus untuk Scara OS",
+      "file": "libibus-1.5.34-1-x86_64.scc",
+      "sha256": "5937acb530ccabcaa7c77f4dd861450df8bba13720d38cd9ee7dc78c0a449e4b",
+      "size": 601027,
+      "depends": null
+    },
+    "libmbim": {
+      "version": "1.34.0-1",
+      "arch": "x86_64",
+      "description": "Komponen biner libmbim untuk Scara OS",
+      "file": "libmbim-1.34.0-1-x86_64.scc",
+      "sha256": "c38fa6a10ab2bccea22266de513eb8b0fe50f48d062eff0364904b0d3f1496de",
+      "size": 653145,
+      "depends": null
+    },
+    "libnma-gtk4": {
+      "version": "1.10.6-3",
+      "arch": "x86_64",
+      "description": "Komponen biner libnma-gtk4 untuk Scara OS",
+      "file": "libnma-gtk4-1.10.6-3-x86_64.scc",
+      "sha256": "f1b449cd38778739599df5fdda7b2b509a4da0149b185c281cca1aee251017a2",
+      "size": 122019,
+      "depends": null
+    },
+    "libqmi": {
+      "version": "1.38.0-1",
+      "arch": "x86_64",
+      "description": "Komponen biner libqmi untuk Scara OS",
+      "file": "libqmi-1.38.0-1-x86_64.scc",
+      "sha256": "1e53bad512798c85de4ab7a8920df47e3c781b6becdaae91d73964e61685251b",
+      "size": 2904394,
+      "depends": null
+    },
+    "libqrtr-glib": {
+      "version": "1.4.0-1",
+      "arch": "x86_64",
+      "description": "Komponen biner libqrtr-glib untuk Scara OS",
+      "file": "libqrtr-glib-1.4.0-1-x86_64.scc",
+      "sha256": "f0c6250886327f359ca98ae4e1c4a9600a88957466b1b59f89da0c2c14311d77",
+      "size": 27847,
+      "depends": null
+    },
+    "libssc": {
+      "version": "0.4.4-1",
+      "arch": "x86_64",
+      "description": "Komponen biner libssc untuk Scara OS",
+      "file": "libssc-0.4.4-1-x86_64.scc",
+      "sha256": "d35bd24ca8a224570c01dc64c7120821b984b7d4cfc78a39cfeb908f011891cb",
+      "size": 64396,
+      "depends": null
     },
     "linux": {
       "version": "7.2.0",
@@ -468,6 +639,15 @@
       "size": 425430,
       "depends": null
     },
+    "mutter": {
+      "version": "50.5-1",
+      "arch": "x86_64",
+      "description": "Komponen biner mutter untuk Scara OS",
+      "file": "mutter-50.5-1-x86_64.scc",
+      "sha256": "1d366dec22cd8e9f4bf4b95faf4dde2c12118a64a1501a666c723b988cae7a7b",
+      "size": 4055528,
+      "depends": null
+    },
     "nano": {
       "version": "8.1",
       "arch": "x86_64",
@@ -519,6 +699,15 @@
       "file": "popt-1.19-x86_64.scc",
       "sha256": "7025327e31e22915f5721133aabf3cebb86fe0ddb4ab78f518caaa458926e54e",
       "size": 128439,
+      "depends": null
+    },
+    "protobuf-c": {
+      "version": "1.5.2-15",
+      "arch": "x86_64",
+      "description": "Komponen biner protobuf-c untuk Scara OS",
+      "file": "protobuf-c-1.5.2-15-x86_64.scc",
+      "sha256": "73483fe5e614a0df91e3f9828f45771499af9767dc897d7ab1b350756f189f5a",
+      "size": 169263,
       "depends": null
     },
     "python": {
@@ -655,6 +844,33 @@
       "file": "util-linux-2.39.3-x86_64.scc",
       "sha256": "5d9ffe3f0031f88a875d4d7656bf698cedb570c02bd3551ea557dea3cad55842",
       "size": 15601399,
+      "depends": null
+    },
+    "wayland": {
+      "version": "1.26.0-1",
+      "arch": "x86_64",
+      "description": "Komponen biner wayland untuk Scara OS",
+      "file": "wayland-1.26.0-1-x86_64.scc",
+      "sha256": "853eb83b1fedcc0fe4d27f2a94dd703361849ac1e48d370df3625167c3dcc48a",
+      "size": 223139,
+      "depends": null
+    },
+    "webkitgtk-6.0": {
+      "version": "2.52.6-1",
+      "arch": "x86_64",
+      "description": "Komponen biner webkitgtk-6.0 untuk Scara OS",
+      "file": "webkitgtk-6.0-2.52.6-1-x86_64.scc",
+      "sha256": "cc01d3119f287ef53e169acb18936414ef26fefe7f377258d216b35e82b21eaa",
+      "size": 52770612,
+      "depends": null
+    },
+    "xdg-desktop-portal-gnome": {
+      "version": "50.0-1",
+      "arch": "x86_64",
+      "description": "Komponen biner xdg-desktop-portal-gnome untuk Scara OS",
+      "file": "xdg-desktop-portal-gnome-50.0-1-x86_64.scc",
+      "sha256": "193f6cbb9a06af9b62daf1a300424486ff1839738a7d4a39481dbddc04650e4d",
+      "size": 268308,
       "depends": null
     },
     "xz": {
