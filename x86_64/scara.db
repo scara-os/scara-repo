@@ -1,5 +1,17 @@
 {
   "packages": {
+    "accountsservice": {
+      "version": "23.13.9",
+      "arch": "x86_64",
+      "description": "Antarmuka D-Bus untuk kueri dan manipulasi akun pengguna (dibutuhkan GDM)",
+      "file": "accountsservice-23.13.9-x86_64.scc",
+      "sha256": "39800b54edcfdba90b3ce8a311a611cd6bcb160c80d674e58a16670022e4a172",
+      "size": 207358,
+      "depends": [
+        "glib2",
+        "polkit"
+      ]
+    },
     "base": {
       "version": "1.1.0",
       "arch": "x86_64",
@@ -194,9 +206,20 @@
       "arch": "x86_64",
       "description": "Komponen biner gjs untuk Scara OS",
       "file": "gjs-1.88.1-1-x86_64.scc",
-      "sha256": "e3efe9913df3f05fa8aba4ea977be050b30ce9252eea7e1dc83955469d5d5b20",
-      "size": 239,
+      "sha256": "a555cafad8dfd30082bd78dc06055240a0f9aa83e9335e63e3021c891816ccc0",
+      "size": 861907,
       "depends": null
+    },
+    "glib2": {
+      "version": "2.80.0",
+      "arch": "x86_64",
+      "description": "Pustaka inti tingkat rendah yang membentuk basis GNOME dan GDM",
+      "file": "glib2-2.80.0-x86_64.scc",
+      "sha256": "d199ceb37a067b4f465031195771df181aa6c06646fd0726450150c3c48cf205",
+      "size": 9428747,
+      "depends": [
+        "zlib"
+      ]
     },
     "glibc": {
       "version": "2.43",
@@ -230,8 +253,8 @@
       "arch": "x86_64",
       "description": "Komponen biner gnome-shell untuk Scara OS",
       "file": "gnome-shell-50.5-1-x86_64.scc",
-      "sha256": "0630c87b266cc385d95498247663e88480c5d48e2031fe1236591f6a5f5ac0a0",
-      "size": 243,
+      "sha256": "d7c70161895813e51fd39e8ff7fdfd817c9ab3097d0d78f84735579b1c782868",
+      "size": 3883637,
       "depends": null
     },
     "grub": {
@@ -287,6 +310,17 @@
       "sha256": "f54e46852a457ffee7c914ac46f2ecdd8f387332bcf18f0e6b609ad74198cfae",
       "size": 31080405,
       "depends": null
+    },
+    "json-glib": {
+      "version": "1.8.0",
+      "arch": "x86_64",
+      "description": "Pustaka serialisasi dan deserialisasi format JSON untuk GNOME",
+      "file": "json-glib-1.8.0-x86_64.scc",
+      "sha256": "e7fec80a3e52b1f3cb3e8230315b64e09aa18d37b6582819d089594e79c0fe57",
+      "size": 210469,
+      "depends": [
+        "glib2"
+      ]
     },
     "kconfig": {
       "version": "6.3.0",
@@ -378,6 +412,15 @@
         "kcoreaddons"
       ]
     },
+    "libffi": {
+      "version": "3.4.6",
+      "arch": "x86_64",
+      "description": "Foreign Function Interface library",
+      "file": "libffi-3.4.6-x86_64.scc",
+      "sha256": "76711819f412fb4b9ce5d6ea8d42afd9b3424cf215a72ad3e2ae3bb20ba6abc6",
+      "size": 58403,
+      "depends": null
+    },
     "libgdm": {
       "version": "50.3-1",
       "arch": "x86_64",
@@ -386,6 +429,17 @@
       "sha256": "a57a5f61dcce316128f7e2c7d5b7eeb2e776a3375a67cbf8da69837de44bb587",
       "size": 111979,
       "depends": null
+    },
+    "libgudev": {
+      "version": "238",
+      "arch": "x86_64",
+      "description": "Pustaka wrapper berbasis GObject untuk libudev (manajemen perangkat)",
+      "file": "libgudev-238-x86_64.scc",
+      "sha256": "0ad3285961ed5f579cd3b71a870e11338f5b8257ae45112f0d46ffeb7ce71ad8",
+      "size": 52608,
+      "depends": [
+        "glib2"
+      ]
     },
     "libgusb": {
       "version": "0.4.9-2",
@@ -686,6 +740,26 @@
       "size": 978799,
       "depends": [
         "util-linux"
+      ]
+    },
+    "pcre2": {
+      "version": "10.43",
+      "arch": "x86_64",
+      "description": "Perl-compatible Regular Expressions library v2",
+      "file": "pcre2-10.43-x86_64.scc",
+      "sha256": "25e6132c75c6b5bff4917eafc7ea5121531a22180d167a5a776545524d03cf32",
+      "size": 2828851,
+      "depends": null
+    },
+    "polkit": {
+      "version": "124",
+      "arch": "x86_64",
+      "description": "Toolkit untuk mengontrol hak istimewa (privileges) di seluruh sistem",
+      "file": "polkit-124-x86_64.scc",
+      "sha256": "51c58123d56e3525a36bdde8b702104298213ad9703ab14828849dfda4623066",
+      "size": 501628,
+      "depends": [
+        "glib2"
       ]
     },
     "polkit-qt6": {
