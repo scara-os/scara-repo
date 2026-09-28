@@ -214,8 +214,8 @@
       "arch": "x86_64",
       "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
       "file": "base-1.1.0-x86_64.scc",
-      "sha256": "7f19869ec6918482fcbe6249fb26ed7c0cee1bc2720b72324d4298b1efd98da6",
-      "size": 127829,
+      "sha256": "37f8334d9c86d24b7991e5dcdedad8454c91ba733b266b892f0fc8e5145ad789",
+      "size": 1479946,
       "depends": [
         "scara-release",
         "scara-lib",
