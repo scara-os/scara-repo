@@ -6120,6 +6120,17 @@
         "zlib"
       ]
     },
+    "tar": {
+      "version": "1.35",
+      "arch": "x86_64",
+      "description": "Perkakas pengarsip berkas GNU tar untuk Scara OS",
+      "file": "tar-1.35-x86_64.scc",
+      "sha256": "aa79da13b1c3723900ff1c90953c1715036022795f3f2d284ce5ad88b17e52f1",
+      "size": 1208897,
+      "depends": [
+        "glibc"
+      ]
+    },
     "tecla": {
       "version": "50.0-1",
       "arch": "x86_64",
