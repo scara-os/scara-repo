@@ -5833,6 +5833,17 @@
       "size": 75668,
       "depends": null
     },
+    "sh": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "POSIX shell compatibility interface for Scara OS",
+      "file": "sh-1.0.0-x86_64.scc",
+      "sha256": "8441f1712caad4ab0078caf112c9e607df2bad8e6624cdcae954569caf1ed9b5",
+      "size": 309,
+      "depends": [
+        "bash"
+      ]
+    },
     "shadow": {
       "version": "4.14.0",
       "arch": "x86_64",
