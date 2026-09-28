@@ -1105,6 +1105,17 @@
         "systemd-libs"
       ]
     },
+    "gdbm": {
+      "version": "1.23",
+      "arch": "x86_64",
+      "description": "GNU database manager library for Scara OS",
+      "file": "gdbm-1.23-x86_64.scc",
+      "sha256": "0860bd0e99159e22418cdc681e700a741a7a4d5044f6c48afca28138abc27509",
+      "size": 177557,
+      "depends": [
+        "glibc"
+      ]
+    },
     "gdk-pixbuf2": {
       "version": "2.44.7-1",
       "arch": "x86_64",
