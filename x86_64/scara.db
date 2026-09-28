@@ -364,6 +364,15 @@
         "sh"
       ]
     },
+    "ca-certificates": {
+      "version": "20260929-1",
+      "arch": "any",
+      "description": "Common CA certificates",
+      "file": "ca-certificates-20260929-1-any.scc",
+      "sha256": "60707ccf5e101990a36358668ea3372cc4cd337687d0586b71b9fa923ca0b930",
+      "size": 108227,
+      "depends": null
+    },
     "cairo": {
       "version": "1.18.6-1",
       "arch": "x86_64",
@@ -1200,8 +1209,8 @@
       "arch": "x86_64",
       "description": "GNU C Library 2.43 untuk Scara OS",
       "file": "glibc-2.43-x86_64.scc",
-      "sha256": "48d89796d70f08b9e86c776186b4df07c53a2b8f75cf95e4ada6dccf31289375",
-      "size": 14011890,
+      "sha256": "28ed638cf61e394dca43925d260e66975c1f1a51cd9f403a7cf3046af187bba5",
+      "size": 14199400,
       "depends": null
     },
     "glibmm-2.68": {
