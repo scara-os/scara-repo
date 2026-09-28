@@ -214,8 +214,8 @@
       "arch": "x86_64",
       "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
       "file": "base-1.1.0-x86_64.scc",
-      "sha256": "a54bef30e698d4f75664532896a3e8b435458b9997bca2f59d521e25a0130504",
-      "size": 127827,
+      "sha256": "7f19869ec6918482fcbe6249fb26ed7c0cee1bc2720b72324d4298b1efd98da6",
+      "size": 127829,
       "depends": [
         "scara-release",
         "scara-lib",
@@ -223,7 +223,8 @@
         "bash",
         "coreutils",
         "busybox",
-        "tar"
+        "tar",
+        "gzip"
       ]
     },
     "bash": {
@@ -2163,6 +2164,18 @@
       "sha256": "069e562b86bad58bbdc5e1d2ad4d5a91b5bf8500b5ee175771ceb915c0317f0d",
       "size": 15216,
       "depends": null
+    },
+    "gzip": {
+      "version": "1.13",
+      "arch": "x86_64",
+      "description": "Perkakas kompresi berkas GNU gzip untuk Scara OS",
+      "file": "gzip-1.13-x86_64.scc",
+      "sha256": "e624f4cba6b79524f0ddc554c6a8f91cfc058e30f522b17cce95a63e877f3901",
+      "size": 1037017,
+      "depends": [
+        "glibc",
+        "zlib"
+      ]
     },
     "harfbuzz": {
       "version": "14.5.0-1",
