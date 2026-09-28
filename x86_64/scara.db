@@ -332,6 +332,17 @@
         "systemd-libs"
       ]
     },
+    "brotli": {
+      "version": "1.1.0",
+      "arch": "x86_64",
+      "description": "Generic-purpose lossless compression algorithm for Scara OS",
+      "file": "brotli-1.1.0-x86_64.scc",
+      "sha256": "e2ddb10a70387b8d7dbba62cad2845167800b01bca35d88bb3363ce89635dd66",
+      "size": 1288553,
+      "depends": [
+        "glibc"
+      ]
+    },
     "bubblewrap": {
       "version": "0.13.0-1",
       "arch": "x86_64",
