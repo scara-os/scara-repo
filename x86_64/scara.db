@@ -214,15 +214,16 @@
       "arch": "x86_64",
       "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
       "file": "base-1.1.0-x86_64.scc",
-      "sha256": "835c27cc29fa1f21e5676f3e24cabf4a0b1a7ef8b4fb722ff5c566aee4a3f949",
-      "size": 281,
+      "sha256": "3cd1fc0d554c88dfa562c12ba5c921fddd7e05c0024e9dea3eb796f7823be703",
+      "size": 288,
       "depends": [
         "scara-release",
         "scara-lib",
         "scara-utils",
         "bash",
         "coreutils",
-        "busybox"
+        "busybox",
+        "tar"
       ]
     },
     "bash": {
