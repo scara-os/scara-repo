@@ -5753,6 +5753,36 @@
         "scara-lib"
       ]
     },
+    "scc": {
+      "version": "1.0.1",
+      "arch": "x86_64",
+      "description": "File header kernel Linux 7.2.0 untuk Scara OS",
+      "file": "scc-1.0.1-x86_64.scc",
+      "sha256": "b0bf55916f9ba81d702dc0dfc3a4c86238e174d1374652ea7f82fdf5b573dcca",
+      "size": 5925130,
+      "depends": [
+        "scc-makepkg",
+        "scc-repo-builder"
+      ]
+    },
+    "scc-makepkg": {
+      "version": "1.0.1",
+      "arch": "x86_64",
+      "description": "Create package repo tools",
+      "file": "scc-makepkg-1.0.1-x86_64.scc",
+      "sha256": "79d04420d8f6539b9db87dc748dac047e9c8373feb7890c5a2f526c9e422f8c0",
+      "size": 1945893,
+      "depends": null
+    },
+    "scc-repo-builder": {
+      "version": "1.0.1",
+      "arch": "x86_64",
+      "description": "Sync repo and create database",
+      "file": "scc-repo-builder-1.0.1-x86_64.scc",
+      "sha256": "410d0edc283e53197803bbd13486dc1161d17fa3eb06133469f4e9b568e05b36",
+      "size": 2818344,
+      "depends": null
+    },
     "sdl3": {
       "version": "3.4.16-1",
       "arch": "x86_64",
