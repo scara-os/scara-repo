@@ -5056,6 +5056,17 @@
         "linux-api-headers"
       ]
     },
+    "llvm-libs": {
+      "version": "18.1.8",
+      "arch": "x86_64",
+      "description": "LLVM shared libraries for Scara OS graphics stack",
+      "file": "llvm-libs-18.1.8-x86_64.scc",
+      "sha256": "8de5e598567b3f022b1671b3a5d76d94f1b930e6d8b18817dc8d3a26a7705774",
+      "size": 58240278,
+      "depends": [
+        "glibc"
+      ]
+    },
     "lm_sensors": {
       "version": "3.6.2-1",
       "arch": "x86_64",
