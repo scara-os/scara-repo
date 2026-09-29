@@ -2634,10 +2634,10 @@
     "libasan": {
       "version": "14.1.0",
       "arch": "x86_64",
-      "description": "AddressSanitizer library (provided by gcc-libs)",
+      "description": "AddressSanitizer library wrapper for Scara OS",
       "file": "libasan-14.1.0-x86_64.scc",
-      "sha256": "6dff263b89eaa49ed0089b6c6e635b0e3b03bcbee388851cf312421d2107217c",
-      "size": 251,
+      "sha256": "3ddd1883ff559bf2e3500bc587b12313c74068306814be0ff52358b0d6b60715",
+      "size": 320,
       "depends": [
         "gcc-libs"
       ]
@@ -3174,6 +3174,17 @@
       "sha256": "e6b6fe87547567ecf625aa2ec145fcb07df09076442a334c8a5656ddfc1bf29b",
       "size": 360829,
       "depends": null
+    },
+    "libgfortran": {
+      "version": "14.1.0",
+      "arch": "x86_64",
+      "description": "GNU Fortran Runtime library wrapper for Scara OS",
+      "file": "libgfortran-14.1.0-x86_64.scc",
+      "sha256": "3d8fb71f0942235f8e38ab88c4d0deb8a07070507f056c31b300577c7b469fa3",
+      "size": 322,
+      "depends": [
+        "gcc-libs"
+      ]
     },
     "libgirepository": {
       "version": "1.86.0-2",
