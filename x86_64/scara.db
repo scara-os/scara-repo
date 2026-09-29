@@ -1268,12 +1268,12 @@
       ]
     },
     "glibc": {
-      "version": "2.43.1",
+      "version": "2.43.2",
       "arch": "x86_64",
       "description": "GNU C Library 2.43 untuk Scara OS",
-      "file": "glibc-2.43.1-x86_64.scc",
-      "sha256": "d804b01d7ade1fd24f267574130b8dbca596e49be1e91fdacbfde094e2a5b5af",
-      "size": 1799712,
+      "file": "glibc-2.43.2-x86_64.scc",
+      "sha256": "8e1c2263d4db83970efd54150497ba36d42a40e09d3a47a17403b945b2990074",
+      "size": 2350338,
       "depends": null
     },
     "glibmm-2.68": {
@@ -1756,6 +1756,17 @@
       "file": "graphite2-1.3.14.1-x86_64.scc",
       "sha256": "ed24bf22a8961ca55ecf05ed709fc69c50b929cbcfd2175bd0d871ced67a1f89",
       "size": 68587,
+      "depends": [
+        "glibc"
+      ]
+    },
+    "grep": {
+      "version": "3.11",
+      "arch": "x86_64",
+      "description": "GNU grep utility",
+      "file": "grep-3.11-x86_64.scc",
+      "sha256": "207a0db0ccf06cd2134c3edd87209e911963b3718c5f612522f5ea4d979024a9",
+      "size": 76070,
       "depends": [
         "glibc"
       ]
@@ -4018,6 +4029,17 @@
         "gtk4",
         "libgcc",
         "libportal"
+      ]
+    },
+    "libproxy": {
+      "version": "0.5.8",
+      "arch": "x86_64",
+      "description": "Library for automatic proxy configuration",
+      "file": "libproxy-0.5.8-x86_64.scc",
+      "sha256": "89920e1de034cba8aa082a4c7a2fe1d782b23dee8b7c23c89c9945b0f59cc4ee",
+      "size": 2532,
+      "depends": [
+        "glibc"
       ]
     },
     "libpulse": {
