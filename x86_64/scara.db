@@ -2486,12 +2486,12 @@
       ]
     },
     "kcrash": {
-      "version": "6.0.0",
+      "version": "6.30.0",
       "arch": "x86_64",
-      "description": "KDE Frameworks 6 Crash handling library for Scara OS",
-      "file": "kcrash-6.0.0-x86_64.scc",
-      "sha256": "2aa3b1d732dd4e2e774d9fe7d9e0ddd785c742c6294b663e04770ba4ad2360aa",
-      "size": 22292,
+      "description": "KDE Frameworks 6 libraries (Crash, CoreAddons, KIO, etc) for Scara OS",
+      "file": "kcrash-6.30.0-x86_64.scc",
+      "sha256": "1084916387b796e74ed8b0e1b1f6c88e60879c4a382cb31ba512ac983d1a068f",
+      "size": 17545698,
       "depends": [
         "qt6-base"
       ]
