@@ -4680,12 +4680,11 @@
       "arch": "x86_64",
       "description": "Keymap handling library for toolkits and window systems",
       "file": "libxkbcommon-1.13.2-1-x86_64.scc",
-      "sha256": "265f5fe8fca30a281c6793d6776ecfe1ff89332f554dd89d653ab5a1f67eacf5",
-      "size": 343429,
+      "sha256": "2404ae0609f369de02dd21f04f239410260a47f343900a9fdd2ac693e0396fe9",
+      "size": 343426,
       "depends": [
         "glibc",
-        "libxml2",
-        "xkeyboard-config"
+        "libxml2"
       ]
     },
     "libxkbcommon-x11": {
