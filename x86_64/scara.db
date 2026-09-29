@@ -533,6 +533,15 @@
         "systemd-libs"
       ]
     },
+    "dbus-units": {
+      "version": "1.0",
+      "arch": "x86_64",
+      "description": "D-Bus systemd service and socket units for Scara OS",
+      "file": "dbus-units-1.0-x86_64.scc",
+      "sha256": "ffb7ca133eee68d8e9a64ac1eddaac8636dd22cd2710e8a4519dd51b94b102ea",
+      "size": 667,
+      "depends": null
+    },
     "dconf": {
       "version": "0.49.0-1",
       "arch": "x86_64",
