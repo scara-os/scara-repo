@@ -414,8 +414,8 @@
       "arch": "x86_64",
       "description": "Distribution-independent installer framework (bundled with kpmcore \u0026 hwinfo)",
       "file": "calamares-bin-3.4.2-x86_64.scc",
-      "sha256": "ad9aa99045021863763cfdb3d8f773da7291803c4bd50cad769698730ebb672f",
-      "size": 10591090,
+      "sha256": "56c1adcf3b3699686bdcd255c6d806ab381c34c8b96c2b60495aa8439d0c89c7",
+      "size": 10591366,
       "depends": [
         "glibc",
         "qt6-base",
@@ -5559,12 +5559,12 @@
       "arch": "x86_64",
       "description": "Pustaka antarmuka Qt 6 untuk sistem otentikasi Polkit",
       "file": "polkit-qt6-0.200.0-x86_64.scc",
-      "sha256": "70c740e8ea33e39c1037eb0a2aa9eb9f5bea1e647be52bb3b12b0b8e792fc5e2",
-      "size": 120894,
+      "sha256": "09976f76b9b53525d51790c0e38c14c4611237530479cb2e64ce16356d490678",
+      "size": 120893,
       "depends": [
-        "(\"qt6-base\"",
-        "\"polkit\"",
-        "\"glib2\")"
+        "qt6-base",
+        "polkit",
+        "glib2"
       ]
     },
     "poppler-glib": {
@@ -5794,19 +5794,19 @@
       "arch": "x86_64",
       "description": "Komponen dasar pustaka C++ Qt 6 (Core, GUI, Widgets, Network)",
       "file": "qt6-base-6.7.2-x86_64.scc",
-      "sha256": "a636227cc5c5e826d41984841a9a7d4f5b39da92d193f2ba2eef9a10b81fa752",
-      "size": 24380494,
+      "sha256": "efc7e3ed092630649d08531d9891d2a48be45ede7366c1f27f93c4369a1cc5f8",
+      "size": 24380529,
       "depends": [
-        "(\"glibc\"",
-        "\"gcc-libs\"",
-        "\"zlib\"",
-        "\"glib2\"",
-        "\"icu\"",
-        "\"zstd\"",
-        "\"libjpeg-turbo\"",
-        "\"libpng\"",
-        "\"freetype2\"",
-        "\"harfbuzz\")"
+        "glibc",
+        "gcc-libs",
+        "zlib",
+        "glib2",
+        "icu",
+        "zstd",
+        "libjpeg-turbo",
+        "libpng",
+        "freetype2",
+        "harfbuzz"
       ]
     },
     "qt6-declarative": {
@@ -5814,10 +5814,10 @@
       "arch": "x86_64",
       "description": "Modul Qt 6 untuk bahasa QML dan mesin JavaScript (Qt Quick)",
       "file": "qt6-declarative-6.11.2-x86_64.scc",
-      "sha256": "2ddc9696e90d4e6897f960751c5b09b3b562afea95ee4b494d89b1cf7da67554",
-      "size": 37789778,
+      "sha256": "5a7d10be6d9ebcd8ad6a8caab37d738ba836309680d66ac628d197196c0f54fb",
+      "size": 37789857,
       "depends": [
-        "(\"qt6-base\")"
+        "qt6-base"
       ]
     },
     "qt6-svg": {
@@ -5825,10 +5825,10 @@
       "arch": "x86_64",
       "description": "Modul Qt 6 untuk menampilkan dan memproses konten file SVG",
       "file": "qt6-svg-6.11.2-x86_64.scc",
-      "sha256": "bd4fdd04608cc33a30e3f327a1d6ce94ad689be293d8e27f9451c00129e9cd42",
-      "size": 430700,
+      "sha256": "b1e33e72d09dff45f22df1eba319db1bdd7ee6270d70290a956eb2d4c0d8ef7d",
+      "size": 430699,
       "depends": [
-        "(\"qt6-base\")"
+        "qt6-base"
       ]
     },
     "qt6-tools": {
@@ -5836,11 +5836,11 @@
       "arch": "x86_64",
       "description": "Perkakas pengembangan dan pembantu Qt 6 (lrelease, designer, qdbus)",
       "file": "qt6-tools-6.11.2-x86_64.scc",
-      "sha256": "bb1b1a44328659c9a7ba957ed67ef863e02e21e0661659fddc121bb2de5d1a95",
-      "size": 11044301,
+      "sha256": "10448c50ebe37e72b49a71bc6317448bb5508eb81a1dd32bdecfad8ed4214d7d",
+      "size": 11044290,
       "depends": [
-        "(\"qt6-base\"",
-        "\"qt6-declarative\")"
+        "qt6-base",
+        "qt6-declarative"
       ]
     },
     "raptor": {
@@ -6872,10 +6872,10 @@
       "arch": "x86_64",
       "description": "Pustaka parser dan pemroses YAML dalam C++",
       "file": "yaml-cpp-0.8.0-x86_64.scc",
-      "sha256": "1a104d3d09fe9680b08ea3eb59f160f336f83067c86194c42ae2e9e084bc29e4",
-      "size": 266612,
+      "sha256": "afa5aef3a8b634915cbbf00120c0504c6c0387cd1abc941ea28f61cc3d601720",
+      "size": 266617,
       "depends": [
-        "(\"gcc-libs\")"
+        "gcc-libs"
       ]
     },
     "yelp": {
@@ -6945,8 +6945,8 @@
       "arch": "x86_64",
       "description": "An open-source, multi-format linear/matrix barcode image processing library implemented in C++",
       "file": "zxing-cpp-3.1.1-1-x86_64.scc",
-      "sha256": "2f7e105cf3706a40bbfa13fe025f0cc1803a02be305dfc60bb8e5817d43a5c3c",
-      "size": 990420,
+      "sha256": "1dfdb2e20bd0818b72b7b80efe5772973afd560574adaeff1ae40ddb9cd11b0c",
+      "size": 990417,
       "depends": [
         "glibc",
         "libgcc",
