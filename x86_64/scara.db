@@ -4030,6 +4030,17 @@
         "pam"
       ]
     },
+    "libpython": {
+      "version": "3.14.0",
+      "arch": "x86_64",
+      "description": "Python 3.14 shared libraries for Scara OS",
+      "file": "libpython-3.14.0-x86_64.scc",
+      "sha256": "4f31ffc14fb2d19f2dcb2a5f7551e420ee6db677a6c9561160966a98ede63111",
+      "size": 2574447,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libqmi": {
       "version": "1.38.0-1",
       "arch": "x86_64",
