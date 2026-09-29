@@ -494,8 +494,8 @@
       "arch": "x86_64",
       "description": "Utility for setting up encrypted filesystems for Scara OS",
       "file": "cryptsetup-2.7.0-x86_64.scc",
-      "sha256": "01864ceb2e819c3ef067e340991f2ffac07e6013a94c228d11bf11fd88736b0f",
-      "size": 1083778,
+      "sha256": "2993cd64348d0a6052b3fd8d12fb0227305410d2973e91341e31922b9b0825ab",
+      "size": 1083784,
       "depends": [
         "glibc"
       ]
