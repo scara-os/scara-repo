@@ -4032,12 +4032,12 @@
       ]
     },
     "libproxy": {
-      "version": "0.5.8",
+      "version": "0.5.8.1",
       "arch": "x86_64",
       "description": "Library for automatic proxy configuration",
-      "file": "libproxy-0.5.8-x86_64.scc",
-      "sha256": "89920e1de034cba8aa082a4c7a2fe1d782b23dee8b7c23c89c9945b0f59cc4ee",
-      "size": 2532,
+      "file": "libproxy-0.5.8.1-x86_64.scc",
+      "sha256": "e9ec0c9a7a8830f1406a5915f69b41d8e042e8cf71f1924e5411e9c7b20a6e7b",
+      "size": 2539,
       "depends": [
         "glibc"
       ]
@@ -4418,6 +4418,17 @@
         "glibc",
         "xz",
         "zlib"
+      ]
+    },
+    "liburing": {
+      "version": "2.6",
+      "arch": "x86_64",
+      "description": "Linux-native io_uring I/O access library for Scara OS",
+      "file": "liburing-2.6-x86_64.scc",
+      "sha256": "fabda10f547907823c6c1af7f063011579116c6cc7e2e802405f98f7b10d2e6b",
+      "size": 11062,
+      "depends": [
+        "glibc"
       ]
     },
     "libusb": {
