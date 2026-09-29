@@ -2412,6 +2412,17 @@
         "glibc"
       ]
     },
+    "kbd": {
+      "version": "2.6.4",
+      "arch": "x86_64",
+      "description": "Keytable files and keyboard utilities for Scara OS",
+      "file": "kbd-2.6.4-x86_64.scc",
+      "sha256": "1e9c507537ffb07a10561dbc7e0927b633b70e449b91f50293ce3288847081de",
+      "size": 116742,
+      "depends": [
+        "glibc"
+      ]
+    },
     "kconfig": {
       "version": "6.3.0",
       "arch": "x86_64",
@@ -3317,6 +3328,17 @@
         "libgcc",
         "libstdc++",
         "libxml2"
+      ]
+    },
+    "libidn2": {
+      "version": "2.3.7",
+      "arch": "x86_64",
+      "description": "Free software implementation of IDNA2008 for Scara OS",
+      "file": "libidn2-2.3.7-x86_64.scc",
+      "sha256": "710f7550977eb02c19da9116eb3bcfb8923a8ec94bfb2ea4b26eac27cb0eae96",
+      "size": 210847,
+      "depends": [
+        "glibc"
       ]
     },
     "libiec61883": {
