@@ -214,8 +214,8 @@
       "arch": "x86_64",
       "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
       "file": "base-1.1.0-x86_64.scc",
-      "sha256": "37f8334d9c86d24b7991e5dcdedad8454c91ba733b266b892f0fc8e5145ad789",
-      "size": 1479946,
+      "sha256": "d87372bd8fe1e3d5ebbd0b8736e2cac009cfc515e3e2909e1abbd1682ad1f68b",
+      "size": 1479960,
       "depends": [
         "scara-release",
         "scara-lib",
@@ -6627,6 +6627,17 @@
       "depends": [
         "abseil-cpp",
         "gcc-libs",
+        "glibc"
+      ]
+    },
+    "which": {
+      "version": "2.21",
+      "arch": "x86_64",
+      "description": "A utility to show the full path of commands for Scara OS",
+      "file": "which-2.21-x86_64.scc",
+      "sha256": "dec289d58e7169c536a4a24b9a39764e9915b35c163609845b2f29dd1832b0e3",
+      "size": 11021,
+      "depends": [
         "glibc"
       ]
     },
