@@ -2268,6 +2268,15 @@
         "systemd-libs"
       ]
     },
+    "hwdata": {
+      "version": "0.380",
+      "arch": "x86_64",
+      "description": "Hardware identification databases for Scara OS",
+      "file": "hwdata-0.380-x86_64.scc",
+      "sha256": "840f6633222113ed91adec68cd017f924b75962f1f41282c7e207d9300f85a6f",
+      "size": 2610499,
+      "depends": null
+    },
     "hyphen": {
       "version": "2.8.9-1",
       "arch": "x86_64",
