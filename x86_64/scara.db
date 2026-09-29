@@ -5187,11 +5187,12 @@
       "arch": "x86_64",
       "description": "Network connection manager and user applications for Scara OS",
       "file": "networkmanager-1.48.0-x86_64.scc",
-      "sha256": "fad9c7326027b2cb97c9ff2edddd6dbdc3c73a17526e1151e0612820991dcb80",
-      "size": 4566272,
+      "sha256": "b414fc83d63fff894550906056cebcb230e12b95a31445688f41e0fb6b88c1cf",
+      "size": 4566766,
       "depends": [
         "glibc",
-        "systemd"
+        "systemd",
+        "libnm"
       ]
     },
     "noto-fonts-emoji": {
