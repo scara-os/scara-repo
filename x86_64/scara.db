@@ -489,6 +489,17 @@
         "scara-lib"
       ]
     },
+    "cryptsetup": {
+      "version": "2.7.0",
+      "arch": "x86_64",
+      "description": "Utility for setting up encrypted filesystems for Scara OS",
+      "file": "cryptsetup-2.7.0-x86_64.scc",
+      "sha256": "01864ceb2e819c3ef067e340991f2ffac07e6013a94c228d11bf11fd88736b0f",
+      "size": 1083778,
+      "depends": [
+        "glibc"
+      ]
+    },
     "cups-pk-helper": {
       "version": "0.2.7-2",
       "arch": "x86_64",
