@@ -4845,6 +4845,17 @@
         "glibc"
       ]
     },
+    "lmdb": {
+      "version": "0.9.31",
+      "arch": "x86_64",
+      "description": "Lightning Memory-Mapped Database library for Scara OS",
+      "file": "lmdb-0.9.31-x86_64.scc",
+      "sha256": "1288f1b86e17343cbacbea78ac768ba3888b6475382f202095372ae03508f8ef",
+      "size": 170797,
+      "depends": [
+        "glibc"
+      ]
+    },
     "localsearch": {
       "version": "3.11.2-1",
       "arch": "x86_64",
