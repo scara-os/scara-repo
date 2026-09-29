@@ -6993,8 +6993,8 @@
       "arch": "x86_64",
       "description": "Pustaka parser dan pemroses YAML dalam C++",
       "file": "yaml-cpp-0.8.0-x86_64.scc",
-      "sha256": "afa5aef3a8b634915cbbf00120c0504c6c0387cd1abc941ea28f61cc3d601720",
-      "size": 266617,
+      "sha256": "42181d6ccdc778faad1d7c15fce6e4c0a8c1b05710bd8d3c263f571b3516ed78",
+      "size": 411149,
       "depends": [
         "gcc-libs"
       ]
