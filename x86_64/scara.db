@@ -6468,8 +6468,8 @@
       "arch": "x86_64",
       "description": "Beragam utilitas sistem dasar Linux (fdisk, lsblk, mount, blkid, dll)",
       "file": "util-linux-2.39.3-x86_64.scc",
-      "sha256": "5d9ffe3f0031f88a875d4d7656bf698cedb570c02bd3551ea557dea3cad55842",
-      "size": 15601399,
+      "sha256": "e9e25cce3d31c3538dd27ac113dfd64ddb95c204ce03d2e8c62fc492c2faea4f",
+      "size": 15601315,
       "depends": null
     },
     "util-linux-libs": {
