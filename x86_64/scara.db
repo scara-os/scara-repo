@@ -6197,12 +6197,12 @@
       ]
     },
     "systemd": {
-      "version": "262-1",
+      "version": "262-2",
       "arch": "x86_64",
       "description": "system and service manager",
-      "file": "systemd-262-1-x86_64.scc",
-      "sha256": "1522087a4189ca4dd6ac5e7119fdd174a79fa1c36aa952e802f4167b5fe6c14e",
-      "size": 14130635,
+      "file": "systemd-262-2-x86_64.scc",
+      "sha256": "ccfaec58c102f07afa97562c0b30ec588e1d11e16b138ce575ff4654c0ca06fc",
+      "size": 14130419,
       "depends": [
         "acl",
         "audit",
