@@ -6321,6 +6321,17 @@
       "size": 20252,
       "depends": null
     },
+    "spirv-tools": {
+      "version": "2024.1",
+      "arch": "x86_64",
+      "description": "API and commands for processing SPIR-V modules for Scara OS",
+      "file": "spirv-tools-2024.1-x86_64.scc",
+      "sha256": "84301f5a06c4edf0a636f4c021b7539db67ad0a7b959d189f476a98695a5bf6f",
+      "size": 2715692,
+      "depends": [
+        "glibc"
+      ]
+    },
     "sqlite": {
       "version": "3.53.4-1",
       "arch": "x86_64",
