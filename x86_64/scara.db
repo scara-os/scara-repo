@@ -6140,6 +6140,17 @@
         "qt6-declarative"
       ]
     },
+    "qt6-xcb": {
+      "version": "6.11.0",
+      "arch": "x86_64",
+      "description": "Qt 6 X11 (XCB) platform plugin for Scara OS",
+      "file": "qt6-xcb-6.11.0-x86_64.scc",
+      "sha256": "651d41aa6122c2c6f42e7957fee5d0df6ffd3ef03c9df38b4b64af74eb7002c9",
+      "size": 287325,
+      "depends": [
+        "qt6-gui"
+      ]
+    },
     "raptor": {
       "version": "2.0.16-9",
       "arch": "x86_64",
