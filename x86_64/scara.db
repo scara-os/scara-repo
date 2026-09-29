@@ -518,12 +518,12 @@
       "depends": null
     },
     "curl": {
-      "version": "8.5.5",
+      "version": "8.5.5.1",
       "arch": "x86_64",
       "description": "Perkakas CLI (Static Binary Valid)",
-      "file": "curl-8.5.5-x86_64.scc",
-      "sha256": "62036a0af58b6e4b47a50fe35583d3ee09694bf9972ee003932f5f88eec8cbd4",
-      "size": 2266415,
+      "file": "curl-8.5.5.1-x86_64.scc",
+      "sha256": "dc2c3c99e907d393f5f66812035f9cc6ec2cc2f7da97f13d98b919dbb061e770",
+      "size": 2791596,
       "depends": null
     },
     "dbus": {
