@@ -5344,6 +5344,17 @@
       "size": 7320677,
       "depends": null
     },
+    "p11-kit": {
+      "version": "0.25.5",
+      "arch": "x86_64",
+      "description": "Library to load and enumerate PKCS#11 modules for Scara OS",
+      "file": "p11-kit-0.25.5-x86_64.scc",
+      "sha256": "1cc40c046e2abda1650cff8ebe8e3ac74a7ee33417bc72d072cf4bc2b8950e7f",
+      "size": 1224846,
+      "depends": [
+        "glibc"
+      ]
+    },
     "pam": {
       "version": "1.7.2-2",
       "arch": "x86_64",
