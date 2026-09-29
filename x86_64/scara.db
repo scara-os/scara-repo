@@ -4042,6 +4042,17 @@
         "glibc"
       ]
     },
+    "libpsl": {
+      "version": "0.21.5",
+      "arch": "x86_64",
+      "description": "Public Suffix List C library for Scara OS",
+      "file": "libpsl-0.21.5-x86_64.scc",
+      "sha256": "dcf08fc8ff7cadd66a25b0929b8b89feb688292bba4894f8c9e56fc4c6a91892",
+      "size": 54695,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libpulse": {
       "version": "17.0+r98+gb096704c0-1",
       "arch": "x86_64",
@@ -4298,6 +4309,17 @@
       "sha256": "7fc3f974f765fdcb143d860bff866817d63ce50e9b6f49814ffa68786889b8e5",
       "size": 64432,
       "depends": null
+    },
+    "libssh2": {
+      "version": "1.11.1",
+      "arch": "x86_64",
+      "description": "C library implementing the SSH2 protocol for Scara OS",
+      "file": "libssh2-1.11.1-x86_64.scc",
+      "sha256": "b207ebb59b44760e83e5928f33ca25e8f9b1ba044a2560ae46e15ab809aea461",
+      "size": 139901,
+      "depends": [
+        "glibc"
+      ]
     },
     "libstdc++": {
       "version": "16.2.1+r23+gd564253eb6c8-1",
@@ -5415,6 +5437,28 @@
         "glibc",
         "systemd",
         "libnm"
+      ]
+    },
+    "nghttp3": {
+      "version": "1.8.0",
+      "arch": "x86_64",
+      "description": "HTTP/3 library written in C for Scara OS",
+      "file": "nghttp3-1.8.0-x86_64.scc",
+      "sha256": "7a5327e2e48427ecb2f9e93fe3eb87afa767e8a49b87230dcba1de64239c1704",
+      "size": 72561,
+      "depends": [
+        "glibc"
+      ]
+    },
+    "ngtcp2": {
+      "version": "1.11.0",
+      "arch": "x86_64",
+      "description": "QUIC protocol library for Scara OS",
+      "file": "ngtcp2-1.11.0-x86_64.scc",
+      "sha256": "1da6bf3c097a00fe4d97f00e0c4866a29d9187972e980784899f18aff9eb009f",
+      "size": 207861,
+      "depends": [
+        "glibc"
       ]
     },
     "noto-fonts-emoji": {
