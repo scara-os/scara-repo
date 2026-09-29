@@ -4481,16 +4481,15 @@
       "depends": null
     },
     "libx11": {
-      "version": "1.8.13-1",
+      "version": "1.8.7",
       "arch": "x86_64",
-      "description": "X11 client-side library",
-      "file": "libx11-1.8.13-1-x86_64.scc",
-      "sha256": "f3ed597c03504f35dd8d606db3c0670d23c04f4f2741dbf7c0f6125e0b58eb7d",
-      "size": 2588290,
+      "description": "X11 client-side library for Scara OS",
+      "file": "libx11-1.8.7-x86_64.scc",
+      "sha256": "42fe2aa2648a8bc3788a13641b9d1162608098031790f414b2d0bb7499fd3409",
+      "size": 2588296,
       "depends": [
         "glibc",
-        "libxcb",
-        "xorgproto"
+        "libxcb"
       ]
     },
     "libxau": {
@@ -4510,13 +4509,12 @@
       "arch": "x86_64",
       "description": "X11 client-side library",
       "file": "libxcb-1.17.0-1-x86_64.scc",
-      "sha256": "3f8d109cc601491ee10d79858427633aca530a5adbb8e6a2837af40a30719d42",
-      "size": 1183082,
+      "sha256": "9e9a5c88490d3fe90e700c591a7de7a8c881b8ca0f4a6c52eab077977dcbdf06",
+      "size": 1183077,
       "depends": [
         "glibc",
         "libxau",
-        "libxdmcp",
-        "xcb-proto"
+        "libxdmcp"
       ]
     },
     "libxcomposite": {
