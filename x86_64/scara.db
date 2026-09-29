@@ -481,12 +481,15 @@
     "coreutils": {
       "version": "9.3",
       "arch": "x86_64",
-      "description": "GNU core utilities (ls, cp, mv, cat, etc.)",
+      "description": "GNU core utilities for Scara OS",
       "file": "coreutils-9.3-x86_64.scc",
-      "sha256": "7f9d7ca2c8d7024f478f9d77d61e3ea87cdffc80dbd9d65752734b93fd8cdf73",
-      "size": 551665,
+      "sha256": "c6b2ab8fcb85c8c0eba5371e5a7094e320f729863d8d2d35b11cc5dd863db85c",
+      "size": 586258,
       "depends": [
-        "scara-lib"
+        "scara-lib",
+        "glibc",
+        "libattr",
+        "libcap"
       ]
     },
     "cryptsetup": {
@@ -2645,6 +2648,17 @@
       "file": "libatomic-16.2.1+r23+gd564253eb6c8-1-x86_64.scc",
       "sha256": "b0362401aed3284d6173889b164aef056678144691490c1fbd95ccc8c175e763",
       "size": 13126,
+      "depends": [
+        "glibc"
+      ]
+    },
+    "libattr": {
+      "version": "2.5.2",
+      "arch": "x86_64",
+      "description": "Extended attribute support library for Scara OS",
+      "file": "libattr-2.5.2-x86_64.scc",
+      "sha256": "7f75912ee7dbc150452400077097c81324e2cc5057706582f118e44a4dd68de2",
+      "size": 8339,
       "depends": [
         "glibc"
       ]
