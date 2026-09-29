@@ -4032,12 +4032,12 @@
       ]
     },
     "libproxy": {
-      "version": "0.5.8.1",
+      "version": "0.5.8.2",
       "arch": "x86_64",
       "description": "Library for automatic proxy configuration",
-      "file": "libproxy-0.5.8.1-x86_64.scc",
-      "sha256": "e9ec0c9a7a8830f1406a5915f69b41d8e042e8cf71f1924e5411e9c7b20a6e7b",
-      "size": 2539,
+      "file": "libproxy-0.5.8.2-x86_64.scc",
+      "sha256": "3c98980b28e5b7b3ea7d2413f1ee4a257c42bc6b808c4df4c1d2d2945d49486f",
+      "size": 23215,
       "depends": [
         "glibc"
       ]
