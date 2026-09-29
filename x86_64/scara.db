@@ -3160,6 +3160,17 @@
         "glibc"
       ]
     },
+    "libgpg-error": {
+      "version": "1.49",
+      "arch": "x86_64",
+      "description": "Support library for libgcrypt and GnuPG for Scara OS",
+      "file": "libgpg-error-1.49-x86_64.scc",
+      "sha256": "2dc471aec7bb5c2941c25e2fd48dcd7ab7dd8ee7ea181d32be0880140a839749",
+      "size": 260997,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libgphoto2": {
       "version": "2.5.34-1",
       "arch": "x86_64",
