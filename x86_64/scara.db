@@ -5184,6 +5184,17 @@
       "size": 433980,
       "depends": null
     },
+    "md4c": {
+      "version": "0.5.2",
+      "arch": "x86_64",
+      "description": "Markdown parser library in C used by Qt for Scara OS",
+      "file": "md4c-0.5.2-x86_64.scc",
+      "sha256": "5f686a2248c8fb530d6c6cb4baf0d720b7a9614c5df10639b478ec85a4c4e70b",
+      "size": 43292,
+      "depends": [
+        "glibc"
+      ]
+    },
     "mesa": {
       "version": "26.2.3-1",
       "arch": "x86_64",
