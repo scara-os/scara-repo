@@ -1256,8 +1256,8 @@
       "arch": "x86_64",
       "description": "GNU C Library 2.43 untuk Scara OS",
       "file": "glibc-2.43-x86_64.scc",
-      "sha256": "28ed638cf61e394dca43925d260e66975c1f1a51cd9f403a7cf3046af187bba5",
-      "size": 14199400,
+      "sha256": "1227096dfe8511c9c751d6bc40f18aa7fcccfd77c17898cfd749ac34b1d3929b",
+      "size": 14201659,
       "depends": null
     },
     "glibmm-2.68": {
