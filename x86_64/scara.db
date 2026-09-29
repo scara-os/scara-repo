@@ -4194,6 +4194,15 @@
         "wayland"
       ]
     },
+    "libverto-module-base": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Dummy virtual package for libverto module base dependency",
+      "file": "libverto-module-base-1.0.0-x86_64.scc",
+      "sha256": "af003b36f3763bd6cb0a9ea96de889a7cf86aed3520c4431c1c4f11e75dd5fdf",
+      "size": 257,
+      "depends": null
+    },
     "libvncserver": {
       "version": "0.9.15-1",
       "arch": "x86_64",
