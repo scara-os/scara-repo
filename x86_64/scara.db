@@ -4015,6 +4015,17 @@
       "size": 27854,
       "depends": null
     },
+    "libquadmath": {
+      "version": "14.1.0",
+      "arch": "x86_64",
+      "description": "GCC Quadruple Precision Math library wrapper for Scara OS",
+      "file": "libquadmath-14.1.0-x86_64.scc",
+      "sha256": "0292a0d7666c09e65186ece9dae4917cd16cdd59d6a38f4c43b2db144acfc892",
+      "size": 319,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "libraw1394": {
       "version": "2.1.2-4",
       "arch": "x86_64",
