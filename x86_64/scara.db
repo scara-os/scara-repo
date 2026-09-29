@@ -4837,6 +4837,18 @@
         "xorgproto"
       ]
     },
+    "libxxf86vm": {
+      "version": "1.1.5",
+      "arch": "x86_64",
+      "description": "X11 XFree86 video mode extension library for Scara OS",
+      "file": "libxxf86vm-1.1.5-x86_64.scc",
+      "sha256": "acb3ecd0f94c029a793fd0da246d95f63619cc3c2fa48e87fcf071d558dac151",
+      "size": 7413,
+      "depends": [
+        "glibc",
+        "libx11"
+      ]
+    },
     "lilv": {
       "version": "0.28.0-1",
       "arch": "x86_64",
