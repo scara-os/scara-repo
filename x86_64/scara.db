@@ -409,19 +409,24 @@
         "zlib"
       ]
     },
-    "calamares-installer": {
+    "calamares-bin": {
       "version": "3.4.2",
       "arch": "x86_64",
-      "description": "Installer Calamares beserta dependensinya - Repackage dari biner",
-      "file": "calamares-installer-3.4.2-x86_64.scc",
-      "sha256": "f85c3262215df534d8563a604e7a8608b1c25578b33f2e704b19f8c3df7de7db",
-      "size": 10591053,
+      "description": "Distribution-independent installer framework (bundled with kpmcore \u0026 hwinfo)",
+      "file": "calamares-bin-3.4.2-x86_64.scc",
+      "sha256": "ad9aa99045021863763cfdb3d8f773da7291803c4bd50cad769698730ebb672f",
+      "size": 10591090,
       "depends": [
-        "(\"qt6-base\"",
-        "\"qt6-svg\"",
-        "\"qt6-declarative\"",
-        "\"polkit-qt6\"",
-        "\"yaml-cpp\")"
+        "glibc",
+        "qt6-base",
+        "qt6-declarative",
+        "qt6-svg",
+        "polkit-qt6",
+        "yaml-cpp",
+        "parted",
+        "cryptsetup",
+        "util-linux",
+        "bash"
       ]
     },
     "cdparanoia": {
