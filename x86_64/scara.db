@@ -2631,6 +2631,17 @@
         "zstd"
       ]
     },
+    "libasan": {
+      "version": "14.1.0",
+      "arch": "x86_64",
+      "description": "AddressSanitizer library (provided by gcc-libs)",
+      "file": "libasan-14.1.0-x86_64.scc",
+      "sha256": "6dff263b89eaa49ed0089b6c6e635b0e3b03bcbee388851cf312421d2107217c",
+      "size": 251,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "libass": {
       "version": "0.17.5-1",
       "arch": "x86_64",
