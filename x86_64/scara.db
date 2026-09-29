@@ -5334,6 +5334,17 @@
         "systemd-libs"
       ]
     },
+    "pambase": {
+      "version": "1.0",
+      "arch": "x86_64",
+      "description": "Base PAM configuration files for Scara OS",
+      "file": "pambase-1.0-x86_64.scc",
+      "sha256": "8cde99c1c3a8f3a6b84753b0abba95fc75dd4d01c1ee48d20fcc87b27e134399",
+      "size": 1075,
+      "depends": [
+        "pam"
+      ]
+    },
     "pango": {
       "version": "1.58.2-1",
       "arch": "x86_64",
