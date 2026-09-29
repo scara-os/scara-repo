@@ -3237,12 +3237,11 @@
       "arch": "x86_64",
       "description": "The GL Vendor-Neutral Dispatch library",
       "file": "libglvnd-1.7.0-3-x86_64.scc",
-      "sha256": "0177419c297f0f6ef8b13cebf3a7a0b4c8307862a94a62782605a764a2c9ee4f",
-      "size": 613360,
+      "sha256": "1df5041c6a4cf4bf675cbe63036b4e8b200da53e52743e107057014e01f458d6",
+      "size": 613097,
       "depends": [
         "libxext",
-        "mesa",
-        "opengl-driver"
+        "mesa"
       ]
     },
     "libgme": {
