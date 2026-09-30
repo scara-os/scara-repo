@@ -2641,6 +2641,28 @@
         "libtiff"
       ]
     },
+    "libICE": {
+      "version": "1.1.1",
+      "arch": "x86_64",
+      "description": "X11 Inter-Client Exchange library",
+      "file": "libICE-1.1.1-x86_64.scc",
+      "sha256": "8007e54df33a1d539110d9a22bf3267abb9c11c45e475568e43e9a56ad2e24df",
+      "size": 43881,
+      "depends": [
+        "glibc"
+      ]
+    },
+    "libSM": {
+      "version": "1.2.4",
+      "arch": "x86_64",
+      "description": "X11 Session Management library",
+      "file": "libSM-1.2.4-x86_64.scc",
+      "sha256": "1f38b7edb9a862e9598b3e27206aba75610f700b2eec4ae7a44c3cec46ef8522",
+      "size": 14629,
+      "depends": [
+        "libICE"
+      ]
+    },
     "libadwaita": {
       "version": "1.9.4-1",
       "arch": "x86_64",
@@ -4592,12 +4614,12 @@
       ]
     },
     "libxcb": {
-      "version": "1.17.0-1",
+      "version": "1.17.0-1.1",
       "arch": "x86_64",
       "description": "X11 client-side library",
-      "file": "libxcb-1.17.0-1-x86_64.scc",
-      "sha256": "9e9a5c88490d3fe90e700c591a7de7a8c881b8ca0f4a6c52eab077977dcbdf06",
-      "size": 1183077,
+      "file": "libxcb-1.17.0-1.1-x86_64.scc",
+      "sha256": "4aa48111febd010247d6fa7db8e9df44f9c51368d0165ab58f942d624ee61b8e",
+      "size": 1210625,
       "depends": [
         "glibc",
         "libxau",
