@@ -6315,6 +6315,17 @@
       "size": 75668,
       "depends": null
     },
+    "sed": {
+      "version": "4.9",
+      "arch": "x86_64",
+      "description": "GNU stream editor for Scara OS",
+      "file": "sed-4.9-x86_64.scc",
+      "sha256": "eae4762e29a46a8ca37f1d4c3c5391580ecab4be742d3f88890add1868d9d07f",
+      "size": 63890,
+      "depends": [
+        "glibc"
+      ]
+    },
     "sh": {
       "version": "1.0.0",
       "arch": "x86_64",
