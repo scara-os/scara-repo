@@ -4618,8 +4618,8 @@
       "arch": "x86_64",
       "description": "X11 client-side library",
       "file": "libxcb-1.17.0-1.1-x86_64.scc",
-      "sha256": "4aa48111febd010247d6fa7db8e9df44f9c51368d0165ab58f942d624ee61b8e",
-      "size": 1210625,
+      "sha256": "8d6a653bf6a39a448f8b1f78f4e97c3df15fb7f996cbccbb9842a3b3fb703fe2",
+      "size": 1216412,
       "depends": [
         "glibc",
         "libxau",
