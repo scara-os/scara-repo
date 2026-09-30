@@ -1381,12 +1381,12 @@
       ]
     },
     "gnome-backgrounds": {
-      "version": "50.0-1",
+      "version": "50.0-1.1",
       "arch": "x86_64",
       "description": "Background images and data for GNOME",
-      "file": "gnome-backgrounds-50.0-1-x86_64.scc",
-      "sha256": "98529898841091ba2fd2baf56197604f674f97f6bf7ef34e94544538ef77b007",
-      "size": 39149175,
+      "file": "gnome-backgrounds-50.0-1.1-x86_64.scc",
+      "sha256": "7b62e693948d60b642a18bba43686f297fa8173dec9805896eaed6b85687f991",
+      "size": 30991481,
       "depends": null
     },
     "gnome-bluetooth-3.0": {
@@ -6239,12 +6239,12 @@
       "depends": null
     },
     "scara-release": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "arch": "x86_64",
       "description": "Berkas identitas rilis resmi Scara OS",
-      "file": "scara-release-1.0.0-x86_64.scc",
-      "sha256": "c0cd4b18dd2870508c9acd5ebca656998455be6b1ec0169d138b905bce5d8754",
-      "size": 402,
+      "file": "scara-release-1.0.1-x86_64.scc",
+      "sha256": "e50a542fe4a0017ad04b7d471b39250f181404c3f40c90124cbb06949859f274",
+      "size": 3586079,
       "depends": null
     },
     "scara-utils": {
