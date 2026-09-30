@@ -4614,12 +4614,12 @@
       ]
     },
     "libxcb": {
-      "version": "1.17.0-1.1",
+      "version": "1.17.0-1.2",
       "arch": "x86_64",
       "description": "X11 client-side library",
-      "file": "libxcb-1.17.0-1.1-x86_64.scc",
-      "sha256": "8d6a653bf6a39a448f8b1f78f4e97c3df15fb7f996cbccbb9842a3b3fb703fe2",
-      "size": 1216412,
+      "file": "libxcb-1.17.0-1.2-x86_64.scc",
+      "sha256": "27a8c737b402380b613daafc8ea572b94224dd03b652f815941f213d941f596f",
+      "size": 1216426,
       "depends": [
         "glibc",
         "libxau",
