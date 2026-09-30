@@ -1864,6 +1864,17 @@
         "gsettings-system-schemas"
       ]
     },
+    "gsettings-system-schemas": {
+      "version": "1.0",
+      "arch": "x86_64",
+      "description": "Compatibility package providing system schemas for GNOME",
+      "file": "gsettings-system-schemas-1.0-x86_64.scc",
+      "sha256": "60fe3b2121adf705ccea51e2b49a0c85e24f0aff08b6c4a4a0acdb2664f66d48",
+      "size": 271,
+      "depends": [
+        "gsettings-desktop-schemas"
+      ]
+    },
     "gsm": {
       "version": "1.0.24-1",
       "arch": "x86_64",
