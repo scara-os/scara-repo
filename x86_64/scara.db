@@ -5505,12 +5505,12 @@
       ]
     },
     "nss": {
-      "version": "3.130-1",
+      "version": "3.130-1.1",
       "arch": "x86_64",
       "description": "Network Security Services",
-      "file": "nss-3.130-1-x86_64.scc",
-      "sha256": "aeec4b074fb80393d8dbf50b9a92b7c9b60382857166b24987b0e4179267a4b2",
-      "size": 2170050,
+      "file": "nss-3.130-1.1-x86_64.scc",
+      "sha256": "2d05e70997c5617bd0b4ca18cb33da898824a7bd346313f1f56c9a4d9ed8508f",
+      "size": 2921419,
       "depends": [
         "glibc",
         "nspr",
