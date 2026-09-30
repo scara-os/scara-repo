@@ -58,6 +58,15 @@
         "glibc"
       ]
     },
+    "adwaita-fonts": {
+      "version": "47.0",
+      "arch": "x86_64",
+      "description": "Font default Adwaita Sans dan Mono untuk lingkungan desktop GNOME",
+      "file": "adwaita-fonts-47.0-x86_64.scc",
+      "sha256": "f5e052fe87e41d3b8debe46db9569102140ac8aa92690443e7887663b3e69531",
+      "size": 3400538,
+      "depends": null
+    },
     "alsa-card-profiles": {
       "version": "1.6.9-1",
       "arch": "x86_64",
@@ -1355,6 +1364,50 @@
         "glibc",
         "libgcc",
         "libstdc++"
+      ]
+    },
+    "gnome": {
+      "version": "50.1.0.1",
+      "arch": "x86_64",
+      "description": "Meta-package Desktop Environment GNOME untuk Scara OS",
+      "file": "gnome-50.1.0.1-x86_64.scc",
+      "sha256": "c4b10a8280cf017381c98f48136cb3d82edb41b3facbd4c810d88dc1be7f6ec4",
+      "size": 499,
+      "depends": [
+        "gdm",
+        "gnome-shell",
+        "mutter",
+        "gnome-session",
+        "gnome-settings-daemon",
+        "gnome-control-center",
+        "gsettings-desktop-schemas",
+        "xdg-desktop-portal-gnome",
+        "nautilus",
+        "gnome-console",
+        "gnome-text-editor",
+        "gnome-calculator",
+        "gnome-calendar",
+        "gnome-clocks",
+        "gnome-disk-utility",
+        "gnome-system-monitor",
+        "gnome-font-viewer",
+        "loupe",
+        "showtime",
+        "papers",
+        "baobab",
+        "snapshot",
+        "accountsservice",
+        "dconf",
+        "geoclue",
+        "gnome-backgrounds",
+        "gnome-keyring",
+        "gvfs",
+        "localsearch",
+        "networkmanager",
+        "polkit",
+        "tinysparql",
+        "upower",
+        "xdg-user-dirs-gtk"
       ]
     },
     "gnome-app-list": {
