@@ -5644,20 +5644,14 @@
       ]
     },
     "pam": {
-      "version": "1.7.2-2",
+      "version": "1.7.2-2.1",
       "arch": "x86_64",
-      "description": "PAM (Pluggable Authentication Modules) library",
-      "file": "pam-1.7.2-2-x86_64.scc",
-      "sha256": "2ec7dc799cc329b914a9116ca8b4b1caa4bbdc90780c797471dcc00d4a983c05",
-      "size": 828670,
+      "description": "Pluggable Authentication Modules (PAM) and auth dependencies",
+      "file": "pam-1.7.2-2.1-x86_64.scc",
+      "sha256": "ff2ed1efdbcd648e0337e658847842a648336387d6e826649a726250df90bde4",
+      "size": 1818591,
       "depends": [
-        "audit",
-        "glibc",
-        "libnsl",
-        "libtirpc",
-        "libxcrypt",
-        "pambase",
-        "systemd-libs"
+        "glibc"
       ]
     },
     "pambase": {
