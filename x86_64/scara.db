@@ -3172,6 +3172,17 @@
         "wayland"
       ]
     },
+    "libdeflate": {
+      "version": "1.26",
+      "arch": "x86_64",
+      "description": "Heavily optimized library for DEFLATE/zlib/gzip compression and decompression",
+      "file": "libdeflate-1.26-x86_64.scc",
+      "sha256": "b5f1e300be396ba6992a3f88ed17ca60b3ddc8b5f0732a34a9e235954ae80500",
+      "size": 68062,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libdisplay-info": {
       "version": "0.3.0-1",
       "arch": "x86_64",
