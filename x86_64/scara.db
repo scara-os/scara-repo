@@ -2732,6 +2732,15 @@
         "libtiff"
       ]
     },
+    "leancrypto": {
+      "version": "1.0.0",
+      "arch": "x86_64",
+      "description": "Lean cryptographic library",
+      "file": "leancrypto-1.0.0-x86_64.scc",
+      "sha256": "9e84b80d3ee91439ed8c137a72e48d1eff7c3827706b58333f5304cb05f4001a",
+      "size": 14388,
+      "depends": null
+    },
     "libICE": {
       "version": "1.1.1",
       "arch": "x86_64",
