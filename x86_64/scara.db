@@ -4953,6 +4953,19 @@
         "zlib"
       ]
     },
+    "libxft": {
+      "version": "2.3.9",
+      "arch": "x86_64",
+      "description": "FreeType-based font drawing library for X",
+      "file": "libxft-2.3.9-x86_64.scc",
+      "sha256": "abbc0c56fc543def7d49ce9064730fc576528303fcbf7ffe463026a7063905bf",
+      "size": 64736,
+      "depends": [
+        "fontconfig",
+        "freetype2",
+        "libxrender"
+      ]
+    },
     "libxi": {
       "version": "1.8.3-1",
       "arch": "x86_64",
