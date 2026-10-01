@@ -89,6 +89,15 @@
         "glibc"
       ]
     },
+    "alsa-topology-conf": {
+      "version": "1.2.5.1",
+      "arch": "x86_64",
+      "description": "ALSA topology configuration files",
+      "file": "alsa-topology-conf-1.2.5.1-x86_64.scc",
+      "sha256": "a95a20cf52d2d2dfdfa75ccd16efcdf7095aa1de96d207af765ef73a88d5db83",
+      "size": 16923,
+      "depends": null
+    },
     "aom": {
       "version": "3.15.1-1",
       "arch": "x86_64",
