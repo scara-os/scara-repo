@@ -4529,6 +4529,18 @@
       "size": 64432,
       "depends": null
     },
+    "libssh": {
+      "version": "0.12.2",
+      "arch": "x86_64",
+      "description": "Library implementing the SSH protocol",
+      "file": "libssh-0.12.2-x86_64.scc",
+      "sha256": "e05534a36ad76f092e54ed64d79baccf8af465fb6b706434cfbf4390780da0e1",
+      "size": 299242,
+      "depends": [
+        "openssl",
+        "zlib"
+      ]
+    },
     "libssh2": {
       "version": "1.11.1",
       "arch": "x86_64",
