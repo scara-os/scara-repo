@@ -5356,6 +5356,15 @@
       "size": 425430,
       "depends": null
     },
+    "lzo": {
+      "version": "2.10",
+      "arch": "x86_64",
+      "description": "Portable lossless data compression library",
+      "file": "lzo-2.10-x86_64.scc",
+      "sha256": "aede2b41007a2d58ac9fac8efe173be59d3478083cc06caf24cd9c8a0192239f",
+      "size": 635798,
+      "depends": null
+    },
     "malcontent": {
       "version": "0.14.0-4",
       "arch": "x86_64",
