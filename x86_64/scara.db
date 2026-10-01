@@ -4175,6 +4175,17 @@
       "size": 2239601,
       "depends": null
     },
+    "libplacebo": {
+      "version": "7.360.1",
+      "arch": "x86_64",
+      "description": "Reusable library for GPU-accelerated image/video processing primitives",
+      "file": "libplacebo-7.360.1-x86_64.scc",
+      "sha256": "5bb4e48c4abf4e287a7978f37cf8cba886333eb8177053b69bf6ffe85bbdb362",
+      "size": 625889,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "libplist": {
       "version": "2.7.0-3",
       "arch": "x86_64",
