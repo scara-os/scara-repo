@@ -98,6 +98,15 @@
       "size": 16923,
       "depends": null
     },
+    "alsa-ucm-conf": {
+      "version": "1.2.13",
+      "arch": "any",
+      "description": "ALSA Use Case Manager configuration files",
+      "file": "alsa-ucm-conf-1.2.13-any.scc",
+      "sha256": "9e98b94c36089d690f88a70eb43999224b5087d02ec2e1705509a1b8824203ce",
+      "size": 85944,
+      "depends": null
+    },
     "aom": {
       "version": "3.15.1-1",
       "arch": "x86_64",
