@@ -1806,6 +1806,17 @@
       "size": 72519,
       "depends": null
     },
+    "gperftools": {
+      "version": "2.18.1",
+      "arch": "x86_64",
+      "description": "Fast, multi-threaded malloc() and performance analysis tools",
+      "file": "gperftools-2.18.1-x86_64.scc",
+      "sha256": "5e99be373476d1ce34acc5b8212ea476d2ff98a8a94d897b63ac8cd9629a14e0",
+      "size": 861668,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "graphene": {
       "version": "1.10.8-2",
       "arch": "x86_64",
