@@ -3418,6 +3418,17 @@
         "libffi"
       ]
     },
+    "libgl": {
+      "version": "1.7.0",
+      "arch": "x86_64",
+      "description": "The GL Vendor-Neutral Dispatch library (providing libgl)",
+      "file": "libgl-1.7.0-x86_64.scc",
+      "sha256": "a59124d57ab0f3dd6894a51705e4e4f44814961ac37eb2ad2fe46c6851457687",
+      "size": 613066,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libglvnd": {
       "version": "1.7.0-3",
       "arch": "x86_64",
