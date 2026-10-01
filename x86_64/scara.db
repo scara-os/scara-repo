@@ -2876,6 +2876,17 @@
         "libunibreak"
       ]
     },
+    "libasyncns": {
+      "version": "1.0.8+r3+g68cd5af",
+      "arch": "x86_64",
+      "description": "A C library for executing name service queries asynchronously",
+      "file": "libasyncns-1.0.8+r3+g68cd5af-x86_64.scc",
+      "sha256": "4e263982460507515b8a6ff8f045954a51e3a354338d88e7fd9eea610a5bcec1",
+      "size": 16226,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libatomic": {
       "version": "16.2.1+r23+gd564253eb6c8-1",
       "arch": "x86_64",
