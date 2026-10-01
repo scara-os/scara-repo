@@ -553,6 +553,15 @@
       "size": 2791596,
       "depends": null
     },
+    "dav1d": {
+      "version": "1.4.1",
+      "arch": "x86_64",
+      "description": "AV1 cross-platform decoder focused on speed and correctness",
+      "file": "dav1d-1.4.1-x86_64.scc",
+      "sha256": "ab7d42a566a171492e4d99540ddfce3bcabc01e575779663e92f24749795229c",
+      "size": 790138,
+      "depends": null
+    },
     "dbus": {
       "version": "1.16.2-1",
       "arch": "x86_64",
