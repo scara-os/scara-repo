@@ -4571,6 +4571,17 @@
         "gcc-libs"
       ]
     },
+    "libunibreak": {
+      "version": "7.0",
+      "arch": "x86_64",
+      "description": "Implementation of the line and word breaking algorithms from the Unicode Standard",
+      "file": "libunibreak-7.0-x86_64.scc",
+      "sha256": "657711ada25b287baa37aa70e07fd41a59bc310779bc6d3c6dd1eeaf4adb7786",
+      "size": 34283,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libunistring": {
       "version": "1.4.2-1",
       "arch": "x86_64",
