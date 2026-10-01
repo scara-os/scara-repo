@@ -2504,6 +2504,15 @@
       "size": 8392778,
       "depends": null
     },
+    "jack": {
+      "version": "1.9.22",
+      "arch": "x86_64",
+      "description": "JACK Audio Connection Kit",
+      "file": "jack-1.9.22-x86_64.scc",
+      "sha256": "16d561da6b6631d0f3593361fc37b3e36b209d2158efb3ce4db05262210532d8",
+      "size": 664584,
+      "depends": null
+    },
     "jack2": {
       "version": "1.9.22-2",
       "arch": "x86_64",
