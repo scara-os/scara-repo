@@ -4479,6 +4479,17 @@
         "zlib"
       ]
     },
+    "libsoxr": {
+      "version": "0.1.3",
+      "arch": "x86_64",
+      "description": "High quality one-dimensional sample-rate conversion library",
+      "file": "libsoxr-0.1.3-x86_64.scc",
+      "sha256": "efedbee6239c031f3eec5e224ceb434fe9edce2cb4ad65e4d83b52ab47d41126",
+      "size": 91328,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "libspeechd": {
       "version": "0.12.1-3",
       "arch": "x86_64",
