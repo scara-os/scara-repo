@@ -2543,6 +2543,17 @@
         "glibc"
       ]
     },
+    "jbigkit": {
+      "version": "2.1",
+      "arch": "x86_64",
+      "description": "JBIG1 lossless image compression library",
+      "file": "jbigkit-2.1-x86_64.scc",
+      "sha256": "bafb64795b1cc92628efb6cc82f48da9417ec4c1e36db6fc5771fc942c4e2abf",
+      "size": 58182,
+      "depends": [
+        "glibc"
+      ]
+    },
     "js140": {
       "version": "140.16.0-1",
       "arch": "x86_64",
