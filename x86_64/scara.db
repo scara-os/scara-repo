@@ -6498,6 +6498,18 @@
       "size": 112871,
       "depends": null
     },
+    "rubberband": {
+      "version": "4.0.0",
+      "arch": "x86_64",
+      "description": "An audio time-stretching and pitch-shifting library and utility program",
+      "file": "rubberband-4.0.0-x86_64.scc",
+      "sha256": "24c1d9d1d2365009b2a9fd7119edcf3af279cd015507bf267bf7ce64a01366ed",
+      "size": 667997,
+      "depends": [
+        "gcc-libs",
+        "glibc"
+      ]
+    },
     "rygel": {
       "version": "45.2-1",
       "arch": "x86_64",
