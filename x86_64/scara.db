@@ -4388,6 +4388,18 @@
         "gcc-libs"
       ]
     },
+    "libndp": {
+      "version": "1.9-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency for NetworkManager/GDM",
+      "file": "libndp-1.9-2-x86_64.scc",
+      "sha256": "30290059299613b4ba2458ca50bc15db5ce927e2d50cf81d61d6e1bbae4def73",
+      "size": 19571,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libnfs": {
       "version": "7.0.2-2",
       "arch": "x86_64",
@@ -7860,13 +7872,16 @@
       ]
     },
     "util-linux": {
-      "version": "2.39.3",
+      "version": "2.42.4-4",
       "arch": "x86_64",
-      "description": "Beragam utilitas sistem dasar Linux (fdisk, lsblk, mount, blkid, dll)",
-      "file": "util-linux-2.39.3-x86_64.scc",
-      "sha256": "e9e25cce3d31c3538dd27ac113dfd64ddb95c204ce03d2e8c62fc492c2faea4f",
-      "size": 15601315,
-      "depends": null
+      "description": "Missing runtime dependency for NetworkManager/GDM",
+      "file": "util-linux-2.42.4-4-x86_64.scc",
+      "sha256": "ebdfd01fbcbf12883fe9da774001086dc61956230a33735b34f882a7308f46a7",
+      "size": 16498793,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "util-linux-libs": {
       "version": "2.42.4-1",
