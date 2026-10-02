@@ -813,12 +813,12 @@
       ]
     },
     "evolution-data-server": {
-      "version": "3.60.3-10",
+      "version": "3.60.3",
       "arch": "x86_64",
       "description": "Missing runtime dependency",
-      "file": "evolution-data-server-3.60.3-10-x86_64.scc",
-      "sha256": "eb55eabdb54122a467235c69af6af3ff22c8921a63a5ae6eca83475d580f9ddb",
-      "size": 7057057,
+      "file": "evolution-data-server-3.60.3-x86_64.scc",
+      "sha256": "9070b758fd9733a9631e9210841372fc7c7a777433894bb5d0fc09e52e60cb14",
+      "size": 7058797,
       "depends": [
         "glibc",
         "gcc-libs"
@@ -1413,6 +1413,18 @@
       "file": "glycin-2.1.6-10-x86_64.scc",
       "sha256": "50f58cccc83422ba5839f6426413497097dd66f1800a2593d404cdc3845474d0",
       "size": 7995849,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "glycin-gtk4": {
+      "version": "2.1.6",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "glycin-gtk4-2.1.6-x86_64.scc",
+      "sha256": "60f110f75238676aa67d04e4f56401f8bda3338d6e8527f0f3b12c0d14573284",
+      "size": 144498,
       "depends": [
         "glibc",
         "gcc-libs"
@@ -4181,16 +4193,15 @@
       ]
     },
     "libnautilus-extension": {
-      "version": "50.3.1-1",
+      "version": "50.3.2",
       "arch": "x86_64",
-      "description": "Extension interface for Nautilus",
-      "file": "libnautilus-extension-50.3.1-1-x86_64.scc",
-      "sha256": "44ebf482de4e081047bb36fc9a2892ddf70cd07e6fdba0026a10e1e4dbc9107d",
-      "size": 32967,
+      "description": "Missing runtime dependency",
+      "file": "libnautilus-extension-50.3.2-x86_64.scc",
+      "sha256": "d45877074c033ab00aec31a2acbacf86bc06d0087da420bf1c9826ed6f90881b",
+      "size": 32986,
       "depends": [
-        "glib2",
         "glibc",
-        "libgcc"
+        "gcc-libs"
       ]
     },
     "libnfs": {
