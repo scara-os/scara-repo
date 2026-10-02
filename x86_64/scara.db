@@ -174,24 +174,15 @@
       "depends": null
     },
     "at-spi2-core": {
-      "version": "2.60.7-1",
+      "version": "2.60.7",
       "arch": "x86_64",
-      "description": "Protocol definitions and daemon for D-Bus at-spi",
-      "file": "at-spi2-core-2.60.7-1-x86_64.scc",
-      "sha256": "8bc73d15c592c5ed180e10c87708f6fcf7403adaac6b290c92a6e7420cfd36fd",
-      "size": 839008,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "at-spi2-core-2.60.7-x86_64.scc",
+      "sha256": "f61fa5c7e8a1b88199f051d17a545c678a47eb0584d8c1f29a33e1819a8bba47",
+      "size": 839113,
       "depends": [
-        "bash",
-        "dbus",
-        "glib2",
         "glibc",
-        "gsettings-desktop-schemas",
-        "libgcc",
-        "libx11",
-        "libxi",
-        "libxtst",
-        "systemd-libs",
-        "xorg-xprop"
+        "gcc-libs"
       ]
     },
     "audit": {
@@ -475,13 +466,16 @@
       "depends": null
     },
     "colord": {
-      "version": "1.4.8-1",
+      "version": "1.4.8",
       "arch": "x86_64",
-      "description": "System daemon for managing color devices",
-      "file": "colord-1.4.8-1-x86_64.scc",
-      "sha256": "88f6dd84358ecaecf1f1a4260e801b24b986f640e8d3513c78527bef39cc909c",
-      "size": 2268220,
-      "depends": null
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "colord-1.4.8-x86_64.scc",
+      "sha256": "4cc2e69d6bd951ddeb53fdb549d0181fc3557282c29eae34fd91b7ecfb369a89",
+      "size": 2269208,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "colord-gtk-common": {
       "version": "0.3.1-1",
@@ -1185,20 +1179,15 @@
       ]
     },
     "gcr-4": {
-      "version": "4.4.1-1",
+      "version": "4.4.1",
       "arch": "x86_64",
-      "description": "A library for bits of crypto UI and parsing",
-      "file": "gcr-4-4.4.1-1-x86_64.scc",
-      "sha256": "4f05f99f2669b56b660817ee498fc5ce3366389fc9b0fba928570b0adba02761",
-      "size": 745189,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "gcr-4-4.4.1-x86_64.scc",
+      "sha256": "6c0600bc68b6e524b797a1431b8aef56b2262038151bd1d0bfbb6440c5632e15",
+      "size": 745279,
       "depends": [
-        "glib2",
         "glibc",
-        "gnutls",
-        "libp11-kit",
-        "libsecret",
-        "openssh",
-        "systemd-libs"
+        "gcc-libs"
       ]
     },
     "gdbm": {
@@ -1300,13 +1289,16 @@
       ]
     },
     "gjs": {
-      "version": "1.88.1-1",
+      "version": "2.1.88.1",
       "arch": "x86_64",
-      "description": "Javascript Bindings for GNOME",
-      "file": "gjs-1.88.1-1-x86_64.scc",
-      "sha256": "beb5e9f2f0e1d85f7adabfc89f4102eb549383e76d3f0c7552077ffbebd8a973",
-      "size": 856301,
-      "depends": null
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "gjs-2.1.88.1-x86_64.scc",
+      "sha256": "b1b1e7f2a56ec629c6db3d2c899da72e54c4e9e98f0bf265d5d181012a25bb78",
+      "size": 856356,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "glib-networking": {
       "version": "1.2.80.1",
@@ -1852,15 +1844,15 @@
       ]
     },
     "graphene": {
-      "version": "1.10.8-2",
+      "version": "1.10.8",
       "arch": "x86_64",
-      "description": "Thin layer of graphic data types",
-      "file": "graphene-1.10.8-2-x86_64.scc",
-      "sha256": "708a64c200927cc1475777d19c08f4c9c3f0d03741db8f02d5ce726f474785e7",
-      "size": 133697,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "graphene-1.10.8-x86_64.scc",
+      "sha256": "965b74475d338fb2ee4502037e453e123fcbface06e8d7a82705a789fe456296",
+      "size": 133726,
       "depends": [
-        "glib2",
-        "glibc"
+        "glibc",
+        "gcc-libs"
       ]
     },
     "graphite": {
@@ -3060,19 +3052,15 @@
       ]
     },
     "libcanberra": {
-      "version": "0.30+r2+gc0620e4-6",
+      "version": "1.0.30.r2.gc0620e4",
       "arch": "x86_64",
-      "description": "A small and lightweight implementation of the XDG Sound Theme Specification",
-      "file": "libcanberra-0.30+r2+gc0620e4-6-x86_64.scc",
-      "sha256": "0843b1b74ac345149acbd267068823b220f1015f96f2e4cca04ecf585cfc51d7",
-      "size": 95985,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libcanberra-1.0.30.r2.gc0620e4-x86_64.scc",
+      "sha256": "5b89b337fc437e26e2b41d60afb7f9b498afdd589c0052611bfe0e536fbd3bb3",
+      "size": 96224,
       "depends": [
-        "alsa-lib",
-        "libltdl",
-        "libpulse",
-        "libvorbis",
-        "sound-theme-freedesktop",
-        "tdb"
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libcap": {
@@ -3202,6 +3190,18 @@
         "gcc-libs"
       ]
     },
+    "libdatrie": {
+      "version": "0.2.14",
+      "arch": "x86_64",
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libdatrie-0.2.14-x86_64.scc",
+      "sha256": "72584ac60b552f07502b73152c07f74c32e1b4bcf092326a18a4453de9f383d9",
+      "size": 129284,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libdbusmenu-glib": {
       "version": "18.10.20180917-2",
       "arch": "x86_64",
@@ -3287,14 +3287,15 @@
       ]
     },
     "libdisplay-info": {
-      "version": "0.3.0-1",
+      "version": "0.3.0",
       "arch": "x86_64",
-      "description": "EDID and DisplayID library",
-      "file": "libdisplay-info-0.3.0-1-x86_64.scc",
-      "sha256": "2d434606c1fbcb9e4d60d86fe74dfda9a20d73d531b249d3d0b1da18d08a197b",
-      "size": 139941,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libdisplay-info-0.3.0-x86_64.scc",
+      "sha256": "30326dbbe86a0dd92b68c92d5bba7e68f9c07daf16be546dcf82c35cf1ec2ad4",
+      "size": 139834,
       "depends": [
-        "glibc"
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libdmapsharing": {
@@ -3371,17 +3372,15 @@
       "depends": null
     },
     "libei": {
-      "version": "1.6.0-1",
+      "version": "1.6.0",
       "arch": "x86_64",
-      "description": "Library for Emulated Input",
-      "file": "libei-1.6.0-1-x86_64.scc",
-      "sha256": "408b0760d99bb88fa166921f71ee31fc6bb17721aa18e1c0a03c75d191c3d685",
-      "size": 148207,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libei-1.6.0-x86_64.scc",
+      "sha256": "8537da548448f61a16c5b8762f1f4297b67513e8504bb6647fda4133be50abb0",
+      "size": 148227,
       "depends": [
-        "gcc-libs",
         "glibc",
-        "libevdev",
-        "systemd-libs"
+        "gcc-libs"
       ]
     },
     "libelf": {
@@ -3820,20 +3819,15 @@
       ]
     },
     "libinput": {
-      "version": "1.32.0-1",
+      "version": "1.32.0",
       "arch": "x86_64",
-      "description": "Input device management and event handling library",
-      "file": "libinput-1.32.0-1-x86_64.scc",
-      "sha256": "315b9b7bfbda6642463e376be3e807fd4d27f8a61eb7673635e1e1931c9165a4",
-      "size": 264011,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libinput-1.32.0-x86_64.scc",
+      "sha256": "a729f0789be46a14d631e00c66d48d4c436ab7fd6edb957fb345158456555e30",
+      "size": 264021,
       "depends": [
         "glibc",
-        "libevdev",
-        "libgcc",
-        "libwacom",
-        "lua54",
-        "mtdev",
-        "systemd-libs"
+        "gcc-libs"
       ]
     },
     "libiptcdata": {
@@ -4540,17 +4534,15 @@
       ]
     },
     "libsecret": {
-      "version": "0.21.8.2-1",
+      "version": "0.21.8.2",
       "arch": "x86_64",
-      "description": "Library for storing and retrieving passwords and other secrets",
-      "file": "libsecret-0.21.8.2-1-x86_64.scc",
-      "sha256": "8ea38063a8aaa59f0ad30e7cd7ed71aafd1b2fd181c2925837eef6e9387dd434",
-      "size": 210313,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libsecret-0.21.8.2-x86_64.scc",
+      "sha256": "f046182a3e1ded65f24c169ac5caaf2000891d7007caf61380b91fd2b071064d",
+      "size": 210328,
       "depends": [
-        "glib2",
         "glibc",
-        "libgcrypt",
-        "tpm2-tss"
+        "gcc-libs"
       ]
     },
     "libshout": {
@@ -4988,18 +4980,15 @@
       ]
     },
     "libwacom": {
-      "version": "2.20.0-1",
+      "version": "2.20.0",
       "arch": "x86_64",
-      "description": "Library to identify Wacom tablets and their features",
-      "file": "libwacom-2.20.0-1-x86_64.scc",
-      "sha256": "f421d3439bfad2ad602355cb7b18df4d578072302d9fc8895559d96a9e0e1ab1",
-      "size": 245821,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libwacom-2.20.0-x86_64.scc",
+      "sha256": "8adbe6d400c1db739df9bb340b74a7177ef086347bc77f2839ca2a7e65b1b3cd",
+      "size": 246639,
       "depends": [
-        "glib2",
         "glibc",
-        "libevdev",
-        "libgcc",
-        "libgudev"
+        "gcc-libs"
       ]
     },
     "libwebp": {
@@ -5060,17 +5049,15 @@
       ]
     },
     "libxcomposite": {
-      "version": "0.4.7-1",
+      "version": "0.4.7",
       "arch": "x86_64",
-      "description": "X11 Composite extension library",
-      "file": "libxcomposite-0.4.7-1-x86_64.scc",
-      "sha256": "58c0370d32f375164098271c65dfde2932ef38301e199d9a104c43e912d0101e",
-      "size": 9952,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libxcomposite-0.4.7-x86_64.scc",
+      "sha256": "59f6d1825f1baafb61d9912c26035fbe202b397a2c3d9b6e606c08523c213ad9",
+      "size": 9956,
       "depends": [
         "glibc",
-        "libx11",
-        "libxfixes",
-        "xorgproto"
+        "gcc-libs"
       ]
     },
     "libxcrypt": {
@@ -5085,19 +5072,15 @@
       ]
     },
     "libxcursor": {
-      "version": "1.2.3-1",
+      "version": "1.2.3",
       "arch": "x86_64",
-      "description": "X cursor management library",
-      "file": "libxcursor-1.2.3-1-x86_64.scc",
-      "sha256": "0c3046bb08ff43f8ff60ef3c93b88dd09054cae665c8775be8a0610e955c9282",
-      "size": 34258,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libxcursor-1.2.3-x86_64.scc",
+      "sha256": "a65011d6008836c8f4fc24bd9e977e5aa241b9748ff7663c24218cc3bc42224b",
+      "size": 34301,
       "depends": [
-        "default-cursors",
         "glibc",
-        "libx11",
-        "libxfixes",
-        "libxrender",
-        "xorgproto"
+        "gcc-libs"
       ]
     },
     "libxcvt": {
@@ -5192,32 +5175,27 @@
       ]
     },
     "libxi": {
-      "version": "1.8.3-1",
+      "version": "1.8.3",
       "arch": "x86_64",
-      "description": "X11 Input extension library",
-      "file": "libxi-1.8.3-1-x86_64.scc",
-      "sha256": "9efff32aeb8bb6d5ff85f27d3d70a6165102f13369a7844f053266786ce31e4a",
-      "size": 168206,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libxi-1.8.3-x86_64.scc",
+      "sha256": "f74ef7ac81858d173de673f47d280810619294b18798bf9dfba37b25f26c04cc",
+      "size": 168261,
       "depends": [
         "glibc",
-        "libx11",
-        "libxext",
-        "libxfixes",
-        "xorgproto"
+        "gcc-libs"
       ]
     },
     "libxinerama": {
-      "version": "1.1.6-1",
+      "version": "1.1.6",
       "arch": "x86_64",
-      "description": "X11 Xinerama extension library",
-      "file": "libxinerama-1.1.6-1-x86_64.scc",
-      "sha256": "1346d7d3b111d581c24a8fc11dea8f8ba6c84f112a3da3245529230371d38fc5",
-      "size": 8334,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libxinerama-1.1.6-x86_64.scc",
+      "sha256": "9efe39337e42e96ddaa1b595843ba3ac5bb030cf4147f21310822d191e30d087",
+      "size": 8348,
       "depends": [
         "glibc",
-        "libx11",
-        "libxext",
-        "xorgproto"
+        "gcc-libs"
       ]
     },
     "libxkbcommon": {
@@ -5290,17 +5268,15 @@
       ]
     },
     "libxrandr": {
-      "version": "1.5.5-1",
+      "version": "1.5.5",
       "arch": "x86_64",
-      "description": "X11 RandR extension library",
-      "file": "libxrandr-1.5.5-1-x86_64.scc",
-      "sha256": "073223cf0a5cbda55202a5cf9b3e2a80f322007c91ef4cbfc33031185cdaee0a",
-      "size": 28205,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "libxrandr-1.5.5-x86_64.scc",
+      "sha256": "9e36be41ad0339696165f56ed2167618e6cd7ebf5c61e2065acab9184227aece",
+      "size": 28251,
       "depends": [
         "glibc",
-        "libx11",
-        "libxext",
-        "libxrender"
+        "gcc-libs"
       ]
     },
     "libxrender": {
@@ -7156,17 +7132,15 @@
       ]
     },
     "startup-notification": {
-      "version": "0.12-9",
+      "version": "0.12",
       "arch": "x86_64",
-      "description": "Libary to monitor and display application startup",
-      "file": "startup-notification-0.12-9-x86_64.scc",
-      "sha256": "a28b65c2366b43f809f84797a5eaabb9580a825468f41e84ae43f7ec95c52c14",
-      "size": 18397,
+      "description": "Missing runtime libraries for gnome-shell",
+      "file": "startup-notification-0.12-x86_64.scc",
+      "sha256": "a51a25e1162818ce751d713ee508e1867fff940c6f4783e69c81b29ac4f39007",
+      "size": 18413,
       "depends": [
         "glibc",
-        "libx11",
-        "libxcb",
-        "xcb-util"
+        "gcc-libs"
       ]
     },
     "sudo": {
