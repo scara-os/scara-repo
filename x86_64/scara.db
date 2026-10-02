@@ -3488,6 +3488,18 @@
         "libx11"
       ]
     },
+    "libevdev": {
+      "version": "1.13.7",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "libevdev-1.13.7-x86_64.scc",
+      "sha256": "b45082ea93232245e4406df433f2437828f534ec3dc57e33ea329f49c29d4b04",
+      "size": 67111,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libexif": {
       "version": "0.6.26",
       "arch": "x86_64",
@@ -4883,6 +4895,18 @@
         "krb5"
       ]
     },
+    "libtool": {
+      "version": "2.6.2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "libtool-2.6.2-x86_64.scc",
+      "sha256": "14a26c258c79692ad4b527b180034b7eed5ac213de9f1cbd1336a40b3ed7e75d",
+      "size": 686697,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libtsan": {
       "version": "14.1.0",
       "arch": "x86_64",
@@ -5746,13 +5770,16 @@
       "depends": null
     },
     "lua": {
-      "version": "5.5.1-1",
+      "version": "5.5.1",
       "arch": "x86_64",
-      "description": "Powerful lightweight programming language designed for extending applications",
-      "file": "lua-5.5.1-1-x86_64.scc",
-      "sha256": "bc44a1f8394bac56bfaa9fdf594a027f08697cbc2055878da35ec5c980aa8a5f",
-      "size": 705065,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "lua-5.5.1-x86_64.scc",
+      "sha256": "013b7542a5aed1d0a043a7b8a8d3a905e34e500b4fae61362337857b1d00abf7",
+      "size": 705051,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "lua54": {
       "version": "5.4.9-1",
@@ -5890,6 +5917,18 @@
       "sha256": "22c5bd29c55a5fe1c66a13f94288d93011dffed8146ac646ce0a5c1c23416267",
       "size": 70195,
       "depends": null
+    },
+    "mtdev": {
+      "version": "1.1.7",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "mtdev-1.1.7-x86_64.scc",
+      "sha256": "f96408a1b3e7545f6edc19efa322590946beb3f12b77a77397acf39e5aa0d7be",
+      "size": 16779,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "mutter": {
       "version": "50.5-1",
@@ -7334,6 +7373,18 @@
         "glibc"
       ]
     },
+    "tdb": {
+      "version": "1.4.15",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "tdb-1.4.15-x86_64.scc",
+      "sha256": "ce26fe3bbfeffb7f5490deb06706cb26d32d5f3634bf270acddf0916073c0986",
+      "size": 82941,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "tecla": {
       "version": "50.0-1",
       "arch": "x86_64",
@@ -7393,18 +7444,15 @@
       ]
     },
     "tpm2-tss": {
-      "version": "4.2.0-2",
+      "version": "4.2.0",
       "arch": "x86_64",
-      "description": "Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)",
-      "file": "tpm2-tss-4.2.0-2-x86_64.scc",
-      "sha256": "bacdd99a4247447f4e788f5b68cceb37d4a511634cc6b75d97d09748b31c48af",
-      "size": 1382775,
+      "description": "Missing runtime dependency",
+      "file": "tpm2-tss-4.2.0-x86_64.scc",
+      "sha256": "af671d440ec5b91115554425a5201dd8aa8c094d32fe5310a4bd7ff7f903c591",
+      "size": 1382934,
       "depends": [
-        "curl",
         "glibc",
-        "json-c",
-        "openssl",
-        "util-linux-libs"
+        "gcc-libs"
       ]
     },
     "twolame": {
