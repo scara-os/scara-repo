@@ -2498,14 +2498,15 @@
       "depends": null
     },
     "hidapi": {
-      "version": "0.15.0-1",
+      "version": "0.15.0-2",
       "arch": "x86_64",
-      "description": "Simple library for communicating with USB and Bluetooth HID devices",
-      "file": "hidapi-0.15.0-1-x86_64.scc",
-      "sha256": "3fb45fea0bd9cdb7d216bcee6a2dccf9bbce02139a5760f43c8f44e2f3645aee",
-      "size": 45134,
+      "description": "Missing runtime dependency",
+      "file": "hidapi-0.15.0-2-x86_64.scc",
+      "sha256": "f3da7c0e1f2b79b80749e02155d82bb5130376c3b332c00246592e0fdf03072e",
+      "size": 45140,
       "depends": [
-        "systemd-libs"
+        "glibc",
+        "gcc-libs"
       ]
     },
     "highway": {
@@ -5486,6 +5487,18 @@
       "depends": [
         "glibc",
         "libx11"
+      ]
+    },
+    "libyuv": {
+      "version": "r2921.644251f25-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "libyuv-r2921.644251f25-2-x86_64.scc",
+      "sha256": "85c6b7a2557bcba54aa5e38584ef0904d37dbb43b51e0e35f1690b174a8e06f6",
+      "size": 327564,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libzip": {
