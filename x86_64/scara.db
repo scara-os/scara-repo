@@ -6806,6 +6806,17 @@
       "size": 1849282,
       "depends": null
     },
+    "sndio": {
+      "version": "1.10.0",
+      "arch": "x86_64",
+      "description": "A small audio and MIDI framework part of the OpenBSD project",
+      "file": "sndio-1.10.0-x86_64.scc",
+      "sha256": "e4251b79ab8c5c010637a34971b4acb8e96fe5359b7ee9bd2f8f9cc1d2b3e253",
+      "size": 144224,
+      "depends": [
+        "glibc"
+      ]
+    },
     "sound-theme-freedesktop": {
       "version": "0.8-6",
       "arch": "x86_64",
