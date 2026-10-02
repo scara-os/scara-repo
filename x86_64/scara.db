@@ -142,29 +142,15 @@
       "depends": null
     },
     "appstream": {
-      "version": "1.2.0-1",
+      "version": "1.2.1-9",
       "arch": "x86_64",
-      "description": "Provides a standard for creating app stores across distributions",
-      "file": "appstream-1.2.0-1-x86_64.scc",
-      "sha256": "5369e9b808b8162de56b6278afccee23f10f4dddcdb5f1fed0c1944ee7401feb",
-      "size": 5261966,
+      "description": "Missing runtime dependency",
+      "file": "appstream-1.2.1-9-x86_64.scc",
+      "sha256": "d009603e3ef477ddea58d40cc5c49471609b427c2bb6c474bb083dd3607df816",
+      "size": 5718006,
       "depends": [
-        "cairo",
-        "curl",
-        "fontconfig",
-        "freetype2",
-        "glib2",
         "glibc",
-        "libblake3",
-        "libfyaml",
-        "libgcc",
-        "libstemmer",
-        "libvips",
-        "libxml2",
-        "libxmlb",
-        "pango",
-        "systemd-libs",
-        "zstd"
+        "gcc-libs"
       ]
     },
     "apr": {
@@ -768,17 +754,15 @@
       ]
     },
     "enchant": {
-      "version": "2.8.21-1",
+      "version": "2.8.21-9",
       "arch": "x86_64",
-      "description": "A wrapper library for generic spell checking",
-      "file": "enchant-2.8.21-1-x86_64.scc",
-      "sha256": "62ae662a716e223e9ffb403b3eded689ae0658a7ecacc1c0846128e6162d8d60",
-      "size": 110217,
+      "description": "Missing runtime dependency",
+      "file": "enchant-2.8.21-9-x86_64.scc",
+      "sha256": "a9b1069ee943936db280de145742a075a90b1c061ddaf6bd601203d4798daf89",
+      "size": 110221,
       "depends": [
-        "glib2",
         "glibc",
-        "libgcc",
-        "libstdc++"
+        "gcc-libs"
       ]
     },
     "epiphany": {
@@ -2955,22 +2939,15 @@
       "depends": null
     },
     "libarchive": {
-      "version": "3.8.9-1",
+      "version": "3.8.9-9",
       "arch": "x86_64",
-      "description": "Multi-format archive and compression library",
-      "file": "libarchive-3.8.9-1-x86_64.scc",
-      "sha256": "602e0c321188fcaaca09903f43cb0c09579d9c66afb3ee54452643aa1d46e418",
-      "size": 662279,
+      "description": "Missing runtime dependency",
+      "file": "libarchive-3.8.9-9-x86_64.scc",
+      "sha256": "51b9add056bb097cec8445683c40c0483dd731dec47591c7a2195e196b39995e",
+      "size": 662280,
       "depends": [
-        "acl",
-        "bzip2",
         "glibc",
-        "libxml2",
-        "lz4",
-        "openssl",
-        "xz",
-        "zlib",
-        "zstd"
+        "gcc-libs"
       ]
     },
     "libasan": {
@@ -4507,18 +4484,15 @@
       ]
     },
     "libportal-gtk4": {
-      "version": "0.11.0-1",
+      "version": "0.11.0-9",
       "arch": "x86_64",
-      "description": "GIO-style async APIs for most Flatpak portals - GTK 4 backend",
-      "file": "libportal-gtk4-0.11.0-1-x86_64.scc",
-      "sha256": "01f4fee3ac51df3c9962acba14cf428430381bc6ae31edc3ee475ca0a6861148",
-      "size": 9827,
+      "description": "Missing runtime dependency",
+      "file": "libportal-gtk4-0.11.0-9-x86_64.scc",
+      "sha256": "0d0c89487d71bf645cc8f9d3ba948b0eca3d436855083f66068b882d3b655dd5",
+      "size": 9811,
       "depends": [
-        "glib2",
         "glibc",
-        "gtk4",
-        "libgcc",
-        "libportal"
+        "gcc-libs"
       ]
     },
     "libproxy": {
