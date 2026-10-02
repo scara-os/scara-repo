@@ -5785,6 +5785,17 @@
         "zlib"
       ]
     },
+    "ocl-icd": {
+      "version": "2.3.5",
+      "arch": "x86_64",
+      "description": "OpenCL ICD Bindings",
+      "file": "ocl-icd-2.3.5-x86_64.scc",
+      "sha256": "82e164ed8dd775853bd70ef433947b8bf5796af93bc33c02b659cbc43bc613f8",
+      "size": 150088,
+      "depends": [
+        "glibc"
+      ]
+    },
     "openal": {
       "version": "1.25.2-2",
       "arch": "x86_64",
