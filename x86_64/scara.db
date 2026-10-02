@@ -721,13 +721,16 @@
       "depends": null
     },
     "editorconfig-core-c": {
-      "version": "0.12.11-1",
+      "version": "0.12.11-2",
       "arch": "x86_64",
-      "description": "EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)",
-      "file": "editorconfig-core-c-0.12.11-1-x86_64.scc",
-      "sha256": "56c856d2a872ee2d56a0c367b37eb55402cacb6a00d409fe711153eb00a5c4d1",
-      "size": 37372,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "editorconfig-core-c-0.12.11-2-x86_64.scc",
+      "sha256": "3d92db5248ef00e42fda3aacac72fc2015fd01d3c5c6b4d4789bb3614ab12ab3",
+      "size": 37377,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "efibootmgr": {
       "version": "18",
@@ -1283,6 +1286,18 @@
         "json-glib",
         "libgcc",
         "libsoup3"
+      ]
+    },
+    "geocode-glib-2": {
+      "version": "3.26.4",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "geocode-glib-2-3.26.4-x86_64.scc",
+      "sha256": "9c716c6237d8a3b7aa03eaf911d335d72aa2f2ed2ed7fe9e4b3070f99fefa3dd",
+      "size": 81099,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "gexiv2": {
@@ -3753,14 +3768,13 @@
     "libgtop": {
       "version": "2.41.3-2",
       "arch": "x86_64",
-      "description": "Library for collecting system monitoring data",
+      "description": "Missing runtime dependency",
       "file": "libgtop-2.41.3-2-x86_64.scc",
-      "sha256": "e9b67caaeac9952e7430cd4355e0960864664a89afabc9ebf11fc8b43ae8b38c",
-      "size": 234603,
+      "sha256": "5cc8d31dd2ff5a7c051732f824be36abd8b7408c03a2044ba2aaeb1cbc95fea6",
+      "size": 234670,
       "depends": [
-        "glib2",
         "glibc",
-        "libxau"
+        "gcc-libs"
       ]
     },
     "libgudev": {
@@ -4142,16 +4156,15 @@
       ]
     },
     "libmpc": {
-      "version": "1.4.1-1",
+      "version": "1.4.1-2",
       "arch": "x86_64",
-      "description": "Library for the arithmetic of complex numbers with arbitrarily high precision",
-      "file": "libmpc-1.4.1-1-x86_64.scc",
-      "sha256": "545b07510d89fd8c5542e55ba285d4515a53298297cd9dabcc068990fa3e816c",
-      "size": 97642,
+      "description": "Missing runtime dependency",
+      "file": "libmpc-1.4.1-2-x86_64.scc",
+      "sha256": "16df2ff21e4301a3e43e1c22638b0185eb66969dd7902180bdeeb5c53ea19b1d",
+      "size": 97622,
       "depends": [
         "glibc",
-        "gmp",
-        "mpfr"
+        "gcc-libs"
       ]
     },
     "libmpcdec": {
@@ -4979,16 +4992,15 @@
       ]
     },
     "libunwind": {
-      "version": "1.8.3-1",
+      "version": "1.8.3-2",
       "arch": "x86_64",
-      "description": "Determine and manipulate the call-chain of a program",
-      "file": "libunwind-1.8.3-1-x86_64.scc",
-      "sha256": "972e441c474d3c6792a639cd89859c37f00e2e8a021329e3bcc12db6ed1deb31",
-      "size": 153618,
+      "description": "Missing runtime dependency",
+      "file": "libunwind-1.8.3-2-x86_64.scc",
+      "sha256": "415c56a43fb489ac4112795f178e29e4383f68dc47cad4e2b19ff7774af16258",
+      "size": 153642,
       "depends": [
         "glibc",
-        "xz",
-        "zlib"
+        "gcc-libs"
       ]
     },
     "liburing": {
@@ -6231,14 +6243,15 @@
       ]
     },
     "orc": {
-      "version": "0.4.44-1",
+      "version": "0.4.44-2",
       "arch": "x86_64",
-      "description": "Optimized Inner Loop Runtime Compiler",
-      "file": "orc-0.4.44-1-x86_64.scc",
-      "sha256": "39c39d1b30fb2c30884d4590a226a1f6f9c40a34c9665876c9a288ac60387ae2",
-      "size": 430155,
+      "description": "Missing runtime dependency",
+      "file": "orc-0.4.44-2-x86_64.scc",
+      "sha256": "f211ebd167d5deb9dcf5c6bff6ba96a194fbd651bcb8fa94049969dcf156c553",
+      "size": 430183,
       "depends": [
-        "glibc"
+        "glibc",
+        "gcc-libs"
       ]
     },
     "orca": {
