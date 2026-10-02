@@ -2863,6 +2863,19 @@
         "libtiff"
       ]
     },
+    "ldb": {
+      "version": "2.9.1",
+      "arch": "x86_64",
+      "description": "An LDAP-like embedded database built on top of talloc and tevent",
+      "file": "ldb-2.9.1-x86_64.scc",
+      "sha256": "90458b62da2d55e087caeba787f4fbdf8da5bdbf972632437cea0f0e55ab5736",
+      "size": 96947,
+      "depends": [
+        "glibc",
+        "talloc",
+        "tevent"
+      ]
+    },
     "leancrypto": {
       "version": "1.0.0",
       "arch": "x86_64",
@@ -3088,6 +3101,17 @@
         "gcc-libs",
         "glibc",
         "libsndfile"
+      ]
+    },
+    "libbsd": {
+      "version": "0.12.2",
+      "arch": "x86_64",
+      "description": "Utility functions from BSD systems",
+      "file": "libbsd-0.12.2-x86_64.scc",
+      "sha256": "7910c68649eb6dc1a5310d2658b28940762734bedc6c837db04dedb10969404b",
+      "size": 35252,
+      "depends": [
+        "glibc"
       ]
     },
     "libcaca": {
@@ -7362,6 +7386,17 @@
         "zlib"
       ]
     },
+    "talloc": {
+      "version": "2.4.2",
+      "arch": "x86_64",
+      "description": "Hierarchical, reference counted memory pool system with destructors",
+      "file": "talloc-2.4.2-x86_64.scc",
+      "sha256": "6b6401c8266bf21f595ae627ff7fe312eb5041fae6bf20c48cd01f805d8f394a",
+      "size": 22901,
+      "depends": [
+        "glibc"
+      ]
+    },
     "tar": {
       "version": "1.35",
       "arch": "x86_64",
@@ -7393,6 +7428,18 @@
       "sha256": "d801bfbc52b7cf827b2fd13fe2b665af97a9fa3dd322abb13813d10587963bb9",
       "size": 36630,
       "depends": null
+    },
+    "tevent": {
+      "version": "0.16.1",
+      "arch": "x86_64",
+      "description": "An event system library based on the talloc library",
+      "file": "tevent-0.16.1-x86_64.scc",
+      "sha256": "e462b07a1086d22e4093f5e619ffee239e065247c9e23a45cb4921bcecb3bbcc",
+      "size": 38716,
+      "depends": [
+        "glibc",
+        "talloc"
+      ]
     },
     "tinysparql": {
       "version": "3.11.1-1",
