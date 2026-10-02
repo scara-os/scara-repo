@@ -463,6 +463,18 @@
       "size": 56818,
       "depends": null
     },
+    "cifs-utils": {
+      "version": "7.8-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "cifs-utils-7.8-2-x86_64.scc",
+      "sha256": "db1fb751302bbe6745bfdff01aa7b6a8da9d6919f57e73c0169f1dd3301cbe9a",
+      "size": 123590,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "colord": {
       "version": "1.4.8",
       "arch": "x86_64",
@@ -514,6 +526,18 @@
         "glibc",
         "libattr",
         "libcap"
+      ]
+    },
+    "cracklib": {
+      "version": "2.10.3-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "cracklib-2.10.3-2-x86_64.scc",
+      "sha256": "d40de49735ac4bda5a33a4b0d5c6fcb2cbdd7cd80a16bde9fef77c82e3ff3963",
+      "size": 324631,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "cryptsetup": {
@@ -1216,6 +1240,18 @@
         "gcc-libs"
       ]
     },
+    "gd": {
+      "version": "2.3.3-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "gd-2.3.3-2-x86_64.scc",
+      "sha256": "ce02456cec95ed86f77c620e0b6f91d2405fb8b00bf2217356d14a5f3d6c1d46",
+      "size": 173995,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "gdbm": {
       "version": "1.23",
       "arch": "x86_64",
@@ -1518,13 +1554,16 @@
       "depends": null
     },
     "gnome-bluetooth-3.0": {
-      "version": "47.2-1",
+      "version": "47.2-2",
       "arch": "x86_64",
-      "description": "GNOME Bluetooth Subsystem",
-      "file": "gnome-bluetooth-3.0-47.2-1-x86_64.scc",
-      "sha256": "876e817e49e4eb325759978d0705f6f1adc5e189b103ed49f8e949b39ccf76cb",
-      "size": 354963,
-      "depends": null
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "gnome-bluetooth-3.0-47.2-2-x86_64.scc",
+      "sha256": "f18a0f2746f57b249c6041e0023e3a5cb1081335f0db17b7e8a4fe72c8f76dd6",
+      "size": 354989,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "gnome-calculator": {
       "version": "50.0-1",
@@ -1606,6 +1645,18 @@
       "sha256": "dbc94801f335722dc4d6655888173a374cb60e06070982a98d962249b5ca64d2",
       "size": 9973213,
       "depends": null
+    },
+    "gnome-desktop": {
+      "version": "1.44.5-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "gnome-desktop-1.44.5-2-x86_64.scc",
+      "sha256": "828613eaf8d8486a9cc892cb3dfc77dd934e65eb20c5e3afad9b72a5105076c7",
+      "size": 133249,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "gnome-desktop-4": {
       "version": "44.5-1",
@@ -1973,6 +2024,18 @@
         "gsettings-desktop-schemas"
       ]
     },
+    "gsfonts": {
+      "version": "20200910-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "gsfonts-20200910-2-x86_64.scc",
+      "sha256": "a9ee37c838df353e4140b396a2249d26394b4a091246052041e086b7941a94b2",
+      "size": 2428084,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "gsm": {
       "version": "1.0.24-1",
       "arch": "x86_64",
@@ -1992,6 +2055,18 @@
       "sha256": "30352370a473917fee64ba0bd4ccb12ac14e16f2df275fc3a3dc3c9261c3799f",
       "size": 48277,
       "depends": null
+    },
+    "gspell": {
+      "version": "1.14.5-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "gspell-1.14.5-2-x86_64.scc",
+      "sha256": "0955659456eced2c091621582344ae8976e0bdc93a7026c232700fe6a1f9e0a5",
+      "size": 114492,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "gssdp": {
       "version": "1.6.6-1",
@@ -3054,6 +3129,114 @@
       "file": "libblake3-1.8.7-x86_64.scc",
       "sha256": "f69e827e0dafb69a8da008d32698b87ee5a08f14fdf2d88fa062ac74e725e52a",
       "size": 30113,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-3.5.0-2-x86_64.scc",
+      "sha256": "e93bb8312c7a9a042d809684e255a15e8bf1654d272d8af44a14675a0c63b00f",
+      "size": 397714,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-crypto": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-crypto-3.5.0-2-x86_64.scc",
+      "sha256": "44f6eed63a3d48c9be905cb0bf564aee871143beab02ee2c26076198cfcdb191",
+      "size": 28652,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-fs": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-fs-3.5.0-2-x86_64.scc",
+      "sha256": "589d6090aa54d9ca7e1d92a6010e188bd4f5654b43e1347949b566daa1c60a2c",
+      "size": 45481,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-loop": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-loop-3.5.0-2-x86_64.scc",
+      "sha256": "5a44e771c74e2ba6a0138e9aff73fd7f9ee4d0dcacba5687a5a2a589e40ec503",
+      "size": 7037,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-mdraid": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-mdraid-3.5.0-2-x86_64.scc",
+      "sha256": "18e751bcedb718bb4da7afe78f3676d0285d5fb8c351e8e7633d30d7aaa4b921",
+      "size": 13271,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-nvme": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-nvme-3.5.0-2-x86_64.scc",
+      "sha256": "66dca49f1612706213c9f919a0ea2183cc09a4715d371b2e4cf09fd89405a6c9",
+      "size": 24997,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-part": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-part-3.5.0-2-x86_64.scc",
+      "sha256": "adbfd89f9df43c5ac308ffee0bb26fd42bdcda8a1016af545df631ec0e3b8b46",
+      "size": 15659,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-smart": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-smart-3.5.0-2-x86_64.scc",
+      "sha256": "d727ed0539165c354bf807ecb3eb5ee696e5b260e6d061d40b5062d1db9dc17a",
+      "size": 27684,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libblockdev-swap": {
+      "version": "3.5.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libblockdev-swap-3.5.0-2-x86_64.scc",
+      "sha256": "ac325afc65b0d49bb7e07249af1c255d3565c1fd93d389e021c37a2193060154",
+      "size": 7005,
       "depends": [
         "glibc",
         "gcc-libs"
@@ -4726,6 +4909,18 @@
         "gcc-libs"
       ]
     },
+    "libspectre": {
+      "version": "0.2.12-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libspectre-0.2.12-2-x86_64.scc",
+      "sha256": "f3f160da6ba8f785270537e8ec68d0c3f7c3885d1bccf612cd0ab078eb8f0e06",
+      "size": 31000,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libspeechd": {
       "version": "0.12.1-3",
       "arch": "x86_64",
@@ -4810,6 +5005,18 @@
       "file": "libstemmer-3.1.1-x86_64.scc",
       "sha256": "13012ea81811c90d0ea052eefe5832ec5f5938404a58982f0fe6802f9f8d0441",
       "size": 188014,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libsynctex": {
+      "version": "2026.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libsynctex-2026.0-2-x86_64.scc",
+      "sha256": "f739e466e1fb690d0facc933e92719ac56ef422a377b5795aaab9ca27964acde",
+      "size": 54187,
       "depends": [
         "glibc",
         "gcc-libs"
@@ -5114,6 +5321,18 @@
       "file": "libwacom-2.20.0-x86_64.scc",
       "sha256": "8adbe6d400c1db739df9bb340b74a7177ef086347bc77f2839ca2a7e65b1b3cd",
       "size": 246639,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "libwbclient": {
+      "version": "2.4.25.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "libwbclient-2.4.25.0-2-x86_64.scc",
+      "sha256": "280ed483348b4659d93a47af95ccb50f1ebf438d673804a38bf6958fc4292ebf",
+      "size": 39579,
       "depends": [
         "glibc",
         "gcc-libs"
@@ -5910,6 +6129,18 @@
       "size": 876629,
       "depends": null
     },
+    "mobile-broadband-provider-info": {
+      "version": "20251101-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "mobile-broadband-provider-info-20251101-2-x86_64.scc",
+      "sha256": "5f311de04b3d394353896efcf9e97addc8b854afd918349a17102b132ebdde8d",
+      "size": 79408,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "mod_dnssd": {
       "version": "0.6-10",
       "arch": "x86_64",
@@ -6213,6 +6444,18 @@
         "lcms2",
         "libpng",
         "libtiff"
+      ]
+    },
+    "openjph": {
+      "version": "0.32.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency (repackaged from host)",
+      "file": "openjph-0.32.0-2-x86_64.scc",
+      "sha256": "d740cef457f2f97530b995cfd8dd699814d34890c066f9a8474085282fbd51a1",
+      "size": 282000,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "openssl": {
