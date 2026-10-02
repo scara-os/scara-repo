@@ -226,12 +226,12 @@
       "depends": null
     },
     "base": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "arch": "x86_64",
       "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
-      "file": "base-1.1.1-x86_64.scc",
-      "sha256": "cb5fbd0c0cfa0d312495fcb05a13c77995b64d72aa6ee899b9f6e839d2e24cb7",
-      "size": 1479995,
+      "file": "base-1.1.2-x86_64.scc",
+      "sha256": "9637322dcff3adcb407f09293ac7766aae5de4b8e7bff3aeaf863b80ada01a88",
+      "size": 1479981,
       "depends": [
         "scara-release",
         "scara-lib",
