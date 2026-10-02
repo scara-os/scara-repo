@@ -1278,12 +1278,12 @@
       ]
     },
     "gdm": {
-      "version": "50.3-1",
+      "version": "50.3.1-1",
       "arch": "x86_64",
       "description": "Display manager and login screen",
-      "file": "gdm-50.3-1-x86_64.scc",
-      "sha256": "66fe53ccb0f5952264b237324bcb0106edfd082d397f6e50fb0cd9724b4d98ca",
-      "size": 1393335,
+      "file": "gdm-50.3.1-1-x86_64.scc",
+      "sha256": "e8e1d213342334ebbd70704b1577fc91cacf788186919a9b355e9fa40fa80d08",
+      "size": 1393381,
       "depends": null
     },
     "geoclue": {
