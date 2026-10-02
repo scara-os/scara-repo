@@ -6786,6 +6786,17 @@
         "tevent"
       ]
     },
+    "snappy": {
+      "version": "1.2.2",
+      "arch": "x86_64",
+      "description": "A fast compressor/decompressor library",
+      "file": "snappy-1.2.2-x86_64.scc",
+      "sha256": "2a4c3ac401741b957e1462f315cf486bfe60bbe2576e41d16b04a6ba800994ac",
+      "size": 34593,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "snapshot": {
       "version": "50.0-1",
       "arch": "x86_64",
