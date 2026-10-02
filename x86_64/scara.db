@@ -2663,13 +2663,16 @@
       ]
     },
     "js140": {
-      "version": "140.16.0-1",
+      "version": "140.17.0",
       "arch": "x86_64",
-      "description": "JavaScript interpreter and libraries - Version 140",
-      "file": "js140-140.16.0-1-x86_64.scc",
-      "sha256": "69b4126911026663f06d9c9da766cf5d9ac893b966c990757a7f840a76b136d0",
-      "size": 31079700,
-      "depends": null
+      "description": "Mozilla's JavaScript engine (SpiderMonkey)",
+      "file": "js140-140.17.0-x86_64.scc",
+      "sha256": "415e966bf005838cb0b0f3b1d8de356ce339b3cc98dfcdbc11dbce6ef3de00e8",
+      "size": 31180786,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "json-c": {
       "version": "0.17",
