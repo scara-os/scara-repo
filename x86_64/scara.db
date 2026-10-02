@@ -7798,13 +7798,16 @@
       ]
     },
     "webkitgtk-6.0": {
-      "version": "2.52.6-1",
+      "version": "2.52.6",
       "arch": "x86_64",
-      "description": "Web content engine for GTK",
-      "file": "webkitgtk-6.0-2.52.6-1-x86_64.scc",
-      "sha256": "fd71eaa934b9e115b157a0a11a12e9478ace52a1b379b2defcd81a2f2197bd2e",
-      "size": 52770460,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "webkitgtk-6.0-2.52.6-x86_64.scc",
+      "sha256": "40ba02926eac7e4a05270e6aa28de48014d6c686e16f8824edbce0298d486d98",
+      "size": 52773328,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "webrtc-audio-processing-1": {
       "version": "1.3-5",
