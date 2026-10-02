@@ -7312,12 +7312,12 @@
       ]
     },
     "shadow": {
-      "version": "4.14.0.2",
+      "version": "4.14.0.3",
       "arch": "x86_64",
       "description": "Utilitas manajemen user dan grup (useradd, passwd, dll)",
-      "file": "shadow-4.14.0.2-x86_64.scc",
-      "sha256": "dc7d6380b956cb11c762aee4f167546b226a8ffd2e1a6a45303e786363b334f5",
-      "size": 4598134,
+      "file": "shadow-4.14.0.3-x86_64.scc",
+      "sha256": "5f6277f9e4e031aecdcd2407107b5efd60f0d116d5e093160e06f256c656cc11",
+      "size": 2620074,
       "depends": [
         "scara-lib"
       ]
