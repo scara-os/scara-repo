@@ -2477,16 +2477,15 @@
       ]
     },
     "harfbuzz-icu": {
-      "version": "14.5.0-1",
+      "version": "14.5.1",
       "arch": "x86_64",
-      "description": "OpenType text shaping engine - ICU integration",
-      "file": "harfbuzz-icu-14.5.0-1-x86_64.scc",
-      "sha256": "d4686346b990b68bd234038985f2d80eca20ea0fe546ca2609c8847102880556",
-      "size": 5293,
+      "description": "Missing runtime dependency",
+      "file": "harfbuzz-icu-14.5.1-x86_64.scc",
+      "sha256": "8678289668ed2954f882fe62902468e513fe77e3dbe37b4659c999f0ebb1704b",
+      "size": 6036,
       "depends": [
         "glibc",
-        "harfbuzz",
-        "icu"
+        "gcc-libs"
       ]
     },
     "hicolor-icon-theme": {
@@ -2530,15 +2529,15 @@
       "depends": null
     },
     "hyphen": {
-      "version": "2.8.9-1",
+      "version": "2.8.9",
       "arch": "x86_64",
-      "description": "library for high quality hyphenation and justification",
-      "file": "hyphen-2.8.9-1-x86_64.scc",
-      "sha256": "c04da0c5d2c76434b197d59fa1b2f748f397e99a408a59b66a34b0f8bbd8ac72",
-      "size": 16924,
+      "description": "Missing runtime dependency",
+      "file": "hyphen-2.8.9-x86_64.scc",
+      "sha256": "2be8b4c9e6860ae0b1ac9f072a8a8ea54cbdc89c630f5d946000a684f342ed81",
+      "size": 16923,
       "depends": [
         "glibc",
-        "perl"
+        "gcc-libs"
       ]
     },
     "ibus": {
@@ -3016,25 +3015,15 @@
       ]
     },
     "libavif": {
-      "version": "1.4.2-1",
+      "version": "1.4.3",
       "arch": "x86_64",
-      "description": "Library for encoding and decoding .avif files",
-      "file": "libavif-1.4.2-1-x86_64.scc",
-      "sha256": "b833539ef6aa08209b11a7121b72846a09e75002b9d4bf9c25dd6f1a179c6ecf",
-      "size": 378908,
+      "description": "Missing runtime dependency",
+      "file": "libavif-1.4.3-x86_64.scc",
+      "sha256": "c3394ef0fd625585c6173e66e34d3d5a76c086e021ed5fadfc8a68d3a10401b6",
+      "size": 378634,
       "depends": [
-        "aom",
-        "dav1d",
         "glibc",
-        "libgcc",
-        "libjpeg-turbo",
-        "libpng",
-        "libstdc++",
-        "libwebp",
-        "libxml2",
-        "libyuv",
-        "rav1e",
-        "svt-av1"
+        "gcc-libs"
       ]
     },
     "libavtp": {
@@ -4082,19 +4071,15 @@
       ]
     },
     "libmanette": {
-      "version": "0.2.13-2",
+      "version": "0.2.13",
       "arch": "x86_64",
-      "description": "Simple GObject game controller library",
-      "file": "libmanette-0.2.13-2-x86_64.scc",
-      "sha256": "ad3144b8a0937dd525345028c15256fa98bcec60b18e625ad2d0bcc78bd8b575",
-      "size": 66118,
+      "description": "Missing runtime dependency",
+      "file": "libmanette-0.2.13-x86_64.scc",
+      "sha256": "abcddc5bbabd36cc4ca8f0bdba814e242c02ffc63ca7cc01af173abec47704be",
+      "size": 66122,
       "depends": [
-        "glib2",
         "glibc",
-        "hidapi",
-        "libevdev",
-        "libgcc",
-        "libgudev"
+        "gcc-libs"
       ]
     },
     "libmbim": {
@@ -5451,18 +5436,15 @@
       ]
     },
     "libxslt": {
-      "version": "1.1.45-2",
+      "version": "1.1.45",
       "arch": "x86_64",
-      "description": "XML stylesheet transformation library",
-      "file": "libxslt-1.1.45-2-x86_64.scc",
-      "sha256": "611d22fc7bb25d1852fa358a151bc7f5e9c34566dd88405c73dfbdc26350ae6c",
-      "size": 268273,
+      "description": "Missing runtime dependency",
+      "file": "libxslt-1.1.45-x86_64.scc",
+      "sha256": "c30aa91def2f418e268719044e8d7df7898648d6ba326e520e4371bbd68b22ca",
+      "size": 268423,
       "depends": [
-        "bash",
         "glibc",
-        "libgcrypt",
-        "libxml2",
-        "xz"
+        "gcc-libs"
       ]
     },
     "libxtst": {
