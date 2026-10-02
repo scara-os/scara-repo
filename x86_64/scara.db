@@ -831,6 +831,18 @@
         "zlib"
       ]
     },
+    "exiv2": {
+      "version": "0.28.9",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (exiv2)",
+      "file": "exiv2-0.28.9-x86_64.scc",
+      "sha256": "b8cec108db55f87e6b4007588518eccac4cee7b5eee0e615c3d56fb9b2c77655",
+      "size": 5495271,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "expat": {
       "version": "2.8.5-1",
       "arch": "x86_64",
@@ -1266,6 +1278,18 @@
         "libstdc++"
       ]
     },
+    "gexiv2-common": {
+      "version": "0.16.2",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (gexiv2-common)",
+      "file": "gexiv2-common-0.16.2-x86_64.scc",
+      "sha256": "a7ca1cc75bf176493d3e8182d35886d7e2f0954e88cb703f3f065baf54cff94d",
+      "size": 3941,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "giflib": {
       "version": "6.1.3-2",
       "arch": "x86_64",
@@ -1285,6 +1309,18 @@
       "sha256": "beb5e9f2f0e1d85f7adabfc89f4102eb549383e76d3f0c7552077ffbebd8a973",
       "size": 856301,
       "depends": null
+    },
+    "glib-networking": {
+      "version": "1.2.80.1",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (glib-networking)",
+      "file": "glib-networking-1.2.80.1-x86_64.scc",
+      "sha256": "748fab1a8aac451c5ecc6fd2c8ddca382dcc59d1fa0eca47057264c653815f7c",
+      "size": 166609,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "glib2": {
       "version": "2.88.3-1",
@@ -2976,6 +3012,18 @@
         "libxml2"
       ]
     },
+    "libbpf": {
+      "version": "1.7.0",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libbpf)",
+      "file": "libbpf-1.7.0-x86_64.scc",
+      "sha256": "f03327f8bc4f119a907c954ea5e78fb94d044fad777395a8c3ade68e87767c64",
+      "size": 308252,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libbs2b": {
       "version": "3.1.0-10",
       "arch": "x86_64",
@@ -3117,6 +3165,18 @@
         "systemd-libs"
       ]
     },
+    "libcue": {
+      "version": "2.3.0",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libcue)",
+      "file": "libcue-2.3.0-x86_64.scc",
+      "sha256": "e159968eac926d4cb7cbddaa1b7e310d67d28ce37b18ba3d36c560b589cd7b71",
+      "size": 17928,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libcups": {
       "version": "2.4.19-1",
       "arch": "x86_64",
@@ -3130,6 +3190,18 @@
         "gnutls",
         "sh",
         "zlib"
+      ]
+    },
+    "libdaemon": {
+      "version": "0.14",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libdaemon)",
+      "file": "libdaemon-0.14-x86_64.scc",
+      "sha256": "61c8dea94d36372170c30d25a3668a604d9a0fede7ebe5d2c1b173ac7d600d08",
+      "size": 18770,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libdbusmenu-glib": {
@@ -3344,6 +3416,18 @@
         "libx11"
       ]
     },
+    "libexif": {
+      "version": "0.6.26",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libexif)",
+      "file": "libexif-0.6.26-x86_64.scc",
+      "sha256": "9c371682d53c9031e822aace87813cf5dad844ebbdf97635dd7b4cdf39cc89e1",
+      "size": 1076665,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libfdk-aac": {
       "version": "2.0.3-2",
       "arch": "x86_64",
@@ -3534,6 +3618,18 @@
         "libxml2"
       ]
     },
+    "libgsf": {
+      "version": "1.14.60",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libgsf)",
+      "file": "libgsf-1.14.60-x86_64.scc",
+      "sha256": "eeef4014e75338d7430a3ebdf21da3df9a989b59790090db20fb56c93d750b0d",
+      "size": 368353,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libgsystemservice": {
       "version": "0.3.0-2",
       "arch": "x86_64",
@@ -3596,6 +3692,18 @@
         "libgcc",
         "libsoup3",
         "libxml2"
+      ]
+    },
+    "libgxps": {
+      "version": "0.3.2",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libgxps)",
+      "file": "libgxps-0.3.2-x86_64.scc",
+      "sha256": "b77c050d6d8b10e3d37e2dcbe76e0a5317d2a226c58ecde233cba21b49c41562",
+      "size": 130695,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libhandy": {
@@ -3701,6 +3809,18 @@
         "readline"
       ]
     },
+    "libimobiledevice-glue": {
+      "version": "1.3.2",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libimobiledevice-glue)",
+      "file": "libimobiledevice-glue-1.3.2-x86_64.scc",
+      "sha256": "c09c1afcf1d95bf7f76d4a4c6110124699781587241d95ac18da91ff07a198d9",
+      "size": 38222,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libinput": {
       "version": "1.32.0-1",
       "arch": "x86_64",
@@ -3716,6 +3836,18 @@
         "lua54",
         "mtdev",
         "systemd-libs"
+      ]
+    },
+    "libiptcdata": {
+      "version": "1.0.5",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libiptcdata)",
+      "file": "libiptcdata-1.0.5-x86_64.scc",
+      "sha256": "6c3dc611d71b6418cdb420f777e33b05160380124687b2a5f94f30a1b530c65d",
+      "size": 93855,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libjpeg-turbo": {
@@ -4117,6 +4249,18 @@
         "mpg123",
         "portaudio",
         "zlib"
+      ]
+    },
+    "libosinfo": {
+      "version": "1.12.0",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libosinfo)",
+      "file": "libosinfo-1.12.0-x86_64.scc",
+      "sha256": "c7b11f14d3a5413ba5bc0ee3ec415cffa276898bb3fb59be067d4a977d6c5b37",
+      "size": 371686,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libp11-kit": {
@@ -4564,6 +4708,18 @@
         "libgcc"
       ]
     },
+    "libstemmer": {
+      "version": "3.1.1",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libstemmer)",
+      "file": "libstemmer-3.1.1-x86_64.scc",
+      "sha256": "13012ea81811c90d0ea052eefe5832ec5f5938404a58982f0fe6802f9f8d0441",
+      "size": 188014,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libsysprof-capture": {
       "version": "50.0-6",
       "arch": "x86_64",
@@ -4572,6 +4728,18 @@
       "sha256": "fb9576585df1533a033b15c1ddbd7c0efaf4e187b28bf5a6ea1113532716c7a0",
       "size": 60548,
       "depends": null
+    },
+    "libsystemd": {
+      "version": "262",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libsystemd)",
+      "file": "libsystemd-262-x86_64.scc",
+      "sha256": "ab65029bd991af1ea591018927de3d3604f86a01ceb7d0e56b2c89b21fde0662",
+      "size": 1954039,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "libtasn1": {
       "version": "4.21.0-1",
@@ -4582,6 +4750,18 @@
       "size": 139591,
       "depends": [
         "glibc"
+      ]
+    },
+    "libtatsu": {
+      "version": "1.0.5",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libtatsu)",
+      "file": "libtatsu-1.0.5-x86_64.scc",
+      "sha256": "6cbf95409f2f155212a40ff627b10a74fb043495a460b1e021beb2b91ab56e27",
+      "size": 17192,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libthai": {
@@ -4716,6 +4896,18 @@
       "depends": [
         "glibc",
         "systemd-libs"
+      ]
+    },
+    "libusbmuxd": {
+      "version": "2.1.1",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libusbmuxd)",
+      "file": "libusbmuxd-2.1.1-x86_64.scc",
+      "sha256": "85945a717e0ef13a742aac1bed7a36ff8355a710e5f6cc4f27450c2b322b3994",
+      "size": 28846,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libva": {
@@ -5200,6 +5392,18 @@
       "depends": [
         "glibc",
         "libx11"
+      ]
+    },
+    "libzip": {
+      "version": "1.11.4",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (libzip)",
+      "file": "libzip-1.11.4-x86_64.scc",
+      "sha256": "7990f2f6dbc2022f4abee9a50cc57161d0a7272b1d9f8ff7b171aedad0bc6039",
+      "size": 315130,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "lilv": {
@@ -6129,6 +6333,18 @@
         "qt6-base",
         "polkit",
         "glib2"
+      ]
+    },
+    "poppler": {
+      "version": "26.08.0",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (poppler)",
+      "file": "poppler-26.08.0-x86_64.scc",
+      "sha256": "0d2005282fb6c186d737bec4d87e4f3a1e5ce1f0ac843e84a8898e2150a73ba4",
+      "size": 2338639,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "poppler-glib": {
@@ -7103,6 +7319,18 @@
         "libgcrypt",
         "libxml2",
         "uchardet"
+      ]
+    },
+    "totem-plparser": {
+      "version": "3.26.7",
+      "arch": "x86_64",
+      "description": "Auto-generated dependency for GNOME (totem-plparser)",
+      "file": "totem-plparser-3.26.7-x86_64.scc",
+      "sha256": "16b0c7ee696c343207ceb20423335af7aabbb007659557698b0f699b166e6fbd",
+      "size": 140702,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "tpm2-tss": {
