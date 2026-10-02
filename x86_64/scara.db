@@ -5796,6 +5796,17 @@
         "glibc"
       ]
     },
+    "onevpl": {
+      "version": "2.17.0",
+      "arch": "x86_64",
+      "description": "Intel oneAPI Video Processing Library",
+      "file": "onevpl-2.17.0-x86_64.scc",
+      "sha256": "9bbd21983dd7d841b74cbbca4360e1e084a0b7fb1b7ab57da931193920c7657c",
+      "size": 286292,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "openal": {
       "version": "1.25.2-2",
       "arch": "x86_64",
