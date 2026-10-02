@@ -4736,6 +4736,18 @@
         "wayland"
       ]
     },
+    "libvdpau": {
+      "version": "1.5",
+      "arch": "x86_64",
+      "description": "Video Decode and Presentation API for UNIX",
+      "file": "libvdpau-1.5-x86_64.scc",
+      "sha256": "df4a99393bb51583f1a4431c8fb24d30cc525994674659801fbcf4ff91e054aa",
+      "size": 72343,
+      "depends": [
+        "libx11",
+        "libxext"
+      ]
+    },
     "libverto-module-base": {
       "version": "1.0.0",
       "arch": "x86_64",
