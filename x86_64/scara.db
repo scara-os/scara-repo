@@ -5398,19 +5398,15 @@
       ]
     },
     "libxmlb": {
-      "version": "0.3.29-1",
+      "version": "0.3.29-8",
       "arch": "x86_64",
-      "description": "Library to help create and query binary XML blobs",
-      "file": "libxmlb-0.3.29-1-x86_64.scc",
-      "sha256": "216124f7906a9c2554d1f1b7656445617df941b9dee0b34293fe5a9e159881fb",
-      "size": 204615,
+      "description": "Missing runtime dependency",
+      "file": "libxmlb-0.3.29-8-x86_64.scc",
+      "sha256": "0bcec9594b6bbf9ee9f043ac5217f1beda8c6d17a33e37c387efb01b55a33a0c",
+      "size": 204656,
       "depends": [
-        "glib2",
         "glibc",
-        "libgcc",
-        "libstemmer",
-        "xz",
-        "zstd"
+        "gcc-libs"
       ]
     },
     "libxrandr": {
