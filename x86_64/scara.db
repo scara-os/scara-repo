@@ -5794,12 +5794,12 @@
       "depends": null
     },
     "lua": {
-      "version": "5.5.1",
+      "version": "5.5.1-1",
       "arch": "x86_64",
       "description": "Powerful lightweight programming language designed for extending applications",
-      "file": "lua-5.5.1-x86_64.scc",
-      "sha256": "7443a2213e1fa857996b6c269da396010859aa243e0665a05f1fbbff2d144e84",
-      "size": 705082,
+      "file": "lua-5.5.1-1-x86_64.scc",
+      "sha256": "a6d1045a4f89a3b2a1ef797e6cc69722ac91f0eb72306df881107822cb3b5ce2",
+      "size": 705086,
       "depends": [
         "glibc",
         "gcc-libs"
