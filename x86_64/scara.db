@@ -67,6 +67,18 @@
       "size": 3400538,
       "depends": null
     },
+    "adwaita-icon-theme": {
+      "version": "50.0",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "adwaita-icon-theme-50.0-x86_64.scc",
+      "sha256": "3a2236aad34bd6ba201ccce7f1d592713ff823c7e72d7e671503b534b65e1c21",
+      "size": 249982,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "alsa-card-profiles": {
       "version": "1.6.9-1",
       "arch": "x86_64",
@@ -612,6 +624,18 @@
       "size": 360,
       "depends": null
     },
+    "desktop-file-utils": {
+      "version": "0.28",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "desktop-file-utils-0.28-x86_64.scc",
+      "sha256": "c3bafa5d4646a0dc2e3e2c896e8c8f32d204d1f161c8dd87085096ccc0d54221",
+      "size": 59588,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "dhcpcd": {
       "version": "10.0.6",
       "arch": "x86_64",
@@ -1119,6 +1143,18 @@
         "glibc"
       ]
     },
+    "fuse-common": {
+      "version": "3.18.3",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "fuse-common-3.18.3-x86_64.scc",
+      "sha256": "3fa7e07f25f87876d73248d114729ed7631578abff63bda96cc9fd287dce5265",
+      "size": 657,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "fuse3": {
       "version": "3.18.3-1",
       "arch": "x86_64",
@@ -1609,6 +1645,18 @@
         "xkeyboard-config"
       ]
     },
+    "gnome-desktop-common": {
+      "version": "1.44.5",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "gnome-desktop-common-1.44.5-x86_64.scc",
+      "sha256": "7cfc0ff397cfebf979908d2528e65476ab8f67348e86733d4715e5a2dea78a1a",
+      "size": 665405,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "gnome-disk-utility": {
       "version": "46.1-3",
       "arch": "x86_64",
@@ -2089,6 +2137,18 @@
       "sha256": "de6ad75bc0a50beb88819b50b5af7012dd51dadb123e389ac96586174b99c9a2",
       "size": 3047129,
       "depends": null
+    },
+    "gtk-update-icon-cache": {
+      "version": "1.4.22.5",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "gtk-update-icon-cache-1.4.22.5-x86_64.scc",
+      "sha256": "8c26f27e0d0be886a6cf419b5fb72ba49f0fcd1a60335b7783d40eb8e9606381",
+      "size": 14913,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "gtk-vnc": {
       "version": "1.5.0-1",
@@ -3370,6 +3430,18 @@
       "sha256": "a162ca0a7c7ba91e616dbc3ccbaa806f138833a80f6b8fe873de5bf6e860b88d",
       "size": 109109,
       "depends": null
+    },
+    "libegl": {
+      "version": "1.7.0",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "libegl-1.7.0-x86_64.scc",
+      "sha256": "874151089b8427db67c43a033cf343458225032ad7b619638cc9dd0d629ca114",
+      "size": 613092,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "libei": {
       "version": "1.6.0",
@@ -5963,6 +6035,18 @@
         "zlib"
       ]
     },
+    "numactl": {
+      "version": "2.0.19",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "numactl-2.0.19-x86_64.scc",
+      "sha256": "5277d3ea35d6b88536ce86e63a2b4f4922461a5319efb31fcee07d09a3f3abe3",
+      "size": 93723,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "ocl-icd": {
       "version": "2.3.5",
       "arch": "x86_64",
@@ -7775,6 +7859,18 @@
       "depends": [
         "glibc",
         "libinput"
+      ]
+    },
+    "xkeyboard-config": {
+      "version": "2.48",
+      "arch": "x86_64",
+      "description": "Missing dependency package",
+      "file": "xkeyboard-config-2.48-x86_64.scc",
+      "sha256": "3c992a7fe0dea3622666adb88c7623fffad553eb7deea4eae1adf6735f6cae13",
+      "size": 2922440,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "xorg-server": {
