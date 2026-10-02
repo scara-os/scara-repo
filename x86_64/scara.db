@@ -5796,10 +5796,10 @@
     "lua": {
       "version": "5.5.1",
       "arch": "x86_64",
-      "description": "Missing runtime dependency",
+      "description": "Powerful lightweight programming language designed for extending applications",
       "file": "lua-5.5.1-x86_64.scc",
-      "sha256": "013b7542a5aed1d0a043a7b8a8d3a905e34e500b4fae61362337857b1d00abf7",
-      "size": 705051,
+      "sha256": "7443a2213e1fa857996b6c269da396010859aa243e0665a05f1fbbff2d144e84",
+      "size": 705082,
       "depends": [
         "glibc",
         "gcc-libs"
