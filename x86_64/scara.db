@@ -829,13 +829,16 @@
       ]
     },
     "evolution-data-server": {
-      "version": "3.60.2-5",
+      "version": "3.60.2",
       "arch": "x86_64",
-      "description": "Unified contacts, tasks and calendar backend",
-      "file": "evolution-data-server-3.60.2-5-x86_64.scc",
-      "sha256": "6019754a560ed63805fb1b278ea119dda2acf482ef26394668e920ab513c045a",
-      "size": 7057601,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "evolution-data-server-3.60.2-x86_64.scc",
+      "sha256": "26ced85d3f65bf12103bce3483ec8a57048329594abf0526cd030177f2f3911d",
+      "size": 7056808,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "exempi": {
       "version": "2.6.6-3",
@@ -1420,23 +1423,15 @@
       ]
     },
     "glycin": {
-      "version": "2.1.5-2",
+      "version": "2.1.5",
       "arch": "x86_64",
-      "description": "Sandboxed and extendable image decoding",
-      "file": "glycin-2.1.5-2-x86_64.scc",
-      "sha256": "39d2a04b7ae6f4b2b6c53d4f8cfe1dd37379aa2655b365edff2931576a4c4d8e",
-      "size": 7995823,
+      "description": "Missing runtime dependency",
+      "file": "glycin-2.1.5-x86_64.scc",
+      "sha256": "0ab57cbad9421acb9b0efca85008d96983f04e3f52b64668ec703fcbe2f58b9b",
+      "size": 7995325,
       "depends": [
-        "bubblewrap",
-        "cairo",
-        "fontconfig",
-        "glib2",
         "glibc",
-        "lcms2",
-        "libgcc",
-        "libjxl",
-        "librsvg",
-        "libseccomp"
+        "gcc-libs"
       ]
     },
     "glycin-gtk4": {
@@ -1524,17 +1519,15 @@
       "depends": null
     },
     "gnome-autoar": {
-      "version": "0.5.2-1",
+      "version": "0.5.2",
       "arch": "x86_64",
-      "description": "Automatic archives creating and extracting library",
-      "file": "gnome-autoar-0.5.2-1-x86_64.scc",
-      "sha256": "086bdd9694e9c0cda5dabe123203de6444423d9fbd7046c67ad4afc83b227770",
-      "size": 47233,
+      "description": "Missing runtime dependency",
+      "file": "gnome-autoar-0.5.2-x86_64.scc",
+      "sha256": "54317ac0dfb4acf1e1834bbc4b2144c78544d1da11a42c1c9ebb2996fb1b2c47",
+      "size": 47249,
       "depends": [
-        "glib2",
         "glibc",
-        "libarchive",
-        "libgcc"
+        "gcc-libs"
       ]
     },
     "gnome-backgrounds": {
@@ -2327,11 +2320,14 @@
     "gtksourceview5": {
       "version": "5.20.0-1",
       "arch": "x86_64",
-      "description": "A text widget adding syntax highlighting and more to GNOME",
+      "description": "Missing runtime dependency",
       "file": "gtksourceview5-5.20.0-1-x86_64.scc",
-      "sha256": "d982df7ac933908641dcc5b63710ea65303c238f5ecbc6b711f5da064fc6102a",
-      "size": 1418685,
-      "depends": null
+      "sha256": "c12e3d46bbd1554734938e84558ef0e37938dedfdb9e12c28d4a307d12ad79ec",
+      "size": 1418701,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "gupnp": {
       "version": "1.6.10-1",
@@ -2461,6 +2457,18 @@
       "sha256": "069e562b86bad58bbdc5e1d2ad4d5a91b5bf8500b5ee175771ceb915c0317f0d",
       "size": 15216,
       "depends": null
+    },
+    "gweather-locations": {
+      "version": "2026.2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "gweather-locations-2026.2-x86_64.scc",
+      "sha256": "420c06e57d0e067738f3c08acc9db868226b11ba2b659609a992c9ec5d25f0bb",
+      "size": 8746260,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "gzip": {
       "version": "1.13",
@@ -2926,20 +2934,15 @@
       ]
     },
     "libadwaita": {
-      "version": "1.9.4-1",
+      "version": "1.1.9.4-1",
       "arch": "x86_64",
-      "description": "Building blocks for modern adaptive GNOME applications",
-      "file": "libadwaita-1.9.4-1-x86_64.scc",
-      "sha256": "17ea6afbfa62932bc3dd9ab7ac7c3cb94820b696466110a13095305316848167",
-      "size": 1052320,
+      "description": "Missing runtime dependency",
+      "file": "libadwaita-1.1.9.4-1-x86_64.scc",
+      "sha256": "0a651eb427e7bf6251ba74950bb5054b70f0443ed2cbb2581c9ee519d8b1c86b",
+      "size": 1052365,
       "depends": [
-        "appstream",
-        "fribidi",
-        "glib2",
         "glibc",
-        "graphene",
-        "gtk4",
-        "pango"
+        "gcc-libs"
       ]
     },
     "libao": {
@@ -3081,6 +3084,18 @@
       "size": 42852,
       "depends": [
         "glibc"
+      ]
+    },
+    "libblake3": {
+      "version": "1.8.7",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "libblake3-1.8.7-x86_64.scc",
+      "sha256": "f69e827e0dafb69a8da008d32698b87ee5a08f14fdf2d88fa062ac74e725e52a",
+      "size": 30113,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "libbluray": {
@@ -3596,6 +3611,18 @@
         "glibc"
       ]
     },
+    "libfyaml": {
+      "version": "0.9.6",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "libfyaml-0.9.6-x86_64.scc",
+      "sha256": "1324b46ef61e2f9a57184ab7f5d0746f6827b7b490e9a0f09fe6233a87dc2ddb",
+      "size": 468333,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libgcc": {
       "version": "16.2.1+r23+gd564253eb6c8-1",
       "arch": "x86_64",
@@ -3801,22 +3828,15 @@
       "depends": null
     },
     "libgweather-4": {
-      "version": "4.6.0-1",
+      "version": "4.6.0",
       "arch": "x86_64",
-      "description": "Location and timezone database and weather-lookup library",
-      "file": "libgweather-4-4.6.0-1-x86_64.scc",
-      "sha256": "0ed9bee42d30b72f341f7fceb1c43d90ac8983725a637237203ba125180b8dd4",
-      "size": 484724,
+      "description": "Missing runtime dependency",
+      "file": "libgweather-4-4.6.0-x86_64.scc",
+      "sha256": "d5a965c176859fb23648c4e9c1a3b9ddf233e15024a239ee44b2d37b7b3e2850",
+      "size": 484744,
       "depends": [
-        "dconf",
-        "geocode-glib-2",
-        "glib2",
         "glibc",
-        "gweather-locations",
-        "json-glib",
-        "libgcc",
-        "libsoup3",
-        "libxml2"
+        "gcc-libs"
       ]
     },
     "libgxps": {
@@ -4475,16 +4495,15 @@
       ]
     },
     "libportal": {
-      "version": "0.11.0-1",
+      "version": "0.11.0",
       "arch": "x86_64",
-      "description": "GIO-style async APIs for most Flatpak portals",
-      "file": "libportal-0.11.0-1-x86_64.scc",
-      "sha256": "0be0cb9cd79ca62b8c180361eec8fd20b3500096524b2bc68f3ee38accfdb5c3",
-      "size": 139812,
+      "description": "Missing runtime dependency",
+      "file": "libportal-0.11.0-x86_64.scc",
+      "sha256": "320ee73747dfb7d12a556956f97c8f468cbe38f72fabc377023a2785aebbad99",
+      "size": 139822,
       "depends": [
-        "glib2",
         "glibc",
-        "libgcc"
+        "gcc-libs"
       ]
     },
     "libportal-gtk4": {
@@ -4764,13 +4783,16 @@
       ]
     },
     "libspelling": {
-      "version": "0.4.10-1",
+      "version": "0.4.10-2",
       "arch": "x86_64",
-      "description": "Spellcheck library for GTK 4",
-      "file": "libspelling-0.4.10-1-x86_64.scc",
-      "sha256": "42c0a1453bd0fd84295817a1f67b06d61505cd847500e0756f6b609db4bca3af",
-      "size": 86696,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "libspelling-0.4.10-2-x86_64.scc",
+      "sha256": "1d2a878db05adf87d1a62e3d4a2b9fd8ac87e4891c05cea7d979920b9b8e624b",
+      "size": 86729,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "libsrtp": {
       "version": "2.8.0-1",
@@ -5076,6 +5098,18 @@
       "sha256": "af003b36f3763bd6cb0a9ea96de889a7cf86aed3520c4431c1c4f11e75dd5fdf",
       "size": 257,
       "depends": null
+    },
+    "libvips": {
+      "version": "8.18.7",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "libvips-8.18.7-x86_64.scc",
+      "sha256": "d24e071e7ff4417d99acdfe0a650f3bd79356d8090eb21a9d3f003742f07f954",
+      "size": 1883433,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "libvncserver": {
       "version": "0.9.15-1",
@@ -5925,15 +5959,15 @@
       "depends": null
     },
     "mpfr": {
-      "version": "4.2.2-1",
+      "version": "4.2.2",
       "arch": "x86_64",
-      "description": "Multiple-precision floating-point library",
-      "file": "mpfr-4.2.2-1-x86_64.scc",
-      "sha256": "741095177a214d3979b1b339c55200a30b3c84d0905120f33f2d1cfa2618ecae",
-      "size": 494827,
+      "description": "Missing runtime dependency",
+      "file": "mpfr-4.2.2-x86_64.scc",
+      "sha256": "13eb779f2338cddc9a24a88ca3742f3070ab269c9de824bd6cd1416bc927d256",
+      "size": 494858,
       "depends": [
         "glibc",
-        "gmp"
+        "gcc-libs"
       ]
     },
     "mpg123": {
@@ -5988,13 +6022,16 @@
       "depends": null
     },
     "nautilus": {
-      "version": "50.3.1-1",
+      "version": "50.3.1",
       "arch": "x86_64",
-      "description": "Default file manager for GNOME",
-      "file": "nautilus-50.3.1-1-x86_64.scc",
-      "sha256": "4a5b7506579c6af5bcc76386e97c5ea34de38c10e3a736029140a576d98e4c6f",
-      "size": 4636664,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "nautilus-50.3.1-x86_64.scc",
+      "sha256": "f84f2eb651a3f1fc93239bff17a7ded98072851eb860a87eb88a10203917ca9e",
+      "size": 4639439,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "ncurses": {
       "version": "6.5",
@@ -7692,13 +7729,16 @@
       ]
     },
     "vte4": {
-      "version": "0.84.1-1",
+      "version": "0.84.1",
       "arch": "x86_64",
-      "description": "Virtual Terminal Emulator widget (GTK4)",
-      "file": "vte4-0.84.1-1-x86_64.scc",
-      "sha256": "ac6cfa5cbb717339545a4c93a4d9673224112c209f072ab4f8c9f015bcb7874a",
-      "size": 602255,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "vte4-0.84.1-x86_64.scc",
+      "sha256": "09e8f3d83135baaca48dfc114df6517a6ba29df874ae0faca56a187e92ec62f0",
+      "size": 602276,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "vulkan-icd-loader": {
       "version": "1.4.357.0-1",
