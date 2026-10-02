@@ -226,12 +226,12 @@
       "depends": null
     },
     "base": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "arch": "x86_64",
       "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
-      "file": "base-1.1.0-x86_64.scc",
-      "sha256": "d87372bd8fe1e3d5ebbd0b8736e2cac009cfc515e3e2909e1abbd1682ad1f68b",
-      "size": 1479960,
+      "file": "base-1.1.1-x86_64.scc",
+      "sha256": "cb5fbd0c0cfa0d312495fcb05a13c77995b64d72aa6ee899b9f6e839d2e24cb7",
+      "size": 1479995,
       "depends": [
         "scara-release",
         "scara-lib",
@@ -373,12 +373,12 @@
       ]
     },
     "busybox": {
-      "version": "1.36.1",
+      "version": "1.36.2",
       "arch": "x86_64",
       "description": "Swiss Army Knife of Embedded Linux",
-      "file": "busybox-1.36.1-x86_64.scc",
-      "sha256": "f3350850b363197e561274d04ad9174d5b567f7fb0b8b23c59d494d05aa603f0",
-      "size": 1310372,
+      "file": "busybox-1.36.2-x86_64.scc",
+      "sha256": "59fcef1a94c8a5bd67f57b56677ba4e6bb72dd9ce1cfe3594461a7a5a1251630",
+      "size": 1310273,
       "depends": null
     },
     "bzip2": {
@@ -2671,12 +2671,12 @@
       "depends": null
     },
     "iproute2": {
-      "version": "6.5.0",
+      "version": "6.5.1",
       "arch": "x86_64",
       "description": "Utilitas utama untuk manajemen TCP/IP dan antarmuka jaringan (menyediakan perintah ip)",
-      "file": "iproute2-6.5.0-x86_64.scc",
-      "sha256": "a51cad84bc35d6b49090bcde1ad5686b7ed73032e18fcd73a2fbf770ec5400ad",
-      "size": 1728073,
+      "file": "iproute2-6.5.1-x86_64.scc",
+      "sha256": "b1a9143926fc29afcb368516e4cbf6619c20076d6a7fd42cca309880670f8dce",
+      "size": 1731241,
       "depends": null
     },
     "iso-codes": {
@@ -7181,12 +7181,12 @@
       ]
     },
     "scara-lib": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "arch": "x86_64",
       "description": "Core Shared Libraries for Scara OS",
-      "file": "scara-lib-1.0.0-x86_64.scc",
-      "sha256": "2f634ab5816e50895f6617e7b3e944b3ad49e5207b9ccc4901427796137a0c50",
-      "size": 265,
+      "file": "scara-lib-1.0.1-x86_64.scc",
+      "sha256": "cf29572b805b28173a65637e3f9bf3ff04066c113f9e9379f86885d47c4bc821",
+      "size": 285,
       "depends": null
     },
     "scara-release": {
@@ -7300,12 +7300,12 @@
       ]
     },
     "shadow": {
-      "version": "4.14.0.1",
+      "version": "4.14.0.2",
       "arch": "x86_64",
       "description": "Utilitas manajemen user dan grup (useradd, passwd, dll)",
-      "file": "shadow-4.14.0.1-x86_64.scc",
-      "sha256": "327bd4089a31e0d656797e40f02780e5d0b634abfde36ebe9964ed799ab0cb3f",
-      "size": 4596374,
+      "file": "shadow-4.14.0.2-x86_64.scc",
+      "sha256": "dc7d6380b956cb11c762aee4f167546b226a8ffd2e1a6a45303e786363b334f5",
+      "size": 4598134,
       "depends": [
         "scara-lib"
       ]
