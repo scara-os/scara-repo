@@ -2877,13 +2877,16 @@
       ]
     },
     "leancrypto": {
-      "version": "1.0.0",
+      "version": "1.9.0",
       "arch": "x86_64",
-      "description": "Lean cryptographic library",
-      "file": "leancrypto-1.0.0-x86_64.scc",
-      "sha256": "9e84b80d3ee91439ed8c137a72e48d1eff7c3827706b58333f5304cb05f4001a",
-      "size": 14388,
-      "depends": null
+      "description": "Lean cryptographic library usable for bare-metal environments",
+      "file": "leancrypto-1.9.0-x86_64.scc",
+      "sha256": "cfd0f72ed50dea08e515e1bc8434cf79cd376603a3ee9682f523d86460c7d7c4",
+      "size": 3007844,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "libICE": {
       "version": "1.1.1",
