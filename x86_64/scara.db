@@ -6872,6 +6872,18 @@
         "speexdsp"
       ]
     },
+    "speexdsp": {
+      "version": "1.2.1",
+      "arch": "x86_64",
+      "description": "Auto-generated multimedia dependency for GNOME",
+      "file": "speexdsp-1.2.1-x86_64.scc",
+      "sha256": "a780da5881d7cb6c30d6c9d1b6d1548ff6025301a496a6769394fb3b1c57393f",
+      "size": 464032,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "spice-gtk": {
       "version": "0.42-5",
       "arch": "x86_64",
@@ -7233,6 +7245,30 @@
         "systemd-libs"
       ]
     },
+    "vapoursynth": {
+      "version": "79",
+      "arch": "x86_64",
+      "description": "Auto-generated multimedia dependency for GNOME",
+      "file": "vapoursynth-79-x86_64.scc",
+      "sha256": "0198c9ea126a9d1fcd7bc0b31f65e6c75ca58f4b098362a3adc9b8f7d874a32f",
+      "size": 3046581,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "vid.stab": {
+      "version": "1.1.2",
+      "arch": "x86_64",
+      "description": "Auto-generated multimedia dependency for GNOME",
+      "file": "vid.stab-1.1.2-x86_64.scc",
+      "sha256": "81d6dad3b70b786534dbb2930f9f98a45ad6d177d9044c714750a422afc091cf",
+      "size": 110678,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "vmaf": {
       "version": "3.2.1-1",
       "arch": "x86_64",
@@ -7421,6 +7457,18 @@
       "size": 34889,
       "depends": null
     },
+    "x264": {
+      "version": "3.0.165.r3222.b35605a",
+      "arch": "x86_64",
+      "description": "Auto-generated multimedia dependency for GNOME",
+      "file": "x264-3.0.165.r3222.b35605a-x86_64.scc",
+      "sha256": "dbca648ae1f46501fdd464ab30eb32f7c350497b0427a3ca7a32ce0c94e17eca",
+      "size": 1696305,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "x265": {
       "version": "4.3-1",
       "arch": "x86_64",
@@ -7591,6 +7639,18 @@
       "size": 309801,
       "depends": null
     },
+    "xvidcore": {
+      "version": "1.3.7",
+      "arch": "x86_64",
+      "description": "Auto-generated multimedia dependency for GNOME",
+      "file": "xvidcore-1.3.7-x86_64.scc",
+      "sha256": "78264c909ea0d7d7f9e0fb0b1c775a5984556959d63be45ed511486cfcaf693d",
+      "size": 248335,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "xz": {
       "version": "5.4.6",
       "arch": "x86_64",
@@ -7641,6 +7701,30 @@
         "imagemagick",
         "libxv",
         "v4l-utils"
+      ]
+    },
+    "zeromq": {
+      "version": "4.3.5",
+      "arch": "x86_64",
+      "description": "Auto-generated multimedia dependency for GNOME",
+      "file": "zeromq-4.3.5-x86_64.scc",
+      "sha256": "8f0401c0ab8082684e9f9cc728209fe176137d85e48d31d0430c518947b41519",
+      "size": 719735,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
+    "zimg": {
+      "version": "3.0.6",
+      "arch": "x86_64",
+      "description": "Auto-generated multimedia dependency for GNOME",
+      "file": "zimg-3.0.6-x86_64.scc",
+      "sha256": "87c9c47a44ae14a690c46b7a00d27bfc61b8e3f3186599a1059ca948cf79438b",
+      "size": 281533,
+      "depends": [
+        "glibc",
+        "gcc-libs"
       ]
     },
     "zlib": {
