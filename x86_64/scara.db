@@ -244,11 +244,11 @@
       ]
     },
     "bash": {
-      "version": "5.2.0",
+      "version": "5.2.1-1",
       "arch": "x86_64",
       "description": "The GNU Bourne Again shell",
-      "file": "bash-5.2.0-x86_64.scc",
-      "sha256": "877b1e2a0e70b0fffb9eb2b9293b8d58a8f975675afb46fc1758a8e48b8231b3",
+      "file": "bash-5.2.1-1-x86_64.scc",
+      "sha256": "88c5c20879213421cdf7bfe73d26d33171f2aef463cf2a764434d6e7a2adb4f6",
       "size": 3294750,
       "depends": [
         "scara-lib",
