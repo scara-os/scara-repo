@@ -3454,13 +3454,16 @@
       ]
     },
     "libedataserverui4": {
-      "version": "3.60.2-5",
+      "version": "3.60.2",
       "arch": "x86_64",
-      "description": "Unified contacts, tasks and calendar backend - GTK 4 UI library",
-      "file": "libedataserverui4-3.60.2-5-x86_64.scc",
-      "sha256": "a162ca0a7c7ba91e616dbc3ccbaa806f138833a80f6b8fe873de5bf6e860b88d",
-      "size": 109109,
-      "depends": null
+      "description": "Missing runtime dependency",
+      "file": "libedataserverui4-3.60.2-x86_64.scc",
+      "sha256": "e703c9453f52804a83ad8d6f9b59fd9ac8695066a31f1d61b7694c283dfa2815",
+      "size": 108855,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "libegl": {
       "version": "1.7.0",
