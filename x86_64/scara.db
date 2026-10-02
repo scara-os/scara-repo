@@ -884,15 +884,13 @@
       "depends": null
     },
     "fastfetch": {
-      "version": "2.34.0",
+      "version": "2.34.0.1",
       "arch": "x86_64",
       "description": "Alat informasi sistem yang cepat, dikustomisasi secara native untuk Scara OS",
-      "file": "fastfetch-2.34.0-x86_64.scc",
-      "sha256": "1f51fefa5ab291e6ef575e2ef1330e266dc448166c432ce56480336c918a2c15",
-      "size": 4273978,
-      "depends": [
-        "bash"
-      ]
+      "file": "fastfetch-2.34.0.1-x86_64.scc",
+      "sha256": "2a108dadb4aa2ad5a0056ba226744a87cbfcbc45fd972d20a6f2b8a59a72468f",
+      "size": 4273974,
+      "depends": null
     },
     "ffmpeg": {
       "version": "9.0.2-1",
