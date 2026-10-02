@@ -226,12 +226,12 @@
       "depends": null
     },
     "base": {
-      "version": "1.1.2",
+      "version": "1.1.3",
       "arch": "x86_64",
       "description": "Meta-paket sistem dasar Scara OS (GNU Toolchain)",
-      "file": "base-1.1.2-x86_64.scc",
-      "sha256": "9637322dcff3adcb407f09293ac7766aae5de4b8e7bff3aeaf863b80ada01a88",
-      "size": 1479981,
+      "file": "base-1.1.3-x86_64.scc",
+      "sha256": "5f6252fb14ab444e102c86d00cef302b03569c4e8471a5a221c30b548a434ac2",
+      "size": 1480120,
       "depends": [
         "scara-release",
         "scara-lib",
@@ -7312,12 +7312,12 @@
       ]
     },
     "shadow": {
-      "version": "4.14.0.3",
+      "version": "4.14.0.4",
       "arch": "x86_64",
       "description": "Utilitas manajemen user dan grup (useradd, passwd, dll)",
-      "file": "shadow-4.14.0.3-x86_64.scc",
-      "sha256": "5f6277f9e4e031aecdcd2407107b5efd60f0d116d5e093160e06f256c656cc11",
-      "size": 2620074,
+      "file": "shadow-4.14.0.4-x86_64.scc",
+      "sha256": "99aed615dffdf72cef8ea359069a53774da7d21a04c52fc46dabb492da38384f",
+      "size": 2620207,
       "depends": [
         "scara-lib"
       ]
