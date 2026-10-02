@@ -6642,6 +6642,17 @@
       "size": 2818344,
       "depends": null
     },
+    "sdl2": {
+      "version": "2.32.72",
+      "arch": "x86_64",
+      "description": "A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard",
+      "file": "sdl2-2.32.72-x86_64.scc",
+      "sha256": "574f3ee0625babe7f3e434ad311fae0343fce133e1ecd6441660aab8e1c4b933",
+      "size": 639323,
+      "depends": [
+        "glibc"
+      ]
+    },
     "sdl3": {
       "version": "3.4.16-1",
       "arch": "x86_64",
