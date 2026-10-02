@@ -4275,6 +4275,18 @@
       "size": 653145,
       "depends": null
     },
+    "libmd": {
+      "version": "1.2.0-2",
+      "arch": "x86_64",
+      "description": "Missing runtime dependency",
+      "file": "libmd-1.2.0-2-x86_64.scc",
+      "sha256": "b4b72252f16d9a798a69c135aad925d89a2edd4765e3c0c3c3cb0d14bfe4f57a",
+      "size": 62948,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libmediaart": {
       "version": "1.9.7-2",
       "arch": "x86_64",
