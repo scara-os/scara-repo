@@ -6469,6 +6469,17 @@
         "libxslt"
       ]
     },
+    "rav1e": {
+      "version": "0.8.1",
+      "arch": "x86_64",
+      "description": "An AV1 video encoder",
+      "file": "rav1e-0.8.1-x86_64.scc",
+      "sha256": "bf4547a688919cb29b8891f41afb96efb164119ed95712222aa50a8443c4ea82",
+      "size": 2977085,
+      "depends": [
+        "gcc-libs"
+      ]
+    },
     "readline": {
       "version": "8.2",
       "arch": "x86_64",
