@@ -7884,15 +7884,15 @@
       ]
     },
     "util-linux-libs": {
-      "version": "2.42.4-1",
+      "version": "2.42.4-3",
       "arch": "x86_64",
-      "description": "util-linux runtime libraries",
-      "file": "util-linux-libs-2.42.4-1-x86_64.scc",
-      "sha256": "55fce2d4fc46fae43940c272b8c25cd388582abb82350da28e2651afc1587d67",
-      "size": 631630,
+      "description": "Missing util-linux-libs dependency (libmount, libblkid, libuuid)",
+      "file": "util-linux-libs-2.42.4-3-x86_64.scc",
+      "sha256": "d30e3f1b2f0f62994a6447a029820fe121343f91f1f85d2f6ef5ccd0698a2ff2",
+      "size": 631695,
       "depends": [
         "glibc",
-        "sqlite"
+        "gcc-libs"
       ]
     },
     "v4l-utils": {
