@@ -7900,24 +7900,24 @@
       ]
     },
     "util-linux": {
-      "version": "2.42.4-4",
+      "version": "2.42.4-5",
       "arch": "x86_64",
-      "description": "Missing runtime dependency for NetworkManager/GDM",
-      "file": "util-linux-2.42.4-4-x86_64.scc",
-      "sha256": "5168c3d9f2fc38daaf75e6284be7f81cb66a8f0a4b136cf39098bbaec285370c",
-      "size": 16498363,
+      "description": "Missing util-linux-libs dependency (libmount, libblkid, libuuid)",
+      "file": "util-linux-2.42.4-5-x86_64.scc",
+      "sha256": "d7bb7691425966e7f564c987b0c42b91bd31c1c225e2f6d3b6cbda189f514e26",
+      "size": 9454204,
       "depends": [
         "glibc",
         "gcc-libs"
       ]
     },
     "util-linux-libs": {
-      "version": "2.42.4-3",
+      "version": "2.42.4-4",
       "arch": "x86_64",
       "description": "Missing util-linux-libs dependency (libmount, libblkid, libuuid)",
-      "file": "util-linux-libs-2.42.4-3-x86_64.scc",
-      "sha256": "e76241a6da0d1b1541e51446b6c47b0961922fb648ea826f5a247228cd93b6e3",
-      "size": 631692,
+      "file": "util-linux-libs-2.42.4-4-x86_64.scc",
+      "sha256": "762c7628adf8694a88ab3f23fb1cf8ea53e97772b61f8548f078e829a680f011",
+      "size": 631388,
       "depends": [
         "glibc",
         "gcc-libs"
