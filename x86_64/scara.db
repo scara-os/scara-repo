@@ -579,11 +579,11 @@
       "depends": null
     },
     "dbus": {
-      "version": "1.16.4-1",
+      "version": "1.16.4-2",
       "arch": "x86_64",
       "description": "Freedesktop.org message bus system",
-      "file": "dbus-1.16.4-1-x86_64.scc",
-      "sha256": "533d4a8dd5a1d0918db2e450b59f33f2c97bfabff6c311487147875ac9a7f1bb",
+      "file": "dbus-1.16.4-2-x86_64.scc",
+      "sha256": "1f7945716d609fb88e1593d77970e6a98ce8575aa567e9d9ba7d5e00ab8fa1f6",
       "size": 401392,
       "depends": [
         "audit",
@@ -635,12 +635,12 @@
       "depends": null
     },
     "desktop-file-utils": {
-      "version": "0.28",
+      "version": "0.28.1",
       "arch": "x86_64",
       "description": "Missing dependency package",
-      "file": "desktop-file-utils-0.28-x86_64.scc",
-      "sha256": "7c5a4044cca43b651816084f80692336506fa02918a3ae3ff97e02adc9bd46f5",
-      "size": 59594,
+      "file": "desktop-file-utils-0.28.1-x86_64.scc",
+      "sha256": "22639afe4ac86df7e0a5ac456ee3b870f20a06b17bace9a0b884c511bf3a8873",
+      "size": 59547,
       "depends": [
         "glibc",
         "gcc-libs"
@@ -1288,11 +1288,11 @@
       ]
     },
     "gdm": {
-      "version": "50.3.1-2",
+      "version": "50.3.1-3",
       "arch": "x86_64",
       "description": "Display manager and login screen",
-      "file": "gdm-50.3.1-2-x86_64.scc",
-      "sha256": "f04841577ac78299e509ddf05c21186ac0b53013266456680a1fc129f5609fb9",
+      "file": "gdm-50.3.1-3-x86_64.scc",
+      "sha256": "add078dee21e5b0c4ad552c3964e285aaacf813d907732be6e29c2c213a74238",
       "size": 1393252,
       "depends": null
     },
@@ -1795,12 +1795,12 @@
       "depends": null
     },
     "gnome-session": {
-      "version": "50.1-1",
+      "version": "50.1-2",
       "arch": "x86_64",
       "description": "The GNOME Session Handler",
-      "file": "gnome-session-50.1-1-x86_64.scc",
-      "sha256": "2b6ae4d30c45a0cf9f665097a84dbf9806c235b64cdbf7c435649bdadf4587a6",
-      "size": 384456,
+      "file": "gnome-session-50.1-2-x86_64.scc",
+      "sha256": "3960db02ecc43310b3bb507f4872a0cb64b9c217e03cdc882010ff2fcc3472a0",
+      "size": 384420,
       "depends": null
     },
     "gnome-settings-daemon": {
@@ -1813,12 +1813,12 @@
       "depends": null
     },
     "gnome-shell": {
-      "version": "50.5-1",
+      "version": "50.5-2",
       "arch": "x86_64",
       "description": "Next generation desktop shell",
-      "file": "gnome-shell-50.5-1-x86_64.scc",
-      "sha256": "4d2c36e8b0fd61cc69bcc6c56a34efacc847dda96395abde473c8f89de5faf62",
-      "size": 3866708,
+      "file": "gnome-shell-50.5-2-x86_64.scc",
+      "sha256": "b4e45f64770191beb118c6886b81fceed5d80bdec95054e522baa5cbbcd416da",
+      "size": 3866579,
       "depends": null
     },
     "gnome-software": {
@@ -2011,12 +2011,12 @@
       "depends": null
     },
     "gsettings-desktop-schemas": {
-      "version": "50.1-1",
+      "version": "50.1-2",
       "arch": "x86_64",
       "description": "GSettings schemas for GNOME desktop components",
-      "file": "gsettings-desktop-schemas-50.1-1-x86_64.scc",
-      "sha256": "70d449deee024abec574244fcdda8ba97989ad7fd2f2a3a21e022898eb59b01c",
-      "size": 1894674,
+      "file": "gsettings-desktop-schemas-50.1-2-x86_64.scc",
+      "sha256": "cf16486a0fd0cffb85a63cbdbce11a9654d5346707019373073bc1dde4aa2c18",
+      "size": 1894264,
       "depends": [
         "adwaita-fonts",
         "dconf",
@@ -6231,12 +6231,12 @@
       ]
     },
     "mutter": {
-      "version": "50.5-1",
+      "version": "50.5-2",
       "arch": "x86_64",
       "description": "Window manager and compositor for GNOME",
-      "file": "mutter-50.5-1-x86_64.scc",
-      "sha256": "21592137b1a85e8e7e803fc4dc6e5da2fcf0131e1f59e5b6dae2321aeca0f7c6",
-      "size": 4054225,
+      "file": "mutter-50.5-2-x86_64.scc",
+      "sha256": "0ebe7d6b611f40317a5e43888af64f28f42c9e9261838251d4114237a6976690",
+      "size": 4054067,
       "depends": null
     },
     "nano": {
@@ -6805,12 +6805,12 @@
       ]
     },
     "procps-ng": {
-      "version": "4.0.7-1",
+      "version": "4.0.7-2",
       "arch": "x86_64",
       "description": "Utilities for monitoring your system and its processes",
-      "file": "procps-ng-4.0.7-1-x86_64.scc",
-      "sha256": "3c003f9bec55bf6337a02648d4f9139108cba6fc91a825f2c6b30090d583e4b9",
-      "size": 1329697,
+      "file": "procps-ng-4.0.7-2-x86_64.scc",
+      "sha256": "206d8f455be2ea60ad01bf1a9b26f96ce874533b6e3037a311f6e6a5e66cf4d5",
+      "size": 1329473,
       "depends": [
         "glibc",
         "ncurses",
@@ -8129,12 +8129,12 @@
       ]
     },
     "which": {
-      "version": "2.21",
+      "version": "2.21.1",
       "arch": "x86_64",
       "description": "A utility to show the full path of commands for Scara OS",
-      "file": "which-2.21-x86_64.scc",
-      "sha256": "adbb48d4d0934968d0e754803e9660342b0f1338ea507e0cdf5a0453df90ce5c",
-      "size": 11051,
+      "file": "which-2.21.1-x86_64.scc",
+      "sha256": "582f17d8d5e0c1bfaa951f13960473ac355c0a26c1f22de66cd215a09af3929c",
+      "size": 11034,
       "depends": [
         "glibc"
       ]
@@ -8279,36 +8279,36 @@
       "depends": null
     },
     "xf86-input-libinput": {
-      "version": "1.5.0-1",
+      "version": "1.5.0-2",
       "arch": "x86_64",
       "description": "Generic input driver for the X.Org server based on libinput",
-      "file": "xf86-input-libinput-1.5.0-1-x86_64.scc",
-      "sha256": "2858b979c6292099627fe70815d243915323bb60482588aff91dec5fe2c786cc",
-      "size": 44245,
+      "file": "xf86-input-libinput-1.5.0-2-x86_64.scc",
+      "sha256": "c51127ce8f5753224423696a2aee437044095af327f58e43b17570211bd8d3b7",
+      "size": 44209,
       "depends": [
         "glibc",
         "libinput"
       ]
     },
     "xkeyboard-config": {
-      "version": "2.48",
+      "version": "2.48.2-1",
       "arch": "x86_64",
-      "description": "Missing dependency package",
-      "file": "xkeyboard-config-2.48-x86_64.scc",
-      "sha256": "a175e40e57174866cac570a093dda4ba6e0d0218910eb8c3a327e99c32928b9f",
-      "size": 2922088,
+      "description": "X keyboard configuration files",
+      "file": "xkeyboard-config-2.48.2-1-x86_64.scc",
+      "sha256": "effb229c6cb8aef8cc727ba329c25f0ee32503b88d84387511946e5e34a9c688",
+      "size": 2921758,
       "depends": [
         "glibc",
         "gcc-libs"
       ]
     },
     "xorg-server": {
-      "version": "21.1.24-1",
+      "version": "21.1.24-2",
       "arch": "x86_64",
       "description": "Xorg X server",
-      "file": "xorg-server-21.1.24-1-x86_64.scc",
-      "sha256": "25f9b028b8b5940052fb832ba5424f8998267d6626c9d28b0fed266d328feb33",
-      "size": 1863446,
+      "file": "xorg-server-21.1.24-2-x86_64.scc",
+      "sha256": "63fe5ca251d7ba8040a5c6567173018ac10bd14cbffc2696c5734c86cadfbb6c",
+      "size": 1863511,
       "depends": null
     },
     "xorg-server-common": {
@@ -8325,12 +8325,12 @@
       ]
     },
     "xorg-xkbcomp": {
-      "version": "1.5.0-1",
+      "version": "1.5.0-2",
       "arch": "x86_64",
       "description": "X Keyboard description compiler",
-      "file": "xorg-xkbcomp-1.5.0-1-x86_64.scc",
-      "sha256": "1c82238886fde74901bd013134fb7ecc79597c625f9d21e03c8e7d3a93609a4a",
-      "size": 100235,
+      "file": "xorg-xkbcomp-1.5.0-2-x86_64.scc",
+      "sha256": "305886f4baa05f20d2bad2dd4fc635e51b5b8e9d74861e79481c720b7cdf686b",
+      "size": 100205,
       "depends": [
         "glibc",
         "libx11",
@@ -8347,12 +8347,12 @@
       "depends": null
     },
     "xorg-xwayland": {
-      "version": "24.1.13-1",
+      "version": "24.1.13-2",
       "arch": "x86_64",
       "description": "run X clients under wayland",
-      "file": "xorg-xwayland-24.1.13-1-x86_64.scc",
-      "sha256": "af9201d22367dbf0aacd136b731788bc02741757e1a9a807ba24594855dfbed3",
-      "size": 1168416,
+      "file": "xorg-xwayland-24.1.13-2-x86_64.scc",
+      "sha256": "7ee724d0c1b359f4cd715bd82006218153e19b482259d47a8d6ac98f2b0257c0",
+      "size": 1168379,
       "depends": null
     },
     "xorgproto": {
