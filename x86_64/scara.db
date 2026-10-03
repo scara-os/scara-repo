@@ -2772,12 +2772,12 @@
       ]
     },
     "kbd": {
-      "version": "2.6.4",
+      "version": "2.6.5",
       "arch": "x86_64",
       "description": "Keytable files and keyboard utilities for Scara OS",
-      "file": "kbd-2.6.4-x86_64.scc",
-      "sha256": "1e9c507537ffb07a10561dbc7e0927b633b70e449b91f50293ce3288847081de",
-      "size": 116742,
+      "file": "kbd-2.6.5-x86_64.scc",
+      "sha256": "26b2450f00d512ccde1257b667641c23abbae99562c52192e2c81e28687b5d07",
+      "size": 116882,
       "depends": [
         "glibc"
       ]
