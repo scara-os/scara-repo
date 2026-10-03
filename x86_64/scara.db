@@ -1019,6 +1019,18 @@
         "libquadmath"
       ]
     },
+    "file": {
+      "version": "5.48-2",
+      "arch": "x86_64",
+      "description": "Missing util-linux-libs dependency (libmount, libblkid, libuuid)",
+      "file": "file-5.48-2-x86_64.scc",
+      "sha256": "0af2ddb5935153901d542bde790f5b2e1a0a4bb74412fc8b1f5231e4e7b39f46",
+      "size": 650815,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "flac": {
       "version": "1.5.0-1",
       "arch": "x86_64",
