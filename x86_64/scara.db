@@ -579,12 +579,12 @@
       "depends": null
     },
     "dbus": {
-      "version": "1.16.3-1",
+      "version": "1.16.4-1",
       "arch": "x86_64",
       "description": "Freedesktop.org message bus system",
-      "file": "dbus-1.16.3-1-x86_64.scc",
-      "sha256": "93a25b90986760a2781236c4f698833143ff3ae0e9885fb075aea62c537f9b8d",
-      "size": 339138,
+      "file": "dbus-1.16.4-1-x86_64.scc",
+      "sha256": "533d4a8dd5a1d0918db2e450b59f33f2c97bfabff6c311487147875ac9a7f1bb",
+      "size": 401392,
       "depends": [
         "audit",
         "expat",
