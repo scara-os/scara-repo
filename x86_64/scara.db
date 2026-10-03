@@ -1020,12 +1020,12 @@
       ]
     },
     "file": {
-      "version": "5.48-2",
+      "version": "5.48-3",
       "arch": "x86_64",
       "description": "Missing util-linux-libs dependency (libmount, libblkid, libuuid)",
-      "file": "file-5.48-2-x86_64.scc",
-      "sha256": "0af2ddb5935153901d542bde790f5b2e1a0a4bb74412fc8b1f5231e4e7b39f46",
-      "size": 650815,
+      "file": "file-5.48-3-x86_64.scc",
+      "sha256": "087a2cd370c2683952884a26f7123e493ee34056ee0dabd4b30842ab157d2699",
+      "size": 650817,
       "depends": [
         "glibc",
         "gcc-libs"
