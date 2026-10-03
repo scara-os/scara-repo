@@ -7266,8 +7266,8 @@
       "arch": "x86_64",
       "description": "File header kernel Linux 7.2.0 untuk Scara OS",
       "file": "scc-1.0.5-x86_64.scc",
-      "sha256": "2fe8ad0d346b6c9b1a42d0f3b1230e979f297b19b961b3744d4586787cf6df13",
-      "size": 5935896,
+      "sha256": "50c702bc4df6484c1ee1d7f0f1fee8a81f05f5db6f8721bd350f50d9651b1d9d",
+      "size": 5936963,
       "depends": [
         "scc-makepkg",
         "scc-repo-builder"
