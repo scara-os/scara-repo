@@ -6308,12 +6308,12 @@
       ]
     },
     "networkmanager": {
-      "version": "1.48.0.2",
+      "version": "1.48.0.3",
       "arch": "x86_64",
       "description": "Network connection manager and user applications for Scara OS",
-      "file": "networkmanager-1.48.0.2-x86_64.scc",
-      "sha256": "b0eaee8a27f1c80df90e5299beb57cfa85bdf6a8115d95cea624d08a1db28608",
-      "size": 4567532,
+      "file": "networkmanager-1.48.0.3-x86_64.scc",
+      "sha256": "eb5e51e25bc1f0d5c8a7363013f128405626f09719e79ff1a51370feb05cd344",
+      "size": 4567541,
       "depends": [
         "glibc",
         "systemd",
