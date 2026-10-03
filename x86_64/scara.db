@@ -2852,16 +2852,15 @@
       ]
     },
     "kmod": {
-      "version": "31",
+      "version": "34.2.1-1",
       "arch": "x86_64",
-      "description": "Perkakas manajemen modul kernel Linux (modprobe, lsmod)",
-      "file": "kmod-31-x86_64.scc",
-      "sha256": "8bceac0500a677d2d3834574725ffe95ec467b3f0d1627d72b6e6dab40e3c487",
-      "size": 539977,
+      "description": "Linux kernel module management tools and library",
+      "file": "kmod-34.2.1-1-x86_64.scc",
+      "sha256": "f6fac63d1390ef7484707e6427a327978f16fff749fbc378505637c147481695",
+      "size": 159790,
       "depends": [
-        "zlib",
-        "xz",
-        "zstd"
+        "glibc",
+        "gcc-libs"
       ]
     },
     "kpmcore": {
