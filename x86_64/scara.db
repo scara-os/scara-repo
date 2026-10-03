@@ -7274,12 +7274,12 @@
       ]
     },
     "scc-makepkg": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "arch": "x86_64",
       "description": "Create package repo tools",
-      "file": "scc-makepkg-1.0.1-x86_64.scc",
-      "sha256": "cc1e3083419a9036e6c25e42df5f21026607994f5558fe7164ef72e3430fab4c",
-      "size": 1945925,
+      "file": "scc-makepkg-1.0.2-x86_64.scc",
+      "sha256": "f0427a3590d7ed6dc91a416d7d3a483c330bd90960a3ddd84a2c0e461800857b",
+      "size": 1946023,
       "depends": null
     },
     "scc-repo-builder": {
