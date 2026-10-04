@@ -5787,8 +5787,8 @@
       "arch": "x86_64",
       "description": "Kernel Linux 7.2.0 dan modul inti untuk Scara OS",
       "file": "linux-7.2.0.1-x86_64.scc",
-      "sha256": "c18de4f54f95266e52af909a44f06c6b437fe85f295e30d46a6cc387e5ef48f6",
-      "size": 78010517,
+      "sha256": "4b1be6315d15023881bc8c06a816837b5281b911bf15bec2d25672aa5b5ffdbd",
+      "size": 78010283,
       "depends": [
         "linux-headers"
       ]
