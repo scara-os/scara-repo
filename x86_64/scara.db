@@ -5783,12 +5783,12 @@
       ]
     },
     "linux": {
-      "version": "7.2.0",
+      "version": "7.2.0.1",
       "arch": "x86_64",
       "description": "Kernel Linux 7.2.0 dan modul inti untuk Scara OS",
-      "file": "linux-7.2.0-x86_64.scc",
-      "sha256": "7a519af8c0342a1cc9e537638e1acf141ed77ff7092f71bf7a881d72311923ed",
-      "size": 77953547,
+      "file": "linux-7.2.0.1-x86_64.scc",
+      "sha256": "c18de4f54f95266e52af909a44f06c6b437fe85f295e30d46a6cc387e5ef48f6",
+      "size": 78010517,
       "depends": [
         "linux-headers"
       ]
