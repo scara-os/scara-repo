@@ -8323,6 +8323,18 @@
         "xorg-xkbcomp"
       ]
     },
+    "xorg-xinit": {
+      "version": "1.4.4-1",
+      "arch": "x86_64",
+      "description": "X.Org initialisation program",
+      "file": "xorg-xinit-1.4.4-1-x86_64.scc",
+      "sha256": "16a2823e1e5f9251330345f59cead941197a87a39a17bbac2c7303640664dbc5",
+      "size": 17235,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "xorg-xkbcomp": {
       "version": "1.5.0-2",
       "arch": "x86_64",
