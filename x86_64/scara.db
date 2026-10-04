@@ -2011,12 +2011,12 @@
       "depends": null
     },
     "gsettings-desktop-schemas": {
-      "version": "50.1-3",
+      "version": "50.1-4",
       "arch": "x86_64",
       "description": "GSettings schemas for GNOME desktop components",
-      "file": "gsettings-desktop-schemas-50.1-3-x86_64.scc",
-      "sha256": "039ab6252d01065fd4fdec6f4c723c34863d327bddb9838c3b8492a9eef7b1c8",
-      "size": 1894964,
+      "file": "gsettings-desktop-schemas-50.1-4-x86_64.scc",
+      "sha256": "bb6ac7b443fc987c4c7d4a543b024aadab7a00ff3a1eebdb02fa3681c36c7e39",
+      "size": 1926889,
       "depends": [
         "glibc",
         "gcc-libs"
