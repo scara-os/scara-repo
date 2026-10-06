@@ -6162,6 +6162,18 @@
       "size": 876624,
       "depends": null
     },
+    "mkinitcpio": {
+      "version": "42.2-1",
+      "arch": "x86_64",
+      "description": "Modular initramfs image creation utility",
+      "file": "mkinitcpio-42.2-1-x86_64.scc",
+      "sha256": "15afe533b8d5e6031a241076b2f118155a4dd946bce712fd08f2ca2b789f6a48",
+      "size": 73458,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "mobile-broadband-provider-info": {
       "version": "20251101-2",
       "arch": "x86_64",
@@ -7277,8 +7289,8 @@
       "arch": "x86_64",
       "description": "File header kernel Linux 7.2.0 untuk Scara OS",
       "file": "scc-1.0.5-x86_64.scc",
-      "sha256": "50c702bc4df6484c1ee1d7f0f1fee8a81f05f5db6f8721bd350f50d9651b1d9d",
-      "size": 5936963,
+      "sha256": "fe669bb8815d13f9cf5409ea9b9e9308ea6fe9eaebb7bbc583fec677f43ab44a",
+      "size": 5937006,
       "depends": [
         "scc-makepkg",
         "scc-repo-builder"
