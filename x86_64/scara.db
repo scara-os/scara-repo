@@ -6163,12 +6163,12 @@
       "depends": null
     },
     "mkinitcpio": {
-      "version": "42.2-1",
+      "version": "42.2.1.1",
       "arch": "x86_64",
       "description": "Modular initramfs image creation utility",
-      "file": "mkinitcpio-42.2-1-x86_64.scc",
-      "sha256": "15afe533b8d5e6031a241076b2f118155a4dd946bce712fd08f2ca2b789f6a48",
-      "size": 73458,
+      "file": "mkinitcpio-42.2.1.1-x86_64.scc",
+      "sha256": "3392eb7ae459b8811897ac4f85ee732e0135bfc13abcef403b13b4c3e8644d56",
+      "size": 73461,
       "depends": [
         "glibc",
         "gcc-libs"
