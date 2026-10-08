@@ -3647,6 +3647,18 @@
         "gcc-libs"
       ]
     },
+    "libedit": {
+      "version": "20260512_3.1-1",
+      "arch": "x86_64",
+      "description": "Command line editor library providing generic line editing, history, and tokenization functions",
+      "file": "libedit-20260512_3.1-1-x86_64.scc",
+      "sha256": "6243ae8b939ab1a7daa75885c244f3619b74279f4f23b146ad274e4f6948d6fa",
+      "size": 129467,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "libegl": {
       "version": "1.7.0",
       "arch": "x86_64",
