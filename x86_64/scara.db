@@ -119,6 +119,18 @@
       "size": 86031,
       "depends": null
     },
+    "amd-ucode": {
+      "version": "20260916-1",
+      "arch": "x86_64",
+      "description": "Microcode update image for AMD CPUs",
+      "file": "amd-ucode-20260916-1-x86_64.scc",
+      "sha256": "b4a5313819ac6a2c51e9e4ce4e8a921e19e3b23669ef50139805ec423ab17c9e",
+      "size": 249867,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
+    },
     "aom": {
       "version": "3.15.1-1",
       "arch": "x86_64",
@@ -2678,6 +2690,18 @@
       "sha256": "db539df4a152dc9fee6b05f6063f5e011b2a187f32746958793eae29875e25df",
       "size": 645848,
       "depends": null
+    },
+    "intel-ucode": {
+      "version": "20260925-1",
+      "arch": "x86_64",
+      "description": "Microcode update files for Intel CPUs",
+      "file": "intel-ucode-20260925-1-x86_64.scc",
+      "sha256": "7bc709a7d573a0a0a202758ac76aeecef62905e31956c97aa9668482249b67de",
+      "size": 17547734,
+      "depends": [
+        "glibc",
+        "gcc-libs"
+      ]
     },
     "iproute2": {
       "version": "6.5.1",
