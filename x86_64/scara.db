@@ -678,6 +678,18 @@
         "glibc"
       ]
     },
+    "fastfetch": {
+      "version": "2.69.0-1",
+      "arch": "x86_64",
+      "description": "A feature-rich and performance oriented neofetch like system information tool",
+      "file": "fastfetch-2.69.0-1-x86_64.scc",
+      "sha256": "c2dfabebb29f30f249cbd19a2cfad3f1a9923ae862898b50d2ec18e36dca3b8f",
+      "size": 4306791,
+      "depends": [
+        "glibc",
+        "yyjson"
+      ]
+    },
     "ffmpeg": {
       "version": "2.9.0.2-2",
       "arch": "x86_64",
@@ -822,8 +834,8 @@
       "arch": "x86_64",
       "description": "Base Arch Linux files",
       "file": "filesystem-2025.10.12-1-x86_64.scc",
-      "sha256": "a27173435bea1257ba9953f1957af3a29a0037fc881c2bce718173c4de037cf1",
-      "size": 14108,
+      "sha256": "810423c61fc2a15a15b46dd3ed55f4e8a3d7d659f50d5a3a0a096d17d52cf077",
+      "size": 14107,
       "depends": [
         "iana-etc"
       ]
@@ -1199,8 +1211,8 @@
       "arch": "x86_64",
       "description": "GNU C Library",
       "file": "glibc-2.44.r50.g1848099f063e-1-x86_64.scc",
-      "sha256": "e319cf7be3a300bb1c5622b3507d34df8a78054b5aa799f303073a2f55da6f6b",
-      "size": 18306803,
+      "sha256": "9f98fe953291cb95856052790eec9df8703ac87ede1649d6999b822af7bb92ca",
+      "size": 18307100,
       "depends": [
         "linux-api-headers",
         "tzdata",
@@ -2105,7 +2117,7 @@
       "arch": "x86_64",
       "description": "/etc/protocols and /etc/services provided by IANA",
       "file": "iana-etc-20260617-1-x86_64.scc",
-      "sha256": "eb9e9164e0d93d038927b3ad682384711fee776b092eabd7c32a6b02bbc0eba0",
+      "sha256": "96d3329cb0d3639b718bcebe5d064195e424d6c05f9aa6e15618355328353be2",
       "size": 563951,
       "depends": null
     },
@@ -7887,8 +7899,8 @@
       "arch": "x86_64",
       "description": "Kernel headers sanitized for use in userspace",
       "file": "linux-api-headers-7.2-1-x86_64.scc",
-      "sha256": "1eb603a1b762f6ecc0637aff3508af4bdc277cd737bceea9aa369362c4b2ce9c",
-      "size": 1985006,
+      "sha256": "60ef1cb29e13c88fb355eba01933bad003037d02dbd3551ff9db2cf4ad11b935",
+      "size": 1985020,
       "depends": null
     },
     "llvm-libs": {
@@ -9578,8 +9590,8 @@
       "arch": "x86_64",
       "description": "Sources for time zone and daylight saving time data",
       "file": "tzdata-2026e-1-x86_64.scc",
-      "sha256": "7f31889c836976aa8fba2793c71843526565a01a2f0f8f4e6ea7ece74d4036da",
-      "size": 572588,
+      "sha256": "ee26857f1843cc9c4eb4941bc60eadc799fb54f48ca2ff3bae8dc5f8f44a2d16",
+      "size": 572581,
       "depends": null
     },
     "uchardet": {
@@ -10239,6 +10251,17 @@
       "depends": [
         "glibc",
         "sh"
+      ]
+    },
+    "yyjson": {
+      "version": "0.13.0-1",
+      "arch": "x86_64",
+      "description": "A high performance JSON library written in ANSI C",
+      "file": "yyjson-0.13.0-1-x86_64.scc",
+      "sha256": "76d00346550de522887d06051785ea7929c53bd72832c654e00981aca776f206",
+      "size": 195457,
+      "depends": [
+        "glibc"
       ]
     },
     "zeromq": {
