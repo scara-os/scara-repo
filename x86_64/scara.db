@@ -42,8 +42,8 @@
       "arch": "x86_64",
       "description": "Access control list utilities, libraries and headers",
       "file": "acl-2.4.0-1-x86_64.scc",
-      "sha256": "acce6f88048fd6ac5b8b4054787194f568719eb1297b8484adf6f48bf7c1f267",
-      "size": 163774,
+      "sha256": "16a33e20103882d183395b5d4648e726b3c3bf40c300fbbce7ce3dea38e15772",
+      "size": 163777,
       "depends": [
         "glibc"
       ]
@@ -130,6 +130,15 @@
       "size": 126733,
       "depends": null
     },
+    "amd-ucode": {
+      "version": "20260916-1",
+      "arch": "x86_64",
+      "description": "Microcode update image for AMD CPUs",
+      "file": "amd-ucode-20260916-1-x86_64.scc",
+      "sha256": "a56831863e7f062755c051b4da186cded9a7cb75a641e30bf64777154adb0c48",
+      "size": 249860,
+      "depends": null
+    },
     "aom": {
       "version": "3.15.2-1",
       "arch": "x86_64",
@@ -190,8 +199,8 @@
       "arch": "x86_64",
       "description": "Extended attribute support library for ACL support",
       "file": "attr-2.6.0-1-x86_64.scc",
-      "sha256": "f68beb31ecc0e9a295f8625da2dedce531830e7c65ddd63e2ca3bbed38be0cc8",
-      "size": 83883,
+      "sha256": "4692f0ace0feecb9fc7167ae9897d4d4aea3977ec4d42143e58dc52fbe47f712",
+      "size": 83875,
       "depends": [
         "glibc"
       ]
@@ -201,8 +210,8 @@
       "arch": "x86_64",
       "description": "Userspace components of the audit framework",
       "file": "audit-4.2.1-1-x86_64.scc",
-      "sha256": "ea783a526ff63ca2a9cf717027ecbf95809fba703f2f7f372072a6cc284eec72",
-      "size": 481503,
+      "sha256": "0ed18659139653cff74cbf5036d246ec2c23a66947fa49547cee0270f860d497",
+      "size": 481513,
       "depends": [
         "bash",
         "glibc",
@@ -233,13 +242,26 @@
         "libdbus-1.so"
       ]
     },
+    "awk": {
+      "version": "5.4.1-1",
+      "arch": "x86_64",
+      "description": "GNU version of awk",
+      "file": "awk-5.4.1-1-x86_64.scc",
+      "sha256": "937fb9043ed0722c7050d294c79a8a91d17203348613fafc4f8cbb54bbd61b81",
+      "size": 1964090,
+      "depends": [
+        "sh",
+        "glibc",
+        "mpfr"
+      ]
+    },
     "bash": {
       "version": "5.3.20-1",
       "arch": "x86_64",
       "description": "The GNU Bourne Again shell",
       "file": "bash-5.3.20-1-x86_64.scc",
-      "sha256": "d7240de3e001f672246ca2cd359f1388cc87fddc4bb921359f99a1a0bc2140cf",
-      "size": 3280543,
+      "sha256": "fe887766896e0fd64ea0524aae60a24cafe28c8d72727010e901d519cc5d68ee",
+      "size": 3280519,
       "depends": [
         "readline",
         "libreadline.so",
@@ -252,8 +274,8 @@
       "arch": "x86_64",
       "description": "A set of programs to assemble and manipulate binary and object files",
       "file": "binutils-2.47-4-x86_64.scc",
-      "sha256": "d13bb5db73f4ccd1b098996a10344c133017163ab6a77888e6528cd345d924a3",
-      "size": 14289490,
+      "sha256": "c220e57641724bc761c8c31cf35c9a883e243de23ed185935001b524e8b84b18",
+      "size": 14290184,
       "depends": [
         "glibc",
         "jansson",
@@ -295,8 +317,8 @@
       "arch": "x86_64",
       "description": "Generic-purpose lossless compression algorithm",
       "file": "brotli-1.2.0-1-x86_64.scc",
-      "sha256": "962266beafb0cb5aaafc6b1dd722032b4bda282850b4aab9a2596fa7ddf0263f",
-      "size": 468026,
+      "sha256": "af90a522a9b10b86203e016457741f45064a9f63c98f379053fda77138fa713a",
+      "size": 468014,
       "depends": [
         "glibc"
       ]
@@ -333,8 +355,8 @@
       "arch": "x86_64",
       "description": "A high-quality data compression program",
       "file": "bzip2-1.0.8-6-x86_64.scc",
-      "sha256": "a49fb6dd98c21273cdca1353751248d64c97b6d5ffd842e99799a46b9edd6cb6",
-      "size": 62611,
+      "sha256": "e6367da3f2303a1ca5911e49f87c6a54eb3474583a1dfa90b0421cf1fd0f4617",
+      "size": 62606,
       "depends": [
         "glibc",
         "sh"
@@ -359,8 +381,8 @@
       "arch": "x86_64",
       "description": "2D graphics library with support for multiple output devices",
       "file": "cairo-1.18.6-1-x86_64.scc",
-      "sha256": "48cad7d7e53f8bcc907af84a518a6f31a696b0313f2608141e45cf1f720ebcea",
-      "size": 817773,
+      "sha256": "3a8b70e794cb65c00ad96bd0cd7693bc9f4620af54e94ffe28af246c9ec3b42d",
+      "size": 817762,
       "depends": [
         "bash",
         "fontconfig",
@@ -405,8 +427,8 @@
       "arch": "x86_64",
       "description": "The basic file, shell and text manipulation utilities of the GNU operating system",
       "file": "coreutils-9.12-2-x86_64.scc",
-      "sha256": "048c4f988c5eb7aaee1ed3f92dd9300ade5d8eb8afe78f4dcf87097969c4eebb",
-      "size": 7150238,
+      "sha256": "ce52ce5b62314134c77d270ad1df52143edea6595e2a32fd47d0dbbe692c7519",
+      "size": 7150057,
       "depends": [
         "acl",
         "attr",
@@ -421,8 +443,8 @@
       "arch": "x86_64",
       "description": "Userspace setup tool for transparent encryption of block devices using dm-crypt",
       "file": "cryptsetup-2.8.8-1-x86_64.scc",
-      "sha256": "8948b46c331a3a40863f5d92538b32ff1ed737009f6ff001bc5a3ea7b6c64d40",
-      "size": 1342834,
+      "sha256": "41908c5cce812854a528a45e0dd9b6eb0ff5b26390767a57f6a388f30d0051f8",
+      "size": 1342819,
       "depends": [
         "device-mapper",
         "libdevmapper.so",
@@ -442,8 +464,8 @@
       "arch": "x86_64",
       "description": "command line tool and library for transferring data with URLs",
       "file": "curl-8.22.0-1-x86_64.scc",
-      "sha256": "276bb9050fc39d92d9c42d2fb8410fdf1a56498b1b3c750270b84151bbff932d",
-      "size": 1440857,
+      "sha256": "8dfb6ffc6c0afee78ea88db828039a9335c0751a3a1aa2ea3e76ec2791a332bd",
+      "size": 1440850,
       "depends": [
         "ca-certificates",
         "brotli",
@@ -500,8 +522,8 @@
       "arch": "x86_64",
       "description": "Freedesktop.org message bus system",
       "file": "dbus-1.16.2-1-x86_64.scc",
-      "sha256": "a93fcdefcac9b4e7df64d8523185e0b714edac8d294d2258f629ae9df52c4e0b",
-      "size": 339000,
+      "sha256": "d675d8d77695ea5445da9e02359779e72a8217d47a0a9f1eb99cd90053a17b98",
+      "size": 338989,
       "depends": [
         "audit",
         "expat",
@@ -533,8 +555,8 @@
       "arch": "x86_64",
       "description": "Default cursor set",
       "file": "default-cursors-3-1-x86_64.scc",
-      "sha256": "cfadeea274e361660d6cde943d27c47429e6382bafd884fcebe843c87cea9868",
-      "size": 351,
+      "sha256": "e8435f3bca699fcd016086250c3c16f43c4a3ac9b5184a6bc9090a6a4246e3ad",
+      "size": 348,
       "depends": null
     },
     "desktop-file-utils": {
@@ -555,8 +577,8 @@
       "arch": "x86_64",
       "description": "Device mapper userspace library and tools",
       "file": "device-mapper-2.03.43-2-x86_64.scc",
-      "sha256": "ec0314d88ee6c6076c3bcf872a3437fdbf262265c582395f2f9d773b6264ff94",
-      "size": 360645,
+      "sha256": "fa7d0f3e17c5e4b2023fb71863b9abd1f13eb816c138fec73d02874a4db5c06d",
+      "size": 360636,
       "depends": [
         "bash",
         "glibc",
@@ -564,6 +586,18 @@
         "libgcc_s.so",
         "systemd-libs",
         "libudev.so"
+      ]
+    },
+    "diffutils": {
+      "version": "3.12-2",
+      "arch": "x86_64",
+      "description": "Utility programs used for creating patch files",
+      "file": "diffutils-3.12-2-x86_64.scc",
+      "sha256": "faf4da1e02dfd02a072405fb069b2ec975f1d5a59107f154beff82167eeea570",
+      "size": 580388,
+      "depends": [
+        "glibc",
+        "bash"
       ]
     },
     "duktape": {
@@ -582,8 +616,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem utilities",
       "file": "e2fsprogs-1.47.4-1-x86_64.scc",
-      "sha256": "4d4a812163a8f8ace4523e0178b540aeea5b32686d0813d42c3c3e6702b3b948",
-      "size": 2049639,
+      "sha256": "bf7ec90784db738ad42452a8da5e9242acb9a06d2c3ecf0b7dcc82c3b9b15228",
+      "size": 2049482,
       "depends": [
         "sh",
         "util-linux-libs"
@@ -672,8 +706,8 @@
       "arch": "x86_64",
       "description": "An XML parser library",
       "file": "expat-2.9.0-1-x86_64.scc",
-      "sha256": "0efe1a9eb8b9a72d0caec77e83cf74ce5dce2460fa36877e6c0206c1ee647894",
-      "size": 186009,
+      "sha256": "9b942be4d29798bae238e0f6b41613de125eea16c65aa1a516b45b9da8b46d54",
+      "size": 186002,
       "depends": [
         "glibc"
       ]
@@ -688,6 +722,21 @@
       "depends": [
         "glibc",
         "yyjson"
+      ]
+    },
+    "fcft": {
+      "version": "3.3.3-1",
+      "arch": "x86_64",
+      "description": "Simple library for font loading and glyph rasterization",
+      "file": "fcft-3.3.3-1-x86_64.scc",
+      "sha256": "5053f70fe97bafa84ea623e7c2a497d99322ff4a55b91eb5595d0f49ea6a6fd2",
+      "size": 95907,
+      "depends": [
+        "fontconfig",
+        "freetype2",
+        "harfbuzz",
+        "libutf8proc",
+        "pixman"
       ]
     },
     "ffmpeg": {
@@ -813,8 +862,8 @@
       "arch": "x86_64",
       "description": "File type identification utility",
       "file": "file-5.48-1-x86_64.scc",
-      "sha256": "fb13000878815d6fdcaf078d99b713d03852a6809ff58d6ebc30b926f8744293",
-      "size": 650868,
+      "sha256": "099daa1a016c067aa1ebc44b6bc3476d5cf5f74e0ecf39f0b39fbd3220c10561",
+      "size": 650938,
       "depends": [
         "glibc",
         "bzip2",
@@ -834,8 +883,8 @@
       "arch": "x86_64",
       "description": "Base Arch Linux files",
       "file": "filesystem-2025.10.12-1-x86_64.scc",
-      "sha256": "eaa0892f763bf2940f404bae50422cf0eaefb30070622c35cadea3fd142407c4",
-      "size": 14111,
+      "sha256": "3024877c518d87d1d2f26761d54cc886db91eff1bf3075884334d842645620b6",
+      "size": 14104,
       "depends": [
         "iana-etc"
       ]
@@ -845,8 +894,8 @@
       "arch": "x86_64",
       "description": "GNU utilities to locate files",
       "file": "findutils-4.11.0-1-x86_64.scc",
-      "sha256": "b4f6fc713ca91f9186a18e2f099bcb8547541d17d7021094cf73499b349349a7",
-      "size": 804341,
+      "sha256": "55df474a1cb293052590d7939557374114f3486bff07a7460f309f0fb296edc0",
+      "size": 804309,
       "depends": [
         "glibc"
       ]
@@ -869,8 +918,8 @@
       "arch": "x86_64",
       "description": "Library for configuring and customizing font access",
       "file": "fontconfig-2.2.18.3-2-x86_64.scc",
-      "sha256": "953153c0f4aaa0577de6fdd4fe5b7645de25e147b93cfb52715f1759242f5721",
-      "size": 457443,
+      "sha256": "9513af60511822cb68f345d25f242fa15335cb4155720b23ee8d7b5e85674765",
+      "size": 457436,
       "depends": [
         "bash",
         "expat",
@@ -880,13 +929,31 @@
         "libfreetype.so"
       ]
     },
+    "foot": {
+      "version": "1.28.0-2",
+      "arch": "x86_64",
+      "description": "Fast, lightweight, and minimalistic Wayland terminal emulator",
+      "file": "foot-1.28.0-2-x86_64.scc",
+      "sha256": "2b476601da3af33b6edeb8acff848498cbf37882fbc711ff0bab7f4f44f45b35",
+      "size": 381499,
+      "depends": [
+        "fcft",
+        "fontconfig",
+        "libfcft.so",
+        "libutf8proc",
+        "libxkbcommon",
+        "ncurses",
+        "pixman",
+        "wayland"
+      ]
+    },
     "freetype2": {
       "version": "2.14.3-1",
       "arch": "x86_64",
       "description": "Font rasterization library",
       "file": "freetype2-2.14.3-1-x86_64.scc",
-      "sha256": "a8ed484104e20c276ab6f33430eaeca389653cd490a43830f62ccbfdc9002515",
-      "size": 631997,
+      "sha256": "68e43e67ad5291a04470b6ff78d34dffc423c39960a7ad5c17001fcd67fdca4e",
+      "size": 631999,
       "depends": [
         "brotli",
         "bzip2",
@@ -968,8 +1035,8 @@
       "arch": "x86_64",
       "description": "GNU database library",
       "file": "gdbm-1.26-2-x86_64.scc",
-      "sha256": "aabbd519cc5eae8b8ae1873967981213be266eaf36f86dfbc75bd61d3f054b4a",
-      "size": 307201,
+      "sha256": "1b263ef19208198418cf0a9ddb235178d8f29b56dec4105cb1b989e242ead557",
+      "size": 307192,
       "depends": [
         "glibc",
         "sh",
@@ -1192,8 +1259,8 @@
       "arch": "x86_64",
       "description": "Low level core library",
       "file": "glib2-2.90.1-1-x86_64.scc",
-      "sha256": "9e99b8e8c0d7811e7a4af44eb39c146afead0c144f3448146571763d2e0dc6e0",
-      "size": 9577166,
+      "sha256": "1c583ad6aaf94eb6f0b117741c41477fd63997bd649a2c819959a7abf01dc3bd",
+      "size": 9576313,
       "depends": [
         "bash",
         "glibc",
@@ -1211,8 +1278,8 @@
       "arch": "x86_64",
       "description": "GNU C Library",
       "file": "glibc-2.44.r50.g1848099f063e-1-x86_64.scc",
-      "sha256": "ba5a6c42697c98ac4fbf92a99c0d1432db35e22f9d1db7197b08138c56c9d88d",
-      "size": 18307082,
+      "sha256": "bee20387a62b93bb6deaf41eb4a6f9dabfa3135554a09b62d9a135184c6f96b7",
+      "size": 18306653,
       "depends": [
         "linux-api-headers",
         "tzdata",
@@ -1275,8 +1342,8 @@
       "arch": "x86_64",
       "description": "A free library for arbitrary precision arithmetic",
       "file": "gmp-6.3.0-3-x86_64.scc",
-      "sha256": "6ebc016035573d2b4d2ec3e2b5dff6ed4184fe1458b740522b6c815eb48fd450",
-      "size": 494079,
+      "sha256": "cf9b440a0e641d2120ec831f2ac47b9f0899336c49aa7327c82eedc335655686",
+      "size": 494067,
       "depends": [
         "libgcc",
         "libstdc++",
@@ -1486,8 +1553,8 @@
       "arch": "x86_64",
       "description": "A library which provides a secure layer over a reliable transport layer",
       "file": "gnutls-3.8.13-3-x86_64.scc",
-      "sha256": "bbd3bc0a064f9c325ada7cb80e645dd7979b641b3dc76ce225eb230f1eec5596",
-      "size": 2754866,
+      "sha256": "88b6a718525632af249f369142f4cf33d6ac9425c8b3e82284369332c680017d",
+      "size": 2755823,
       "depends": [
         "glibc",
         "gmp",
@@ -1589,8 +1656,8 @@
       "arch": "x86_64",
       "description": "a \"smart font\" system to handle the complexities of lesser-known languages of the world",
       "file": "graphite-1.1.3.15-1-x86_64.scc",
-      "sha256": "869d3dfc813db4aaf7eaf54203a586607e48ed2d613e3ef2c9367c1aae5dcfa5",
-      "size": 90194,
+      "sha256": "8543edb8cd48d882e32af25c33691b95f8526f4485e89634658868d8b6ec1449",
+      "size": 90182,
       "depends": [
         "glibc",
         "libstdc++",
@@ -1612,6 +1679,18 @@
         "pango",
         "gts",
         "gsfonts"
+      ]
+    },
+    "grep": {
+      "version": "3.12-2",
+      "arch": "x86_64",
+      "description": "A string search utility",
+      "file": "grep-3.12-2-x86_64.scc",
+      "sha256": "f6169410cfd6a1d5cd5563faab7301a5bbb60e16ca88877a310957956bb43557",
+      "size": 281433,
+      "depends": [
+        "glibc",
+        "pcre2"
       ]
     },
     "gsettings-desktop-schemas": {
@@ -1996,8 +2075,8 @@
       "arch": "x86_64",
       "description": "GNU compression utility",
       "file": "gzip-1.15-1-x86_64.scc",
-      "sha256": "32822df3a023c699a6beb33bec38e0985f901b758fc977f9a317a7b9ea5756a5",
-      "size": 99442,
+      "sha256": "53032c3fdaa4ead25694cdb11ca1504fd81cc3113973c27ca084820db60407f9",
+      "size": 99437,
       "depends": [
         "glibc",
         "sh",
@@ -2010,8 +2089,8 @@
       "arch": "x86_64",
       "description": "OpenType text shaping engine",
       "file": "harfbuzz-14.6.0-1-x86_64.scc",
-      "sha256": "eb5b63e9d594aea4506d3b1fadbfffe343956394d3ac3a565b850485968a1655",
-      "size": 1772299,
+      "sha256": "820beac62004e0a6fcde641aab017e52d9577b8eb82b57ec8d4c04e7920d8c63",
+      "size": 1772297,
       "depends": [
         "freetype2",
         "libfreetype.so",
@@ -2047,8 +2126,8 @@
       "arch": "x86_64",
       "description": "Freedesktop.org Hicolor icon theme",
       "file": "hicolor-icon-theme-0.18-1-x86_64.scc",
-      "sha256": "980f5177c939163c97f24fa250242c2e0bcc7cd026e47458b466509562372c38",
-      "size": 6404,
+      "sha256": "81f389232dc2ffa6234afc1cd75cc2baa1f59da04d7241bcfddc91040be2e7ec",
+      "size": 6401,
       "depends": null
     },
     "hidapi": {
@@ -2096,8 +2175,8 @@
       "arch": "x86_64",
       "description": "hardware identification databases",
       "file": "hwdata-0.412-1-x86_64.scc",
-      "sha256": "50426850d02753891234a3196a5de7522a9200be64af246569016e67ac24b957",
-      "size": 2612730,
+      "sha256": "051ce8e96ae7ffa0fa0f0f3493792c3db93505007488e879a3d1623d112d59af",
+      "size": 2612739,
       "depends": null
     },
     "hyphen": {
@@ -2117,8 +2196,8 @@
       "arch": "x86_64",
       "description": "/etc/protocols and /etc/services provided by IANA",
       "file": "iana-etc-20260617-1-x86_64.scc",
-      "sha256": "b688881aa332caac214e099b2ef172a827e0d996b8e009d82027e73f7d9477b0",
-      "size": 563962,
+      "sha256": "50e0be8a1a8556ca7afe68cf78656f0f500d570f7c9998c3ca6254c2b7636ac7",
+      "size": 563952,
       "depends": null
     },
     "ibus": {
@@ -2157,8 +2236,8 @@
       "arch": "x86_64",
       "description": "International Components for Unicode library",
       "file": "icu-78.3-1-x86_64.scc",
-      "sha256": "6110c56be7fcab92dc6ef089c0c09875c4acf4a2ae516eac58ef07727f7cc9f1",
-      "size": 16713305,
+      "sha256": "7341421de1fb5e6877ebddfdca7394327c795d0afc934d80e37e7815c3235246",
+      "size": 16712841,
       "depends": [
         "glibc",
         "libstdc++",
@@ -2193,6 +2272,15 @@
         "glibc",
         "sh"
       ]
+    },
+    "intel-ucode": {
+      "version": "20260925-1",
+      "arch": "x86_64",
+      "description": "Microcode update files for Intel CPUs",
+      "file": "intel-ucode-20260925-1-x86_64.scc",
+      "sha256": "362c07d462946b49e3e688a6f0a877d0d456fdd9fff137cae63899eccd6c79ce",
+      "size": 17547763,
+      "depends": null
     },
     "iproute2": {
       "version": "7.2.0-1",
@@ -2242,8 +2330,8 @@
       "arch": "x86_64",
       "description": "C library for encoding, decoding and manipulating JSON data",
       "file": "jansson-2.15.1-1-x86_64.scc",
-      "sha256": "a74b4aeffe51ce0b8d474a721130bc83cd346b9faef59fb10005ca46e34fedfa",
-      "size": 126256,
+      "sha256": "7b4ae85fbe47f83fd9686308be2258d411c6647d01fcaa7cb6fdb33fbbe56081",
+      "size": 126252,
       "depends": [
         "glibc"
       ]
@@ -2265,8 +2353,8 @@
       "arch": "x86_64",
       "description": "Data compression library/utilities for bi-level high-resolution images",
       "file": "jbigkit-2.1-8-x86_64.scc",
-      "sha256": "755e8c0c0a8f3ed91f50ed2fc0037955f5157eb8fdece62665a00f1572c9c5b0",
-      "size": 58213,
+      "sha256": "416ac57b9ee3fd41f5b40ecb69ff535ff786f1fcd762821013df35bebda34d7d",
+      "size": 58202,
       "depends": [
         "glibc"
       ]
@@ -2292,8 +2380,8 @@
       "arch": "x86_64",
       "description": "JSON implementation in C",
       "file": "json-c-0.19-1-x86_64.scc",
-      "sha256": "5d5246e6ee33d195f829f99ba36a1d8ed4b13da8fd958e9a7977c97a0058a9b6",
-      "size": 67009,
+      "sha256": "070d8381a0e490ec6f52deef1a8904bb3fb855e349a774673905c8af433c1395",
+      "size": 67007,
       "depends": [
         "glibc"
       ]
@@ -2318,8 +2406,8 @@
       "arch": "x86_64",
       "description": "Keytable files and keyboard utilities",
       "file": "kbd-2.10.0-1-x86_64.scc",
-      "sha256": "c15b3721e65c33189d195916e153f6b74dd95178a74329064aa103b36838c1a4",
-      "size": 1645482,
+      "sha256": "1a2667dc126586ff6c0dfe503ff6e46d378eab0670f1dca7e3b02d6ddc5ffd6c",
+      "size": 1645463,
       "depends": [
         "glibc",
         "gzip",
@@ -2331,11 +2419,65 @@
       "arch": "x86_64",
       "description": "Linux Key Management Utilities",
       "file": "keyutils-1.6.3-4-x86_64.scc",
-      "sha256": "1da0e28a589416d7ee5ff320b0a0ddded8dadb41b725eee127119950c3554ead",
-      "size": 108743,
+      "sha256": "86ba953855246f793350ace29574122edf2b7406ee138e61cc9b5c2997f62c12",
+      "size": 108738,
       "depends": [
         "glibc",
         "sh"
+      ]
+    },
+    "kitty": {
+      "version": "0.49.2-1",
+      "arch": "x86_64",
+      "description": "A modern, hackable, featureful, OpenGL-based terminal emulator",
+      "file": "kitty-0.49.2-1-x86_64.scc",
+      "sha256": "14be207807479b04f4668ab34664ea7b0fcda2b39b049ee2fe019eff9fc13395",
+      "size": 28337276,
+      "depends": [
+        "cairo",
+        "dbus",
+        "freetype2",
+        "fontconfig",
+        "harfbuzz",
+        "hicolor-icon-theme",
+        "lcms2",
+        "libgl",
+        "libpng",
+        "librsync",
+        "libx11",
+        "libxcursor",
+        "libxkbcommon",
+        "libxkbcommon-x11",
+        "libxi",
+        "openssl",
+        "python3",
+        "wayland",
+        "xxhash",
+        "zlib",
+        "kitty-terminfo",
+        "kitty-shell-integration"
+      ]
+    },
+    "kitty-shell-integration": {
+      "version": "0.49.2-1",
+      "arch": "x86_64",
+      "description": "Shell integration scripts for kitty, an OpenGL-based terminal emulator",
+      "file": "kitty-shell-integration-0.49.2-1-x86_64.scc",
+      "sha256": "7d4ed1cebbbeb2a288bd3fd10e081c573b33e8eab844538274c99e634eccb25a",
+      "size": 26582,
+      "depends": [
+        "python3"
+      ]
+    },
+    "kitty-terminfo": {
+      "version": "0.49.2-1",
+      "arch": "x86_64",
+      "description": "Terminfo for kitty, an OpenGL-based terminal emulator",
+      "file": "kitty-terminfo-0.49.2-1-x86_64.scc",
+      "sha256": "f6fa62de3d2699f98cd543ec94e52f59cb55f48796b7ea5c97e5f3eba510003d",
+      "size": 2242,
+      "depends": [
+        "ncurses"
       ]
     },
     "kmod": {
@@ -2343,8 +2485,8 @@
       "arch": "x86_64",
       "description": "Linux kernel module management tools and library",
       "file": "kmod-34.2-1-x86_64.scc",
-      "sha256": "b830b1ad756ab2e3de72a608c74eff28c6ebc5cd0705f7ea6a165ce4c0166f47",
-      "size": 159800,
+      "sha256": "24104e5f8c0a6abbf708c8e10896c52899e34f75e7388990f679ea8d649c4ea1",
+      "size": 159791,
       "depends": [
         "glibc",
         "zlib",
@@ -2358,8 +2500,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system",
       "file": "krb5-1.22.2-1-x86_64.scc",
-      "sha256": "13595cc9a7b36d6420c6f0279fd279477550e0cef610aa8b35a9148c1be3e492",
-      "size": 1772428,
+      "sha256": "c360694bb9b7bc48c3fe614a7ab6a220573edd60cad7ff33b08bb6a32c1106ee",
+      "size": 1772417,
       "depends": [
         "bash",
         "e2fsprogs",
@@ -2393,8 +2535,8 @@
       "arch": "x86_64",
       "description": "Small-footprint color management engine, version 2",
       "file": "lcms2-2.19.1-1-x86_64.scc",
-      "sha256": "15aae9d545e975b38d5b8a1b1dd442c990f6b0ff26e5da4bb39311295708c4c0",
-      "size": 272593,
+      "sha256": "92d93abc55a34b3a0ec56281115da7f58ff66e675afbdbfe1ed9a2242418533f",
+      "size": 272589,
       "depends": [
         "glibc",
         "libjpeg-turbo",
@@ -2406,8 +2548,8 @@
       "arch": "x86_64",
       "description": "Lean cryptographic library usable for bare-metal environments",
       "file": "leancrypto-1.9.1-1-x86_64.scc",
-      "sha256": "1927ae875aa1becbd4b56f3e680e1733271b8d039adea12062db61bf4b42c91b",
-      "size": 3335476,
+      "sha256": "070de0247d47b9350e9c8cc3171f433405a9079ba37b0da75e9b72ccce7df7d1",
+      "size": 3335480,
       "depends": [
         "glibc"
       ]
@@ -2417,8 +2559,8 @@
       "arch": "x86_64",
       "description": "Generic-purpose lossless compression algorithm (32-bit)",
       "file": "lib32-brotli-1.2.0-2-x86_64.scc",
-      "sha256": "0490914b29f9db725bd2fb380a4f7f3d895bd445aca08b6c1efe7e2ca12de1b9",
-      "size": 389773,
+      "sha256": "06d629a26d9744bc2283138fb64dcb4e4505d54440b48b0a73986da88790038d",
+      "size": 389765,
       "depends": [
         "brotli",
         "lib32-gcc-libs"
@@ -2429,8 +2571,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem libraries (32-bit)",
       "file": "lib32-e2fsprogs-1.47.4-1-x86_64.scc",
-      "sha256": "65d0b3850b947db4b900c1154b34a26022898b0b487fa70285223449a2ceff4a",
-      "size": 252788,
+      "sha256": "a84a5f13c1af2df8f17eaa0861d563f693df3667110f3c1557158d4fb21edf70",
+      "size": 252784,
       "depends": [
         "lib32-glibc",
         "e2fsprogs"
@@ -2441,8 +2583,8 @@
       "arch": "x86_64",
       "description": "32-bit runtime libraries shipped by GCC",
       "file": "lib32-gcc-libs-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "88b0b341a81e9b79aef50e7825216b5a42ee637907d432dd0973033f3d74e09b",
-      "size": 15068690,
+      "sha256": "dac9175c4dca96623784ea53b3ad5cffe384fb4f6c1824c6b28fad7c13e337fe",
+      "size": 15068676,
       "depends": [
         "lib32-glibc"
       ]
@@ -2452,8 +2594,8 @@
       "arch": "x86_64",
       "description": "GNU C Library (32-bit)",
       "file": "lib32-glibc-2.44.r50.g1848099f063e-1-x86_64.scc",
-      "sha256": "7dc50cb092f4dd6462027fcbebe0791731eb622898774a7d9455dd20202b442d",
-      "size": 7015603,
+      "sha256": "476e00215e989b5df9d48eff759b0b70f0e6bd16be1992ad9e0e5e94e09db80b",
+      "size": 7015498,
       "depends": [
         "glibc"
       ]
@@ -2463,8 +2605,8 @@
       "arch": "x86_64",
       "description": "A free library for arbitrary precision arithmetic (32-bit)",
       "file": "lib32-gmp-6.3.0-2-x86_64.scc",
-      "sha256": "9501a0c22942b614aeda18ed72658379cfd26fb1d6fd4b5c7f0d7ff21da5cfe3",
-      "size": 311377,
+      "sha256": "52973e6303e348f203d2decd9cbbaa4ffee80373d035f9f1211aa33675bd4bd1",
+      "size": 311368,
       "depends": [
         "lib32-gcc-libs",
         "gmp"
@@ -2475,8 +2617,8 @@
       "arch": "x86_64",
       "description": "A library which provides a secure layer over a reliable transport layer (32-bit)",
       "file": "lib32-gnutls-3.8.13-3-x86_64.scc",
-      "sha256": "94127a281bf8ee3cd6e0cb8ef51f2f7ca939d397e83824b3d98e083b503af363",
-      "size": 980559,
+      "sha256": "5ebf730ed0b01228b6984a3d937050856fe5d6781861adcd81d86614c36399b4",
+      "size": 980546,
       "depends": [
         "lib32-nettle",
         "libnettle.so",
@@ -2497,8 +2639,8 @@
       "arch": "x86_64",
       "description": "International Components for Unicode library (32 bit)",
       "file": "lib32-icu-78.3-1-x86_64.scc",
-      "sha256": "90c79736124357502960f3ceb217663373a4b86c44ed17da489aa3117ec7797f",
-      "size": 15462181,
+      "sha256": "0e2a83815f3f799bb3ef0a9307786d3488320a1b5da5fa734922cb26ed1d1abd",
+      "size": 15462258,
       "depends": [
         "lib32-gcc-libs",
         "lib32-glibc",
@@ -2510,8 +2652,8 @@
       "arch": "x86_64",
       "description": "Linux Key Management Utilities (32-bit)",
       "file": "lib32-keyutils-1.6.3-4-x86_64.scc",
-      "sha256": "9e5307afe50efc5833e79b4dcc4a80455856f56f9055c98f5780affd30f52377",
-      "size": 6834,
+      "sha256": "a43a9bd6217edb11182ca0787bd8bb05cfd2921fc045289f683a0ef02917ea04",
+      "size": 6828,
       "depends": [
         "lib32-glibc",
         "lib32-krb5",
@@ -2523,8 +2665,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system (32-bit)",
       "file": "lib32-krb5-1.22.2-1-x86_64.scc",
-      "sha256": "df2b252e0a54e335728f33f419204eee010b9cd11b47b7888c19fe2b638cbab0",
-      "size": 975035,
+      "sha256": "eb4b34e96fce90c5c13f88da4b0aa6817da7639ce1204e69fe7c26a2cf33ad9c",
+      "size": 975027,
       "depends": [
         "lib32-e2fsprogs",
         "lib32-gcc-libs",
@@ -2540,8 +2682,8 @@
       "arch": "x86_64",
       "description": "Portable foreign function interface library (32-bit)",
       "file": "lib32-libffi-3.8.0-1-x86_64.scc",
-      "sha256": "f2ac8e2468d55866d004883e8e7498dd843938cec61707ba4ed7064f3abcf62d",
-      "size": 19871,
+      "sha256": "6ba6377765c5348f9bb24481c1fd2a59f6796a73898ceec6cae9b288790fcd41",
+      "size": 19865,
       "depends": [
         "lib32-glibc",
         "libffi"
@@ -2552,8 +2694,8 @@
       "arch": "x86_64",
       "description": "General purpose cryptographic library based on the code from GnuPG (32-bit)",
       "file": "lib32-libgcrypt-1.12.4-1-x86_64.scc",
-      "sha256": "f5a8c3f962c351c9b54e091258bc1023c890c21ff581da7fc15b8afd008b7fb9",
-      "size": 577978,
+      "sha256": "79d6dc248b265c8957bcb206da2eac4370aa1ecce2b9e61936021be393cae066",
+      "size": 577962,
       "depends": [
         "lib32-libgpg-error",
         "lib32-glibc",
@@ -2565,8 +2707,8 @@
       "arch": "x86_64",
       "description": "Support library for libgcrypt (32-bit)",
       "file": "lib32-libgpg-error-1.61-1-x86_64.scc",
-      "sha256": "f846342c2e1ff715beda668e071f3398d4760e13730448b02f77f28f1c5e4ed3",
-      "size": 80658,
+      "sha256": "17aea9def6701d8bc7d75f4442a4b2996deaad0aa1a2546ea5d2caa2f516e7f4",
+      "size": 80652,
       "depends": [
         "lib32-glibc",
         "libgpg-error"
@@ -2577,8 +2719,8 @@
       "arch": "x86_64",
       "description": "Free software implementation of IDNA2008, Punycode and TR46",
       "file": "lib32-libidn2-2.3.8-1-x86_64.scc",
-      "sha256": "e4c50bd0f54578fdc04c7ebb9bb4a242212198e622d6703ae7bbb964230039ab",
-      "size": 68213,
+      "sha256": "d4103907c6d8ba670ece692ba3ffbfa1d41b70c80129b370f0f10878fa7ff48f",
+      "size": 68211,
       "depends": [
         "libidn2",
         "lib32-glibc",
@@ -2590,8 +2732,8 @@
       "arch": "x86_64",
       "description": "Lightweight Directory Access Protocol (LDAP) client libraries (32-bit)",
       "file": "lib32-libldap-2.7.1-1-x86_64.scc",
-      "sha256": "4df8f2f54cbe5645e69aa522d77329849531377fed2b87aa5e7c49af6c9aa0df",
-      "size": 187491,
+      "sha256": "20d2e685d9b40c1b268b19c5c415346af24c2fa1cc95cf8872b4a4e09eea69d4",
+      "size": 187483,
       "depends": [
         "lib32-openssl",
         "lib32-libxcrypt",
@@ -2603,8 +2745,8 @@
       "arch": "x86_64",
       "description": "The ASN.1 library used in GNUTLS (32 bit)",
       "file": "lib32-libtasn1-4.21.0-1-x86_64.scc",
-      "sha256": "6d19c903b119c2490d43e22686f77d68c031f0dc248fbd91c65b0a1c8c916eb9",
-      "size": 38651,
+      "sha256": "39491348a37b5b0292402d33e424751e8c9c57b5f4287dc4f674b03cc5122cb3",
+      "size": 38643,
       "depends": [
         "lib32-glibc",
         "libtasn1"
@@ -2615,7 +2757,7 @@
       "arch": "x86_64",
       "description": "Library for manipulating Unicode strings and C strings (32-bit)",
       "file": "lib32-libunistring-1.4.2-1-x86_64.scc",
-      "sha256": "e96a9c953096d4eecdd4c9fe53795af4572c55a2a5fb1e24c707a92f5fb6552a",
+      "sha256": "330415af8782ceae9b6226ffc1fe6ea3f1ccd13f5ed5f7d039198012218b63a0",
       "size": 780119,
       "depends": [
         "libunistring",
@@ -2627,8 +2769,8 @@
       "arch": "x86_64",
       "description": "Modern library for one-way hashing of passwords (32-bit)",
       "file": "lib32-libxcrypt-4.5.2-1-x86_64.scc",
-      "sha256": "0e3ce5b8925095966666a6d7b291756bcce732f0d07095610eef963fbb1f4ff7",
-      "size": 79745,
+      "sha256": "457de97f4b64384e3535e7942229f0ff6125921fecb1a761726ff63c988b3c2c",
+      "size": 79741,
       "depends": [
         "lib32-glibc",
         "libxcrypt"
@@ -2639,8 +2781,8 @@
       "arch": "x86_64",
       "description": "A low-level cryptographic library (32-bit)",
       "file": "lib32-nettle-4.0-2-x86_64.scc",
-      "sha256": "180109f1c832af50a81a0bfc7dbfc695714d97d4581e5caacdd991af9522318d",
-      "size": 365470,
+      "sha256": "59bf9c939c712b105d10fe35e8f079ce1e498dbf6ca67b50c67314e2c49ccbfa",
+      "size": 365461,
       "depends": [
         "lib32-glibc",
         "lib32-gmp",
@@ -2652,8 +2794,8 @@
       "arch": "x86_64",
       "description": "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)",
       "file": "lib32-openssl-1.3.6.5-1-x86_64.scc",
-      "sha256": "b29e18f2cb43d1b2370c4a3573c3be393b46fdc8ef3211e070448051da2156a5",
-      "size": 2535589,
+      "sha256": "b629f4a51875803b0771de7f213c5bab2bdda28feaff6645531eacc996f091f0",
+      "size": 2535596,
       "depends": [
         "lib32-glibc",
         "openssl"
@@ -2664,8 +2806,8 @@
       "arch": "x86_64",
       "description": "Loads and enumerates PKCS#11 modules (32-bit library)",
       "file": "lib32-p11-kit-0.26.5-1-x86_64.scc",
-      "sha256": "e25a3f0cb5ecc13ee7f5b53796451d3da9d4f3581b074368bb740cad5cc6febf",
-      "size": 682647,
+      "sha256": "17bbde0baac1c70ab2cc9142f059c784af42b01903aee1fcc8d03c778a7101d9",
+      "size": 682648,
       "depends": [
         "lib32-glibc",
         "lib32-libffi",
@@ -2678,8 +2820,8 @@
       "arch": "x86_64",
       "description": "Library and command line tools for XZ and LZMA compressed files (32-bit)",
       "file": "lib32-xz-5.8.4-1-x86_64.scc",
-      "sha256": "22936dac564f95495c49adb648617e440917833675144e03adfa3d72e20da8c9",
-      "size": 117456,
+      "sha256": "d1aac8ada7aae14c637db49dcb8625c193639614d56ffaf7bf2300cd9c31c3b7",
+      "size": 117447,
       "depends": [
         "lib32-glibc",
         "xz"
@@ -2690,8 +2832,8 @@
       "arch": "x86_64",
       "description": "Compression library implementing the deflate compression method found in gzip and PKZIP (32-bit)",
       "file": "lib32-zlib-1.3.2-1-x86_64.scc",
-      "sha256": "ccdd278bcb679361ed7cb9773ff7c6363b1c63e8b26749cf2e16b0d3f4228ca7",
-      "size": 51252,
+      "sha256": "175773f54754ec4921756e09b7a35b530ea6b9781fc6b506cb76b18fb04b69bd",
+      "size": 51248,
       "depends": [
         "lib32-glibc",
         "zlib"
@@ -2702,8 +2844,8 @@
       "arch": "x86_64",
       "description": "Zstandard - Fast real-time compression algorithm (32-bit)",
       "file": "lib32-zstd-1.5.7-2-x86_64.scc",
-      "sha256": "920d00a4c10d02e8a1cbf3f015ed326cc8d03f6639e2df4b288c0089027b69f3",
-      "size": 382512,
+      "sha256": "4009171f5f18b8b62ae46543b06f93bf4af30a428b5005b2f2ee8c094b0d6981",
+      "size": 382500,
       "depends": [
         "zstd",
         "lib32-glibc"
@@ -2740,7 +2882,7 @@
       "arch": "x86_64",
       "description": "Access control list utilities, libraries and headers",
       "file": "libacl.so-2.4.0-1-x86_64.scc",
-      "sha256": "047aa619f481190b42accbb058247a63bbe9f4532e15e6f090016be557ce3853",
+      "sha256": "8430e7c87aa89e006bbd81a3f751d2ab0bf7903abc85c597b396a0d9752addcf",
       "size": 163775,
       "depends": [
         "glibc"
@@ -2782,8 +2924,8 @@
       "arch": "x86_64",
       "description": "Multi-format archive and compression library",
       "file": "libarchive-3.8.9-1-x86_64.scc",
-      "sha256": "ba4a39fa41af0d8490a0bed58307912b4d1628943910323cd6a5932923c71626",
-      "size": 662322,
+      "sha256": "2bd47533ef15d419af446b716f188338bd50875fa55d2ebaa653dda978909f39",
+      "size": 662303,
       "depends": [
         "acl",
         "bzip2",
@@ -2913,8 +3055,8 @@
       "arch": "x86_64",
       "description": "Userspace components of the audit framework",
       "file": "libaudit.so-4.2.1-1-x86_64.scc",
-      "sha256": "02cfd252358e81a19fa6976df465e76c927c80ea39536e7838129f8ee6af3a84",
-      "size": 481507,
+      "sha256": "d6df635cfc802cb0730916901736d87ea0937b5d1ba9adb1157a40e5d5c0d88e",
+      "size": 481513,
       "depends": [
         "bash",
         "glibc",
@@ -3023,8 +3165,8 @@
       "arch": "x86_64",
       "description": "Miscellaneous system utilities for Linux (32-bit)",
       "file": "libblkid.so-2.42.4-1-x86_64.scc",
-      "sha256": "0e75a929ef4787eae78eec547d11000afc3e1a0bc0d992cd1a4d68a5562e8332",
-      "size": 511242,
+      "sha256": "db68e964c4818fbf6c8f452df5da10614a789d5f91ebb6daf7a32d0da8ddc2ae",
+      "size": 511214,
       "depends": [
         "util-linux-libs",
         "lib32-glibc"
@@ -3277,8 +3419,8 @@
       "arch": "x86_64",
       "description": "Generic-purpose lossless compression algorithm",
       "file": "libbrotlidec.so-1.2.0-1-x86_64.scc",
-      "sha256": "29525dfbb5a95155b121870f6161334cb8a052b23666304ade8a936cbcd39fcc",
-      "size": 468037,
+      "sha256": "ad4c4f283bd3caa78d93432d0dca9b68f81f9348fecaab84d590fd7c092d0049",
+      "size": 468021,
       "depends": [
         "glibc"
       ]
@@ -3342,8 +3484,8 @@
       "arch": "x86_64",
       "description": "A high-quality data compression program",
       "file": "libbz2.so-1.0.8-6-x86_64.scc",
-      "sha256": "0acb10b18ac79fdbdfd7cd049b26aed68939b33bd55a280f04ba7556743e5d1c",
-      "size": 62613,
+      "sha256": "1f6f2dd719f27a470e95586af3f3bde7c3218f5176e7de402406515d344fa704",
+      "size": 62604,
       "depends": [
         "glibc",
         "sh"
@@ -3386,7 +3528,7 @@
       "arch": "x86_64",
       "description": "POSIX 1003.1e capabilities",
       "file": "libcap-2.78-1-x86_64.scc",
-      "sha256": "ea9a5a6bfdacbee914c9b4444e370568b31372d7e0d2d7aaa6bf848b3b09522a",
+      "sha256": "00ab2e855236524d14881bdf78a248e2059eefcc59a017e94dd57ce4b4869b79",
       "size": 967265,
       "depends": [
         "glibc",
@@ -3398,8 +3540,8 @@
       "arch": "x86_64",
       "description": "A library for Linux that makes using posix capabilities easy",
       "file": "libcap-ng-0.9.6-1-x86_64.scc",
-      "sha256": "dc0cda1d5e2c8d5cbbd397eb7b0c2df3c54f301324690bc9ae80f61f16ca56a8",
-      "size": 75708,
+      "sha256": "69f8afddc3972be34c8db237cf0c5695e44ed9da028ba8666fa6baf26ffac730",
+      "size": 75701,
       "depends": [
         "glibc"
       ]
@@ -3409,8 +3551,8 @@
       "arch": "x86_64",
       "description": "A library for Linux that makes using posix capabilities easy",
       "file": "libcap-ng.so-0.9.6-1-x86_64.scc",
-      "sha256": "8ac21fbeb32074fac9f1ec86a34acd4b4b28211835c1bb03d5b9d9793ffaf26a",
-      "size": 75711,
+      "sha256": "b28f87284056c81558d1e037aa448eba07449fbfce9544eeb5dbed54f9039164",
+      "size": 75701,
       "depends": [
         "glibc"
       ]
@@ -3486,8 +3628,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem utilities",
       "file": "libcom_err.so-1.47.4-1-x86_64.scc",
-      "sha256": "405e121f9e52d823ed09a8593103edbbfb1c30036df15fada419963c90c0f647",
-      "size": 2049637,
+      "sha256": "04cd9dde799726c62bf8445d6f2b51ca5b14d8980776f21e98723469579250ac",
+      "size": 2049635,
       "depends": [
         "sh",
         "util-linux-libs"
@@ -3498,8 +3640,8 @@
       "arch": "x86_64",
       "description": "Modern library for one-way hashing of passwords",
       "file": "libcrypt.so-4.5.2-1-x86_64.scc",
-      "sha256": "92f4869a8b34113e914949fc58c0eef90586b24b0097f7197ad9498d01cc2c91",
-      "size": 97604,
+      "sha256": "0fe4135b52580facc3f2769f65c8ae19015f80b5d27e3029802b615cd25d5739",
+      "size": 97607,
       "depends": [
         "glibc"
       ]
@@ -3509,8 +3651,8 @@
       "arch": "x86_64",
       "description": "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)",
       "file": "libcrypto.so-1.3.6.5-1-x86_64.scc",
-      "sha256": "d3b9c15fb2dd599686e3b4dd8bb309bd2be887d30b146a72d80ee8e6d8467b29",
-      "size": 2535598,
+      "sha256": "2b35e9ab79c4274a9741f64b39f17bb0f62ca00c7f8f1d6968033a275a6d9ce7",
+      "size": 2535600,
       "depends": [
         "lib32-glibc",
         "openssl"
@@ -3568,8 +3710,8 @@
       "arch": "x86_64",
       "description": "command line tool and library for transferring data with URLs",
       "file": "libcurl.so-8.22.0-1-x86_64.scc",
-      "sha256": "0f775e4499af856cf9dfb4e19af698cd84f463dee27761414dfdb17bdfd106cc",
-      "size": 1440852,
+      "sha256": "6be60f9bb58b5a29b18821fd92077151afe4e7b32a22e058858a52e5c1e5759d",
+      "size": 1440844,
       "depends": [
         "ca-certificates",
         "brotli",
@@ -3728,8 +3870,8 @@
       "arch": "x86_64",
       "description": "Heavily optimized library for DEFLATE/zlib/gzip compression and decompression",
       "file": "libdeflate-1.26-1-x86_64.scc",
-      "sha256": "bc0e123c773bc3f498fd8c8ce4919d1640d6d1cd95df989e07804813f8595fb2",
-      "size": 67763,
+      "sha256": "8440774d0c0b6c164aa3b17b7ffb7c5162bdd001e4a1d3bb254700489ef8e124",
+      "size": 67754,
       "depends": [
         "glibc"
       ]
@@ -3739,8 +3881,8 @@
       "arch": "x86_64",
       "description": "Device mapper userspace library and tools",
       "file": "libdevmapper.so-2.03.43-2-x86_64.scc",
-      "sha256": "22d5b36d0f9b69529a6820b52b2604301ac9d43d3f59e64b958fba496d989a6a",
-      "size": 360649,
+      "sha256": "69391af79c23826ab3aad781b24c267cd555a5ac83061285afe10105ff03b400",
+      "size": 360644,
       "depends": [
         "bash",
         "glibc",
@@ -3790,8 +3932,8 @@
       "arch": "x86_64",
       "description": "Userspace interface to kernel DRM services",
       "file": "libdrm-2.4.134-1-x86_64.scc",
-      "sha256": "2c177f79298ea0146ea86ec049c38d19c10b833aa8af14b1e3cdcbd022d80892",
-      "size": 432528,
+      "sha256": "dbe1c27dd8479ea7333c0ed478383d56de181e39f37847f73c57f20e1504695a",
+      "size": 432519,
       "depends": [
         "libpciaccess",
         "glibc"
@@ -3848,8 +3990,8 @@
       "arch": "x86_64",
       "description": "Command line editor library providing generic line editing, history, and tokenization functions",
       "file": "libedit-20260512_3.1-1-x86_64.scc",
-      "sha256": "7b964bef5b103660227782ccf2c1e862e3014040535ff8290dc35f933c83eb8e",
-      "size": 129486,
+      "sha256": "f01d76a8a7c330e4124f7b59c0edc0108c97702cf01a14da9b53940d40bfd555",
+      "size": 129480,
       "depends": [
         "glibc",
         "libncursesw.so",
@@ -3901,8 +4043,8 @@
       "arch": "x86_64",
       "description": "Handle ELF object files and DWARF debugging information (libraries)",
       "file": "libelf-0.196-1-x86_64.scc",
-      "sha256": "8b1df3cbc2d64c7253eeb164d00f08c822cbf5a24b136dfb43d7bd66a7df9260",
-      "size": 1074249,
+      "sha256": "46db11805f2956eb3aa6d6897ccee312f3066b74b5faf9a54325e2477494fdc5",
+      "size": 1074245,
       "depends": [
         "bzip2",
         "libbz2.so",
@@ -3946,7 +4088,7 @@
       "arch": "x86_64",
       "description": "Event notification library",
       "file": "libevent-2.1.13-2-x86_64.scc",
-      "sha256": "fa07876950d0244dca6ba5a2efa9f645efeb3b15cb4ec773f6b126b086a52f93",
+      "sha256": "16336a042bc21af63990ee1f9d43b2434f0c5cd320d624563e5f421984e4a4f9",
       "size": 462752,
       "depends": [
         "glibc",
@@ -3993,8 +4135,8 @@
       "arch": "x86_64",
       "description": "An XML parser library",
       "file": "libexpat.so-2.9.0-1-x86_64.scc",
-      "sha256": "23a289bc77e0b09f27d0b81c0cb6744d6daf0ac212d68883e90c92e67e6a1150",
-      "size": 186010,
+      "sha256": "d50937ad90d42fb1b4067de5cd8dab89d232c7b2a4354fa123aee71ac00ece10",
+      "size": 186031,
       "depends": [
         "glibc"
       ]
@@ -4009,6 +4151,21 @@
       "depends": [
         "sh",
         "util-linux-libs"
+      ]
+    },
+    "libfcft.so": {
+      "version": "3.3.3-1",
+      "arch": "x86_64",
+      "description": "Simple library for font loading and glyph rasterization",
+      "file": "libfcft.so-3.3.3-1-x86_64.scc",
+      "sha256": "85b1548fd70423b9554053e5b79212a825cfcf0ad7675572d0f05676659c3e5b",
+      "size": 95913,
+      "depends": [
+        "fontconfig",
+        "freetype2",
+        "harfbuzz",
+        "libutf8proc",
+        "pixman"
       ]
     },
     "libfdisk.so": {
@@ -4050,8 +4207,8 @@
       "arch": "x86_64",
       "description": "Portable foreign function interface library",
       "file": "libffi-3.8.0-1-x86_64.scc",
-      "sha256": "5ad3a7ccb557eb18f42fa4de11e95139366d35f04efa37761d744b2f07188861",
-      "size": 58398,
+      "sha256": "5f80d4e7ca1dcf662f9ad937d5e121ed59b442bb31b81d39b06db19e6aa58366",
+      "size": 58400,
       "depends": [
         "glibc"
       ]
@@ -4061,8 +4218,8 @@
       "arch": "x86_64",
       "description": "Portable foreign function interface library (32-bit)",
       "file": "libffi.so-3.8.0-1-x86_64.scc",
-      "sha256": "1b1cd7afa9e65b75f539e24056b4d806275bd8e05f53e6b1a753ccc660bd38a7",
-      "size": 19870,
+      "sha256": "58d03069525a6c30650dad2d4e9642e49d0ee727cb88f6adc7b83c8fb5e671bc",
+      "size": 19864,
       "depends": [
         "lib32-glibc",
         "libffi"
@@ -4138,8 +4295,8 @@
       "arch": "x86_64",
       "description": "Font rasterization library",
       "file": "libfreetype.so-2.14.3-1-x86_64.scc",
-      "sha256": "a2763c401e0ebdc69062f15983ca0f9f53850843584a469ca1111c50cf993051",
-      "size": 632003,
+      "sha256": "9ca2b47c0d1ac25f39b4dfd595eec7da633a838d50a401e7199a6835f127b8c5",
+      "size": 631996,
       "depends": [
         "brotli",
         "bzip2",
@@ -4153,8 +4310,8 @@
       "arch": "x86_64",
       "description": "Low-level runtime library shipped by GCC",
       "file": "libgcc-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "b8f0eacd4d47019ee01483f78922bb6b894e2d18fb03b90784cf4cf4a5056aab",
-      "size": 85996,
+      "sha256": "6457febb6df6000bbf47a804a8362c98ba6753c4e60579b70b208fa9a58de3d8",
+      "size": 85993,
       "depends": [
         "glibc"
       ]
@@ -4164,8 +4321,8 @@
       "arch": "x86_64",
       "description": "Low-level runtime library shipped by GCC",
       "file": "libgcc_s.so-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "7d20065dc303c7fd7548a3befcc63b4670083d734c3654427fd282780b3406c0",
-      "size": 85998,
+      "sha256": "de7df8a5a48b7c05e5c72bf493884b1d81911f8840b3a67155c8a23d582f3ea9",
+      "size": 85994,
       "depends": [
         "glibc"
       ]
@@ -4175,8 +4332,8 @@
       "arch": "x86_64",
       "description": "General purpose cryptographic library based on the code from GnuPG",
       "file": "libgcrypt-1.12.4-1-x86_64.scc",
-      "sha256": "f82375760f188026c78a833682ac274f4cd0290a3800c45d5a20d4415573274b",
-      "size": 862818,
+      "sha256": "9db2d5979040e74f481c8c02dc54e314d6a65a5c76b96c4e1941bb3667d004bf",
+      "size": 862807,
       "depends": [
         "libgpg-error",
         "glibc"
@@ -4187,8 +4344,8 @@
       "arch": "x86_64",
       "description": "GNU database library",
       "file": "libgdbm.so-1.26-2-x86_64.scc",
-      "sha256": "0904fe3bf707dec91b5cabe87ab765feb1fca59b7e36e57a2293ebb19f139418",
-      "size": 307200,
+      "sha256": "1f13c7106e128ce91a12222e3854d6ebc58ca412ee16521c819da5d1351dc039",
+      "size": 307193,
       "depends": [
         "glibc",
         "sh",
@@ -4256,8 +4413,8 @@
       "arch": "x86_64",
       "description": "The GL Vendor-Neutral Dispatch library",
       "file": "libgl-1.7.0-3-x86_64.scc",
-      "sha256": "6486e9ae99ae8295bc5cd3ad7739fe07c0ccdfec6b6e4434bd7c8133f428d26f",
-      "size": 613045,
+      "sha256": "b4ea2a3703ad66f06365f9dde237463eb6da4d765b9d546add21c57d89616b49",
+      "size": 613048,
       "depends": [
         "libxext",
         "mesa",
@@ -4282,8 +4439,8 @@
       "arch": "x86_64",
       "description": "Low level core library",
       "file": "libglib-2.0.so-2.90.1-1-x86_64.scc",
-      "sha256": "3e761c790a18acc0447773ec5ed0f208cddb656582382f96b99526b3b22bd665",
-      "size": 9576981,
+      "sha256": "2fe56f65cb8714c9c5dcc1f1bbdc01d7f7118d6953d2820913451524aa508306",
+      "size": 9576789,
       "depends": [
         "bash",
         "glibc",
@@ -4301,8 +4458,8 @@
       "arch": "x86_64",
       "description": "The GL Vendor-Neutral Dispatch library",
       "file": "libglvnd-1.7.0-3-x86_64.scc",
-      "sha256": "0f56ddf3515a995d4ab483e0c84b5c0db5585ef04d13e1a7d5dc5a6937653522",
-      "size": 613056,
+      "sha256": "cccefe6b10c5d47b1798e85d59784844b0a38168081be8871f1ab851cb66a180",
+      "size": 613046,
       "depends": [
         "libxext",
         "mesa",
@@ -4333,8 +4490,8 @@
       "arch": "x86_64",
       "description": "Low level core library",
       "file": "libgobject-2.0.so-2.90.1-1-x86_64.scc",
-      "sha256": "91d70f3b817fb23fe2efd82d0f5e40d0c5e97eb5f27d97ddf345a01ee038358d",
-      "size": 9576173,
+      "sha256": "ca45b0a0caaa3a4436a0fe1e1b7800e0760f6813fca72b0d2d62af77672fd023",
+      "size": 9576927,
       "depends": [
         "bash",
         "glibc",
@@ -4363,8 +4520,8 @@
       "arch": "x86_64",
       "description": "Support library for libgcrypt",
       "file": "libgpg-error-1.61-1-x86_64.scc",
-      "sha256": "24c2c55490ffd58d1c5ac9788949c61839005ba77c7b8b75159762d818109a95",
-      "size": 410204,
+      "sha256": "995379d60975863b25dda6b20c5fd0dd7ab479113fae8c04b0b9b4b7107e6e4d",
+      "size": 410408,
       "depends": [
         "glibc",
         "sh"
@@ -4375,8 +4532,8 @@
       "arch": "x86_64",
       "description": "a \"smart font\" system to handle the complexities of lesser-known languages of the world",
       "file": "libgraphite2.so-1.1.3.15-1-x86_64.scc",
-      "sha256": "720d7bccb92beebf7800e231319f32b127c394ad806d5d87d61fbc865670c4f7",
-      "size": 90197,
+      "sha256": "a1c829d7bc288398399ec6fbf49af876488ca80de1dd4bdcbc5b77b173a806fc",
+      "size": 90185,
       "depends": [
         "glibc",
         "libstdc++",
@@ -4404,8 +4561,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system",
       "file": "libgssapi_krb5.so-1.22.2-1-x86_64.scc",
-      "sha256": "cefbd84601431ae6ad2c78ea14079e5cf4274cabe4ade16fb43ff4a9efc795a2",
-      "size": 1772434,
+      "sha256": "0a0e27eead94d2112f59c0e0ba1ce048188b559a4efabc49921849bc153c4734",
+      "size": 1772416,
       "depends": [
         "bash",
         "e2fsprogs",
@@ -4656,8 +4813,8 @@
       "arch": "x86_64",
       "description": "A low-level cryptographic library (32-bit)",
       "file": "libhogweed.so-4.0-2-x86_64.scc",
-      "sha256": "8a1e126afd939741fc49eeba652a1a7160938504440d7bae6edc8c7eb37ee47f",
-      "size": 365484,
+      "sha256": "af10e7a3c94ab5a641713466ae95f1c8dac4a99372091d6684a19c8d5f2e23d9",
+      "size": 365480,
       "depends": [
         "lib32-glibc",
         "lib32-gmp",
@@ -4710,8 +4867,8 @@
       "arch": "x86_64",
       "description": "International Components for Unicode library",
       "file": "libicuuc.so-78.3-1-x86_64.scc",
-      "sha256": "85a0eeeafe0a58b6017190cb429832c264c281922b74da873f87d47fdf50ae40",
-      "size": 16713355,
+      "sha256": "3b875f33b19926881b69df66bf8d98c05252a14bf4706d41b9bcc4c3fe545ba0",
+      "size": 16713220,
       "depends": [
         "glibc",
         "libstdc++",
@@ -4735,8 +4892,8 @@
       "arch": "x86_64",
       "description": "Free software implementation of IDNA2008, Punycode and TR46",
       "file": "libidn2-2.3.8-1-x86_64.scc",
-      "sha256": "0d2758c7be9e4feca3ddd3d6e5b5ec94926837519c7ec1cf6356803cf98c092a",
-      "size": 153248,
+      "sha256": "7472c58623ffff3b21bb48e19af2126bbc6ede6b3e2bc3721444a20f73d5198c",
+      "size": 153237,
       "depends": [
         "libunistring",
         "libunistring.so"
@@ -4747,8 +4904,8 @@
       "arch": "x86_64",
       "description": "Free software implementation of IDNA2008, Punycode and TR46",
       "file": "libidn2.so-2.3.8-1-x86_64.scc",
-      "sha256": "8f12cfd0b2336314beda388f357c41ab0b2068a6d5db1d7237f1423b038cd680",
-      "size": 68209,
+      "sha256": "cea79bf9df6416c2a867a23f4da5fb862d18b6f8424a5931981e66af14a19996",
+      "size": 68204,
       "depends": [
         "libidn2",
         "lib32-glibc",
@@ -4858,8 +5015,8 @@
       "arch": "x86_64",
       "description": "JPEG image codec with accelerated baseline compression and decompression",
       "file": "libjpeg-turbo-3.2.0-2-x86_64.scc",
-      "sha256": "00d918afaa54c5526751e98584af363d4fe70c10216c756bb107c3dd19def7cc",
-      "size": 964983,
+      "sha256": "477324c5fc2eef7a53c0f9d8d4b2a32a86163331f7f3edc5c8dc4dd1231aad89",
+      "size": 964985,
       "depends": [
         "glibc"
       ]
@@ -4869,8 +5026,8 @@
       "arch": "x86_64",
       "description": "JPEG image codec with accelerated baseline compression and decompression",
       "file": "libjpeg.so-3.2.0-2-x86_64.scc",
-      "sha256": "d51574703640a2e838913aeb07b6d61f54062e9f1cf9a87a351aff43980c5653",
-      "size": 964982,
+      "sha256": "8a6c72e5a0f3143d36e5e8b394bc6fd6fe5fcef1182ad89e1fa2128dddb2f6a0",
+      "size": 964977,
       "depends": [
         "glibc"
       ]
@@ -4880,8 +5037,8 @@
       "arch": "x86_64",
       "description": "JSON implementation in C",
       "file": "libjson-c.so-0.19-1-x86_64.scc",
-      "sha256": "28efb026510a0e84b1ea0824649242b7368d8b20cafa95706be41c43445a5bba",
-      "size": 67009,
+      "sha256": "e5cb591b0133db13bc7c6bf7c936f7f9c6802facd23cff8ec35a8ee5688227ee",
+      "size": 67003,
       "depends": [
         "glibc"
       ]
@@ -4925,8 +5082,8 @@
       "arch": "x86_64",
       "description": "Linux Key Management Utilities",
       "file": "libkeyutils.so-1.6.3-4-x86_64.scc",
-      "sha256": "a55bb484dd660c65571c4db96fe53bd2da87b951ab3bf8598ded418d9ac07382",
-      "size": 108750,
+      "sha256": "bece0e1077397a066e8779222c6366d36a6e22b14a4c4f72a6ab4e075ac35e4f",
+      "size": 108747,
       "depends": [
         "glibc",
         "sh"
@@ -4952,8 +5109,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system",
       "file": "libkrb5.so-1.22.2-1-x86_64.scc",
-      "sha256": "80ad9200f01d19663f8be8691f3f61fe140933f2c5814d2f00161a831bc1acea",
-      "size": 1772431,
+      "sha256": "c521df5d9db7f6fc595b4f058a4464761542ee0bd90cb92d18ee93471bc7798a",
+      "size": 1772421,
       "depends": [
         "bash",
         "e2fsprogs",
@@ -5044,8 +5201,8 @@
       "arch": "x86_64",
       "description": "Lightweight Directory Access Protocol (LDAP) client libraries",
       "file": "libldap-2.7.1-1-x86_64.scc",
-      "sha256": "b8047d88c38de6295f962742542525bad3f6f9e1d80259c4af47cc6264c84521",
-      "size": 320214,
+      "sha256": "3fd05cce481baac3d1c2b1f312ee9713436625092737568c2a49f54117250dec",
+      "size": 320219,
       "depends": [
         "libsasl"
       ]
@@ -5098,8 +5255,8 @@
       "arch": "x86_64",
       "description": "Library and command line tools for XZ and LZMA compressed files (32-bit)",
       "file": "liblzma.so-5.8.4-1-x86_64.scc",
-      "sha256": "26517b44cf1d393b332b49df92c58be3dceacbaa62651982f560b07fe95fb3ad",
-      "size": 117457,
+      "sha256": "ee5a8847385817edd1058c7440ec84d1707b4f32e16170c8b627a67431e2856a",
+      "size": 117451,
       "depends": [
         "lib32-glibc",
         "xz"
@@ -5110,8 +5267,8 @@
       "arch": "x86_64",
       "description": "File type identification utility",
       "file": "libmagic.so-5.48-1-x86_64.scc",
-      "sha256": "3a055e7246831d2c16fb6c06eaad38cada559febab87772094f856c85f15b169",
-      "size": 650871,
+      "sha256": "f118b7c816f5aa458bb88e88790d182392ed8fd2061fe7df78e575c5643264a4",
+      "size": 650864,
       "depends": [
         "glibc",
         "bzip2",
@@ -5242,8 +5399,8 @@
       "arch": "x86_64",
       "description": "Miscellaneous system utilities for Linux (32-bit)",
       "file": "libmount.so-2.42.4-1-x86_64.scc",
-      "sha256": "25c0ee0df5b50515f664f4c7530f7662b96f891fbdf9dcf6eee9506d441f4523",
-      "size": 511216,
+      "sha256": "e2894906b789dd06a87029a191eacba95df0afbcb76902bb14d352aaa7cbae3d",
+      "size": 511203,
       "depends": [
         "util-linux-libs",
         "lib32-glibc"
@@ -5382,8 +5539,8 @@
       "arch": "x86_64",
       "description": "System V Release 4.0 curses emulation library (32-bit)",
       "file": "libncursesw.so-6.6-2-x86_64.scc",
-      "sha256": "2c51bdf3ae0c13cc123ba095ab0df145dce85751fe510f1382436a53b73ed35d",
-      "size": 259089,
+      "sha256": "d3b12a4ea8fdf6918782f6aa029236da29130fa9716bcc93da93a5baa433f15a",
+      "size": 259079,
       "depends": [
         "lib32-gcc-libs",
         "lib32-glibc",
@@ -5419,8 +5576,8 @@
       "arch": "x86_64",
       "description": "A low-level cryptographic library (32-bit)",
       "file": "libnettle.so-4.0-2-x86_64.scc",
-      "sha256": "d66539707ee4bca980dbe5a9200dcad9e5cef09dc8dbe74e3e9781bb6be5439f",
-      "size": 365465,
+      "sha256": "74389f429c2ca1629c4e21b35cf350e5ca565d4cdc6f7fcdcbac8c09bfa9fab2",
+      "size": 365459,
       "depends": [
         "lib32-glibc",
         "lib32-gmp",
@@ -5469,8 +5626,8 @@
       "arch": "x86_64",
       "description": "Framing layer of HTTP/2 is implemented as a reusable C library",
       "file": "libnghttp2-1.70.0-1-x86_64.scc",
-      "sha256": "1101759ecff3214b6efa0a1ab93f3e1bad4e3b327341f95eb5ca56042292765d",
-      "size": 118136,
+      "sha256": "afe13f7aae74defd3fade7d7dfa68c8962a4b126898bec43c8dff0ccc69122f6",
+      "size": 118132,
       "depends": [
         "glibc"
       ]
@@ -5480,8 +5637,8 @@
       "arch": "x86_64",
       "description": "Framing layer of HTTP/2 is implemented as a reusable C library (32-bit)",
       "file": "libnghttp2.so-1.70.0-1-x86_64.scc",
-      "sha256": "d87435c2fd490faad808a77b0b6b8a4a461d047ebfe54d7ec67e70735d9d14f1",
-      "size": 77485,
+      "sha256": "669eedd6486d42dfb0487903c258c02f397d285f4daa6c0d5448eb35c86c7241",
+      "size": 77483,
       "depends": [
         "lib32-glibc",
         "libnghttp2"
@@ -5492,8 +5649,8 @@
       "arch": "x86_64",
       "description": "HTTP/3 library written in C",
       "file": "libnghttp3-1.18.0-1-x86_64.scc",
-      "sha256": "af62160d2a223f2b4df0b51b02b92b44474fbc899f9bf64f3ecf4f0620f793ea",
-      "size": 97208,
+      "sha256": "921f1264c3cbe6ecfaf4163b6fe692d3842150cb5fcbec45d3d727b63841a45f",
+      "size": 97204,
       "depends": [
         "glibc"
       ]
@@ -5503,8 +5660,8 @@
       "arch": "x86_64",
       "description": "HTTP/3 library written in C (32-bit)",
       "file": "libnghttp3.so-1.18.0-1-x86_64.scc",
-      "sha256": "0f661f58fb5cfea8de5fdc722f6a4c6e675b1141794358a2c08e5cbf349cc14d",
-      "size": 78883,
+      "sha256": "7e3d9f3ca2616a51024ada2260f23fd4d64656affc30ebca13298c2858a5408f",
+      "size": 78880,
       "depends": [
         "lib32-glibc",
         "libnghttp3"
@@ -5515,7 +5672,7 @@
       "arch": "x86_64",
       "description": "Implementation of IETF QUIC protocol",
       "file": "libngtcp2-1.25.0-1-x86_64.scc",
-      "sha256": "dade7cc7ea9a9e3eb463edbdca5d6c0f43d02e447f4255e820462e6db87224ef",
+      "sha256": "2676b4bcce7b6162e4c57e26903e2584ddbc5dc86f376108e391f6028aacd00e",
       "size": 266638,
       "depends": [
         "glibc",
@@ -5529,8 +5686,8 @@
       "arch": "x86_64",
       "description": "Implementation of IETF QUIC protocol (32-bit)",
       "file": "libngtcp2.so-1.25.0-1-x86_64.scc",
-      "sha256": "19f72cfff57db8187a1439ca369822263ebfa3adf09c9eeb3191f3e3af36af02",
-      "size": 228910,
+      "sha256": "5678eef2cde4aaff1b7bce54e3ae4590c6f78ec9952b0737bdaac3eb2b698ba0",
+      "size": 228903,
       "depends": [
         "libngtcp2",
         "lib32-glibc",
@@ -5640,8 +5797,8 @@
       "arch": "x86_64",
       "description": "Public client interface library for NIS(YP)",
       "file": "libnsl-2.0.1-2-x86_64.scc",
-      "sha256": "de20e9b5a88b98d5b740f9eefc9220e937a4bce3b3b1e291448fe0c5ef4411b4",
-      "size": 21531,
+      "sha256": "a71dc7d1857f330ffd8ed59c18c5858509b71de16e086c0c068be7601d095ba1",
+      "size": 21526,
       "depends": [
         "glibc",
         "libtirpc"
@@ -5786,8 +5943,8 @@
       "arch": "x86_64",
       "description": "Loads and enumerates PKCS#11 modules (library)",
       "file": "libp11-kit-0.26.5-1-x86_64.scc",
-      "sha256": "1efee1b79d81514117b2068aa06b35947dccf7e972635415e1e3f682fc3f2837",
-      "size": 773698,
+      "sha256": "1d3086d6770b1ebb55e6c364dc4443c9d3fcfbaee82992b69da42813776cc3c7",
+      "size": 773686,
       "depends": [
         "glibc",
         "libffi",
@@ -5799,8 +5956,8 @@
       "arch": "x86_64",
       "description": "Loads and enumerates PKCS#11 modules (32-bit library)",
       "file": "libp11-kit.so-0.26.5-1-x86_64.scc",
-      "sha256": "9a2cc8f137c0391b228795774fc73e6a2292555ebcded95b76b25b15bbcfb3c8",
-      "size": 682646,
+      "sha256": "7b458c54107fa23a76f649db93ca8a12d66c27d4e82740010cd5b7bf1b08f538",
+      "size": 682649,
       "depends": [
         "lib32-glibc",
         "lib32-libffi",
@@ -5813,8 +5970,8 @@
       "arch": "x86_64",
       "description": "PAM (Pluggable Authentication Modules) library",
       "file": "libpam.so-1.7.3-1-x86_64.scc",
-      "sha256": "10e13f5215a6ef4de2fd2c32d283f528f4de90b25cc6a398e0695450e8bca2fb",
-      "size": 837934,
+      "sha256": "84e5804b07b307e3f5e9dd9c690c1315e54e029779f402be2b14a6d10755ffd4",
+      "size": 837927,
       "depends": [
         "audit",
         "glibc",
@@ -5832,8 +5989,8 @@
       "arch": "x86_64",
       "description": "PAM (Pluggable Authentication Modules) library",
       "file": "libpam_misc.so-1.7.3-1-x86_64.scc",
-      "sha256": "2c9f9ebc06e1d59a2f16792f274922393cef8d25d3282933a3184785206b3ec1",
-      "size": 837941,
+      "sha256": "b14c38925bbd53b2a64c6f16b73ab46d0fdceb9fc23f78f8793c8a1b483ed480",
+      "size": 837934,
       "depends": [
         "audit",
         "glibc",
@@ -5876,8 +6033,8 @@
       "arch": "x86_64",
       "description": "X11 PCI access library",
       "file": "libpciaccess-0.19-1-x86_64.scc",
-      "sha256": "f758d62a2b331e8f499d80547f954d370809613b539440f6120bb4c6e23d79bb",
-      "size": 21787,
+      "sha256": "11eda600af6b3565415f92b12aa72bd2023d25f5a7cab350c8c9fbe4c64198cd",
+      "size": 21785,
       "depends": [
         "glibc",
         "zlib"
@@ -5998,8 +6155,8 @@
       "arch": "x86_64",
       "description": "A collection of routines used to create PNG format graphics files",
       "file": "libpng-1.6.59-1-x86_64.scc",
-      "sha256": "cb30b788366e5e0e2bfea587db2cf1a1ab31162af2bdaed77b8c5593cfbab81c",
-      "size": 285965,
+      "sha256": "fcd33e48c23af37d7dc407f2b48d12fa5a224ee0f8cded5993d863925fce6db2",
+      "size": 285920,
       "depends": [
         "zlib",
         "sh"
@@ -6010,8 +6167,8 @@
       "arch": "x86_64",
       "description": "A collection of routines used to create PNG format graphics files",
       "file": "libpng16.so-1.6.59-1-x86_64.scc",
-      "sha256": "c7c5dcbcadf6b9a20757ebaaa0f07ab2d230a685ef0d4ed0420b39e0592acbcb",
-      "size": 285967,
+      "sha256": "f2958785627bbdb2edfc524f286125072d186fe9441e9e7bb5c1c7eeb26d6c17",
+      "size": 285925,
       "depends": [
         "zlib",
         "sh"
@@ -6103,8 +6260,8 @@
       "arch": "x86_64",
       "description": "Public Suffix List library",
       "file": "libpsl-0.21.5-2-x86_64.scc",
-      "sha256": "2bd4d262046bb81b13558f5706bbcaca725c41f11424090d98dad42e8bceb356",
-      "size": 92411,
+      "sha256": "04c312e3240be67cf15efe2fabaeaae1afc341635e59356499fda670227362a9",
+      "size": 92408,
       "depends": [
         "libidn2",
         "libunistring",
@@ -6117,8 +6274,8 @@
       "arch": "x86_64",
       "description": "Public Suffix List library (32-bit)",
       "file": "libpsl.so-0.21.5-1-x86_64.scc",
-      "sha256": "336408a235ecfbb6e4756c72875a390d54a0eabb3ba94c94803c2832dcbf2b05",
-      "size": 55854,
+      "sha256": "6556a3c9f8fc227a5add625909781ad5bb43fd0e53651fabe5832b86f1255466",
+      "size": 55852,
       "depends": [
         "libpsl",
         "lib32-glibc",
@@ -6232,8 +6389,8 @@
       "arch": "x86_64",
       "description": "GNU readline library",
       "file": "libreadline.so-8.3.6-1-x86_64.scc",
-      "sha256": "d722bbecb265e75d7042b1267e8e49bf2a84d60ecec457efaa50501856cfc78b",
-      "size": 531604,
+      "sha256": "ecd3e0dac6ae55c58829d50e736c96197196b87fdfe4f067342aad2a7ef1956d",
+      "size": 531611,
       "depends": [
         "glibc",
         "libncursesw.so",
@@ -6282,6 +6439,17 @@
         "pango"
       ]
     },
+    "librsync": {
+      "version": "1.2.3.4-2",
+      "arch": "x86_64",
+      "description": "Library for calculating and applying network deltas",
+      "file": "librsync-1.2.3.4-2-x86_64.scc",
+      "sha256": "c3e6436ac64d780954c990ec574852b22b190604ab339a9ac03d8ea6e668e8a1",
+      "size": 40536,
+      "depends": [
+        "popt"
+      ]
+    },
     "librubberband.so": {
       "version": "4.0.0-2",
       "arch": "x86_64",
@@ -6327,8 +6495,8 @@
       "arch": "x86_64",
       "description": "Cyrus Simple Authentication Service Layer (SASL) library",
       "file": "libsasl-2.1.28-5-x86_64.scc",
-      "sha256": "a7882d6e99069ae9637ed73f6c33200bdfb5ead536f6371f8a2d3bb780fae950",
-      "size": 184699,
+      "sha256": "ac5833de6a2912a1da3dfb53c67e7e6651a31aaf54203fed037c657fb92b9ef4",
+      "size": 184696,
       "depends": [
         "glibc",
         "gdbm",
@@ -6353,8 +6521,8 @@
       "arch": "x86_64",
       "description": "Enhanced seccomp library",
       "file": "libseccomp-2.6.0-1-x86_64.scc",
-      "sha256": "d1f7cb8b26ed629f245885b4843bc1282ed45273b838b3a1219a6cb735c537fc",
-      "size": 106301,
+      "sha256": "bba44fa75f7a2359497659bd5f460aa36be3b25e71670c416cbaac5193c35cb7",
+      "size": 106299,
       "depends": [
         "glibc"
       ]
@@ -6364,8 +6532,8 @@
       "arch": "x86_64",
       "description": "Enhanced seccomp library",
       "file": "libseccomp.so-2.6.0-1-x86_64.scc",
-      "sha256": "3d6bf3f508d61d11635ad310f5baecbe5e77b60c92108accfedd4beab122761f",
-      "size": 106302,
+      "sha256": "dd1d2949b6efaac4456146dd5081c316973325d32f9cc7b4ae7206b47d67f594",
+      "size": 106293,
       "depends": [
         "glibc"
       ]
@@ -6635,8 +6803,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem utilities",
       "file": "libss.so-1.47.4-1-x86_64.scc",
-      "sha256": "91d810f76ebc1b3e46ab35309337b47b919b1fae52cb2c36f8e6bbb6cc63ce38",
-      "size": 2049634,
+      "sha256": "ee4168cac3b870a05727a10b03aa5aa23932bd4bd0dc5af99908533c5b035912",
+      "size": 2049620,
       "depends": [
         "sh",
         "util-linux-libs"
@@ -6676,8 +6844,8 @@
       "arch": "x86_64",
       "description": "A library implementing the SSH2 protocol as defined by Internet Drafts",
       "file": "libssh2-1.11.1-7-x86_64.scc",
-      "sha256": "00a6a03fa07ee7dc20e6f8a7ce0937fcad1526330c45afa8e7c3255aa6997b82",
-      "size": 274861,
+      "sha256": "59b77bffd7214ce2a09ce917dcadf724d1314a1d2be19a435fc8523eca49b10a",
+      "size": 274860,
       "depends": [
         "glibc",
         "openssl",
@@ -6689,8 +6857,8 @@
       "arch": "x86_64",
       "description": "A library implementing the SSH2 protocol as defined by Internet Drafts (32-bit)",
       "file": "libssh2.so-1.11.1-5-x86_64.scc",
-      "sha256": "394d128ab7deb56011a6bc8a28d6a0025bef169ae2ed1be4523a4c22ec202388",
-      "size": 132806,
+      "sha256": "5d60065def5acb190f638f4e0e46174d53198bc4669b99f676a5626911db99bf",
+      "size": 132801,
       "depends": [
         "lib32-glibc",
         "lib32-openssl",
@@ -6703,8 +6871,8 @@
       "arch": "x86_64",
       "description": "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)",
       "file": "libssl.so-1.3.6.5-1-x86_64.scc",
-      "sha256": "de03c89249e85df589183232d0339650286f352a76e93bf14e37ef4733bdd44b",
-      "size": 2535595,
+      "sha256": "18f4c96bf6c4bd1b7ec60ae8eb5d5c2a574ccdfa9270103bc20542b52d7d7dc8",
+      "size": 2535601,
       "depends": [
         "lib32-glibc",
         "openssl"
@@ -6715,8 +6883,8 @@
       "arch": "x86_64",
       "description": "C++ runtime libraries shipped by GCC",
       "file": "libstdc++-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "19157facc0c224c8956ca13899ff2dd8fafb615d5b1972f4f6c44b9c17ba59e5",
-      "size": 1067937,
+      "sha256": "103eb814b0570d28b76af98b541c1f8f41698f60ce268a7bc8c24ab7dbf0a248",
+      "size": 1067938,
       "depends": [
         "glibc",
         "libgcc"
@@ -6750,8 +6918,8 @@
       "arch": "x86_64",
       "description": "Kernel based performance profiler - capture library",
       "file": "libsysprof-capture-51.0-1-x86_64.scc",
-      "sha256": "5f0c866814e41612957d62678f56941aff14ba635fa273407d1bdd5a51cdd89b",
-      "size": 62785,
+      "sha256": "ed7672bce1b2090b9bfb92af7360c2a85a00b9d372eeb9d26dbdd15ec76ba9b6",
+      "size": 62779,
       "depends": null
     },
     "libsystemd": {
@@ -6776,8 +6944,8 @@
       "arch": "x86_64",
       "description": "system and service manager (32-bit)",
       "file": "libsystemd.so-262-1-x86_64.scc",
-      "sha256": "3c4df66d5959a56e54af8cb4602d061302f0b9c8bda6027413e761a317566c6d",
-      "size": 1371796,
+      "sha256": "09751f1fe6c2bb59bd778e9215f593b408b373c2242a398b60e4c766e840868b",
+      "size": 1371795,
       "depends": [
         "systemd-libs",
         "lib32-gcc-libs",
@@ -6792,7 +6960,7 @@
       "arch": "x86_64",
       "description": "The ASN.1 library used in GNUTLS",
       "file": "libtasn1-4.21.0-1-x86_64.scc",
-      "sha256": "bf097cb18a3541be123b72dca005a563adb373b9a01c264d76e49b72fe5d34aa",
+      "sha256": "d8e792610f7a95b1dc260c11e838d154a9aa80ddf316a5987f78f4aedcc6c5a5",
       "size": 139630,
       "depends": [
         "glibc"
@@ -6803,8 +6971,8 @@
       "arch": "x86_64",
       "description": "The ASN.1 library used in GNUTLS (32 bit)",
       "file": "libtasn1.so-4.21.0-1-x86_64.scc",
-      "sha256": "5bfa4be68c9607244251b8822d4179e114969846a5def0be1939ca3456b539d1",
-      "size": 38651,
+      "sha256": "7461d4cd4bc9a335b7686a0f394c7ed0fc5ee9a428e34d3310c3b5bb8a1516e0",
+      "size": 38640,
       "depends": [
         "lib32-glibc",
         "libtasn1"
@@ -6869,8 +7037,8 @@
       "arch": "x86_64",
       "description": "Library for manipulation of TIFF images",
       "file": "libtiff-4.7.2-1-x86_64.scc",
-      "sha256": "66729fa14831df13b184025d34da13685d90ea92dd7a887629071dfe6119260b",
-      "size": 491961,
+      "sha256": "b1187e3d8e7faa56d4a8ff2dd897c770f7382c36210c298cfd0483a4b0c95419",
+      "size": 491954,
       "depends": [
         "libstdc++",
         "glibc",
@@ -6909,8 +7077,8 @@
       "arch": "x86_64",
       "description": "Transport Independent RPC library (SunRPC replacement)",
       "file": "libtirpc-1.3.8-1-x86_64.scc",
-      "sha256": "0a686ca3237dd5ff44c9afa08802cc5fca481217e275b04d852c556e0145bebe",
-      "size": 192738,
+      "sha256": "317e8533fc16f95e46b33b6f5a0f7a18eed1d77209eba21331ffcd906ee9a2c4",
+      "size": 192734,
       "depends": [
         "krb5",
         "glibc"
@@ -6921,8 +7089,8 @@
       "arch": "x86_64",
       "description": "system and service manager (32-bit)",
       "file": "libudev.so-262-1-x86_64.scc",
-      "sha256": "4f5e4064ede40f6c9c6636e584fdd019e447cd512d8b86a80d14307545e98e10",
-      "size": 1371794,
+      "sha256": "0dfef02a55ee22fd97d5d283012def23c790b5dd269aebb6956798c2ac1c671c",
+      "size": 1372349,
       "depends": [
         "systemd-libs",
         "lib32-gcc-libs",
@@ -6948,8 +7116,8 @@
       "arch": "x86_64",
       "description": "Library for manipulating Unicode strings and C strings",
       "file": "libunistring-1.4.2-1-x86_64.scc",
-      "sha256": "bf61ec645c8157047f8d2eb0e2074a1dcfe7c72ceb295262957b787653fcece3",
-      "size": 984230,
+      "sha256": "08404f841d7a5e7a317f78f7d4f4bb5ff4055ec291eb64b55be628c84c6150ab",
+      "size": 984231,
       "depends": [
         "glibc"
       ]
@@ -6959,8 +7127,8 @@
       "arch": "x86_64",
       "description": "Library for manipulating Unicode strings and C strings",
       "file": "libunistring.so-1.4.2-1-x86_64.scc",
-      "sha256": "1689adda938af9fadd6de288f20f6aaa88ca4cc08fb02c782d9447da501f9830",
-      "size": 984231,
+      "sha256": "23dbe305a45f280d98e2dea681c03ad1b869f1b0e33a2c1bf8df2d53f728488d",
+      "size": 984225,
       "depends": [
         "glibc"
       ]
@@ -7036,13 +7204,24 @@
         "libplist"
       ]
     },
+    "libutf8proc": {
+      "version": "2.12.0-1",
+      "arch": "x86_64",
+      "description": "C library for processing UTF-8 encoded Unicode strings",
+      "file": "libutf8proc-2.12.0-1-x86_64.scc",
+      "sha256": "252a5ce073edd49568fd90c8a8152f2bd90113b9496246a114d69a76a9a25d24",
+      "size": 97846,
+      "depends": [
+        "glibc"
+      ]
+    },
     "libuuid.so": {
       "version": "2.42.4-1",
       "arch": "x86_64",
       "description": "Miscellaneous system utilities for Linux (32-bit)",
       "file": "libuuid.so-2.42.4-1-x86_64.scc",
-      "sha256": "d304690acd8c85fc3e96970b2597912215f002eb279b30b1d5e8e188a21fff73",
-      "size": 511225,
+      "sha256": "e32ca3c376856d077cb5198d021ad61b48b986acea383300f564d510405e0a13",
+      "size": 511216,
       "depends": [
         "util-linux-libs",
         "lib32-glibc"
@@ -7138,8 +7317,8 @@
       "arch": "x86_64",
       "description": "Main event loop abstraction library",
       "file": "libverto-module-base-0.3.2-6-x86_64.scc",
-      "sha256": "c70f5b2529dd2a27faa9589aa3deb988a5444a992d7b25d67c2669891240acf4",
-      "size": 18799,
+      "sha256": "336a516930af00c93c62c1421f973d4849906331f14decdb2608d54ef334c01b",
+      "size": 18802,
       "depends": [
         "glibc",
         "libevent"
@@ -7150,8 +7329,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system (32-bit)",
       "file": "libverto.so-1.22.2-1-x86_64.scc",
-      "sha256": "e3520dc030e657748178a358cdfbd9c5f347a54a51d42f7ee2e3b3f0ea024cfa",
-      "size": 975264,
+      "sha256": "2c152e5aceeea18b5d96ba9669092467437e9d84c5a682f273940ef4eb3599f8",
+      "size": 975035,
       "depends": [
         "lib32-e2fsprogs",
         "lib32-gcc-libs",
@@ -7267,7 +7446,7 @@
       "arch": "x86_64",
       "description": "WebP image codec library",
       "file": "libwebp-1.6.0-2-x86_64.scc",
-      "sha256": "b85b595465c7ae4416b5fde90ad5b4ad0cd6e793ffb9cef16447435fa011b899",
+      "sha256": "e4e521f66a190ebe7a60043bbfe4e2ce9f9221d861bc2e74e0a8daa06de91fd4",
       "size": 500071,
       "depends": [
         "glibc"
@@ -7308,8 +7487,8 @@
       "arch": "x86_64",
       "description": "X11 client-side library",
       "file": "libx11-1.8.13-2-x86_64.scc",
-      "sha256": "8bd9c3277f87caae1b8d8d5e1c19d98cd640920b14c7295dc96fec96d25374d2",
-      "size": 2614242,
+      "sha256": "4907f0fce9a900e7535b9c5de1a47156a8e5d664819077df7fef4d2474e2c621",
+      "size": 2614235,
       "depends": [
         "libxcb",
         "glibc",
@@ -7346,8 +7525,8 @@
       "arch": "x86_64",
       "description": "X11 authorisation library",
       "file": "libxau-1.0.12-1-x86_64.scc",
-      "sha256": "c5db7370d771651bf833859337226a97310bedc1aad18a53e4e5bf0773f9934d",
-      "size": 9802,
+      "sha256": "c5ec2ffd285ee3499298517d6b43fa8c9ad5b27ce6b4007e233a39433bd803a3",
+      "size": 9791,
       "depends": [
         "glibc",
         "xorgproto"
@@ -7358,8 +7537,8 @@
       "arch": "x86_64",
       "description": "X11 client-side library",
       "file": "libxcb-1.17.0-1-x86_64.scc",
-      "sha256": "9d5f207ca67242741aee71958f541b73ca750f7bdd9fa8139b3511daf628873e",
-      "size": 1183874,
+      "sha256": "adfd2841ced49df3de4dd623be9a5996833e6ca9b5d4440b7aa55a0b02937b54",
+      "size": 1183839,
       "depends": [
         "xcb-proto",
         "libxdmcp",
@@ -7386,8 +7565,8 @@
       "arch": "x86_64",
       "description": "Modern library for one-way hashing of passwords",
       "file": "libxcrypt-4.5.2-1-x86_64.scc",
-      "sha256": "e90bdf16f0cce0f7ff00d2faec87b438ff6559155d540d57b63fcbe0657fced7",
-      "size": 97610,
+      "sha256": "d8769bc60711480241884506d3368d41502d0da05e66a369dec6ba558caba00f",
+      "size": 97606,
       "depends": [
         "glibc"
       ]
@@ -7397,8 +7576,8 @@
       "arch": "x86_64",
       "description": "X cursor management library",
       "file": "libxcursor-1.2.3-1-x86_64.scc",
-      "sha256": "d0303209eaf4761a048636e739a59029b99d299761283de6b32dbfab2983a2d8",
-      "size": 34260,
+      "sha256": "8dfdf494a0c38d27e1c606b9ff03c8e6582c2444fe710c34ee1a34d40dd10153",
+      "size": 34252,
       "depends": [
         "libxfixes",
         "libxrender",
@@ -7438,8 +7617,8 @@
       "arch": "x86_64",
       "description": "X11 Display Manager Control Protocol library",
       "file": "libxdmcp-1.1.5-2-x86_64.scc",
-      "sha256": "bd52de44aa3e38817eaf83894b7cf3951585a847bf1a51bcfb044b202a6a37bf",
-      "size": 29289,
+      "sha256": "150bf27fd783da470411657ca203ad884dccf89b8e77a6f8e7af591cff50446e",
+      "size": 29284,
       "depends": [
         "glibc",
         "xorgproto"
@@ -7450,8 +7629,8 @@
       "arch": "x86_64",
       "description": "X11 miscellaneous extensions library",
       "file": "libxext-1.3.7-1-x86_64.scc",
-      "sha256": "7f8bc11b907926f1e5639fd9874dc297f502e1585ff8010488167d5e00f27658",
-      "size": 115079,
+      "sha256": "dc251fdbb344e9ce6f475e06fbf0c57d5ec8a9adbb411819daa2a15b4c61e22d",
+      "size": 115071,
       "depends": [
         "libx11",
         "glibc",
@@ -7463,8 +7642,8 @@
       "arch": "x86_64",
       "description": "X11 miscellaneous 'fixes' extension library",
       "file": "libxfixes-6.0.2-1-x86_64.scc",
-      "sha256": "db471c05b4f57b670f43b483067594dbfe0296761097881999492dc24f755b40",
-      "size": 13645,
+      "sha256": "f2becb57001924a9dab88f258139b8e943b70e7d5330cd0b45d47ee6f0e87dd6",
+      "size": 13629,
       "depends": [
         "libx11",
         "xorgproto",
@@ -7507,8 +7686,8 @@
       "arch": "x86_64",
       "description": "X11 Input extension library",
       "file": "libxi-1.8.3-1-x86_64.scc",
-      "sha256": "84e17a6236046bec5811192657f02e3dd21605b062192c9181b8506b3033ad14",
-      "size": 168187,
+      "sha256": "cb0067ba2656cd24e633f567b8189513b7a9ec24335f0f6c942633f2bfbbb6df",
+      "size": 168186,
       "depends": [
         "libxext",
         "libxfixes",
@@ -7536,8 +7715,8 @@
       "arch": "x86_64",
       "description": "Keymap handling library for toolkits and window systems",
       "file": "libxkbcommon-1.13.2-1-x86_64.scc",
-      "sha256": "81c08ca4f61ac49415815b8f59d47138385ab031ff1d56b81ca06e8f445d5594",
-      "size": 343616,
+      "sha256": "b097ed5c445d69d64c04176ae3016b3f60a67e8ffd76ae6fade9bc9f2fe6968f",
+      "size": 343609,
       "depends": [
         "glibc",
         "libxml2",
@@ -7549,8 +7728,8 @@
       "arch": "x86_64",
       "description": "Keyboard handling library using XKB data for X11 XCB clients",
       "file": "libxkbcommon-x11-1.13.2-1-x86_64.scc",
-      "sha256": "9b0d93ce7b6e0d8b83959f48f10ccfc18c11eeb3338fc892d54b550449b28488",
-      "size": 33077,
+      "sha256": "2f0ac5bbdde94bfc0b8b5083f5775e2a93ed39b4de8ceec1053b756bf3ebb246",
+      "size": 33074,
       "depends": [
         "glibc",
         "libxcb",
@@ -7563,8 +7742,8 @@
       "arch": "x86_64",
       "description": "Keymap handling library for toolkits and window systems",
       "file": "libxkbcommon.so-1.13.2-1-x86_64.scc",
-      "sha256": "d6f54052d5dca4fcd7867c948f937ae9071d667c8b31cc102ec921a63a94fc43",
-      "size": 343621,
+      "sha256": "f89a6ebd0563f0ac6fecb6a62d1dca90e3d7c783356222cac7e8f171fbec666e",
+      "size": 343622,
       "depends": [
         "glibc",
         "libxml2",
@@ -7589,8 +7768,8 @@
       "arch": "x86_64",
       "description": "XML C parser and toolkit",
       "file": "libxml2-2.15.4-1-x86_64.scc",
-      "sha256": "f8b7916916a1118955aa021ac50f4c70f15ab0859cf560b418a70a71e75fb814",
-      "size": 1074160,
+      "sha256": "e5647ee69c639b61586ac0e256ec49a9249d77ac3c939bee345cd0194ac55f5b",
+      "size": 1074150,
       "depends": [
         "bash",
         "glibc",
@@ -7605,8 +7784,8 @@
       "arch": "x86_64",
       "description": "XML C parser and toolkit (32-bit)",
       "file": "libxml2.so-2.15.4-1-x86_64.scc",
-      "sha256": "09db7a4913dd2b667301fdb71e949123470f0248b76911f32e63b1c0295f296b",
-      "size": 589645,
+      "sha256": "b2285c7654862a33124821776eb6b4db5eabe57039d24eef3294d7ad1ec5583b",
+      "size": 589641,
       "depends": [
         "lib32-glibc",
         "lib32-icu",
@@ -7648,8 +7827,8 @@
       "arch": "x86_64",
       "description": "X Rendering Extension client library",
       "file": "libxrender-0.9.12-1-x86_64.scc",
-      "sha256": "109f244b761dbcec468c243d0f3d3d3fce0725e562237d8ce7351b65ca7881b9",
-      "size": 30404,
+      "sha256": "875b2914355a0853dc1b2ef7f57bfb71ef8902672edb3bd0d792e7d892a10f6b",
+      "size": 30401,
       "depends": [
         "libx11",
         "glibc",
@@ -7661,8 +7840,8 @@
       "arch": "x86_64",
       "description": "a library that exposes a event API on top of Linux futexes",
       "file": "libxshmfence-1.3.3-1-x86_64.scc",
-      "sha256": "e13f925cbc77cfffde7d5b2a806451b2f776d1106e234eb627e58e5b44d8a739",
-      "size": 4119,
+      "sha256": "bf40099e5a3845d24c6beb8c875cb3409c60f8c92bb6a68d9471830ca80b784b",
+      "size": 4111,
       "depends": [
         "glibc"
       ]
@@ -7760,8 +7939,8 @@
       "arch": "x86_64",
       "description": "X11 XFree86 video mode extension library",
       "file": "libxxf86vm-1.1.7-1-x86_64.scc",
-      "sha256": "2c73f38b215c0d9ad41e94c900750cd1cc62befdfb45b043e573b8b760624e14",
-      "size": 14460,
+      "sha256": "32b1cf99fe4cd5ea5ff93e38d6d4b9b9dd7a984634bb781436230dcde963d59f",
+      "size": 14451,
       "depends": [
         "libxext",
         "libx11",
@@ -7787,8 +7966,8 @@
       "arch": "x86_64",
       "description": "Compression library implementing the deflate compression method found in gzip and PKZIP (32-bit)",
       "file": "libz.so-1.3.2-1-x86_64.scc",
-      "sha256": "7ea67f46eeea43d732eb346363b834cf514f4d73f9f2d6be538681944d08ed26",
-      "size": 51254,
+      "sha256": "3f7cd1b261dc2532b2efa6e8d0d26ac279ea236f1ebfc322fa1e588d0be0d62c",
+      "size": 51250,
       "depends": [
         "lib32-glibc",
         "zlib"
@@ -7868,8 +8047,8 @@
       "arch": "x86_64",
       "description": "Zstandard - Fast real-time compression algorithm (32-bit)",
       "file": "libzstd.so-1.5.7-2-x86_64.scc",
-      "sha256": "7177ccfee9e4bad5b7acca303a6b70f51988c508c347d3e8adb2b024425e825e",
-      "size": 382513,
+      "sha256": "00895fe7dbe7a3e1c56bde61fe7a3781b976db2d825754298e2b39fdf8201164",
+      "size": 382511,
       "depends": [
         "zstd",
         "lib32-glibc"
@@ -7899,8 +8078,8 @@
       "arch": "x86_64",
       "description": "Kernel headers sanitized for use in userspace",
       "file": "linux-api-headers-7.2-1-x86_64.scc",
-      "sha256": "c688d0cffa2b82cfd09cceb322a8f66f6a6258c59f0fe3f7b9ed3756df30dd36",
-      "size": 1985021,
+      "sha256": "ef4aee45012c315ba0c52e86ef69495cf9977e7f7552967c2a29e61d22a6b015",
+      "size": 1984980,
       "depends": null
     },
     "llvm-libs": {
@@ -7908,8 +8087,8 @@
       "arch": "x86_64",
       "description": "LLVM runtime libraries",
       "file": "llvm-libs-23.1.1-1-x86_64.scc",
-      "sha256": "208a82eedb43eaf3da465401ca302d9e4cb7e0e5b5bd691504f350d4835e5b74",
-      "size": 58999432,
+      "sha256": "2c4ffedc2a5a6c835544171363b6c636a138bfbdb6a839c45efdc4ae24d0a2f3",
+      "size": 58999844,
       "depends": [
         "libgcc",
         "glibc",
@@ -7926,8 +8105,8 @@
       "arch": "x86_64",
       "description": "Collection of user space tools for general SMBus access and hardware monitoring",
       "file": "lm_sensors-1.3.6.2-1-x86_64.scc",
-      "sha256": "6e316a977e4ef996059a143cc44c534f82d536a529b1563b3c1bfad0c8b06813",
-      "size": 154561,
+      "sha256": "06c854c3dc8e2c34fcef4b46e8f5a0231bd22ecf94301f3f56177f84b460e8fc",
+      "size": 154556,
       "depends": [
         "bash",
         "glibc"
@@ -7938,8 +8117,8 @@
       "arch": "x86_64",
       "description": "Symas Lightning Memory-Mapped Database",
       "file": "lmdb-0.9.35-1-x86_64.scc",
-      "sha256": "079f21da08ee13274afcd0eb5f624e0ba9fbdb288ecbf8ed81fed370e45a6aa3",
-      "size": 195245,
+      "sha256": "02f683395d694a0b1604c1fd52122637a826ffe4bbc041b6d9cbe9e802c9139a",
+      "size": 195244,
       "depends": [
         "glibc"
       ]
@@ -8023,8 +8202,8 @@
       "arch": "x86_64",
       "description": "Extremely fast compression algorithm",
       "file": "lz4-1.1.10.0-2-x86_64.scc",
-      "sha256": "a16ec31ac79863428fdb5a1d4fb402a91575d20545e82f9bd4992bb33504bd5a",
-      "size": 197969,
+      "sha256": "03925491a2029348e25b469fb00baec2aebb52cf7c77546c8c277ff8ef7efb6e",
+      "size": 197953,
       "depends": [
         "glibc"
       ]
@@ -8034,8 +8213,8 @@
       "arch": "x86_64",
       "description": "Portable lossless data compression library",
       "file": "lzo-2.10-5-x86_64.scc",
-      "sha256": "a8fd4771f9368d80c42514fcc03b9bd33a90262dbc98931a3d683a42322598fc",
-      "size": 101792,
+      "sha256": "ae6e4610e58dcf0c541b4fb9d6b8308528857fdc29e9bc684345c5f49d4f6c71",
+      "size": 101799,
       "depends": [
         "glibc"
       ]
@@ -8057,8 +8236,8 @@
       "arch": "x86_64",
       "description": "Open-source OpenGL drivers",
       "file": "mesa-1.26.2.4-1-x86_64.scc",
-      "sha256": "f686604c1b52b8d82c2ab20f0c29689f94a2c071ec619196c6fbdb372856b02c",
-      "size": 18714885,
+      "sha256": "8c038d5e4db29dd641d634f075843f49b815f61ef01e32905c59e110574f913b",
+      "size": 18714740,
       "depends": [
         "expat",
         "glibc",
@@ -8092,6 +8271,43 @@
         "glib2"
       ]
     },
+    "mkinitcpio": {
+      "version": "42.2-1",
+      "arch": "x86_64",
+      "description": "Modular initramfs image creation utility",
+      "file": "mkinitcpio-42.2-1-x86_64.scc",
+      "sha256": "6f841d2c091448976c7ccd407102e27b4853ee3c51e3907aab55319e79b3adea",
+      "size": 73533,
+      "depends": [
+        "awk",
+        "mkinitcpio-busybox",
+        "kmod",
+        "util-linux",
+        "libarchive",
+        "coreutils",
+        "bash",
+        "binutils",
+        "diffutils",
+        "findutils",
+        "grep",
+        "gzip",
+        "filesystem",
+        "zstd",
+        "systemd"
+      ]
+    },
+    "mkinitcpio-busybox": {
+      "version": "1.36.1-1",
+      "arch": "x86_64",
+      "description": "Base initramfs tools",
+      "file": "mkinitcpio-busybox-1.36.1-1-x86_64.scc",
+      "sha256": "1bc9b9fbd74d4ea6e6d90e81ccce85ce97227eb8ae8a1e87f714d7e2faf0bd61",
+      "size": 304846,
+      "depends": [
+        "glibc",
+        "libxcrypt"
+      ]
+    },
     "mobile-broadband-provider-info": {
       "version": "20251101-1",
       "arch": "x86_64",
@@ -8106,8 +8322,8 @@
       "arch": "x86_64",
       "description": "Package for correctly-rounded arbitrary precision decimal floating point arithmetic",
       "file": "mpdecimal-4.0.1-3-x86_64.scc",
-      "sha256": "07eec7dd1c5d6f34a6dd9699be379ecf0510024a257dde3ee1d78fc59e399867",
-      "size": 117316,
+      "sha256": "072e3d3403e88423fc8696579fa8c2f46b2fadb53a01518481578c52cbaa9228",
+      "size": 117309,
       "depends": [
         "glibc",
         "libgcc",
@@ -8119,8 +8335,8 @@
       "arch": "x86_64",
       "description": "Multiple-precision floating-point library",
       "file": "mpfr-4.2.2-1-x86_64.scc",
-      "sha256": "650c4457dbd74d59699621e25f643f4db5db9ad71fffc8b95c81eebd5780fd15",
-      "size": 494829,
+      "sha256": "c0000616201f68a8e919d70dfe4a75d87846b4924322baadbfc9cc7486b756b4",
+      "size": 494818,
       "depends": [
         "glibc",
         "gmp"
@@ -8272,8 +8488,8 @@
       "arch": "x86_64",
       "description": "System V Release 4.0 curses emulation library",
       "file": "ncurses-6.6-2-x86_64.scc",
-      "sha256": "bebf0062f65d669af9cd618bf99a66cb5b8f4f8113cfe18b26232155c5e0bb4f",
-      "size": 1503034,
+      "sha256": "913e8686f4ba8a59fd797c2ca1d66a0fac3156260ab3ddad9e8afd1c656a2956",
+      "size": 1502968,
       "depends": [
         "glibc",
         "libgcc",
@@ -8305,8 +8521,8 @@
       "arch": "x86_64",
       "description": "A low-level cryptographic library",
       "file": "nettle-4.0-1-x86_64.scc",
-      "sha256": "8c11055e874de8503e4f05fd895c1fc692f998477826a314ed71bee589a1625e",
-      "size": 505861,
+      "sha256": "4a72067f39603f4cb3088b1f27bd6e5ddc8ee4205a6f8e63bbafcbcdd3fd05a4",
+      "size": 506090,
       "depends": [
         "glibc",
         "gmp"
@@ -8451,8 +8667,8 @@
       "arch": "x86_64",
       "description": "Open-source OpenGL drivers",
       "file": "opengl-driver-1.26.2.4-1-x86_64.scc",
-      "sha256": "0f24b5f29df5048d4fd9b9b3281610b366eb6e957481c35dd218ce089768ba33",
-      "size": 18714904,
+      "sha256": "36568488c2a81308cdb81927e659c250315466fce9cfe2002089d801cc974990",
+      "size": 18714917,
       "depends": [
         "expat",
         "glibc",
@@ -8530,8 +8746,8 @@
       "arch": "x86_64",
       "description": "The Open Source toolkit for cryptography and Transport Layer Security",
       "file": "openssl-3.6.5-1-x86_64.scc",
-      "sha256": "8756fb6aa6c92953479fceffa75f494a4d3aa534a7884e517e2da5ef552b8d01",
-      "size": 6503730,
+      "sha256": "d75342a3c96f50bcde7eb4fbef41f231caaa547267ea1707794d3ae21e27e79c",
+      "size": 6503746,
       "depends": [
         "brotli",
         "glibc",
@@ -8590,8 +8806,8 @@
       "arch": "x86_64",
       "description": "PAM (Pluggable Authentication Modules) library",
       "file": "pam-1.7.3-1-x86_64.scc",
-      "sha256": "4b4f5f3d224b3e59cbd3599d33f19ed8398104a212ec05d3fd09add4afa662d4",
-      "size": 837929,
+      "sha256": "3271982f1a47d7080010bdab60f82f670290a84b19d3601a0eb4e99436bfb6d9",
+      "size": 837922,
       "depends": [
         "audit",
         "glibc",
@@ -8609,8 +8825,8 @@
       "arch": "x86_64",
       "description": "Base PAM configuration for services",
       "file": "pambase-20260616-1-x86_64.scc",
-      "sha256": "95ad4b3f695755b376c6e3660e558ef2d3dcff629561573d2a3f2e0ce325baf0",
-      "size": 1105,
+      "sha256": "f8cc7598408edf97410498d10056b77551527a24f4c349cc7b1fca4a79817211",
+      "size": 1100,
       "depends": null
     },
     "pango": {
@@ -8677,8 +8893,8 @@
       "arch": "x86_64",
       "description": "A library that implements Perl 5-style regular expressions. 2nd version",
       "file": "pcre2-10.49-1-x86_64.scc",
-      "sha256": "33827b65b2766bacb0ebc1b963ce6e9f19fe3624437206c0872559dc242789dd",
-      "size": 2832645,
+      "sha256": "c5485092cb62555359f2e0eba3fdcd3b4fb0882eeaa950454f585b5a84bcae6e",
+      "size": 2832657,
       "depends": [
         "bzip2",
         "glibc",
@@ -8834,8 +9050,8 @@
       "arch": "x86_64",
       "description": "The pixel-manipulation library for X and cairo",
       "file": "pixman-0.46.4-1-x86_64.scc",
-      "sha256": "056630e50cad332c1ae16c7b71a04d1f854fc2539d4aebe659449f2ca017dc20",
-      "size": 329384,
+      "sha256": "a3182ef68b7483544032482a4be87a809e5b97f9ad53883a89e00eee0fd87c23",
+      "size": 329376,
       "depends": [
         "glibc"
       ]
@@ -8914,8 +9130,8 @@
       "arch": "x86_64",
       "description": "A commandline option parser",
       "file": "popt-1.19-2-x86_64.scc",
-      "sha256": "4107ff978fa7d5faceb206d64479e3dbdb1e2c38c1f77b317d58a7e45667b92d",
-      "size": 92637,
+      "sha256": "f9e9862f798c0d422e6c08b1db352f0f747c09d16e058cbc59a92cd8177cd669",
+      "size": 92617,
       "depends": [
         "glibc"
       ]
@@ -9067,6 +9283,27 @@
         "python"
       ]
     },
+    "python3": {
+      "version": "3.14.7-1",
+      "arch": "x86_64",
+      "description": "The Python programming language",
+      "file": "python3-3.14.7-1-x86_64.scc",
+      "sha256": "6e73925e0ef5a6ccd0a1ce28491704e240ac7cd421d978096549a9b92dcba90c",
+      "size": 27252930,
+      "depends": [
+        "bzip2",
+        "expat",
+        "gdbm",
+        "libffi",
+        "libnsl",
+        "libxcrypt",
+        "openssl",
+        "zlib",
+        "tzdata",
+        "mpdecimal",
+        "zstd"
+      ]
+    },
     "rav1e": {
       "version": "0.8.1-3",
       "arch": "x86_64",
@@ -9084,8 +9321,8 @@
       "arch": "x86_64",
       "description": "GNU readline library",
       "file": "readline-8.3.6-1-x86_64.scc",
-      "sha256": "e6a089dac23f3aefcd783faddbe8f6cd73c18e6cbd60600b8af6ee2898e593b8",
-      "size": 531603,
+      "sha256": "c169a97f3a7dcf379cfec88dbc4dee79afb82d93eb4b7d69fd460ae37ed44405",
+      "size": 531605,
       "depends": [
         "glibc",
         "libncursesw.so",
@@ -9156,8 +9393,8 @@
       "arch": "x86_64",
       "description": "GNU stream editor",
       "file": "sed-4.10-2-x86_64.scc",
-      "sha256": "c580870b98c08fe9b7bbc313708be0354946b46e1c2c08025931facb0add5a82",
-      "size": 263276,
+      "sha256": "3f8465c33c4977641fe59bceb7cf57a96827b2fc44807b1d136a45f0d5e56abe",
+      "size": 263256,
       "depends": [
         "glibc",
         "acl"
@@ -9179,8 +9416,8 @@
       "arch": "x86_64",
       "description": "The GNU Bourne Again shell",
       "file": "sh-5.3.20-1-x86_64.scc",
-      "sha256": "ec08b45591a98a93089be54a6c8ede8b4c29951635c1097e497a627ed9c9312c",
-      "size": 3280532,
+      "sha256": "081680db9e47be6ce781d4bd952d55ddac594642ccfeb36229cd430715ae920c",
+      "size": 3280502,
       "depends": [
         "readline",
         "libreadline.so",
@@ -9208,8 +9445,8 @@
       "arch": "x86_64",
       "description": "Password and account management tool suite with support for shadow files and PAM",
       "file": "shadow-4.20.0.arch1-1-x86_64.scc",
-      "sha256": "518d998f7d8021cada335864477ab5029583a9c510e31a632841e28d0605acd4",
-      "size": 1740425,
+      "sha256": "bb21f9a224ff99b4b712ee84d92bf19517b52c7e4ab25d9dac25d477c5a5d437",
+      "size": 1740405,
       "depends": [
         "glibc",
         "acl",
@@ -9343,8 +9580,8 @@
       "arch": "x86_64",
       "description": "API and commands for processing SPIR-V modules",
       "file": "spirv-tools-1.1.4.363.0-1-x86_64.scc",
-      "sha256": "fa1b68ac6da3b0e166465de534f4724ba1b49c38dc6b745c9570ef94c50ef607",
-      "size": 3316711,
+      "sha256": "8c18115a487a20581d46159f07cf855ab0e7a026f9e7d582248a394cae877506",
+      "size": 3316729,
       "depends": [
         "libstdc++",
         "glibc",
@@ -9356,8 +9593,8 @@
       "arch": "x86_64",
       "description": "A C library that implements an SQL database engine",
       "file": "sqlite-3.53.4-1-x86_64.scc",
-      "sha256": "836f8faf58964f20c5bb8aeef089c7a16a559f61624e69e3f3a65b23f3ba179a",
-      "size": 9313772,
+      "sha256": "29533b7d1ae147796a5891d32f558d70dd7f0b3b9b23ff4df4e945f82593e883",
+      "size": 9313768,
       "depends": [
         "readline",
         "zlib",
@@ -9442,8 +9679,8 @@
       "arch": "x86_64",
       "description": "system and service manager",
       "file": "systemd-262-1-x86_64.scc",
-      "sha256": "f41d2c68e995273a6e9374cfa05a3318d69c8fc47086cfa882ee7ba6937909be",
-      "size": 14127491,
+      "sha256": "b17b228235154e67ce03701c45287792646cff4b5f07336148c781f5f0f5e0a4",
+      "size": 14126348,
       "depends": [
         "systemd-libs",
         "acl",
@@ -9475,8 +9712,8 @@
       "arch": "x86_64",
       "description": "systemd client libraries",
       "file": "systemd-libs-262-1-x86_64.scc",
-      "sha256": "14bbd066bee0f45cd149753eca308fcf755e415f82cdcee534be53a43b30eb5a",
-      "size": 1953668,
+      "sha256": "0489f7afb92d48c9c5346cb8c16dc924c50f6bd21c4219837de49baa25403020",
+      "size": 1953654,
       "depends": [
         "glibc",
         "libgcc",
@@ -9590,8 +9827,8 @@
       "arch": "x86_64",
       "description": "Sources for time zone and daylight saving time data",
       "file": "tzdata-2026e-1-x86_64.scc",
-      "sha256": "d174c576efc4de5a609acfa3f67f85a9eb7d371817a11fc48c7f24aaeff7ef4a",
-      "size": 572928,
+      "sha256": "3e61d94a57dc32f5201e7321281d9139d2148904cb640503049d3bfe4ac1236b",
+      "size": 572603,
       "depends": null
     },
     "uchardet": {
@@ -9686,8 +9923,8 @@
       "arch": "x86_64",
       "description": "Miscellaneous system utilities for Linux",
       "file": "util-linux-2.42.4-1-x86_64.scc",
-      "sha256": "470ef0a9904228999c128d2aa537d6e1b36d43a3525ff58fd09b1f72ce6bacce",
-      "size": 9453974,
+      "sha256": "351936cdef0d20228195161cb2dc5c4c4a11110bc872c8486a2f1a73b2c042cc",
+      "size": 9453892,
       "depends": [
         "util-linux-libs",
         "coreutils",
@@ -9715,8 +9952,8 @@
       "arch": "x86_64",
       "description": "util-linux runtime libraries",
       "file": "util-linux-libs-2.42.4-1-x86_64.scc",
-      "sha256": "c178cb180996a11e835f5bc133384416866cc78a19d5a1e744f25c1f0a018e31",
-      "size": 631587,
+      "sha256": "01ae0c6c3d195ebb6ab6eafc12d547c5ec592f3d4959827dd81f18dbbb176f88",
+      "size": 631453,
       "depends": [
         "glibc",
         "sqlite"
@@ -9837,8 +10074,8 @@
       "arch": "x86_64",
       "description": "A computer display server protocol",
       "file": "wayland-1.26.0-1-x86_64.scc",
-      "sha256": "9cdde51d44e089b514450f86e9b68d073ceb2d7dff1f8a1c1278819ac8aa4de8",
-      "size": 223142,
+      "sha256": "1a4bb141fb14b0a9d027f9cf61b19a30efffe9e315760ab14b6d5d6f821ff581",
+      "size": 223139,
       "depends": [
         "glibc",
         "libffi",
@@ -9993,8 +10230,8 @@
       "arch": "x86_64",
       "description": "XML-XCB protocol descriptions",
       "file": "xcb-proto-1.17.0-4-x86_64.scc",
-      "sha256": "440712128b6a766075042a76bc00ad2a9962cb10a8fb824514c00c35e1eb29fa",
-      "size": 215479,
+      "sha256": "66586328c7944646aef2a8b947e5f2f9ff7766ef801402098a4cb551f1fcc2da",
+      "size": 215476,
       "depends": null
     },
     "xcb-util": {
@@ -10119,8 +10356,8 @@
       "arch": "x86_64",
       "description": "X keyboard configuration files",
       "file": "xkeyboard-config-2.48-1-x86_64.scc",
-      "sha256": "2b0fd17f704bb4242a01fa7939de79654c14e1ff98c7f484039905b9dee062db",
-      "size": 2921640,
+      "sha256": "f308b997c9ed033bf71788d649528a0c470a7cedfad639635c13afddc6ff7747",
+      "size": 2921385,
       "depends": null
     },
     "xorg-fonts-encodings": {
@@ -10215,8 +10452,8 @@
       "arch": "x86_64",
       "description": "combined X.Org X11 Protocol headers",
       "file": "xorgproto-2026.1-1-x86_64.scc",
-      "sha256": "49077b6050864bb07cfa096f64461418cb8262201617e05695b4ea0705de9dd7",
-      "size": 310028,
+      "sha256": "49de288825968c46b3eb486c4fe5c5ac50b782527cb474452ee6192365c9d96b",
+      "size": 310027,
       "depends": null
     },
     "xvidcore": {
@@ -10235,8 +10472,8 @@
       "arch": "x86_64",
       "description": "Extremely fast non-cryptographic hash algorithm",
       "file": "xxhash-0.8.4-1-x86_64.scc",
-      "sha256": "5ffe359b3c11180e8adb23672df0bc19678be935243dd37e162c591765dd6595",
-      "size": 130962,
+      "sha256": "9de3b0177c0f77af0fc2cd95d0bdd645ec70dab74ffec7b06cef2ba8d8a87973",
+      "size": 130957,
       "depends": [
         "glibc"
       ]
@@ -10246,8 +10483,8 @@
       "arch": "x86_64",
       "description": "Library and command line tools for XZ and LZMA compressed files",
       "file": "xz-5.8.4-1-x86_64.scc",
-      "sha256": "77e8bbf0dd4f883f1ae2c73e31988902787e29922b1f77f09d521668bde5906f",
-      "size": 1067216,
+      "sha256": "d0c90486c4cddda05ca330cc325213ad61a52849f4d0e3868a9a06c3b4d0e620",
+      "size": 1067214,
       "depends": [
         "glibc",
         "sh"
@@ -10310,8 +10547,8 @@
       "arch": "x86_64",
       "description": "Compression library implementing the deflate compression method found in gzip and PKZIP",
       "file": "zlib-1.1.3.2-3-x86_64.scc",
-      "sha256": "e6f39d640717ce03bde3b98b045451dc114caa743895c9de0568447d7397b3f1",
-      "size": 89892,
+      "sha256": "566ef2ad7a2096859dd147d944e1647f23e478462ea0415cd7e04ea01b1205d4",
+      "size": 89883,
       "depends": [
         "glibc"
       ]
@@ -10334,7 +10571,7 @@
       "arch": "x86_64",
       "description": "Zstandard - Fast real-time compression algorithm",
       "file": "zstd-1.5.7-3-x86_64.scc",
-      "sha256": "ab303dd8af18bf0053b696c6767030baf0aa3db05203cbcb97b8692b213b994e",
+      "sha256": "1b2f25fdad77c8560b8601cc4550b2c7f4bab6eebb3dbb17df82a15437a45c4b",
       "size": 644044,
       "depends": [
         "glibc",
