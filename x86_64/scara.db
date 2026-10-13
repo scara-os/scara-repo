@@ -304,8 +304,8 @@
       "arch": "x86_64",
       "description": "Userspace components of the audit framework",
       "file": "audit-4.2.1-1-x86_64.scc",
-      "sha256": "74a5af31770416512c9e53d5acdc7db640fe67d7888e06e19d48d07c60d0c7ce",
-      "size": 481504,
+      "sha256": "80a0b180b58e4bcc994f45cd53b213f5872baccd05a4c9a89a7f58608276fe22",
+      "size": 481510,
       "depends": [
         "bash",
         "glibc",
@@ -354,8 +354,8 @@
       "arch": "x86_64",
       "description": "The GNU Bourne Again shell",
       "file": "bash-5.3.20-1-x86_64.scc",
-      "sha256": "1b099d696fa80ebd22fa18f0bbf86f17422e4b98c39cf24f4413d627ca9f3b3b",
-      "size": 3280509,
+      "sha256": "a6e7c4920c3467d2245a4ebaff0ccd11443920dfc256a302415c43b1da126d15",
+      "size": 3280535,
       "depends": [
         "readline",
         "libreadline.so",
@@ -411,8 +411,8 @@
       "arch": "x86_64",
       "description": "Generic-purpose lossless compression algorithm",
       "file": "brotli-1.2.0-1-x86_64.scc",
-      "sha256": "3d1f065096de88be1a0b1d2af3f7f5c85f8c73f1931bcf4319616ab1ddac4013",
-      "size": 468014,
+      "sha256": "9adaa8c75ab5fe1b6305dd91edf939cb2224edc5988b64bbd11abc1b5e69f41f",
+      "size": 468011,
       "depends": [
         "glibc"
       ]
@@ -449,8 +449,8 @@
       "arch": "x86_64",
       "description": "A high-quality data compression program",
       "file": "bzip2-1.0.8-6-x86_64.scc",
-      "sha256": "a1cabeed3e798baf46580a9bd8cbcd378c0a5c91054c5866d748a4491fc33c91",
-      "size": 62606,
+      "sha256": "4d9f6bf10539096f55316172533674e09c13bc365902e217b66156de19fe9c89",
+      "size": 62600,
       "depends": [
         "glibc",
         "sh"
@@ -679,7 +679,7 @@
       "arch": "x86_64",
       "description": "Freedesktop.org message bus system",
       "file": "dbus-1.16.2-1-x86_64.scc",
-      "sha256": "4fd8838b1e23c6b65bbe08a166232eb4b983d74ad4bb63ee6be0688365ef7683",
+      "sha256": "26a24dfdb59a976a75fd281dd88f0694a9f59e09ba9ad933a1468a517d08794c",
       "size": 338996,
       "depends": [
         "audit",
@@ -691,6 +691,52 @@
         "libcap-ng.so",
         "libexpat.so",
         "libsystemd.so"
+      ]
+    },
+    "dbus-broker": {
+      "version": "37-3",
+      "arch": "x86_64",
+      "description": "Linux D-Bus Message Broker",
+      "file": "dbus-broker-37-3-x86_64.scc",
+      "sha256": "27bff60d2bedda13d9d94c952947441afa0be8fa15ca7dbe02e70e06efb4b938",
+      "size": 169565,
+      "depends": [
+        "audit",
+        "expat",
+        "glibc",
+        "libcap-ng",
+        "libgcc",
+        "systemd-libs",
+        "libaudit.so",
+        "libcap-ng.so",
+        "libexpat.so",
+        "libsystemd.so"
+      ]
+    },
+    "dbus-broker-units": {
+      "version": "37-3",
+      "arch": "x86_64",
+      "description": "Linux D-Bus Message Broker - Service units",
+      "file": "dbus-broker-units-37-3-x86_64.scc",
+      "sha256": "c72f648b1f4c6f8dc76ff55e9fe5656d576197369717eabc4a0ebe1ffeec0ae2",
+      "size": 378,
+      "depends": [
+        "dbus",
+        "dbus-broker"
+      ]
+    },
+    "dbus-units": {
+      "version": "5.3.20-1",
+      "arch": "x86_64",
+      "description": "The GNU Bourne Again shell",
+      "file": "dbus-units-5.3.20-1-x86_64.scc",
+      "sha256": "ae99fd93cf81bea4093d2b071117a1e2937849aaa16941e0cb28ccff9fe6cbff",
+      "size": 2328,
+      "depends": [
+        "meson",
+        "python-docutils",
+        "systemd",
+        "dbus-broker-units"
       ]
     },
     "dconf": {
@@ -785,8 +831,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem utilities",
       "file": "e2fsprogs-1.47.4-1-x86_64.scc",
-      "sha256": "1b8253d9d651962c4eb0bbbe26f9e3d44a4c022f75f327d3daa0b5dfb0336acd",
-      "size": 2049493,
+      "sha256": "1932009631200a907356147814ae23cbe49e316d32832fa53b38cc2bff1d9985",
+      "size": 2049628,
       "depends": [
         "sh",
         "util-linux-libs"
@@ -925,8 +971,8 @@
       "arch": "x86_64",
       "description": "An XML parser library",
       "file": "expat-2.9.0-1-x86_64.scc",
-      "sha256": "8628560bcb5c33c1b751dc66f66e0513b38789cef9e5c882890a9b918a450611",
-      "size": 185999,
+      "sha256": "6d9d5ccf188bb01eff373134b7752f5c6fc84545cad10ca5cf186f6d3227b53f",
+      "size": 186002,
       "depends": [
         "glibc"
       ]
@@ -1102,8 +1148,8 @@
       "arch": "x86_64",
       "description": "Base Arch Linux files",
       "file": "filesystem-2025.10.12-1-x86_64.scc",
-      "sha256": "aad0f23ab1012a723bd39b72a77612c36748439e7eacf9ceb315bdeffa5731d7",
-      "size": 14096,
+      "sha256": "fa61bc6a1151c3fa31dc9e072f21af7ed67d2691fa66316c07785c9d61d214d0",
+      "size": 14095,
       "depends": [
         "iana-etc"
       ]
@@ -1267,8 +1313,8 @@
       "arch": "x86_64",
       "description": "GNU database library",
       "file": "gdbm-1.26-2-x86_64.scc",
-      "sha256": "5ae6490029bb568d5b6a75fa190b02d29130f3621fd9a4ec8e0f8ea51e5cfe12",
-      "size": 307204,
+      "sha256": "10b91fd9c61e90ae32f9904b11665f6af696397d84828e6c41e4146845d0f461",
+      "size": 307197,
       "depends": [
         "glibc",
         "sh",
@@ -1510,8 +1556,8 @@
       "arch": "x86_64",
       "description": "GNU C Library",
       "file": "glibc-2.44.r50.g1848099f063e-1-x86_64.scc",
-      "sha256": "d1e6987feb0409b4b3bdbd148ee7dc6fe1d7d4454d90527878a2ca20910036e9",
-      "size": 18306959,
+      "sha256": "be183ab5201408ab709551bd1c24574ed99512786c9b2b954d7928dba511c4ce",
+      "size": 18306710,
       "depends": [
         "linux-api-headers",
         "tzdata",
@@ -2673,8 +2719,8 @@
       "arch": "x86_64",
       "description": "/etc/protocols and /etc/services provided by IANA",
       "file": "iana-etc-20260617-1-x86_64.scc",
-      "sha256": "2255b0048c4bd8a1d66002c58556498b03e91c7dab66705a52fb27edc3201013",
-      "size": 563947,
+      "sha256": "f01a77791e233a591128ebfd3aa3e49b1681c8404facaf8cec34b296099e0117",
+      "size": 563952,
       "depends": null
     },
     "ibus": {
@@ -2975,7 +3021,7 @@
       "arch": "x86_64",
       "description": "Linux Key Management Utilities",
       "file": "keyutils-1.6.3-4-x86_64.scc",
-      "sha256": "d0329d71640c96b63bf21a55998bf65c2f2a9a0491aa7b0d002c74c41f82105a",
+      "sha256": "92f8f0c133f660ea3cd836c3aeead20b6873c94601971bb85f4c0f8c56dce1eb",
       "size": 108736,
       "depends": [
         "glibc",
@@ -3056,8 +3102,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system",
       "file": "krb5-1.22.2-1-x86_64.scc",
-      "sha256": "a43458396a57ac61314f01aa18607db07560d93f79ecbf3224decccd0789c30f",
-      "size": 1772428,
+      "sha256": "e3c73332f3cb841b01513af7a52e70d4d5ff7b961aa656c349c4cd9a953177bf",
+      "size": 1772417,
       "depends": [
         "bash",
         "e2fsprogs",
@@ -3173,8 +3219,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem libraries (32-bit)",
       "file": "lib32-e2fsprogs-1.47.4-1-x86_64.scc",
-      "sha256": "0e964577dd4882b085e16acbac0a11a15643303bb6bf44f7e4b5358d0faab16c",
-      "size": 252786,
+      "sha256": "70886f0bff7fad3915de17acc13a8752366730a5b458ff156aca76ba99751ca0",
+      "size": 252781,
       "depends": [
         "lib32-glibc",
         "e2fsprogs"
@@ -3197,8 +3243,8 @@
       "arch": "x86_64",
       "description": "32-bit runtime libraries shipped by GCC",
       "file": "lib32-gcc-libs-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "5c42d4308cdb37540b54d5f7a14ca2923533ad921196f8fb21553913fb5c058a",
-      "size": 15068713,
+      "sha256": "b7c86e01d0e5d7548ad4cd73e1eaeb9c12345e35943abd94429eab251451bf00",
+      "size": 15068703,
       "depends": [
         "lib32-glibc"
       ]
@@ -3208,8 +3254,8 @@
       "arch": "x86_64",
       "description": "GNU C Library (32-bit)",
       "file": "lib32-glibc-2.44.r50.g1848099f063e-1-x86_64.scc",
-      "sha256": "cc9e9a455a7411a4050fb82d350a755c71bb2aa19a5ad3281722db4403510068",
-      "size": 7015589,
+      "sha256": "d8ce954fac57ee2d2cb9ca203f5cd53395e777b6412743798526c70055b03644",
+      "size": 7015500,
       "depends": [
         "glibc"
       ]
@@ -3278,8 +3324,8 @@
       "arch": "x86_64",
       "description": "Linux Key Management Utilities (32-bit)",
       "file": "lib32-keyutils-1.6.3-4-x86_64.scc",
-      "sha256": "c03dd10788803e0a6a842e751294938452daf94a91c951753e4659719ac656e4",
-      "size": 6829,
+      "sha256": "0b5dca7a8259599338c248766734e26a31e7cebb3ded877b5a543763afa4f688",
+      "size": 6830,
       "depends": [
         "lib32-glibc",
         "lib32-krb5",
@@ -3291,8 +3337,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system (32-bit)",
       "file": "lib32-krb5-1.22.2-1-x86_64.scc",
-      "sha256": "967664bc70af128a4d02df51bd3472840229dd3edd49f2c0b3a6fb62893b9121",
-      "size": 975034,
+      "sha256": "df724635fcf355375aa4f656e712e1a44c81bc7b0c42173ec0cdf49e73c64fbf",
+      "size": 975035,
       "depends": [
         "lib32-e2fsprogs",
         "lib32-gcc-libs",
@@ -3351,8 +3397,8 @@
       "arch": "x86_64",
       "description": "General purpose cryptographic library based on the code from GnuPG (32-bit)",
       "file": "lib32-libgcrypt-1.12.4-1-x86_64.scc",
-      "sha256": "e421e66138db02e7d9acfab7fb9811ccf0fc6977070fa8c247bf4d013b79878c",
-      "size": 577964,
+      "sha256": "7bf85c92aadd039bd24368585d6f3594ad4bd05f00b53461a312b4e3e0aef1ca",
+      "size": 577973,
       "depends": [
         "lib32-libgpg-error",
         "lib32-glibc",
@@ -3378,7 +3424,7 @@
       "arch": "x86_64",
       "description": "Support library for libgcrypt (32-bit)",
       "file": "lib32-libgpg-error-1.61-1-x86_64.scc",
-      "sha256": "62a0313004555fbddeadbdac07b0213169a707320ac65fb434e182adb68edbad",
+      "sha256": "1e8a123c3dc2ec6076d21698f4e161e2642c5f14e38e369a8342e993a484b988",
       "size": 80658,
       "depends": [
         "lib32-glibc",
@@ -3403,8 +3449,8 @@
       "arch": "x86_64",
       "description": "Lightweight Directory Access Protocol (LDAP) client libraries (32-bit)",
       "file": "lib32-libldap-2.7.1-1-x86_64.scc",
-      "sha256": "363ac83ddb0e5b8e6e516bf9e8ad8e1c2d23a9fae276fd295fc1b8d69c463bcd",
-      "size": 187485,
+      "sha256": "bcd0d6997ebba1a9b1632f660aa87386c9372247d4ee9485e36bb1405035e80c",
+      "size": 187486,
       "depends": [
         "lib32-openssl",
         "lib32-libxcrypt",
@@ -3560,8 +3606,8 @@
       "arch": "x86_64",
       "description": "Modern library for one-way hashing of passwords (32-bit)",
       "file": "lib32-libxcrypt-4.5.2-1-x86_64.scc",
-      "sha256": "862a02df27b862f2339652302b8de6d3870f4a9853318ee9b7e892abbce55743",
-      "size": 79744,
+      "sha256": "b1009e9e1d5c87cffce644189ce4e8acdad3a8b9a02eed2e164d61609b12f7cd",
+      "size": 79740,
       "depends": [
         "lib32-glibc",
         "libxcrypt"
@@ -3747,7 +3793,7 @@
       "arch": "x86_64",
       "description": "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)",
       "file": "lib32-openssl-1.3.6.5-1-x86_64.scc",
-      "sha256": "a72951935c4389875b55f8c4f7cc4af7bbd75b1e0d10453a592af20700743d88",
+      "sha256": "8843736eab4dd3492302a1a68947fe62f7bc9972c034ebd3e8901fbc7fb6ae23",
       "size": 2535598,
       "depends": [
         "lib32-glibc",
@@ -3801,8 +3847,8 @@
       "arch": "x86_64",
       "description": "Library and command line tools for XZ and LZMA compressed files (32-bit)",
       "file": "lib32-xz-5.8.4-1-x86_64.scc",
-      "sha256": "5295932158034e227b66110b1bc25163fa9a6b15621626e5c3c8f603b7b1aeb2",
-      "size": 117446,
+      "sha256": "2aabe552881f8b42c57fe117000ea67cb865b7613f8fdd23ea63363fa58f8f71",
+      "size": 117449,
       "depends": [
         "lib32-glibc",
         "xz"
@@ -3825,7 +3871,7 @@
       "arch": "x86_64",
       "description": "Zstandard - Fast real-time compression algorithm (32-bit)",
       "file": "lib32-zstd-1.5.7-2-x86_64.scc",
-      "sha256": "3ba446e734b45214aebd63107f99a99b17f4f2fb31d37f5a9442794e12f19070",
+      "sha256": "43df4506d6de5595a042ef5088ce1b15c337e568aeb738b383762481dd97bc0c",
       "size": 382499,
       "depends": [
         "zstd",
@@ -4135,8 +4181,8 @@
       "arch": "x86_64",
       "description": "Userspace components of the audit framework",
       "file": "libaudit.so-4.2.1-1-x86_64.scc",
-      "sha256": "c1eed3813e08c28bb19d3095865b24783066f18b17fe704bddc1ad3a387c0e14",
-      "size": 481512,
+      "sha256": "3b118b0d41384d682f62d27d2854ff6db9088d1d86d4965c817fc9eb5797ec0c",
+      "size": 481516,
       "depends": [
         "bash",
         "glibc",
@@ -5184,8 +5230,8 @@
       "arch": "x86_64",
       "description": "A library for Linux that makes using posix capabilities easy",
       "file": "libcap-ng-0.9.6-1-x86_64.scc",
-      "sha256": "7810784d7b6a0898606ea550844a574009b739e5bd275c18e91f827f5ddf65d5",
-      "size": 75707,
+      "sha256": "64dcfea548ee60f15224aaf39f7410294fc4b2bbc413e4acfc6289d82fa8bbc2",
+      "size": 75703,
       "depends": [
         "glibc"
       ]
@@ -5195,8 +5241,8 @@
       "arch": "x86_64",
       "description": "A library for Linux that makes using posix capabilities easy",
       "file": "libcap-ng.so-0.9.6-1-x86_64.scc",
-      "sha256": "1b3d17283ac45117a9d8458001d3affaae54a0901a234406417509ab14702199",
-      "size": 75705,
+      "sha256": "90fb94cad27713bfb772528778922133ba5e180601b5a4555372671678bc0c8d",
+      "size": 75701,
       "depends": [
         "glibc"
       ]
@@ -5272,8 +5318,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem utilities",
       "file": "libcom_err.so-1.47.4-1-x86_64.scc",
-      "sha256": "45bd5466805b85213a1a6e9ced6ffc4382331b5393ac89e3733f65e2c8e099be",
-      "size": 2049640,
+      "sha256": "5c9bb28072d3ff6a461929a46208dab32786554701caa6e12d3f4566619950a1",
+      "size": 2049639,
       "depends": [
         "sh",
         "util-linux-libs"
@@ -5295,8 +5341,8 @@
       "arch": "x86_64",
       "description": "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)",
       "file": "libcrypto.so-1.3.6.5-1-x86_64.scc",
-      "sha256": "b432ed8bca3b2efa6f54835fbb2f0d763c8a318f3fe1928977f707aad3d576c4",
-      "size": 2535595,
+      "sha256": "615f2c51f6827aadfbd63d4260ab24ff26b623ef5efde28efb59176c78676ab3",
+      "size": 2535602,
       "depends": [
         "lib32-glibc",
         "openssl"
@@ -5767,7 +5813,7 @@
       "arch": "x86_64",
       "description": "Event notification library",
       "file": "libevent-2.1.13-2-x86_64.scc",
-      "sha256": "983653a8936381ce41d699784b05ab26bcc0383524a8dc26ac1a29437ebf1759",
+      "sha256": "dba0f9fc5f7ca3db511a5b4a8f59bf0573d3069151e26d415d467442975e93a2",
       "size": 462748,
       "depends": [
         "glibc",
@@ -5814,8 +5860,8 @@
       "arch": "x86_64",
       "description": "An XML parser library",
       "file": "libexpat.so-2.9.0-1-x86_64.scc",
-      "sha256": "426257df8524ab8528447c3d3ed604af22f589aef17abe95ef1fddc3216338b7",
-      "size": 186003,
+      "sha256": "da3263b94b349cfbcc6ff62ac7249ec12d91b6cbbb6dada4822a4a4479c9e36e",
+      "size": 186006,
       "depends": [
         "glibc"
       ]
@@ -5886,8 +5932,8 @@
       "arch": "x86_64",
       "description": "Portable foreign function interface library",
       "file": "libffi-3.8.0-1-x86_64.scc",
-      "sha256": "c25c9b0bd9275800ac202484d9dd0a49692d8de04d719f0ada51ec98e31acfb0",
-      "size": 58388,
+      "sha256": "1b764bdca79678056d92ce4c051c75ba6fdbc63be91851e21ec913d13d38cce8",
+      "size": 58390,
       "depends": [
         "glibc"
       ]
@@ -5989,7 +6035,7 @@
       "arch": "x86_64",
       "description": "Low-level runtime library shipped by GCC",
       "file": "libgcc-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "e6b09bef7587418db65c5569f5b841183e6aa3be9103f16c8cd66114daa316d5",
+      "sha256": "54dae144c63d9d50ba33b6764004f435e0710a4ddc9aac3c6f8e26be892533b3",
       "size": 85993,
       "depends": [
         "glibc"
@@ -6000,8 +6046,8 @@
       "arch": "x86_64",
       "description": "Low-level runtime library shipped by GCC",
       "file": "libgcc_s.so-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "6041992ee029bb909e36b83f9273d703f2d351159ea5299cf54d33116c52c14d",
-      "size": 85991,
+      "sha256": "5e9706e87a7af76ac9f7e7c82e53a38b25431023aca98967fb1bad04b25e243e",
+      "size": 85993,
       "depends": [
         "glibc"
       ]
@@ -6011,8 +6057,8 @@
       "arch": "x86_64",
       "description": "General purpose cryptographic library based on the code from GnuPG",
       "file": "libgcrypt-1.12.4-1-x86_64.scc",
-      "sha256": "554e723d91280cc351426ef93c0aec02f0280be3944abf0d43ccc7d515b63541",
-      "size": 862810,
+      "sha256": "0d4ffa69ac01106ffa6d44163f03859d039665554c5008d66c53a309048d728d",
+      "size": 862813,
       "depends": [
         "libgpg-error",
         "glibc"
@@ -6023,8 +6069,8 @@
       "arch": "x86_64",
       "description": "GNU database library",
       "file": "libgdbm.so-1.26-2-x86_64.scc",
-      "sha256": "521d6dd363b0b174a69e2af5028eabda4a990e1a493d1d0ab916b3b0f2e36fb1",
-      "size": 307203,
+      "sha256": "82d0a5eba41c646757eac6bfeb6ff55084def0eef24e141b517c2adee60fab63",
+      "size": 307198,
       "depends": [
         "glibc",
         "sh",
@@ -6199,8 +6245,8 @@
       "arch": "x86_64",
       "description": "Support library for libgcrypt",
       "file": "libgpg-error-1.61-1-x86_64.scc",
-      "sha256": "8fc01fa3b82f4e6f31899ff338ff7f35c62836ba6808d1604bf6e40da110060d",
-      "size": 410437,
+      "sha256": "ac459cc8dd43a452e1bf712523b1d250dbf6383848ef3c7b6b28cf67a8d4c6eb",
+      "size": 410198,
       "depends": [
         "glibc",
         "sh"
@@ -6240,8 +6286,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system",
       "file": "libgssapi_krb5.so-1.22.2-1-x86_64.scc",
-      "sha256": "b5857b6dc7d58698c475e92f3f406dee3baef59eb597406c827deb8f521c590b",
-      "size": 1772438,
+      "sha256": "c26fdb16d8a14ed1910ca966721c836239671d68d30957ea558b1d9e332bf179",
+      "size": 1772418,
       "depends": [
         "bash",
         "e2fsprogs",
@@ -6962,8 +7008,8 @@
       "arch": "x86_64",
       "description": "Linux Key Management Utilities",
       "file": "libkeyutils.so-1.6.3-4-x86_64.scc",
-      "sha256": "3e28d004d7fc64f0d90d54369c0b69e3a2bab2ca41cd118af9eec28a150b8830",
-      "size": 108750,
+      "sha256": "9fbea5ad161ad4b4fdf84510fb941c6af30fbddfb20569f4dfb05f4825862083",
+      "size": 108747,
       "depends": [
         "glibc",
         "sh"
@@ -6989,8 +7035,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system",
       "file": "libkrb5.so-1.22.2-1-x86_64.scc",
-      "sha256": "9f8e3246770f64f45f5b1681ea3686f849c49aa9dca31df768763183659bbf99",
-      "size": 1772431,
+      "sha256": "5e28872136a870bc72df23aa84b904f421d272190d329403a702df028bf481aa",
+      "size": 1772413,
       "depends": [
         "bash",
         "e2fsprogs",
@@ -7081,8 +7127,8 @@
       "arch": "x86_64",
       "description": "Lightweight Directory Access Protocol (LDAP) client libraries",
       "file": "libldap-2.7.1-1-x86_64.scc",
-      "sha256": "d550c9396acf451cfe2f80862bb5974a7f0183b7bcbf90c619372dac4a80de4b",
-      "size": 320215,
+      "sha256": "0d9d87a1467c06fe9e8574a18e2b1c5e40c67e46fbb9d2cb3b10deef4c93f78c",
+      "size": 320213,
       "depends": [
         "libsasl"
       ]
@@ -7419,8 +7465,8 @@
       "arch": "x86_64",
       "description": "System V Release 4.0 curses emulation library (32-bit)",
       "file": "libncursesw.so-6.6-2-x86_64.scc",
-      "sha256": "196203a3f3b59aeea9d624ed8e6602f0fdf3c21c72c3b767bf64272b46a280f7",
-      "size": 259078,
+      "sha256": "be54c7c87d032fca97f88d125aaf60b772832abf3504fdf964d8d1744a6e62aa",
+      "size": 259082,
       "depends": [
         "lib32-gcc-libs",
         "lib32-glibc",
@@ -7677,8 +7723,8 @@
       "arch": "x86_64",
       "description": "Public client interface library for NIS(YP)",
       "file": "libnsl-2.0.1-2-x86_64.scc",
-      "sha256": "40b3202c5dd2561484780f3ffa67a4385de4ea890b2842bbcc28fc339f55f4ef",
-      "size": 21530,
+      "sha256": "64f4eb044bce16efbfb13010c79d0dbaf039ccc9e2d02f44ec5d80c30a8aba31",
+      "size": 21524,
       "depends": [
         "glibc",
         "libtirpc"
@@ -8351,8 +8397,8 @@
       "arch": "x86_64",
       "description": "GNU readline library",
       "file": "libreadline.so-8.3.6-1-x86_64.scc",
-      "sha256": "27523853cae434c28f8cc4162446111968da682354fc5d220bbb16cacf407842",
-      "size": 531603,
+      "sha256": "3f23cc0947fb452d00878896fdfa8b27f7ed7b116ee49e95be2bfb7e9bf42fa7",
+      "size": 531609,
       "depends": [
         "glibc",
         "libncursesw.so",
@@ -8457,8 +8503,8 @@
       "arch": "x86_64",
       "description": "Cyrus Simple Authentication Service Layer (SASL) library",
       "file": "libsasl-2.1.28-5-x86_64.scc",
-      "sha256": "0dda3b5f6e4d13c7406a77ff4921323eb7a3486804df10cf3fea2d9689aa74b3",
-      "size": 184698,
+      "sha256": "14bdf5074f330fee009357a72dd806bcde96f7cd5c4747e92bebf54a0bee82b5",
+      "size": 184694,
       "depends": [
         "glibc",
         "gdbm",
@@ -8792,8 +8838,8 @@
       "arch": "x86_64",
       "description": "Ext2/3/4 filesystem utilities",
       "file": "libss.so-1.47.4-1-x86_64.scc",
-      "sha256": "9a1fed66e0593ee4eff6e9a80b8eee31b9228bacb36c9882af26acf54b213c74",
-      "size": 2049641,
+      "sha256": "6deef35a69a87efacf6d58f3a073e5740ae3f05c8e0fee007912b7b30a438ba7",
+      "size": 2049640,
       "depends": [
         "sh",
         "util-linux-libs"
@@ -8872,8 +8918,8 @@
       "arch": "x86_64",
       "description": "C++ runtime libraries shipped by GCC",
       "file": "libstdc++-16.2.1.r23.gd564253eb6c8-1-x86_64.scc",
-      "sha256": "642bba40807b4026fdd76d0c031d6708373e895a845d011c1e7889a9e1b16506",
-      "size": 1067937,
+      "sha256": "2a6d354d682e00893e311db148725b0abdaeff60b57522dec7c30dc85b9090c9",
+      "size": 1067939,
       "depends": [
         "glibc",
         "libgcc"
@@ -9139,7 +9185,7 @@
       "arch": "x86_64",
       "description": "system and service manager (32-bit)",
       "file": "libsystemd.so-262-1-x86_64.scc",
-      "sha256": "c3b2afa292fc51707524d22cf0b6faeb5dfc9205d72216c7f91a2a22122db182",
+      "sha256": "ee31254aeccc8f35da35487447c1a095bc9fb0620b71019ac2ec01a26e762f80",
       "size": 1372351,
       "depends": [
         "systemd-libs",
@@ -9272,8 +9318,8 @@
       "arch": "x86_64",
       "description": "Transport Independent RPC library (SunRPC replacement)",
       "file": "libtirpc-1.3.8-1-x86_64.scc",
-      "sha256": "bc5407ae30988a05efacea6193f43379371dea0111ebfafb6bc540f8ff6dbcd5",
-      "size": 192731,
+      "sha256": "9a19ed44cf6fbc67d9cf7825e60476db5f6ab9d3af896897e072fc87d2af9a3e",
+      "size": 192735,
       "depends": [
         "krb5",
         "glibc"
@@ -9554,8 +9600,8 @@
       "arch": "x86_64",
       "description": "Main event loop abstraction library",
       "file": "libverto-module-base-0.3.2-6-x86_64.scc",
-      "sha256": "6f872e94557cc2ae0909817a5c30ae5a7767b76eb490581aa537308b3541f6a6",
-      "size": 18796,
+      "sha256": "0d1da4770d8c71dbf55a3aa115644810764c1eb6c321f65fc8192097d6446bc7",
+      "size": 18795,
       "depends": [
         "glibc",
         "libevent"
@@ -9566,8 +9612,8 @@
       "arch": "x86_64",
       "description": "The Kerberos network authentication system (32-bit)",
       "file": "libverto.so-1.22.2-1-x86_64.scc",
-      "sha256": "0d0016bc794f78ff55c3fa6eaaa27cf55b3269c484253091dc7958484878514e",
-      "size": 975041,
+      "sha256": "4600e9fc17f3a71fb334828a37b7aaf1319c783651b2ad6fea1f62290f31dbac",
+      "size": 975037,
       "depends": [
         "lib32-e2fsprogs",
         "lib32-gcc-libs",
@@ -9843,8 +9889,8 @@
       "arch": "x86_64",
       "description": "Modern library for one-way hashing of passwords",
       "file": "libxcrypt-4.5.2-1-x86_64.scc",
-      "sha256": "51a4f26c8391509d785300e0c5404bc2fff6706fa1a63a2e45b3073f136a5109",
-      "size": 97610,
+      "sha256": "e02274f9a6d330a257e1168886ad881dd00f3c6af1c46da3dd295cadee667f36",
+      "size": 97607,
       "depends": [
         "glibc"
       ]
@@ -10431,8 +10477,8 @@
       "arch": "x86_64",
       "description": "Kernel headers sanitized for use in userspace",
       "file": "linux-api-headers-7.2-1-x86_64.scc",
-      "sha256": "09d6c26abb4c7380f1f1dbf14e1b58fb9a62fe0f81c67fcc7aa58fed838f5f05",
-      "size": 1985007,
+      "sha256": "39b827ca7e85c5419fb709d51f13635e61119cd87108c6cdcf53c69b39b4a79e",
+      "size": 1985056,
       "depends": null
     },
     "llvm-libs": {
@@ -10470,8 +10516,8 @@
       "arch": "x86_64",
       "description": "Symas Lightning Memory-Mapped Database",
       "file": "lmdb-0.9.35-1-x86_64.scc",
-      "sha256": "d947153defc59a3e1f2dff5ed78dbe7c5ed969470142c5eb11f4ed8bc170a44e",
-      "size": 195240,
+      "sha256": "27847213482d2e1561466e3acaf2769fb83b9d8e8830db1dc4cb5bb5dab2bca4",
+      "size": 195239,
       "depends": [
         "glibc"
       ]
@@ -10567,7 +10613,7 @@
       "arch": "x86_64",
       "description": "Extremely fast compression algorithm",
       "file": "lz4-1.1.10.0-2-x86_64.scc",
-      "sha256": "8a2e98e2b6b7a2fffd54af4b74b8acad3a23d283e1956638ccb20badafb7f72e",
+      "sha256": "0527dabe23b5622a89a5b65c636c14188ebf1b2f71d1930a625bcb348d5ba767",
       "size": 197959,
       "depends": [
         "glibc"
@@ -10635,6 +10681,20 @@
         "zstd"
       ]
     },
+    "meson": {
+      "version": "1.12.1-2",
+      "arch": "x86_64",
+      "description": "High productivity build system",
+      "file": "meson-1.12.1-2-x86_64.scc",
+      "sha256": "32d5571292fdeb60a559fc90962896b5c594c56c034f920be28e2a03000fb1b3",
+      "size": 5801966,
+      "depends": [
+        "bash",
+        "ninja",
+        "python",
+        "python-tqdm"
+      ]
+    },
     "ministream": {
       "version": "0.99.1-1",
       "arch": "x86_64",
@@ -10698,8 +10758,8 @@
       "arch": "x86_64",
       "description": "Package for correctly-rounded arbitrary precision decimal floating point arithmetic",
       "file": "mpdecimal-4.0.1-3-x86_64.scc",
-      "sha256": "ceead8b4505ad3d183991a093933df688abb0892b64d3ba6bcb942b854c2df0e",
-      "size": 117312,
+      "sha256": "f7da2f9f41480a864927dcc3bf2b480bcd3d84ad51f7f9c91cef4192b48ae5ca",
+      "size": 117306,
       "depends": [
         "glibc",
         "libgcc",
@@ -10967,8 +11027,8 @@
       "arch": "x86_64",
       "description": "System V Release 4.0 curses emulation library",
       "file": "ncurses-6.6-2-x86_64.scc",
-      "sha256": "832c8e78c20e4f0f566a03486fffd8af8a935dcda41b7ce3ca67f8f0c00572e5",
-      "size": 1503011,
+      "sha256": "4c7981bbc7550628afa10816bd258bfe8a4b697c23adfe368f564ae3bd8c69ad",
+      "size": 1503002,
       "depends": [
         "glibc",
         "libgcc",
@@ -11064,6 +11124,19 @@
         "libmnl",
         "libnftnl",
         "readline"
+      ]
+    },
+    "ninja": {
+      "version": "1.13.2-3",
+      "arch": "x86_64",
+      "description": "Small build system with a focus on speed",
+      "file": "ninja-1.13.2-3-x86_64.scc",
+      "sha256": "79b9a9bd226f551457c408628088a898504aa6f19cff9157a91ef8560b21e27d",
+      "size": 198445,
+      "depends": [
+        "glibc",
+        "libgcc",
+        "libstdc++"
       ]
     },
     "npth": {
@@ -11258,8 +11331,8 @@
       "arch": "x86_64",
       "description": "The Open Source toolkit for cryptography and Transport Layer Security",
       "file": "openssl-3.6.5-1-x86_64.scc",
-      "sha256": "55de51b76e8e6571f67426b863756d4f6681e476123ddd168f9a351839a83d5b",
-      "size": 6503550,
+      "sha256": "83411fb9e4b9e039f026fe4e0d63f046e78a008d843000017c7a58a14e06c6c2",
+      "size": 6503729,
       "depends": [
         "brotli",
         "glibc",
@@ -11763,8 +11836,8 @@
       "arch": "x86_64",
       "description": "The Python programming language",
       "file": "python-3.14.7-1-x86_64.scc",
-      "sha256": "a0bbe16a8ef833fd386a64b5515355075156519732a3603c0018376dcacd833b",
-      "size": 27251540,
+      "sha256": "a52d79a9f7b5f83c51dd91e5a42e1d74200a2dee8787ec9885a2a912a9c1a357",
+      "size": 27252248,
       "depends": [
         "bzip2",
         "expat",
@@ -11838,6 +11911,17 @@
         "python"
       ]
     },
+    "python-docutils": {
+      "version": "1.0.23-1",
+      "arch": "x86_64",
+      "description": "Set of tools for processing plaintext docs into formats such as HTML, XML, or LaTeX",
+      "file": "python-docutils-1.0.23-1-x86_64.scc",
+      "sha256": "0e58f35d6412389faf835bfb5b813c539b5e636cecc0a0cbd566f773db20c370",
+      "size": 2145913,
+      "depends": [
+        "python"
+      ]
+    },
     "python-gobject": {
       "version": "3.58.1-1",
       "arch": "x86_64",
@@ -11890,6 +11974,17 @@
         "python-idna",
         "python-urllib3",
         "python-certifi"
+      ]
+    },
+    "python-tqdm": {
+      "version": "4.70.1-1",
+      "arch": "x86_64",
+      "description": "Fast, Extensible Progress Meter",
+      "file": "python-tqdm-4.70.1-1-x86_64.scc",
+      "sha256": "db6ac72ffe32d179a4bef19b92927cdf43a6298929bf0372215acf7c11dada9b",
+      "size": 253845,
+      "depends": [
+        "python"
       ]
     },
     "python-urllib3": {
@@ -12019,8 +12114,8 @@
       "arch": "x86_64",
       "description": "GNU readline library",
       "file": "readline-8.3.6-1-x86_64.scc",
-      "sha256": "8b6c7996de82d366985d7c97f5c939f675c0943ec28a4d5e2115f4d1fcb7bcd7",
-      "size": 531599,
+      "sha256": "db9060db36456d1636a92761ea1ee920b881cd4c425152fdde336949655efe80",
+      "size": 531609,
       "depends": [
         "glibc",
         "libncursesw.so",
@@ -12136,8 +12231,8 @@
       "arch": "x86_64",
       "description": "The GNU Bourne Again shell",
       "file": "sh-5.3.20-1-x86_64.scc",
-      "sha256": "cb0938a6dd2cefc00b3df9901b4e7a084b3233d3ff9def9d310d68c8df572c56",
-      "size": 3281207,
+      "sha256": "a91d0e4eaf77397789c3fca440cd57f4539f398f00e3b807e06da3903d03bd2d",
+      "size": 3280523,
       "depends": [
         "readline",
         "libreadline.so",
@@ -12313,8 +12408,8 @@
       "arch": "x86_64",
       "description": "A C library that implements an SQL database engine",
       "file": "sqlite-3.53.4-1-x86_64.scc",
-      "sha256": "07c424973a1a9f71b4f3449e0db9a8fe02c584f62f89a4db5f859d7c1ed11f70",
-      "size": 9313793,
+      "sha256": "3512a6685053ead53b591e9b79b659c8d0a94b0ce8dfa3b23555abbcc7b8747c",
+      "size": 9313770,
       "depends": [
         "readline",
         "zlib",
@@ -12432,8 +12527,8 @@
       "arch": "x86_64",
       "description": "systemd client libraries",
       "file": "systemd-libs-262-1-x86_64.scc",
-      "sha256": "b5817c2bff972f6f78aa6258e5103dc13476e9f909b6fc9a6454c9ea190c0851",
-      "size": 1953648,
+      "sha256": "55e3d281507ccc1328bb9bf34488a076cefc5a5cd1d65a9463a6ae00512ea3b6",
+      "size": 1953649,
       "depends": [
         "glibc",
         "libgcc",
@@ -12589,8 +12684,8 @@
       "arch": "x86_64",
       "description": "Sources for time zone and daylight saving time data",
       "file": "tzdata-2026e-1-x86_64.scc",
-      "sha256": "319841e65a6a74ddf937e9a504aebc11bbb892eb19b985bebce851612e7cf591",
-      "size": 572563,
+      "sha256": "0b004f02a40ac8ebc17cf334d6257f20edc7e456b06f24fd831c2258ef33fac5",
+      "size": 572592,
       "depends": null
     },
     "uchardet": {
@@ -12730,8 +12825,8 @@
       "arch": "x86_64",
       "description": "util-linux runtime libraries",
       "file": "util-linux-libs-2.42.4-1-x86_64.scc",
-      "sha256": "613831a99816a4bc120b97cfd00d542ce171bc5897b15a615f80c05d3998fcc4",
-      "size": 631569,
+      "sha256": "fa33e88cc374b09a85fae268b240674c02c405be4c0a549fcecc6cf8ae4c3966",
+      "size": 631564,
       "depends": [
         "glibc",
         "sqlite"
@@ -13430,8 +13525,8 @@
       "arch": "x86_64",
       "description": "Library and command line tools for XZ and LZMA compressed files",
       "file": "xz-5.8.4-1-x86_64.scc",
-      "sha256": "fed7e9d154f8c2af2d0b54bf3f8df01f67dda8aae5075ed6ceee426abf87bc46",
-      "size": 1067204,
+      "sha256": "6d3264532e54220078e59dee00c3ac1ec0e90c25a98fbaedd96145a654fbc68d",
+      "size": 1067217,
       "depends": [
         "glibc",
         "sh"
@@ -13494,7 +13589,7 @@
       "arch": "x86_64",
       "description": "Compression library implementing the deflate compression method found in gzip and PKZIP",
       "file": "zlib-1.1.3.2-3-x86_64.scc",
-      "sha256": "c2a6706c748585cd5bb7f78b684d4be90803c2efc00254a740929bb15c2467f6",
+      "sha256": "2c7afe4c6815c60cdd96b8215723817212b95a2e2de8c3c6731eb765a6ce37c6",
       "size": 89887,
       "depends": [
         "glibc"
@@ -13518,8 +13613,8 @@
       "arch": "x86_64",
       "description": "Zstandard - Fast real-time compression algorithm",
       "file": "zstd-1.5.7-3-x86_64.scc",
-      "sha256": "7f28a1d75fcfa5d13fb3699657943998badd70ae5fe2b93a7ed262d437409cac",
-      "size": 643960,
+      "sha256": "d67c997e196f191ece19903799288eb1f9d2b06016c32f2db89fefe95216b85e",
+      "size": 644035,
       "depends": [
         "glibc",
         "libgcc",
