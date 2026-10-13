@@ -456,6 +456,20 @@
         "sh"
       ]
     },
+    "ca-certificates": {
+      "version": "20240618-1",
+      "arch": "x86_64",
+      "description": "Common CA certificates (utilities)",
+      "file": "ca-certificates-20240618-1-x86_64.scc",
+      "sha256": "244b480e5d944e5e15df76d8e3b9aeae4b92da29563e21ac29a42cb5e6f0bf6f",
+      "size": 8591,
+      "depends": [
+        "bash",
+        "coreutils",
+        "findutils",
+        "p11-kit"
+      ]
+    },
     "ca-certificates-utils": {
       "version": "20240618-1",
       "arch": "x86_64",
