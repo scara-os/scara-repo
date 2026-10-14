@@ -12271,8 +12271,8 @@
       "arch": "x86_64",
       "description": "The Linux Kernel 7.2.9",
       "file": "scc-0.8.0-x86_64.scc",
-      "sha256": "188dd741c0357e859783677282786fd3d37cd4dfb275d455c1e44c8509205d2b",
-      "size": 6298261,
+      "sha256": "86ef4d3d19d3c756606d3efa0f4ab764505ce2bbc09dfc874031750a47779765",
+      "size": 6298236,
       "depends": null
     },
     "sdl2": {
