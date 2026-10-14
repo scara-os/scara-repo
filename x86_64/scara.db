@@ -10497,8 +10497,8 @@
       "arch": "x86_64",
       "description": "The Linux Kernel 7.2.9",
       "file": "linux-7.2.9-x86_64.scc",
-      "sha256": "88abcc32574c075cbd58e59c9e8015c39243f94fb837c022a21ee8ebcb989ef6",
-      "size": 74842400,
+      "sha256": "9c4fa0fa54fd09439d925a9d2dc68bfa14beb68aaf399c09842b221df56cecbf",
+      "size": 74842402,
       "depends": [
         "binutils",
         "glibc",
@@ -10512,7 +10512,8 @@
         "coreutils",
         "initramfs",
         "kmod",
-        "linux-p1"
+        "linux-p1",
+        "linux-p2"
       ]
     },
     "linux-api-headers": {
@@ -12264,6 +12265,15 @@
       "depends": [
         "glibc"
       ]
+    },
+    "scc": {
+      "version": "0.8.0",
+      "arch": "x86_64",
+      "description": "The Linux Kernel 7.2.9",
+      "file": "scc-0.8.0-x86_64.scc",
+      "sha256": "188dd741c0357e859783677282786fd3d37cd4dfb275d455c1e44c8509205d2b",
+      "size": 6298261,
+      "depends": null
     },
     "sdl2": {
       "version": "2.32.74-1",
