@@ -1143,8 +1143,8 @@
       "arch": "x86_64",
       "description": "Base Arch Linux files",
       "file": "filesystem-2025.10.12-1-x86_64.scc",
-      "sha256": "cf21dc806ec178a938be7b184eca6197765c79123141189920e107c347151e9c",
-      "size": 15594,
+      "sha256": "fb0b8022f3600504ded3268a5ff4c116635bd19937ec425aba6b0513eedcc5f9",
+      "size": 15598,
       "depends": [
         "iana-etc"
       ]
@@ -1551,8 +1551,8 @@
       "arch": "x86_64",
       "description": "GNU C Library",
       "file": "glibc-2.44.r50.g1848099f063e-1-x86_64.scc",
-      "sha256": "a094e4b664602772c5014d6bbb327b813a4a9b247540bde833126e5a27c5d90b",
-      "size": 18306936,
+      "sha256": "ab67acfa57c203945ab7afbcb357556634544757007c943586d002ea450b4bb2",
+      "size": 18306840,
       "depends": [
         "linux-api-headers",
         "tzdata",
@@ -2714,8 +2714,8 @@
       "arch": "x86_64",
       "description": "/etc/protocols and /etc/services provided by IANA",
       "file": "iana-etc-20260617-1-x86_64.scc",
-      "sha256": "cedd121d207de20de82819f859af7f7f4714c5722cddb5a5682c8899eb0d70cd",
-      "size": 563953,
+      "sha256": "fb5774ca270dfa0f34ec6ac0f974b80dabc9da4bd01973e48d2b55fae2482910",
+      "size": 563956,
       "depends": null
     },
     "ibus": {
@@ -10521,8 +10521,8 @@
       "arch": "x86_64",
       "description": "Kernel headers sanitized for use in userspace",
       "file": "linux-api-headers-7.2-1-x86_64.scc",
-      "sha256": "4a31d0a47edd9f6838626057169d55857fd293caf2ff7aed94f4d130aa865524",
-      "size": 1984994,
+      "sha256": "e761d3c6a1dd6562121473ae88e5af7ebeda27a70444fef4c24465ec93c2fdd0",
+      "size": 1985068,
       "depends": null
     },
     "linux-p1": {
@@ -12271,8 +12271,8 @@
       "arch": "x86_64",
       "description": "The Linux Kernel 7.2.9",
       "file": "scc-0.8.0-x86_64.scc",
-      "sha256": "86ef4d3d19d3c756606d3efa0f4ab764505ce2bbc09dfc874031750a47779765",
-      "size": 6298236,
+      "sha256": "c04e10c3a0080ba80a8cbf1977b2c485d898ec42f49d065c64e059b9c55b4340",
+      "size": 6301627,
       "depends": null
     },
     "sdl2": {
@@ -12797,8 +12797,8 @@
       "arch": "x86_64",
       "description": "Sources for time zone and daylight saving time data",
       "file": "tzdata-2026e-1-x86_64.scc",
-      "sha256": "700727c327031cd559cbea737dc1d04fa92a51c903a2d97b0d76369d99f7484e",
-      "size": 572616,
+      "sha256": "3578820a73d68ecec519f7c476436564dac3033763fe58ae92daf0939d568145",
+      "size": 572592,
       "depends": null
     },
     "uchardet": {
@@ -13627,8 +13627,8 @@
       "arch": "x86_64",
       "description": "Extremely fast non-cryptographic hash algorithm",
       "file": "xxhash-0.8.4-1-x86_64.scc",
-      "sha256": "d64765c0a518bf30872f7f7b02961aa4d457f47e64a7b957d1d097e3a210efb7",
-      "size": 130959,
+      "sha256": "1583fa6101a02258eb7cf19b168c0dfea610a724c691256ae14255e492dca835",
+      "size": 130958,
       "depends": [
         "glibc"
       ]
