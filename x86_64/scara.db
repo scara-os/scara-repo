@@ -586,26 +586,18 @@
       "arch": "x86_64",
       "description": "Linux user-space application to modify the EFI Boot Manager",
       "file": "efibootmgr-18-4-x86_64.scc",
-      "sha256": "7a6c31632aeec9d9c530bc4cece7edb356abc34dfe4c62e40e7f3484b600a30e",
-      "size": 32901,
-      "depends": [
-        "glibc",
-        "popt",
-        "efivar",
-        "libefiboot.so",
-        "libefivar.so"
-      ]
+      "sha256": "736a7f1f1a0b67ff18d11142237605079a0022329511e7f1ab74ffe0224ebeab",
+      "size": 34157,
+      "depends": null
     },
     "efivar": {
       "version": "39-2",
       "arch": "x86_64",
       "description": "Tools and libraries to work with EFI variables",
       "file": "efivar-39-2-x86_64.scc",
-      "sha256": "a0600eb2ea9e64f811af1458a7446740f00b9738965f51d3967804757ec7c84e",
-      "size": 174694,
-      "depends": [
-        "glibc"
-      ]
+      "sha256": "0d2b2c74c683347c769a5cd479d7bcd7804e15fe960c278be02e6c3c869f72d5",
+      "size": 183326,
+      "depends": null
     },
     "egl-wayland": {
       "version": "4.1.1.24-1",
@@ -763,8 +755,8 @@
       "arch": "x86_64",
       "description": "Base Arch Linux files",
       "file": "filesystem-2025.10.12-1-x86_64.scc",
-      "sha256": "eb1c42a5ef845a5edc21ff8e7d40acdf374b37570b323033125e0a94836acae6",
-      "size": 15914,
+      "sha256": "2ffdb4b26c4da591631753b963a9096aaf71ef6fbc4e4bab7536afd7ba40c341",
+      "size": 15916,
       "depends": null
     },
     "findutils": {
@@ -1105,8 +1097,8 @@
       "arch": "x86_64",
       "description": "GNU C Library",
       "file": "glibc-2.44.r50.g1848099f063e-1-x86_64.scc",
-      "sha256": "a353ad82f35cea5328bd1e32c90fdf5cf597c82dfb230c5c9a6417c03285f28e",
-      "size": 18798829,
+      "sha256": "8c83aad99f025b1159ac848ea0b997f48fc33a5916506b62ba0aecc976161a36",
+      "size": 18798887,
       "depends": null
     },
     "glslang": {
@@ -1900,7 +1892,7 @@
       "arch": "x86_64",
       "description": "/etc/protocols and /etc/services provided by IANA",
       "file": "iana-etc-20260617-1-x86_64.scc",
-      "sha256": "8d31e5aa49d06ab58d37dd717701af52df6946cbcc7c5cf1a0cce58e84f956d2",
+      "sha256": "42770c940370bbc681b5448db508113462106a425955f038ee26f3bb716f12ba",
       "size": 559912,
       "depends": null
     },
@@ -4902,8 +4894,8 @@
       "arch": "x86_64",
       "description": "Kernel headers sanitized for use in userspace",
       "file": "linux-api-headers-7.2-1-x86_64.scc",
-      "sha256": "bd0fe9c013441fe9d9573a9834c62119f8196e651023ffbc1e3184697631e550",
-      "size": 2004368,
+      "sha256": "4b6f32c790ce51f20ec50f93bb8feca21648c4733dfa37206c728cb4a7035c9e",
+      "size": 2004362,
       "depends": null
     },
     "linux-p1": {
@@ -5755,8 +5747,8 @@
       "arch": "x86_64",
       "description": "A commandline option parser",
       "file": "popt-1.19-2-x86_64.scc",
-      "sha256": "ae7dbbf68197ca8fe5d32b6965c7c8e6cf1321675596af965ddcf9b816509c6f",
-      "size": 94557,
+      "sha256": "01d5c98ab662898fdaf2963b86438d41ef250f457fe48c3fcfb5076ca32ec86c",
+      "size": 94549,
       "depends": null
     },
     "portaudio": {
@@ -6351,8 +6343,8 @@
       "arch": "x86_64",
       "description": "Sources for time zone and daylight saving time data",
       "file": "tzdata-2026e-1-x86_64.scc",
-      "sha256": "e0a1c54d2e6506ece6925de8d7b560d39df06a3553019f39f18d05c602bc9245",
-      "size": 768871,
+      "sha256": "970ba3805cbf5e8c623b0ac81dfe60caaab2fcc2adf61178936f962bd2031c6d",
+      "size": 768865,
       "depends": null
     },
     "uchardet": {
