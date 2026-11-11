@@ -34,6 +34,14 @@
       "filename": "efibootmgr-18-4-x86_64.scc",
       "size": 31411
     },
+    "fastfetch": {
+      "name": "fastfetch",
+      "version": "2.71.0-1",
+      "description": "Official Scara OS package for fastfetch",
+      "url": "https://github.com/scara-os",
+      "filename": "fastfetch-2.71.0-1-x86_64.scc",
+      "size": 694966
+    },
     "gdm": {
       "name": "gdm",
       "version": "51.1.1-1",
@@ -73,6 +81,14 @@
       "url": "https://github.com/scara-os",
       "filename": "grub-2:2.16-1-x86_64.scc",
       "size": 8284005
+    },
+    "htop": {
+      "name": "htop",
+      "version": "3.5.3-1",
+      "description": "Official Scara OS package for htop",
+      "url": "https://github.com/scara-os",
+      "filename": "htop-3.5.3-1-x86_64.scc",
+      "size": 184319
     },
     "linux": {
       "name": "linux",
